@@ -1,0 +1,8 @@
+brave-bin 1:1.82.170-1
+dracula-gtk-theme v4.0.0-1
+dracula-icons-git 1.0.0.de2a8edd-1
+swaylock-effects 1.7.0.0-4
+visual-studio-code-bin 1.104.1-1
+wlogout 1.2.2-0
+yay-git 12.5.0.r41.g81440e54-1
+yay-git-debug 12.5.0.r41.g81440e54-1
