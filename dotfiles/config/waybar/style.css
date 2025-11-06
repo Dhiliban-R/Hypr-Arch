@@ -1,0 +1,80 @@
+/* Converted to Dracula Theme by Gemini */
+@define-color background transparent;
+@define-color selection #44475a;
+@define-color foreground #777777;
+@define-color comment #6272a4;
+@define-color cyan #8be9fd;
+@define-color green #50fa7b;
+@define-color orange #ffb86c;
+@define-color pink #ff79c6;
+@define-color purple #bd93f9;
+@define-color red #ff5555;
+@define-color yellow #f1fa8c;
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "Noto Serif";
+    font-weight: bold;
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: @background;
+    color: @foreground;
+}
+
+#workspaces {
+    background: @selection;
+    margin: 5px;
+    padding: 0 5px;
+    border-radius: 10px;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    color: @comment;
+}
+
+#workspaces button.active {
+    color: @purple;
+}
+
+#window,
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#cpu,
+#memory,
+#temperature,
+#backlight,
+#tray,
+#bluetooth {
+    background: #333333;
+    padding: 5px 15px;
+    margin: 5px 0;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+#clock {
+    color: #87CEEB;
+}
+
+#battery.charging, #battery.plugged {
+    color: @green;
+}
+
+#battery.critical:not(.charging) {
+    color: @red;
+}
+
+#pulseaudio.muted {
+    color: @red;
+}
+
+#network.disconnected {
+    color: @red;
+}
