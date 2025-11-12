@@ -15,7 +15,7 @@ echo "Installing packages from official repositories..."
 sudo pacman -S --needed - < "$SCRIPT_DIR/packages/pacman_pkglist.txt"
 
 echo "Installing packages from AUR..."
-paru -S --needed - < "$SCRIPT_DIR/packages/yay_pkglist.txt"
+paru -S --needed - < "$SCRIPT_DIR/packages/paru_pkglist.txt"
 
 # ------------------------------------------------------
 # Create symbolic links

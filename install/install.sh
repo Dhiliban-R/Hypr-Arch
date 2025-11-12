@@ -7,15 +7,15 @@ command_exists () {
 
 echo "Starting application installation..."
 
-# Install yay if not present
-if ! command_exists yay; then
-    echo "yay not found. Installing yay..."
+# Install paru if not present
+if ! command_exists paru; then
+    echo "paru not found. Installing paru..."
     sudo pacman -S --noconfirm base-devel git
-    git clone https://aur.archlinux.org/yay.git /tmp/yay
-    (cd /tmp/yay && makepkg -si --noconfirm)
-    rm -rf /tmp/yay
+    git clone https://aur.archlinux.org/paru.git /tmp/paru
+    (cd /tmp/paru && makepkg -si --noconfirm)
+    rm -rf /tmp/paru
 else
-    echo "yay is already installed."
+    echo "paru is already installed."
 fi
 
 # Install npm if not present
@@ -27,10 +27,10 @@ else
 fi
 
 echo "Updating system packages..."
-yay -Syu --noconfirm
+paru -Syu --noconfirm
 
 echo "Installing core applications..."
-yay -S --noconfirm \
+paru -S --noconfirm \
     hyprland \
     yazi \
     waybar \
