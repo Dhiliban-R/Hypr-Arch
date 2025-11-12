@@ -34,7 +34,7 @@ x-scheme-handler/mailto=brave-browser.desktop
 
 [Added Associations]
 application/x-shellscript=kitty-open.desktop;
-image/jpeg=swappy.desktop;
+image/jpeg=brave-browser.desktop;swappy.desktop;
 application/zip=libreoffice-startcenter.desktop;obsidian.desktop;brave-browser.desktop;thunar.desktop;
 application/pdf=libreoffice-draw.desktop;brave-browser.desktop;
 application/vnd.appimage=brave-browser.desktop;

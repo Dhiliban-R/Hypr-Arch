@@ -1,9 +1,9 @@
 #!/bin/bash
 
-entries="   L
-   S
-   R
-   P"
+entries="    L
+    S
+    R
+    P"
 
 selected=$(echo -e "$entries" | wofi --dmenu --cache-file /dev/null | awk '{print $1}')
 

@@ -1,8 +1,80 @@
-brave-bin 1:1.82.170-1
-dracula-gtk-theme v4.0.0-1
-dracula-icons-git 1.0.0.de2a8edd-1
-swaylock-effects 1.7.0.0-4
-visual-studio-code-bin 1.104.1-1
-wlogout 1.2.2-0
-yay-git 12.5.0.r41.g81440e54-1
-yay-git-debug 12.5.0.r41.g81440e54-1
+asusctl
+base
+base-devel
+blueman
+bluez
+bluez-tools
+bluez-utils
+brave-bin
+brightnessctl
+btop
+cups
+dialog
+dracula-gtk-theme
+dracula-icons-git
+efibootmgr
+fastfetch
+gemini-cli
+git
+grim
+grub
+gst-plugin-pipewire
+gvfs
+hyprland
+hyprpaper
+intel-ucode
+libpulse
+libreoffice-still
+linux
+linux-firmware
+lvm2
+lxappearance
+mako
+nano
+neovim
+networkmanager
+nodejs
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+npm
+obsidian
+os-prober
+pamixer
+paru
+pipewire
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
+polkit-gnome
+python-pip
+python-requests
+slurp
+sof-firmware
+starship
+supergfxctl
+swappy
+swaybg
+swaylock-effects
+telegram-desktop
+thunar
+timeshift
+tmux
+ttf-dejavu
+ttf-jetbrains-mono-nerd
+vim
+visual-studio-code-bin
+vlc
+waybar
+wev
+wezterm
+wireplumber
+wlogout
+wofi
+xdg-desktop-portal-hyprland
+xfce4-settings
+yazi
+zram-generator
+zsh
+zsh-autosuggestions
+zsh-completions

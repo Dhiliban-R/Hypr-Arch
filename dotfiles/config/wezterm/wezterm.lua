@@ -76,7 +76,7 @@ config.keys = {
   { key = "LeftArrow", mods = "CTRL", action = wezterm.action.ActivateTabRelative(-1) },
 
   -- Split pane horizontally
-  { key = "\", mods = "CTRL", action = wezterm.action.SplitHorizontal({ domain = "CurrentPaneDomain" }) },
+  { key = "\\", mods = "CTRL", action = wezterm.action.SplitHorizontal({ domain = "CurrentPaneDomain" }) },
   -- Split pane vertically
   { key = "|", mods = "CTRL|SHIFT", action = wezterm.action.SplitVertical({ domain = "CurrentPaneDomain" }) },
   -- Close pane
