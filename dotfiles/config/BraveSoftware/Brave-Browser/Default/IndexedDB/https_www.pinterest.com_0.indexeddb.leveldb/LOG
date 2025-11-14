@@ -1,5 +1,0 @@
-2025/10/29-23:16:46.639 354d Creating DB /home/dhili/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.pinterest.com_0.indexeddb.leveldb since it was missing.
-2025/10/29-23:16:46.641 354d Reusing MANIFEST /home/dhili/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.pinterest.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/10/29-23:24:48.552 3552 Level-0 table #5: started
-2025/10/29-23:24:48.633 3552 Level-0 table #5: 1828893 bytes OK
-2025/10/29-23:24:48.636 3552 Delete type=0 #3

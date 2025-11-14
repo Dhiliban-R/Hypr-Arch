@@ -1,7 +1,0 @@
-2025/11/15-00:37:02.871 dec2 Reusing MANIFEST /home/dhili/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_cebmnlammjhancocbbnfcglifgdpfejc_0.indexeddb.leveldb/MANIFEST-000001
-2025/11/15-00:37:02.872 dec2 Recovering log #3816
-2025/11/15-00:37:02.873 dec2 Reusing old log /home/dhili/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_cebmnlammjhancocbbnfcglifgdpfejc_0.indexeddb.leveldb/003816.log 
-2025/11/15-00:37:02.904 dec2 Level-0 table #3822: started
-2025/11/15-00:37:02.905 dec2 Level-0 table #3822: 23336 bytes OK
-2025/11/15-00:37:02.906 dec2 Delete type=0 #3816
-2025/11/15-00:37:02.907 dec2 Manual compaction at level-0 from ' \xc5\x03\x00\x00\x00' @ 72057594037927935 : 1 .. ' \xc6\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

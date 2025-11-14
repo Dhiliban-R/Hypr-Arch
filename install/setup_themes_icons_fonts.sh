@@ -13,13 +13,13 @@ mkdir -p ~/.themes
 
 # Copy icons
 if [ -d "$REPO_DIR/themes-icons-fonts/icons/Dracula" ]; then
-    cp -r "$REPO_DIR/themes-icons-fonts/icons/Dracula" ~/.icons/
+    sudo cp -r "$REPO_DIR/themes-icons-fonts/icons/Dracula" ~/.icons/
     echo "Dracula icons copied."
 fi
 
 # Copy themes
 if [ -d "$REPO_DIR/themes-icons-fonts/themes/Dracula" ]; then
-    cp -r "$REPO_DIR/themes-icons-fonts/themes/Dracula" ~/.themes/
+    sudo cp -r "$REPO_DIR/themes-icons-fonts/themes/Dracula" ~/.themes/
     echo "Dracula theme copied."
 fi
 

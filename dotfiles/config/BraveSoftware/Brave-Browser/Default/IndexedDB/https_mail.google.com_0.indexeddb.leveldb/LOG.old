@@ -1,7 +1,0 @@
-2025/10/25-11:50:43.521 a01 Reusing MANIFEST /home/dhili/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/10/25-11:50:43.522 a01 Recovering log #3
-2025/10/25-11:50:43.523 a01 Reusing old log /home/dhili/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000003.log 
-2025/10/25-11:52:17.387 a01 Level-0 table #5: started
-2025/10/25-11:52:17.446 a01 Level-0 table #5: 3107534 bytes OK
-2025/10/25-11:52:17.453 a01 Delete type=0 #3
-2025/10/25-11:52:17.453 a01 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
