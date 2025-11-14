@@ -1,0 +1,491 @@
+{
+   "a4_paper_size": {
+      "message": "A4"
+   },
+   "add_link": {
+      "message": "አገናኝ ያክሉ"
+   },
+   "app_description": {
+      "message": "አሁን የተካተተ ገጽ የሚታተፍ ይሁን፣ ወደ PDF ይለውጡ፣ ወይም ፎቶ ይያዙ። ለመታተፍ ወይም እንደ PDF ለማከማቸት ዝግጁ የሆኑ ንፁህ ገጾችን ለማግኘት ማስታወቂያዎችን ያስወግዱ።"
+   },
+   "app_name": {
+      "message": "PrintFriendly - ከመረብ ገጾች ህትመት፣ PDF እና እይታ መዝገብ ያድርጉ"
+   },
+   "back": {
+      "message": "ተመለስ"
+   },
+   "blocked_by_extension": {
+      "message": "PrintFriendly በእርስዎ የጫኑት እንደ ማስታወቂያ መከላከያ ማሳያ ሌላ እተክን ተቋርጦ ሊሆን ይችላል። እባክዎን እርስዎ ሌሎች እተክኖች በጊዜያዊነት አስቆሙ እና እንደገና የ PDF ፍጠራ ይሞክሩ።"
+   },
+   "blockquote": {
+      "message": "ብሎክ ውሰብ"
+   },
+   "bold": {
+      "message": "የጥር ፊደል"
+   },
+   "bottom": {
+      "message": "ታች"
+   },
+   "bullet_list": {
+      "message": "የቡሌት ዝርዝር"
+   },
+   "cancel": {
+      "message": "አቋርጥ"
+   },
+   "capture_failed": {
+      "message": "ሙሉ ገፅ ስክሪንሾት በዚህ ጣቢያ ላይ አይቻልም።"
+   },
+   "capture_failed_descr": {
+      "message": "አንዳንድ ዌብሳይቶች ሙሉ እይታ እንዲነሳ የሚከለክሉ ፍሬሞች ወይም ተንቀሳቃሽ አካላትን ይጠቀማሉ። እባኮትን ሌላ ዌብሳይት ይሞክሩ።"
+   },
+   "capturing": {
+      "message": "በመቅረጽ ላይ"
+   },
+   "capturing_desc": {
+      "message": "እባኮትን ይጠብቁ፣ የስክሪንሾቱ አዘጋጅት በቅርቡ ይዘጋጃል።"
+   },
+   "choose_paper_size": {
+      "message": "ለ PDF የሚመርጡትን የወረቀት መጠን ይምረጡ።"
+   },
+   "choose_save_method": {
+      "message": "ይህን ገጽ እንዴት እንደሚያስቀምጡ ይምረጡ።"
+   },
+   "compress_pdf": {
+      "message": "ኤፍ አይ ዲ ኤፍ ጭነት"
+   },
+   "continue_to": {
+      "message": "ቀጥል ወደ..."
+   },
+   "convert_pdf": {
+      "message": "PDF ቀይር"
+   },
+   "current_view_screenshot": {
+      "message": "አሁን እይታ ስክሪንሹት"
+   },
+   "current_view_screenshot_desc": {
+      "message": "የገጹ የሚታየውን ክፍል ብቻ ያጠቃልሉ።"
+   },
+   "default_mode": {
+      "message": "ነባሪ ሁነታ"
+   },
+   "default_mode_checkbox": {
+      "message": "የኔን ምርጫ አስታውስ እና ቀጣዩን መንገድ ዝለል።"
+   },
+   "default_mode_checkbox_descr": {
+      "message": "ይህን በኋላ በቅንብሮች ማስተካከል ይችላሉ።"
+   },
+   "default_mode_desc": {
+      "message": "ያንን እርምጃ ይምረጡ የሚናወጣውን አዝራር ሲጫኑ ምን እንደሚሰጠው በራስሰር ምርጫ።"
+   },
+   "delete": {
+      "message": "ለመሰረዝ ጠቅ ያድርጉ"
+   },
+   "delete_button": {
+      "message": "አጥፋ"
+   },
+   "dialog_close": {
+      "message": "ዝጋ"
+   },
+   "dont_like_printfriendly_description": {
+      "message": "እርስዎን ያቀረቡት አስተያየት የምንሠራውን እና የምንደርስበትን ያቀይራል። በሁለት ሰከንዶች እኛን እንዴት ማሻሻል እንችላለን ተጠይቀን?"
+   },
+   "dont_like_printfriendly_title": {
+      "message": "ለመሞከርህን እናመሰግናለን"
+   },
+   "download_again": {
+      "message": "እንደገና አውርድ"
+   },
+   "download_directory": {
+      "message": "አቅጣጫ"
+   },
+   "download_directory_description": {
+      "message": "ኣምሐራዊ ፎልደር ኣብ ውሽጢ ደውንሎድ ኣብ ምንቅስቓስ ዝተመረጸ ፎልደር ምረጽ። ብዙሕ ቦታ ኣብ ላይ ኣትበልዎ እንተዘይተሰናይ ኣብ ደውንሎድ ይሂዱ። ፊደላት፣ ቁጽሪታት፣ ስድራታት፣ ምስኪልናትን ኣብርትን ትበጽሕ። ካልእ ፊደላት ብሰናይ ይሰርሕ።"
+   },
+   "edit": {
+      "message": "አርትዕ"
+   },
+   "edit_link": {
+      "message": "አገናኝን ያርሱ"
+   },
+   "edit_pdf": {
+      "message": "PDF አስተካክል"
+   },
+   "email": {
+      "message": "ኢሜይል"
+   },
+   "enable_delete": {
+      "message": "በመጀመር ጊዜ ማጥፊያ ከተባለው ጋር ጀርበው"
+   },
+   "extension_settings": {
+      "message": "እንደጨረታ ማዕቀፍን"
+   },
+   "file_access_description": {
+      "message": "እባኮትን ወደ አሳሽዎ የኤክስቴንሽን ቅንብሮች ይሂዱ እና \"የፋይል URL መዳረሻን ፍቀድ\" ያስችሉ፣ እንዲሁም ኤክስቴንሽኑ ይህን ገፅ ይገናኝ ዘንድ ይችላል።"
+   },
+   "file_access_title": {
+      "message": "የፋይል መዳረሻ ያስፈልጋል"
+   },
+   "floating_button": {
+      "message": "አልባ አዝራር"
+   },
+   "floating_button_pref_descr": {
+      "message": "PrintFriendly በቀላሉ ለመድረስ ቁልፍ አሳይ።"
+   },
+   "full_page_screenshot": {
+      "message": "እርካታ ስክሪንሹት"
+   },
+   "full_page_screenshot_desc": {
+      "message": "ድህረገፅን እንደሚታየው ከማስታወቂያዎች ጋር ያጠቃልሉ።"
+   },
+   "give_feedback": {
+      "message": "አይ፣ አስተያየት ስጡ።"
+   },
+   "go_to_link": {
+      "message": "ለአገናኝ ይሂዱ"
+   },
+   "got_it": {
+      "message": "ገባኝ"
+   },
+   "heading_1": {
+      "message": "ርዕስ 1"
+   },
+   "heading_2": {
+      "message": "ርዕስ 2"
+   },
+   "heading_3": {
+      "message": "ርዕስ 3"
+   },
+   "heading_4": {
+      "message": "ርዕስ 4"
+   },
+   "heading_5": {
+      "message": "ርዕስ 5"
+   },
+   "heading_6": {
+      "message": "ርዕስ 6"
+   },
+   "highlight": {
+      "message": "ግምት"
+   },
+   "history_menu": {
+      "message": "ታሪክ (በቅርቡ ይመጣል)"
+   },
+   "image": {
+      "message": "ምስል"
+   },
+   "image_size_pref": {
+      "message": "የምስል መጠን ተምሳሌት"
+   },
+   "image_size_pref_desc": {
+      "message": "በኤክስቴንሽኑ ገጾችን ሲመለከቱ የምስል መጠን ያዘጋጁ።"
+   },
+   "image_upload_file_too_large": {
+      "message": "የምስል ፋይል ትልቅ ነው። እባክዎን ከ5MB ትንሽ ያለ ፎቶ ይምረጡ"
+   },
+   "image_upload_select_file": {
+      "message": "እባክዎ የምስል ፋይል ይምረጡ"
+   },
+   "insert_image": {
+      "message": "እባክህ ምስል አስገባ"
+   },
+   "italic": {
+      "message": "አጥቢ ፅሁፍ"
+   },
+   "lang_display_name": {
+      "message": "አማርኛ (Amharic)"
+   },
+   "language_setting": {
+      "message": "አማርኛ"
+   },
+   "language_setting_desc": {
+      "message": "እባክዎን የተመረጠውን ቋንቋ ይምረጡ።"
+   },
+   "left": {
+      "message": "ግራ"
+   },
+   "letter_paper_size": {
+      "message": "ደብዳቤ"
+   },
+   "like_printfriendly_extension": {
+      "message": "የ PrintFriendly አቋም ይወዳሉ?"
+   },
+   "like_printfriendly_p1_description": {
+      "message": "አስተያዮችዎ እኛን ይጠነክራሉ!"
+   },
+   "like_printfriendly_p2_description_chrome": {
+      "message": "በ Chrome Web Store ላይ PrintFriendly ለማገምገም ዝግጁ ነህ?"
+   },
+   "like_printfriendly_p2_description_edge": {
+      "message": "እርስዎ በMicrosoft Edge አክሲዮን ድህረገፅ ላይ ላለማተኮር የPrintFriendlyን ማጣመር ይችላሉ?"
+   },
+   "like_printfriendly_p2_description_firefox": {
+      "message": "እባኮትን PrintFriendly ከፋይርፎክስ አድ-ኦን መደብር ያረጋግጡ?"
+   },
+   "like_printfriendly_p2_description_safari": {
+      "message": "እርስዎ እንደሚቀበሉ PrintFriendly በ Safari Extension Store እንደምትመረምሩ?"
+   },
+   "like_printfriendly_title": {
+      "message": "የእኛን PrintFriendly መውደድዎ ደስ ይላል!"
+   },
+   "log_out": {
+      "message": "ውጣ"
+   },
+   "never": {
+      "message": "ምንም"
+   },
+   "no": {
+      "message": "አይ"
+   },
+   "no_thanks": {
+      "message": "አይ፣ አመሰግናለሁ"
+   },
+   "numbered_list": {
+      "message": "ቁጥር የተሰጠ ዝርዝር"
+   },
+   "off": {
+      "message": "ከርስ"
+   },
+   "one_day": {
+      "message": "1 ቀን"
+   },
+   "one_month": {
+      "message": "1 ወር"
+   },
+   "one_week": {
+      "message": "በአንድ ሳምንት"
+   },
+   "optional_cookie_permission_descr_line1": {
+      "message": "እንዲገቡ እባክዎ “አፍቀር” በሚቀጥለው ማያ ላይ ይጫኑ።"
+   },
+   "optional_cookie_permission_descr_line2": {
+      "message": "ይህ ፈቃድ የPrintFriendly ኤክስቴንሽን በPrintFriendly.com ላይ ሲገቡ ማረጋገጥ ያስችላል፣ ስለዚህ መለያዎን ከኤክስቴንሽኑ ጋር ማስማማት እንችላለን።"
+   },
+   "optional_cookie_permission_descr_line3": {
+      "message": "እኛ የእርስዎን የአሳሽ ታሪክ ወይም ከሌሎች ድር ጣቢያዎች የማህበራዊ መረጃ በትክክል አንሰበስብም።"
+   },
+   "optional_downloads_permission_descr_line1": {
+      "message": "አዲስ ፋይሎችን ወደ ተወሰነ ፎልደር ለማስቀመጥ፣ በሚቀጥለው ማያ ላይ “ፍቀድ” ይጫኑ።"
+   },
+   "optional_downloads_permission_descr_line2": {
+      "message": "እነዚህ ፈቃዶች PrintFriendly ኤክስቴንሽኑ የPDFዎን ፋይሎችን እና ምስሎችን በቀጥታ ወደ የተመረጡት ቦታ ማውረድ ይፈቅዳሉ።"
+   },
+   "optional_host_permission_descr": {
+      "message": "እንደ እንቁላል ይሰራ ያንድያንዱ አይነት የሚሰራበትም ከአንድ ድር ጣቢያ ወደ ሌላ ድር ጣቢያ የሰለለ የመረጃ እንደሻይ ሆኖ መሆንን።"
+   },
+   "optional_host_permission_footer": {
+      "message": "ለእንቅስቃሴ፣ እባኮትን በሚቀጥለው ማያ አለት ላይ ጠቅ ያድርጉ።"
+   },
+   "optional_host_permission_item_1": {
+      "message": "ይህ አማራጭ ነው እና PrintFriendly መጠቀምን አያስፈልግም።"
+   },
+   "optional_host_permission_item_2": {
+      "message": "እርስዎ ይህን በማንኛውም ሰዓት በቅንብሮች ውስጥ ማጥፋት ይችላሉ።"
+   },
+   "optional_host_permission_item_3": {
+      "message": "እኛ አንዳች የእርስዎን እንዳንማሸግ ድር ተመንሳሽዎች መረጃ አንቆጣጠርም።"
+   },
+   "optional_host_permission_title": {
+      "message": "እርዳታ አዝራር መንቀሳቀስ ባህርይ ለማግኘት?"
+   },
+   "optional_permission_descr": {
+      "message": "ይህ ድህረገፅ አይፍሬም ይጠቀማል፣ ይህም ሙሉ ገጹን ማንበብ አቅምን ያቆማል። ሙሉ ገጽ ስክሪንሾት ለማንበብ ተጨማሪ ፍቃድ ያስፈልጋል። ይህን መልእክት ከዘጉ በኋላ፣ እባክዎ “ፍቀድ” ተጭነው ይቀጥሉ።"
+   },
+   "optional_permission_title": {
+      "message": "ተጨማሪ ፈቃድ ያስፈልጋል"
+   },
+   "other_tools": {
+      "message": "መሳሪያዎች"
+   },
+   "page_blocking_printfriendly": {
+      "message": "ይህ ገጽ PrintFriendlyን እያገደ ነው"
+   },
+   "paragraph": {
+      "message": "አንቀጽ"
+   },
+   "pdf": {
+      "message": "PDF"
+   },
+   "pdf_file_downloaded": {
+      "message": "የእርስዎ የ PDF ፋይል ወደታች ተጫኗል።"
+   },
+   "pdf_generation_error": {
+      "message": "በ PDF ማጣሪያ ላይ አስቸጋሪ"
+   },
+   "pdf_paper_size": {
+      "message": "የ PDF ወረቀት መጠን"
+   },
+   "preformatted": {
+      "message": "ቀደም ብሎ ቅድመ ቅርጸ ቃል"
+   },
+   "print": {
+      "message": "ኣትም"
+   },
+   "print_pdf_margin_pref": {
+      "message": "ህትመት እና የ PDF ወለል"
+   },
+   "print_pdf_margin_pref_descr": {
+      "message": "ከፍተኛ እና ማሻሻያ ዐጣጠሮችን በእርስዎ አስተካክል።"
+   },
+   "printer_friendly_desc": {
+      "message": "ከድህረ ገጾች ማስታወቂያዎችን እና አሰሳ ያስወግዱ።"
+   },
+   "printfriendly_page": {
+      "message": "PrintFriendly ገፅ"
+   },
+   "profile_settings": {
+      "message": "የመገለጫ ቅንብሮች"
+   },
+   "remove": {
+      "message": "አስወግድ"
+   },
+   "remove_formatting": {
+      "message": "አቀማመጥ ያስወግዱ"
+   },
+   "remove_link": {
+      "message": "አገናኝን አስወግዱ"
+   },
+   "report": {
+      "message": "ሪፖርት"
+   },
+   "resolve_issue": {
+      "message": "እና ችግሩን እንዲፈትላችሁ እንረዳችሁ።"
+   },
+   "right": {
+      "message": "ቀኝ"
+   },
+   "safari_description": {
+      "message": "ወደ PDF ወይም ስክሪንሾት ያቀዱ። ንፁህ፣ ያልባዙ ገፆች፣ እያታተሩ ወይም እያስቀመጡ አማ 준비."
+   },
+   "safari_name": {
+      "message": "PrintFriendly: ፒዲኤፍ እና ማንሳት"
+   },
+   "save_as": {
+      "message": "እንደ እንግድ አስቀምጥ"
+   },
+   "save_as_description": {
+      "message": "ፒዲኤፍ ወይም ስክሪንሾት ምስሎች ሲያውርዱ “መከልከል እንደ” ንፁህ ቁልፍ አንድ በአስተናጋጅ መልኩ መክፈት። በተጨማሪም ብራውዘርዎ እንዲያንጠቡ ከሆነ እባክዎ ያ ቅርጽ ነው የሚቻልው።"
+   },
+   "save_changes": {
+      "message": "መዝግብ"
+   },
+   "save_updates": {
+      "message": "የማስተካከያ ለውጦችን ያድኑ"
+   },
+   "saved": {
+      "message": "Saved."
+   },
+   "screenshot": {
+      "message": "ስክሪንሾት"
+   },
+   "screenshot_image_format": {
+      "message": "የስክሪንሾት ምስል ቅርጸት"
+   },
+   "screenshot_restriction_message": {
+      "message": "PrintFriendly በአብዛኛው ድህረገፆች ላይ ይሰራል፣ ያለ ጭቃ እና ለመተቀም የተሰማራ ገጾችን እና እርምጃ ቅስቀሶችን ለመፍጠር ቀላል ያደርጋል። ግን፣ የአሳሽ የፖሊሲ ምክንያት ሆኖ፣ እንደ የአሳሽ ቅንብሮች፣ ማሳያ መድረኮች እና ሌሎች የተገደቡ አካባቢዎች ያሉ አንዳንድ ገጾች ከዳር ውጪ ናቸው። አንዳንድ ጥያቄዎች ካሉህ እባኮትን ያግኙን።"
+   },
+   "settings": {
+      "message": "ቅንብሮች"
+   },
+   "settings_saved": {
+      "message": "ቅንብሮችዎ ተቀመጡ።"
+   },
+   "share_feedback": {
+      "message": "አስተያየት ያጋሩ።"
+   },
+   "show_context_menu_pref": {
+      "message": "እባኮትን PrintFriendly በእንደበታ ተፈጥሮ መነካካት መዝሙር ውስጥ አሳይ።"
+   },
+   "show_context_menu_pref_descr": {
+      "message": "እንደተነቀነቀ ማስቀመጥ ካሄደ በአንተ በምስል የአንተን አቃጥሎ መ🙈ተምምር።"
+   },
+   "show_download_complete_descr": {
+      "message": "ከተነቀለ በኋላ፣ የእርግጠኝነት መስኮት ይታያል፣ ከዚያም ደግመው ማውረድ ወይም መቀየር፣ ማስተካከል ወይም መፈረም የሚችሉ ፈጣን እርምጃዎች ይታያሉ።"
+   },
+   "show_download_complete_pref": {
+      "message": "አሳይ “የአውርድ ተጠናቋል” መስኮት።"
+   },
+   "show_float_button_on_articles_only": {
+      "message": "የሚንሳፈፍ አዝራርን በዜና ገፆች ላይ ብቻ አሳይ።"
+   },
+   "show_float_button_on_articles_only_pref_descr": {
+      "message": "ይህንን አማራጭ አንቃ። እንደ ዜና ጽሑፍ ወይም ብሎግ መልዕክቶቹ የሚታዩበት ገፅ ላይ ብቻ የሚኖር ንኛው PrintFriendly አዝራር እንዲታይ።"
+   },
+   "sign_in": {
+      "message": "እንባ ይግቡ"
+   },
+   "sign_pdf": {
+      "message": "ፊርሙ ፒዲኤፍ"
+   },
+   "skip_screen_next_time": {
+      "message": "በሚቀጥለው ጊዜ ይህን ማያ ስክሪን ዝለል"
+   },
+   "small_images_pref_descr": {
+      "message": "ትናንሽ ምስሎች በሚታተሙበት ወይም ወደ ፒዲኤፍ በሚቀመጡበት ጊዜ ብዙ ጊዜ ጠቃሚ ስላልሆኑ عادةً ይደበቃሉ። እነሱን ማየት ከፈለጉ ይህንን መቼት ያብሩት።"
+   },
+   "small_images_pref_title": {
+      "message": "አነስተኛ ምስሎችን አሳይ"
+   },
+   "start_download_pdf_subtitle": {
+      "message": "እባክዎ አሳሽዎን አይዝጉ። ይህ አንድ ደቂቃ ሊወስድ ይችላል።"
+   },
+   "start_download_pdf_title": {
+      "message": "እየዳወነ የእርስዎን የፒዲኤፍ ፋይል"
+   },
+   "still_does_not_work": {
+      "message": "እንደገና ካልሰራ እባክዎን በ"
+   },
+   "stop_capturing": {
+      "message": "መቅረጹን አቁም"
+   },
+   "strict_security_settings": {
+      "message": "ይቅርታ፣ ነገር ግን በ{{domainName}} ላይ ያለው ይህ ገጽ ከፍተኛ የደህንነት ቅንብሮች (የይዘት ደህንነት ፖሊሲ) አለው፣ ይህም PrintFriendly እንዲሰራ ይከለክላል።"
+   },
+   "strict_security_settings_support": {
+      "message": "ለተጨማሪ ዝርዝሮች ወይም ድጋፍ እባክዎን በዚህ ያግኙን።"
+   },
+   "strict_security_unsupported_page": {
+      "message": "ገጹ በPrintFriendly አይደገፍም"
+   },
+   "strikethrough": {
+      "message": "መስመር ላይ መስቀመጥ"
+   },
+   "style": {
+      "message": "ስタイል"
+   },
+   "take_me_there": {
+      "message": "አዎን፣ ተመልከቱኝ ወዴት እሄዳለሁ!"
+   },
+   "text_size_pref": {
+      "message": "የጽሑፍ መጠን ተምሳሌት"
+   },
+   "text_size_pref_desc": {
+      "message": "በኤክስቴንሽኑ ገጾችን ሲመለከቱ የጽሑፍ መጠን ያዘጋጁ።"
+   },
+   "timed_out_pdf": {
+      "message": "PrintFriendly ሲፍጠር በ PDF ላይ ጊዜ ሊያልፍ እንደነበር ይችላል። ለስርዓታችን ማስተዋቀል ስለተሻለ ሊሆን ይችላል።"
+   },
+   "top": {
+      "message": "ከላይ"
+   },
+   "turn_off_delete": {
+      "message": "የመጥፍን ተጠቅመው አውት አድርጉ እንደሚጠቁሙ አገናኝቶች።"
+   },
+   "unable_to_generate_pdf": {
+      "message": "እኛ ለዚህ ገጽ PDF ማፍጠር አልቻልንም።"
+   },
+   "underline": {
+      "message": "ከታች ማስመስል"
+   },
+   "undo": {
+      "message": "ውጤት"
+   },
+   "when_to_show_again": {
+      "message": "መንገሩን ደግሞ መሳየት እንቝድ በደንብ ይሆን?"
+   },
+   "which_option_best": {
+      "message": "ለእኔ የተሻለው አማራጭ የትኛው ነው?"
+   },
+   "yes": {
+      "message": "አዎ"
+   }
+}

@@ -1,0 +1,239 @@
+#tb-tb-notifier-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    --radius-width: 10px;
+    /*
+    Note that rem refers to document root and not shadow root, so
+    we cannot use rem in this file as this file
+    gets embedded on other pages.
+    See: https://github.com/w3c/csswg-drafts/issues/7613
+    So we just use fixed font-size values in this CSS file
+    */
+}
+
+.tb-tb-notifier-inner {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border: solid 1px #eee;
+    border-radius: var(--radius-width);
+
+    background: white;
+    color: #4f4544;
+
+    display: flex;
+    flex-direction: column;
+
+    /* To keep buttons flush right with border */
+    padding: 0px;
+
+    width: 100%;
+    height: fit-content;
+
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 1.43;
+
+    user-select: none;
+
+    /* To make sure progress bar shows in the right place */
+    position: relative;
+
+    padding-right: 10px;
+}
+
+.text-container {
+    padding: 12px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    /* subtract height of button container + padding top */
+    max-height: min(calc(100vh - 57px - 22px), 300px);
+    overflow: auto;
+    position: relative;
+}
+
+.top-container {
+    display: flex;
+    align-items: start;
+    position: relative;
+}
+
+.image-container {
+    display: flex;
+    margin: 10px 0;
+    margin-top: 15px;
+}
+
+.logo-image {
+    display: block;
+    margin-left: 12px;
+
+    width: 48px;
+    height: 48px;
+}
+
+.text-container .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 6px
+}
+
+.text-container .message {
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.top-container .gradient {
+    height: 15px;
+    width: 95%;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    background: linear-gradient(to top, rgba(251, 251, 251, 1) 0%, rgba(251, 251, 251, 0) 100%);
+
+    display: none;
+}
+
+.top-container .gradient.shown {
+    display: block;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    margin: 10px;
+    background: white;
+    padding: 10px;
+    padding-top: 5px;
+    margin: 0;
+    border-radius: var(--radius-width);
+}
+
+.button-container button {
+    display: inline-block;
+
+    position: relative;
+    box-sizing: border-box;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    cursor: pointer;
+
+    user-select: none;
+    text-decoration: none;
+
+    font-weight: bold;
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 1.75;
+    letter-spacing: 0.5px;
+
+    padding: 6px 12px;
+    border-radius: 10px;
+
+    color: #676663;
+    border: 1px solid #c6c6c6;
+}
+
+/* Copied from MUI variant="contained" button style */
+.button-container .primary {
+    display: inline-flex;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    text-decoration: none;
+    text-transform: none;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.75;
+    min-width: 64px;
+    padding: 6px 16px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #00acc0;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+
+/* Copied from MUI variant="outlined" button style */
+.button-container .secondary {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    text-decoration: none;
+    text-transform: none;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.75;
+    min-width: 64px;
+    padding: 6px 8px;
+    border-radius: 4px;
+    color: #00acc0;
+}
+
+.notification-progress-bar {
+    position: absolute;
+    top: 0;
+    left: calc(var(--radius-width) / 2);
+    height: 3px;
+    background: rgb(1, 172, 192);
+    animation-duration: 6000ms;
+    animation-fill-mode: forwards;
+    animation-name: progressbar;
+    animation-timing-function: linear;
+    border-top-left-radius: var(--radius-width);
+    border-top-right-radius: var(--radius-width);
+}
+
+@keyframes progressbar {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: calc(100% - var(--radius-width));
+    }
+}
+
+.tb-tb-notifier-inner .close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: grey;
+    cursor: pointer;
+    padding: 6px 12px;
+    font-size: 15px;
+    font-family: Arial;
+    margin: 0;
+}

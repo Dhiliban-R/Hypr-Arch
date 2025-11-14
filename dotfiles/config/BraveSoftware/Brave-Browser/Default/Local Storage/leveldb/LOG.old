@@ -1,0 +1,6 @@
+2025/11/15-00:21:21.411 5 Reusing MANIFEST /home/dhili/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2025/11/15-00:21:21.417 5 Recovering log #360
+2025/11/15-00:21:21.418 5 Reusing old log /home/dhili/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000360.log 
+2025/11/15-00:25:16.162 5 Level-0 table #364: started
+2025/11/15-00:25:16.165 5 Level-0 table #364: 34652 bytes OK
+2025/11/15-00:25:16.167 5 Delete type=0 #360

@@ -1,0 +1,271 @@
+/*
+Note that closed shadow root blocks the JavaScript and CSS selectors from targeting our elements
+See: https://developer.mozilla.org/en-US/docs/Web/API/ShadowRoot/mode
+However, CSS styles that can be inherited will still be inherited from the parent website.
+So, there will be some CSS leaking from parent site to our component.
+See: https://stackoverflow.com/questions/49709676
+To prevent that, we first reset all the styles on all elements, and then manually re-apply the styles we need.
+*/
+* {
+    all: initial;
+}
+
+#widget {
+  display: block;
+  height: fit-content;
+  background: transparent;
+  align-items: center;
+  padding: 0;
+  width: 100%;
+}
+
+
+#widget:not(.expandedFull) .widget-item:not(:first-child), #widget:not(.expandedFull) #widget-footer, #widget:not(.expandedFull) .widget-item:first-child .separator {
+    display: none;
+}
+
+#widget {
+    box-shadow: none;
+    background-color: transparent;
+    border: none;
+}
+
+#widget.vertical-flip {
+  position: absolute;
+  bottom: 0;
+}
+
+#widget.vertical-flip #widget-list {
+    flex-direction: column-reverse;
+    display: flex;
+}
+
+#widget:not(.expandedFull) #widget-list .widget-item:nth-child(2) {
+    display: flex;
+    -webkit-mask: linear-gradient(#fff, transparent);
+    mask: linear-gradient(#fff, transparent);
+    opacity: .3;
+}
+
+.widget-item {
+    height: 22px;
+    margin: 0px 0px 5px 0px;
+    padding: 0px;
+    display: block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.widget-item * {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+#widget.horizontal-flip .widget-item {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#widget.horizontal-flip .widget-item:first-child {
+    flex-direction: row-reverse;
+    justify-content: initial;
+}
+
+
+.widget-item .snippet-label {
+    flex: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+.widget-item .snippet-shortcut {
+    border: 1px solid rgb(101, 159, 167);
+    border-radius: 16px;
+    height: 22px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin-left: 4px;
+    vertical-align: middle;
+    position: relative;
+    padding-left: 2px;
+    padding-right: 8px;
+    white-space: nowrap;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 6px;
+    background-color: white;
+    display: inline-flex;
+    font-size: 12px;
+    pointer-events: all;
+    cursor: pointer;
+}
+
+.widget-item .snippet-shortcut * {
+    font-size: 12px;
+    pointer-events: all;
+    cursor: pointer;
+}
+
+#widget.horizontal-flip .widget-item .snippet-shortcut {
+    flex-direction: row-reverse;
+    padding-left: 8px;
+}
+
+#widget.horizontal-flip:not(.expandedFull) .widget-item:first-child .snippet-shortcut {
+    padding-left: 0;
+}
+
+.chip-outer {
+    animation: appear 0.3s ease-out 1;
+}
+
+@keyframes appear {
+    0% { 
+        opacity: 0; 
+    }
+    100%  {
+        opacity: 1;
+    }
+  }
+
+.widget-item .snippet-shortcut-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100px;
+    margin-left: 6px;
+}
+
+#widget.horizontal-flip.expandedFull .widget-item .snippet-shortcut-text {
+    margin: 0px;
+}
+
+#widget:not(.expandedFull) .dismiss-button {
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.dismiss-button {
+    cursor: pointer;
+    pointer-events: all;
+    margin-left: 6px;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0;
+    background-color: rgb(239, 239, 239);
+}
+
+.dismiss-button:hover {
+    opacity: .8;
+}
+
+#widget.horizontal-flip .dismiss-button {
+    margin-top: 3px;
+}
+
+.logo-image-small {
+    width: 16px;
+    height: 16px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.logo-embedded {
+    margin: 0px;
+    margin-left: 6px;
+}
+
+.logo-separate-chip {
+    padding-right: 2px !important;
+    padding-left: 2px !important;
+}
+
+.logo-separate-chip span {
+    margin: 0 2px 0 2px;
+}
+
+#widget:not(.expandedFull) .logo-separate-chip {
+    display: none;
+}
+
+#widget.expandedFull .logo-embedded {
+    display: none;
+}
+
+.separator {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+@keyframes hit {
+    50%  {
+        transform: scale(1.1);
+    }
+}
+
+#widget:not(.expandedFull) .has-more {
+    display: none;
+}
+
+.has-more {
+    pointer-events: all;
+    border: 1px solid rgb(141, 141, 141);
+    border-radius: 16px;
+    height: 22px;
+    font-size: 12px; /* using rem units causes issue on LinkedIn */
+    padding: 0px;
+    box-sizing: border-box;
+    margin-left: 4px;
+    vertical-align: middle;
+    position: relative;
+    padding-left: 8px;
+    padding-right: 8px;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 6px;
+    pointer-events: all;
+    background-color: white;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(100, 100, 100);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    opacity: .9;
+    margin-bottom: 5px;
+}
+
+kbd {
+    color: #333;
+    display: inline-block;
+    font-size: .85em;
+    font-weight: 700;
+    line-height: 1;
+    white-space: nowrap;
+    font-family: arial,sans-serif;
+    display: none;
+   }
+
+.has-more:hover kbd {
+    display: inline-block;
+}
+
+.shortcut-name {
+    color: #777;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+
+
+#widget:not(.expandedFull) .shortcut-name {
+    display: none;
+}

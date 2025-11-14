@@ -1,0 +1,28 @@
+{
+   "action": {
+      "default_icon": "images/icon_128.png",
+      "default_popup": "src/Popup/index.html"
+   },
+   "background": {
+      "service_worker": "src/background/serviceWorker.js"
+   },
+   "description": "Browse and download images on the web",
+   "icons": {
+      "128": "/images/icon_128.png",
+      "16": "/images/icon_16.png",
+      "32": "/images/icon_32.png",
+      "48": "/images/icon_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtWPB7AiIzvLnrYoowUDRHk5miI/dfyUzQZ9xcPd59SB7lNFgrwKDobcQ6wHi6/N5SNW8f0/KW3J9zmN5GeZglQb52spW9Ti1lIbgqPWN9Y4m4ZRtcP0CWaLQTopfZ7gUbzrD0KIuzk4B+Nc2aZY8Xz4t74b5M7up5KaaQSxQarQIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "88",
+   "name": "Image Downloader",
+   "options_page": "src/Options/index.html",
+   "permissions": [ "activeTab", "scripting", "downloads" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.0.2",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "images/*" ]
+   } ]
+}

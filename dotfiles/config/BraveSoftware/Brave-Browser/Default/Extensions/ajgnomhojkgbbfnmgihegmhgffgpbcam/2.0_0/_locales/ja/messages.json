@@ -1,0 +1,38 @@
+{
+   "appDesc": {
+      "message": "Gemini Storybook を画像、PDF、ストーリー動画として出力（近日公開予定）"
+   },
+   "appName": {
+      "message": "Gemini Storybook エクスポーター"
+   },
+   "downloadImagesAndTexts": {
+      "message": "画像とテキストをダウンロード"
+   },
+   "downloadImagesAndTextsLoading": {
+      "message": "画像とテキストをダウンロード中"
+   },
+   "downloadPDF": {
+      "message": "PDF出力"
+   },
+   "downloadPDFLoading": {
+      "message": "PDF出力中"
+   },
+   "downloadVideo": {
+      "message": "動画生成"
+   },
+   "downloadVideoLoading": {
+      "message": "動画生成中"
+   },
+   "exportSetting": {
+      "message": "Storybook エクスポート設定"
+   },
+   "fileNamePrefix": {
+      "message": "ファイル名プレフィックス："
+   },
+   "geminiStorybookLink": {
+      "message": "🌍 Gemini Storybook ウェブサイトを開く"
+   },
+   "showExportButton": {
+      "message": "エクスポートボタンの表示/非表示："
+   }
+}

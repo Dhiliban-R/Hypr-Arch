@@ -1,0 +1,491 @@
+{
+   "a4_paper_size": {
+      "message": "A4"
+   },
+   "add_link": {
+      "message": "Link toevoegen"
+   },
+   "app_description": {
+      "message": "Maak webpagina's printervriendelijk, converteer naar PDF's of maak schermafbeeldingen. Verwijder advertenties voor schone pagina's die klaar zijn om te printen of op te slaan als PDF."
+   },
+   "app_name": {
+      "message": "PrintFriendly - Print, PDF en screenshot van webpagina’s"
+   },
+   "back": {
+      "message": "Terug"
+   },
+   "blocked_by_extension": {
+      "message": "PrintFriendly kan zijn geblokkeerd door een andere extensie die je hebt geïnstalleerd, zoals een ad blocker. Schakel je andere extensies tijdelijk uit en probeer opnieuw een PDF te maken."
+   },
+   "blockquote": {
+      "message": "Blokcitaat"
+   },
+   "bold": {
+      "message": "Vet"
+   },
+   "bottom": {
+      "message": "Onderkant"
+   },
+   "bullet_list": {
+      "message": "Opsomming met opsommingstekens"
+   },
+   "cancel": {
+      "message": "Annuleren"
+   },
+   "capture_failed": {
+      "message": "Volledige pagina-schermafbeelding is op deze site niet mogelijk."
+   },
+   "capture_failed_descr": {
+      "message": "Sommige websites gebruiken frames of dynamische elementen die het maken van een volledige screenshot voorkomen. Probeer een andere site."
+   },
+   "capturing": {
+      "message": "Vastleggen"
+   },
+   "capturing_desc": {
+      "message": "Even geduld, de schermafbeelding is zo klaar."
+   },
+   "choose_paper_size": {
+      "message": "Kies uw voorkeursformaat voor PDF's."
+   },
+   "choose_save_method": {
+      "message": "Kies hoe u deze pagina wilt opslaan"
+   },
+   "compress_pdf": {
+      "message": "PDF comprimeren"
+   },
+   "continue_to": {
+      "message": "Ga door naar..."
+   },
+   "convert_pdf": {
+      "message": "PDF converteren"
+   },
+   "current_view_screenshot": {
+      "message": "Screenshot"
+   },
+   "current_view_screenshot_desc": {
+      "message": "Leg alleen het zichtbare deel van de pagina vast."
+   },
+   "default_mode": {
+      "message": "Standaardmodus"
+   },
+   "default_mode_checkbox": {
+      "message": "Onthoud mijn keuze en sla deze stap de volgende keer over."
+   },
+   "default_mode_checkbox_descr": {
+      "message": "U kunt dit later wijzigen in Instellingen."
+   },
+   "default_mode_desc": {
+      "message": "Kies de actie die automatisch wordt geselecteerd wanneer u op de knop klikt."
+   },
+   "delete": {
+      "message": "Klik om te verwijderen"
+   },
+   "delete_button": {
+      "message": "Verwijder"
+   },
+   "dialog_close": {
+      "message": "Sluiten"
+   },
+   "dont_like_printfriendly_description": {
+      "message": "Jouw feedback bepaalt wat we bouwen en hoe we verbeteren. Heb je een moment om ons te vertellen hoe we het beter kunnen doen?"
+   },
+   "dont_like_printfriendly_title": {
+      "message": "Bedankt dat je ons een kans hebt gegeven"
+   },
+   "download_again": {
+      "message": "Opnieuw downloaden"
+   },
+   "download_directory": {
+      "message": "Map"
+   },
+   "download_directory_description": {
+      "message": "Kies een map in je Downloads-directory waar je je PDF's en afbeeldingen wilt opslaan. Als je het leeg laat, gaan ze gewoon naar Downloads. Houd je aan letters, cijfers, streepjes, onderstrepingstekens en schuine strepen (andere tekens worden verwijderd)."
+   },
+   "edit": {
+      "message": "Bewerken"
+   },
+   "edit_link": {
+      "message": "Link bewerken"
+   },
+   "edit_pdf": {
+      "message": "PDF bewerken"
+   },
+   "email": {
+      "message": "E-mail"
+   },
+   "enable_delete": {
+      "message": "Begin met Verwijderen ingeschakeld"
+   },
+   "extension_settings": {
+      "message": "Extensie-instellingen"
+   },
+   "file_access_description": {
+      "message": "Ga naar de extensie-instellingen van je browser en schakel \"Toegang tot bestands-URL's toestaan\" in, zodat de extensie toegang krijgt tot deze pagina."
+   },
+   "file_access_title": {
+      "message": "Bestandstoegang vereist"
+   },
+   "floating_button": {
+      "message": "Zwevende knop"
+   },
+   "floating_button_pref_descr": {
+      "message": "Toon een knop voor eenvoudige toegang tot PrintFriendly."
+   },
+   "full_page_screenshot": {
+      "message": "Volledige pagina"
+   },
+   "full_page_screenshot_desc": {
+      "message": "Leg de webpagina vast zoals deze verschijnt met advertenties, enz."
+   },
+   "give_feedback": {
+      "message": "Nee, geef feedback."
+   },
+   "go_to_link": {
+      "message": "Ga naar link"
+   },
+   "got_it": {
+      "message": "Begrepen"
+   },
+   "heading_1": {
+      "message": "Kop 1"
+   },
+   "heading_2": {
+      "message": "Kop 2"
+   },
+   "heading_3": {
+      "message": "Kop 3"
+   },
+   "heading_4": {
+      "message": "Kop 4"
+   },
+   "heading_5": {
+      "message": "Kop 5"
+   },
+   "heading_6": {
+      "message": "Kop 6"
+   },
+   "highlight": {
+      "message": "Markeren"
+   },
+   "history_menu": {
+      "message": "Geschiedenis (Binnenkort beschikbaar)"
+   },
+   "image": {
+      "message": "Foto"
+   },
+   "image_size_pref": {
+      "message": "Voorkeur voor afbeeldingsgrootte"
+   },
+   "image_size_pref_desc": {
+      "message": "Stel de afbeeldingsgrootte in bij het bekijken van pagina’s met de extensie."
+   },
+   "image_upload_file_too_large": {
+      "message": "Afbeeldingsbestand is te groot. Selecteer een afbeelding kleiner dan 5 MB"
+   },
+   "image_upload_select_file": {
+      "message": "Selecteer een afbeeldingsbestand"
+   },
+   "insert_image": {
+      "message": "Afbeelding Invoegen"
+   },
+   "italic": {
+      "message": "Cursief"
+   },
+   "lang_display_name": {
+      "message": "Nederlands (Dutch)"
+   },
+   "language_setting": {
+      "message": "Taal"
+   },
+   "language_setting_desc": {
+      "message": "Selecteer uw voorkeurstaal."
+   },
+   "left": {
+      "message": "Links"
+   },
+   "letter_paper_size": {
+      "message": "Letter"
+   },
+   "like_printfriendly_extension": {
+      "message": "Vind je de PrintFriendly-extensie leuk?"
+   },
+   "like_printfriendly_p1_description": {
+      "message": "Jouw feedback motiveert ons!"
+   },
+   "like_printfriendly_p2_description_chrome": {
+      "message": "Zou je bereid zijn PrintFriendly te beoordelen in de Chrome Web Store?"
+   },
+   "like_printfriendly_p2_description_edge": {
+      "message": "Zou je bereid zijn om PrintFriendly te beoordelen op de Microsoft Edge Add-ons-website?"
+   },
+   "like_printfriendly_p2_description_firefox": {
+      "message": "Zou u PrintFriendly willen beoordelen in de Firefox Add-ons Store?"
+   },
+   "like_printfriendly_p2_description_safari": {
+      "message": "Bent u bereid om PrintFriendly te beoordelen in de Safari Extension Store?"
+   },
+   "like_printfriendly_title": {
+      "message": "We zijn blij dat je PrintFriendly leuk vindt!"
+   },
+   "log_out": {
+      "message": "Uitloggen"
+   },
+   "never": {
+      "message": "Nooit"
+   },
+   "no": {
+      "message": "Nee"
+   },
+   "no_thanks": {
+      "message": "Nee, bedankt"
+   },
+   "numbered_list": {
+      "message": "Genummerde lijst"
+   },
+   "off": {
+      "message": "Uit"
+   },
+   "one_day": {
+      "message": "1 dag"
+   },
+   "one_month": {
+      "message": "1 maand"
+   },
+   "one_week": {
+      "message": "1 week"
+   },
+   "optional_cookie_permission_descr_line1": {
+      "message": "Om inloggen mogelijk te maken, klik op \"Toestaan\" op het volgende scherm."
+   },
+   "optional_cookie_permission_descr_line2": {
+      "message": "Deze toestemming stelt de PrintFriendly-extensie in staat te bevestigen wanneer u bent ingelogd op PrintFriendly.com, zodat we uw account met de extensie kunnen synchroniseren."
+   },
+   "optional_cookie_permission_descr_line3": {
+      "message": "Wij verzamelen nooit uw browsegeschiedenis of gegevens van andere websites."
+   },
+   "optional_downloads_permission_descr_line1": {
+      "message": "Om bestanden op te slaan in een specifieke map, klik op \"Toestaan\" op het volgende scherm."
+   },
+   "optional_downloads_permission_descr_line2": {
+      "message": "Deze toestemming stelt de PrintFriendly-extensie in staat je PDF-bestanden en afbeeldingen rechtstreeks naar de door jou gekozen locatie te downloaden."
+   },
+   "optional_host_permission_descr": {
+      "message": "Om de zwevende knop te laten werken, hebben we toestemming nodig om inhoud op websites te bekijken en te wijzigen:"
+   },
+   "optional_host_permission_footer": {
+      "message": "Om in te schakelen, klik op Toestaan op het volgende scherm."
+   },
+   "optional_host_permission_item_1": {
+      "message": "Dit is optioneel en niet vereist om PrintFriendly te gebruiken."
+   },
+   "optional_host_permission_item_2": {
+      "message": "Je kunt dit op elk moment uitschakelen in de instellingen."
+   },
+   "optional_host_permission_item_3": {
+      "message": "We slaan geen van je browsegegevens op."
+   },
+   "optional_host_permission_title": {
+      "message": "De functies van de zwevende knop activeren?"
+   },
+   "optional_permission_descr": {
+      "message": "Deze website gebruikt iframes, wat onze mogelijkheid beperkt om de hele pagina vast te leggen. Om een screenshot van de volledige pagina te maken, hebben we extra toestemming nodig. Klik op “Toestaan” nadat je dit bericht hebt gesloten om door te gaan."
+   },
+   "optional_permission_title": {
+      "message": "Extra toestemming vereist"
+   },
+   "other_tools": {
+      "message": "Hulpmiddelen"
+   },
+   "page_blocking_printfriendly": {
+      "message": "Deze pagina blokkeert PrintFriendly"
+   },
+   "paragraph": {
+      "message": "Alinea"
+   },
+   "pdf": {
+      "message": "PDF"
+   },
+   "pdf_file_downloaded": {
+      "message": "Uw PDF-bestand is gedownload."
+   },
+   "pdf_generation_error": {
+      "message": "Fout bij PDF-generator"
+   },
+   "pdf_paper_size": {
+      "message": "PDF-papierformaat"
+   },
+   "preformatted": {
+      "message": "Vooraf opgemaakt"
+   },
+   "print": {
+      "message": "Afdrukken"
+   },
+   "print_pdf_margin_pref": {
+      "message": "Afdruk- en PDF-marge"
+   },
+   "print_pdf_margin_pref_descr": {
+      "message": "Pas de marges voor printen en PDF aan."
+   },
+   "printer_friendly_desc": {
+      "message": "Verwijder advertenties en navigatie van webpagina’s."
+   },
+   "printfriendly_page": {
+      "message": "PrintFriendly-pagina"
+   },
+   "profile_settings": {
+      "message": "Profielinstellingen"
+   },
+   "remove": {
+      "message": "Verwijderen"
+   },
+   "remove_formatting": {
+      "message": "Opmaak verwijderen"
+   },
+   "remove_link": {
+      "message": "Verwijder link"
+   },
+   "report": {
+      "message": "Rapporteer"
+   },
+   "resolve_issue": {
+      "message": "en we zullen u helpen het probleem op te lossen."
+   },
+   "right": {
+      "message": "Rechts"
+   },
+   "safari_description": {
+      "message": "Webpagina’s omzetten naar PDF of screenshots. Schone, reclamevrije pagina’s klaar om te printen of op te slaan."
+   },
+   "safari_name": {
+      "message": "PrintFriendly: PDF en Vastleggen"
+   },
+   "save_as": {
+      "message": "Opslaan als"
+   },
+   "save_as_description": {
+      "message": "Open automatisch een “Opslaan als”-dialoog wanneer je PDF’s of schermafbeeldingen downloadt. Als je browser al is ingesteld om te vragen waar je bestanden wilt opslaan, dan heeft die instelling voorrang."
+   },
+   "save_changes": {
+      "message": "Opslaan"
+   },
+   "save_updates": {
+      "message": "Wijzigingen opslaan"
+   },
+   "saved": {
+      "message": "Opgeslagen."
+   },
+   "screenshot": {
+      "message": "Schermafbeelding"
+   },
+   "screenshot_image_format": {
+      "message": "Afbeeldingsformaat schermafbeelding"
+   },
+   "screenshot_restriction_message": {
+      "message": "PrintFriendly werkt op de meeste websites en maakt het gemakkelijk om schonere, printervriendelijke pagina's en schermafbeeldingen te maken. Bepaalde pagina's—zoals browserinstellingen, extensiewinkels en andere beperkte gebieden—zijn echter vanwege browserbeleid niet toegankelijk. Neem contact met ons op als u vragen heeft."
+   },
+   "settings": {
+      "message": "Instellingen"
+   },
+   "settings_saved": {
+      "message": "Je instellingen zijn opgeslagen."
+   },
+   "share_feedback": {
+      "message": "Deel feedback."
+   },
+   "show_context_menu_pref": {
+      "message": "PrintFriendly tonen in het rechtsklik contextmenu."
+   },
+   "show_context_menu_pref_descr": {
+      "message": "Wanneer ingeschakeld, kun je rechtstreeks toegang krijgen tot PrintFriendly via het contextmenu van je browser."
+   },
+   "show_download_complete_descr": {
+      "message": "Wanneer ingeschakeld, verschijnt er een bevestigingsvenster nadat je PDF is gedownload, met snelle acties voor opnieuw downloaden of converteren, bewerken of ondertekenen."
+   },
+   "show_download_complete_pref": {
+      "message": "Toon het venster \"Download voltooid\"."
+   },
+   "show_float_button_on_articles_only": {
+      "message": "Toon de drijvende knop alleen op artikelpagina's"
+   },
+   "show_float_button_on_articles_only_pref_descr": {
+      "message": "Schakel deze optie in om de zwevende PrintFriendly-knop alleen weer te geven op pagina's die lijken op nieuwsartikelen of blogposts."
+   },
+   "sign_in": {
+      "message": "Inloggen"
+   },
+   "sign_pdf": {
+      "message": "PDF ondertekenen"
+   },
+   "skip_screen_next_time": {
+      "message": "Sla dit scherm de volgende keer over"
+   },
+   "small_images_pref_descr": {
+      "message": "Kleine afbeeldingen worden meestal verborgen omdat ze vaak niet nuttig zijn bij het afdrukken of opslaan als PDF. Zet deze instelling aan als je ze wilt zien."
+   },
+   "small_images_pref_title": {
+      "message": "Kleine afbeeldingen weergeven"
+   },
+   "start_download_pdf_subtitle": {
+      "message": "Sluit uw browser alstublieft niet. Dit kan een minuut duren."
+   },
+   "start_download_pdf_title": {
+      "message": "Uw PDF-bestand wordt gedownload"
+   },
+   "still_does_not_work": {
+      "message": "Als het nog steeds niet werkt, neem dan contact met ons op via"
+   },
+   "stop_capturing": {
+      "message": "Stop vastleggen"
+   },
+   "strict_security_settings": {
+      "message": "Het spijt ons, maar deze pagina op {{domainName}} heeft strikte beveiligingsinstellingen (Content Security Policy) die voorkomen dat PrintFriendly werkt."
+   },
+   "strict_security_settings_support": {
+      "message": "Voor meer details of ondersteuning kunt u contact met ons opnemen via"
+   },
+   "strict_security_unsupported_page": {
+      "message": "Pagina wordt niet ondersteund door PrintFriendly"
+   },
+   "strikethrough": {
+      "message": "Doorhalen"
+   },
+   "style": {
+      "message": "Stijl"
+   },
+   "take_me_there": {
+      "message": "Natuurlijk, breng me daarheen!"
+   },
+   "text_size_pref": {
+      "message": "Voorkeur voor tekstgrootte"
+   },
+   "text_size_pref_desc": {
+      "message": "Stel de tekstgrootte in bij het bekijken van pagina’s met de extensie."
+   },
+   "timed_out_pdf": {
+      "message": "Het kan zijn dat PrintFriendly was verlopen tijdens het genereren van de PDF. Het bestand was mogelijk te groot voor ons systeem om te verwerken."
+   },
+   "top": {
+      "message": "Top"
+   },
+   "turn_off_delete": {
+      "message": "Zet Verwijderen uit om op links te klikken."
+   },
+   "unable_to_generate_pdf": {
+      "message": "We konden geen PDF genereren voor deze pagina."
+   },
+   "underline": {
+      "message": "Onderstrepen"
+   },
+   "undo": {
+      "message": "Herstel"
+   },
+   "when_to_show_again": {
+      "message": "Wanneer moeten we dit opnieuw laten zien?"
+   },
+   "which_option_best": {
+      "message": "Welke optie is het beste voor mij?"
+   },
+   "yes": {
+      "message": "Ja"
+   }
+}

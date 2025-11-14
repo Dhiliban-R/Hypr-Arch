@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Could not insert snippet</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Copied from MUI */
+    button.contained {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      border: 0;
+      margin: 0;
+      outline: 0;
+      vertical-align: middle;
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 0.875rem;
+      line-height: 1.75;
+      letter-spacing: 0.02857em;
+      min-width: 64px;
+      padding: 6px 16px;
+      border-radius: 4px;
+      color: white;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      background: rgb(0, 172, 192);
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    button.outlined {
+      display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: inherit;
+    text-transform: none;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    min-width: 64px;
+    padding: 6px 8px;
+    border-radius: 4px;
+    -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: #00acc0;
+    margin-bottom: 16px;
+    }
+
+    li {
+      margin: 10px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body style="
+background-color: #eee;
+">
+  <div style="
+  padding: 40px 30px;
+  border-radius:  20px;
+  background-color: white;
+  overflow: auto;
+">
+
+    <div style="text-align: center; height: 60px; overflow: hidden;">
+      <img id="icon" style="border-radius: 1000px; width: 64px;"/>
+    </div>
+
+    <h1>
+      <p>Could not insert your snippet! 😕</p>
+    </h1>
+    <h2 class="custom-ui-message"></h2>
+    <div>
+      <p style="font-size: 130%;">We were not able to insert the form snippet. You can:</p>
+    </div>
+    <div style="margin-top: 32px;">
+      <div id="insert-anyway" style="text-align: center">
+        <button class="contained" tabindex="0" type="button" id="insert-anyway-btn">Insert into the currently focused textbox</button>
+        <div style="opacity: .7;  margin-top: 8px; margin-bottom: 24px; text-align: center;">(make sure to
+          focus a textbox in the same browser tab)</div>
+      </div>
+      <div style="margin-bottom: 34px; text-align: center">
+        <button class="contained" tabindex="0" type="button" id="copy-clipboard-btn">Copy the form contents to your clipboard</button>
+      </div>
+      <div  style="text-align: center">
+        <button class="outlined" tabindex="0" type="button" id="close-window-btn">Close this window</button>
+      </div>
+
+      <div style="text-align: center;
+      opacity: .6;
+      max-width: 380px;
+      margin-left: auto;
+      margin-top: 24px;
+      margin-right: auto;"><span class="failure-default-reason">This usually means the text box where you typed the shortcut has been removed from the page.</span> If you think you are seeing this message in error, please contact <a href="mailto:support@blaze.today">support@blaze.today</a>.</div>
+
+    </div>
+  </div>
+  </div>
+  <script src="../js/fallback.js"></script>
+</body>
+
+</html>

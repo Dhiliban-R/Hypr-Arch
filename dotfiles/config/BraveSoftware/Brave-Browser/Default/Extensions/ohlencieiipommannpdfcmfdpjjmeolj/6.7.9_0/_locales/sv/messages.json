@@ -1,0 +1,491 @@
+{
+   "a4_paper_size": {
+      "message": "A4"
+   },
+   "add_link": {
+      "message": "Lägg till länk"
+   },
+   "app_description": {
+      "message": "Gör webbsidor utskriftsvänliga, konvertera till PDF eller ta skärmdumpar. Ta bort annonser för rena sidor redo att skriva ut eller spara som PDF."
+   },
+   "app_name": {
+      "message": "PrintFriendly - Skriv ut, PDF och skärmdump av webbsidor"
+   },
+   "back": {
+      "message": "Tillbaka"
+   },
+   "blocked_by_extension": {
+      "message": "PrintFriendly kan ha blockerats av ett annat tillägg som du har installerat, till exempel en annonsblockerare. Inaktivera tillfälligt dina andra tillägg och försök att skapa en PDF igen."
+   },
+   "blockquote": {
+      "message": "Blokkcitat"
+   },
+   "bold": {
+      "message": "Fet stil"
+   },
+   "bottom": {
+      "message": "Botten"
+   },
+   "bullet_list": {
+      "message": "Punktlista"
+   },
+   "cancel": {
+      "message": "Avbryt"
+   },
+   "capture_failed": {
+      "message": "Det går inte att ta en helsides skärmdump på den här webbplatsen."
+   },
+   "capture_failed_descr": {
+      "message": "Vissa webbplatser använder ramar eller dynamiska element som förhindrar en komplett skärmdump. Försök med en annan webbplats."
+   },
+   "capturing": {
+      "message": "Fångar"
+   },
+   "capturing_desc": {
+      "message": "Vänligen vänta, skärmdumpen kommer att vara klar om ett ögonblick."
+   },
+   "choose_paper_size": {
+      "message": "Välj önskad pappersstorlek för PDF:er."
+   },
+   "choose_save_method": {
+      "message": "Välj hur du vill spara den här sidan"
+   },
+   "compress_pdf": {
+      "message": "Komprimera PDF"
+   },
+   "continue_to": {
+      "message": "Fortsätt till..."
+   },
+   "convert_pdf": {
+      "message": "Konvertera PDF"
+   },
+   "current_view_screenshot": {
+      "message": "Skärmbild"
+   },
+   "current_view_screenshot_desc": {
+      "message": "Fånga endast den synliga delen av sidan."
+   },
+   "default_mode": {
+      "message": "Standardläge"
+   },
+   "default_mode_checkbox": {
+      "message": "Kom ihåg mitt val och hoppa över detta steg nästa gång."
+   },
+   "default_mode_checkbox_descr": {
+      "message": "Du kan ändra detta senare i Inställningar."
+   },
+   "default_mode_desc": {
+      "message": "Välj den åtgärd som automatiskt väljs när du klickar på knappen."
+   },
+   "delete": {
+      "message": "Klicka för att ta bort"
+   },
+   "delete_button": {
+      "message": "Radera"
+   },
+   "dialog_close": {
+      "message": "Stäng"
+   },
+   "dont_like_printfriendly_description": {
+      "message": "Din feedback formar vad vi bygger och hur vi förbättras. Har du en sekund för att berätta hur vi kan bli bättre?"
+   },
+   "dont_like_printfriendly_title": {
+      "message": "Tack för att du gav oss en chans"
+   },
+   "download_again": {
+      "message": "Ladda ner igen"
+   },
+   "download_directory": {
+      "message": "Katalog"
+   },
+   "download_directory_description": {
+      "message": "Välj en mapp i din mapp för Nedladdningar där du vill spara dina PDF-filer och bilder. Om du lämnar den tom går filerna bara till Nedladdningar. Håll dig till bokstäver, siffror, bindestreck, understreck och snedstreck (andra tecken tas bort)."
+   },
+   "edit": {
+      "message": "Redigera"
+   },
+   "edit_link": {
+      "message": "Redigera länk"
+   },
+   "edit_pdf": {
+      "message": "Redigera PDF"
+   },
+   "email": {
+      "message": "Epost"
+   },
+   "enable_delete": {
+      "message": "Starta med ta bort aktiverat"
+   },
+   "extension_settings": {
+      "message": "Tilläggsinställningar"
+   },
+   "file_access_description": {
+      "message": "Gå till webbläsarens tilläggsinställningar och aktivera \"Tillåt åtkomst till filwebbadresser\", så att tillägget kan komma åt den här sidan."
+   },
+   "file_access_title": {
+      "message": "Filåtkomst krävs"
+   },
+   "floating_button": {
+      "message": "Flytande knapp"
+   },
+   "floating_button_pref_descr": {
+      "message": "Visa en knapp för enkel åtkomst till PrintFriendly."
+   },
+   "full_page_screenshot": {
+      "message": "Skärmbild av hel sida"
+   },
+   "full_page_screenshot_desc": {
+      "message": "Fånga webbsidan som den visas med annonser osv."
+   },
+   "give_feedback": {
+      "message": "Nej, ge feedback."
+   },
+   "go_to_link": {
+      "message": "Gå till länk"
+   },
+   "got_it": {
+      "message": "Förstått"
+   },
+   "heading_1": {
+      "message": "Rubrik 1"
+   },
+   "heading_2": {
+      "message": "Rubrik 2"
+   },
+   "heading_3": {
+      "message": "Rubrik 3"
+   },
+   "heading_4": {
+      "message": "Rubrik 4"
+   },
+   "heading_5": {
+      "message": "Rubrik 5"
+   },
+   "heading_6": {
+      "message": "Rubrik 6"
+   },
+   "highlight": {
+      "message": "Markera"
+   },
+   "history_menu": {
+      "message": "Historik (Kommer snart)"
+   },
+   "image": {
+      "message": "Bild"
+   },
+   "image_size_pref": {
+      "message": "Bildstorleksinställning"
+   },
+   "image_size_pref_desc": {
+      "message": "Ställ in bildstorleken när du visar sidor med tillägget."
+   },
+   "image_upload_file_too_large": {
+      "message": "Bildfilen är för stor. Välj en bild som är mindre än 5 MB"
+   },
+   "image_upload_select_file": {
+      "message": "Vänligen välj en bildfil"
+   },
+   "insert_image": {
+      "message": "Infoga Bild"
+   },
+   "italic": {
+      "message": "Kursiv"
+   },
+   "lang_display_name": {
+      "message": "Svenska (Swedish)"
+   },
+   "language_setting": {
+      "message": "Språk"
+   },
+   "language_setting_desc": {
+      "message": "Välj ditt föredragna språk."
+   },
+   "left": {
+      "message": "Vänster"
+   },
+   "letter_paper_size": {
+      "message": "Brev"
+   },
+   "like_printfriendly_extension": {
+      "message": "Gillar du PrintFriendly-tillägget?"
+   },
+   "like_printfriendly_p1_description": {
+      "message": "Din feedback motiverar oss!"
+   },
+   "like_printfriendly_p2_description_chrome": {
+      "message": "Skulle du vara villig att recensera PrintFriendly på Chrome Web Store?"
+   },
+   "like_printfriendly_p2_description_edge": {
+      "message": "Skulle du kunna tänka dig att recensera PrintFriendly på Microsoft Edge Add-ons-webbplatsen?"
+   },
+   "like_printfriendly_p2_description_firefox": {
+      "message": "Skulle du vara villig att recensera PrintFriendly i Firefox Add-ons Store?"
+   },
+   "like_printfriendly_p2_description_safari": {
+      "message": "Skulle du kunna tänka dig att recensera PrintFriendly i Safari Extension Store?"
+   },
+   "like_printfriendly_title": {
+      "message": "Vi är glada att du gillar PrintFriendly!"
+   },
+   "log_out": {
+      "message": "Utloggning"
+   },
+   "never": {
+      "message": "Aldrig"
+   },
+   "no": {
+      "message": "Nej"
+   },
+   "no_thanks": {
+      "message": "Nej, tack."
+   },
+   "numbered_list": {
+      "message": "Numrerad lista"
+   },
+   "off": {
+      "message": "Av"
+   },
+   "one_day": {
+      "message": "1 dag"
+   },
+   "one_month": {
+      "message": "1 månad"
+   },
+   "one_week": {
+      "message": "1 vecka"
+   },
+   "optional_cookie_permission_descr_line1": {
+      "message": "För att aktivera inloggning klicka på ”Tillåt” på nästa skärm."
+   },
+   "optional_cookie_permission_descr_line2": {
+      "message": "Denna behörighet låter tillägget PrintFriendly bekräfta när du är inloggad på PrintFriendly.com, så att vi kan synkronisera ditt konto med tillägget."
+   },
+   "optional_cookie_permission_descr_line3": {
+      "message": "Vi samlar aldrig in din webbhistorik eller data från andra webbplatser."
+   },
+   "optional_downloads_permission_descr_line1": {
+      "message": "För att spara filer till en specifik mapp, klicka på ”Tillåt” på nästa skärm."
+   },
+   "optional_downloads_permission_descr_line2": {
+      "message": "Denna behörighet låter PrintFriendly-tillägget ladda ner dina PDF:er och bilder direkt till den plats du valt."
+   },
+   "optional_host_permission_descr": {
+      "message": "För att den flytande knappen ska fungera behöver vi tillåtelse att visa och ändra innehåll på webbplatser:"
+   },
+   "optional_host_permission_footer": {
+      "message": "För att aktivera, klicka på Tillåt på nästa skärm."
+   },
+   "optional_host_permission_item_1": {
+      "message": "Detta är valfritt och krävs inte för att använda PrintFriendly."
+   },
+   "optional_host_permission_item_2": {
+      "message": "Du kan stänga av detta när som helst i inställningarna."
+   },
+   "optional_host_permission_item_3": {
+      "message": "Vi sparar inte någon av din webbinformation."
+   },
+   "optional_host_permission_title": {
+      "message": "Aktivera funktioner för den flytande knappen?"
+   },
+   "optional_permission_descr": {
+      "message": "Den här webbplatsen använder iframes, vilket begränsar vår möjlighet att fånga hela sidan. För att ta en helsides-skärmdump behöver vi ytterligare tillstånd. Efter att ha stängt detta meddelande, klicka på “Tillåt” för att fortsätta."
+   },
+   "optional_permission_title": {
+      "message": "Ytterligare tillstånd krävs"
+   },
+   "other_tools": {
+      "message": "Andra verktyg"
+   },
+   "page_blocking_printfriendly": {
+      "message": "Denna sida blockerar PrintFriendly"
+   },
+   "paragraph": {
+      "message": "Stycke"
+   },
+   "pdf": {
+      "message": "PDF"
+   },
+   "pdf_file_downloaded": {
+      "message": "Din PDF-fil har laddats ner."
+   },
+   "pdf_generation_error": {
+      "message": "Fel vid PDF-generering"
+   },
+   "pdf_paper_size": {
+      "message": "PDF-pappersstorlek"
+   },
+   "preformatted": {
+      "message": "Förformat"
+   },
+   "print": {
+      "message": "Skriv ut"
+   },
+   "print_pdf_margin_pref": {
+      "message": "Utskrifts- och PDF-marginal"
+   },
+   "print_pdf_margin_pref_descr": {
+      "message": "Anpassa utskrifts- och PDF-marginaler."
+   },
+   "printer_friendly_desc": {
+      "message": "Ta bort annonser och navigering från webbsidor."
+   },
+   "printfriendly_page": {
+      "message": "PrintFriendly-sida"
+   },
+   "profile_settings": {
+      "message": "Profilinställningar"
+   },
+   "remove": {
+      "message": "Ta bort"
+   },
+   "remove_formatting": {
+      "message": "Ta bort formatering"
+   },
+   "remove_link": {
+      "message": "Ta bort länk"
+   },
+   "report": {
+      "message": "Rapportera"
+   },
+   "resolve_issue": {
+      "message": "så hjälper vi dig att lösa problemet."
+   },
+   "right": {
+      "message": "Höger"
+   },
+   "safari_description": {
+      "message": "Konvertera webbsidor till PDF eller bilder. Rena, reklamfria sidor, redo att skriva ut eller spara."
+   },
+   "safari_name": {
+      "message": "PrintFriendly: PDF och Fångst"
+   },
+   "save_as": {
+      "message": "Spara som"
+   },
+   "save_as_description": {
+      "message": "Öppna automatiskt en dialogruta för \"Spara som\" när du laddar ner PDF-filer eller skärmbilder. Om din webbläsare redan är inställd på att fråga var filerna ska sparas har den inställningen företräde."
+   },
+   "save_changes": {
+      "message": "Spara"
+   },
+   "save_updates": {
+      "message": "Spara ändringar"
+   },
+   "saved": {
+      "message": "Sparat."
+   },
+   "screenshot": {
+      "message": "Skärmbild"
+   },
+   "screenshot_image_format": {
+      "message": "Bildformat för skärmbild"
+   },
+   "screenshot_restriction_message": {
+      "message": "PrintFriendly fungerar på de flesta webbplatser och gör det enkelt att skapa renare, utskriftsvänliga sidor och skärmbilder. Vissa sidor—som webbläsarinställningar, tilläggsbutiker och andra begränsade områden—är dock inte tillgängliga på grund av webbläsarens policy. Kontakta oss om du har några frågor."
+   },
+   "settings": {
+      "message": "Inställningar"
+   },
+   "settings_saved": {
+      "message": "Dina inställningar har sparats."
+   },
+   "share_feedback": {
+      "message": "Dela feedback."
+   },
+   "show_context_menu_pref": {
+      "message": "Visa PrintFriendly i högerklicksmenyn."
+   },
+   "show_context_menu_pref_descr": {
+      "message": "När det är aktiverat kan du komma åt PrintFriendly direkt från din webbläsares snabbmeny."
+   },
+   "show_download_complete_descr": {
+      "message": "När det är aktiverat visas ett bekräftelsefönster efter att din PDF har laddats ner, med snabba åtgärder för att ladda ner igen eller konvertera, redigera eller signera."
+   },
+   "show_download_complete_pref": {
+      "message": "Visa fönstret ”Nedladdning klar”."
+   },
+   "show_float_button_on_articles_only": {
+      "message": "Visa endast den flytande knappen på artikelsidor"
+   },
+   "show_float_button_on_articles_only_pref_descr": {
+      "message": "Aktivera detta alternativ för att visa den flytande PrintFriendly-knappen endast på sidor som verkar vara nyhetsartiklar eller blogginlägg."
+   },
+   "sign_in": {
+      "message": "Logga in"
+   },
+   "sign_pdf": {
+      "message": "Signera PDF"
+   },
+   "skip_screen_next_time": {
+      "message": "Hoppa över den här skärmen nästa gång"
+   },
+   "small_images_pref_descr": {
+      "message": "Små bilder är vanligtvis dolda eftersom de ofta inte är användbara vid utskrift eller när du sparar som PDF. Aktivera den här inställningen om du vill se dem."
+   },
+   "small_images_pref_title": {
+      "message": "Visa små bilder"
+   },
+   "start_download_pdf_subtitle": {
+      "message": "Stäng inte webbläsaren. Det här kan ta en minut."
+   },
+   "start_download_pdf_title": {
+      "message": "Din PDF-fil laddas ner"
+   },
+   "still_does_not_work": {
+      "message": "Om det fortfarande inte fungerar, vänligen kontakta oss på"
+   },
+   "stop_capturing": {
+      "message": "Sluta fånga"
+   },
+   "strict_security_settings": {
+      "message": "Vi beklagar, men den här sidan på {{domainName}} har strikta säkerhetsinställningar"
+   },
+   "strict_security_settings_support": {
+      "message": "För mer information eller support, vänligen kontakta oss på"
+   },
+   "strict_security_unsupported_page": {
+      "message": "Sidan stöds inte av PrintFriendly"
+   },
+   "strikethrough": {
+      "message": "Genomstruken"
+   },
+   "style": {
+      "message": "Stil"
+   },
+   "take_me_there": {
+      "message": "Självklart, ta mig dit!"
+   },
+   "text_size_pref": {
+      "message": "Textstorleksinställning"
+   },
+   "text_size_pref_desc": {
+      "message": "Ställ in textstorleken när du visar sidor med tillägget."
+   },
+   "timed_out_pdf": {
+      "message": "PrintFriendly kanske tog för lång tid på sig för att skapa PDF:en. Den kan ha varit för stor för att vårt system ska kunna hantera den."
+   },
+   "top": {
+      "message": "Toppen"
+   },
+   "turn_off_delete": {
+      "message": "Stäng av Ta bort för att kunna klicka på länkar."
+   },
+   "unable_to_generate_pdf": {
+      "message": "Vi kunde inte skapa en PDF för den här sidan."
+   },
+   "underline": {
+      "message": "Understruken"
+   },
+   "undo": {
+      "message": "Ångra"
+   },
+   "when_to_show_again": {
+      "message": "När ska vi visa detta igen?"
+   },
+   "which_option_best": {
+      "message": "Vilket alternativ är bäst för mig?"
+   },
+   "yes": {
+      "message": "Ja"
+   }
+}

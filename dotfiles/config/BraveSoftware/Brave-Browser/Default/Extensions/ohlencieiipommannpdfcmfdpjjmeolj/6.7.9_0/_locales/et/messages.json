@@ -1,0 +1,491 @@
+{
+   "a4_paper_size": {
+      "message": "A4"
+   },
+   "add_link": {
+      "message": "Lisa link"
+   },
+   "app_description": {
+      "message": "Muutke veebilehed prindisõbralikuks: salvestage PDF-ina või kuvatõmmisena, eemaldage reklaamid ja saage puhtad lehed printimiseks või salvestamiseks."
+   },
+   "app_name": {
+      "message": "PrintFriendly - Prindi, PDF ja ekraanipilt veebilehtedest"
+   },
+   "back": {
+      "message": "Tagasi"
+   },
+   "blocked_by_extension": {
+      "message": "PrintFriendly võib olla blokeeritud mõne muu teie installitud laienduse, näiteks reklaamiblokeerija poolt. Keelake ajutiselt oma muud laiendused ja proovige uuesti PDF-i luua."
+   },
+   "blockquote": {
+      "message": "Bloki tsitaat"
+   },
+   "bold": {
+      "message": "Paksu kirja"
+   },
+   "bottom": {
+      "message": "All"
+   },
+   "bullet_list": {
+      "message": "Täppide loend"
+   },
+   "cancel": {
+      "message": "Tühista"
+   },
+   "capture_failed": {
+      "message": "Täissuuruses ekraanipildi tegemine pole sellel saidil võimalik."
+   },
+   "capture_failed_descr": {
+      "message": "Mõned veebisaidid kasutavad raame või dünaamilisi elemente, mis takistavad täieliku ekraanipildi tegemist. Palun proovige mõnda muud saiti."
+   },
+   "capturing": {
+      "message": "Jäädvustamine"
+   },
+   "capturing_desc": {
+      "message": "Palun oodake, ekraanipilt on peagi valmis."
+   },
+   "choose_paper_size": {
+      "message": "Vali eelistatud paberiformaat PDF-ide jaoks."
+   },
+   "choose_save_method": {
+      "message": "Valige, kuidas seda lehte salvestada"
+   },
+   "compress_pdf": {
+      "message": "Tihenda PDF"
+   },
+   "continue_to": {
+      "message": "Jätka saidile..."
+   },
+   "convert_pdf": {
+      "message": "Konverdi PDF"
+   },
+   "current_view_screenshot": {
+      "message": "Praeguse vaate ekraanipilt"
+   },
+   "current_view_screenshot_desc": {
+      "message": "Pildista ainult lehe nähtavat osa."
+   },
+   "default_mode": {
+      "message": "Vaikerežiim"
+   },
+   "default_mode_checkbox": {
+      "message": "Mäleta minu valikut ja jäta see samm järgmisel korral vahele."
+   },
+   "default_mode_checkbox_descr": {
+      "message": "Saate seda hiljem seadetes muuta."
+   },
+   "default_mode_desc": {
+      "message": "Valige toiming, mis valitakse automaatselt, kui klõpsate laienduse nupul."
+   },
+   "delete": {
+      "message": "Kliki et kustutada"
+   },
+   "delete_button": {
+      "message": "Kustuta"
+   },
+   "dialog_close": {
+      "message": "Sulge"
+   },
+   "dont_like_printfriendly_description": {
+      "message": "Teie tagasiside kujundab seda, mida me ehitame, ja kuidas me areneme. Kas teil on hetk aega, et öelda meile, kuidas saaksime paremaks saada?"
+   },
+   "dont_like_printfriendly_title": {
+      "message": "Aitäh, et andsite meile võimaluse"
+   },
+   "download_again": {
+      "message": "Laadi uuesti alla"
+   },
+   "download_directory": {
+      "message": "Kataloog"
+   },
+   "download_directory_description": {
+      "message": "Määrake kaust oma allalaadimiste kataloogis, kuhu soovite oma PDF-failid ja pildid salvestada. Kui jätate selle tühjaks, lähevad need lihtsalt allalaadimiste kausta. Kasutage ainult tähti, numbreid, kriipse, alakriipse ja kaldkriipse (muud märgid eemaldatakse)."
+   },
+   "edit": {
+      "message": "Redigeeri"
+   },
+   "edit_link": {
+      "message": "Muuda linki"
+   },
+   "edit_pdf": {
+      "message": "Muuda PDF-i"
+   },
+   "email": {
+      "message": "E-post"
+   },
+   "enable_delete": {
+      "message": "Alustage kustutamise funktsiooniga sisse lülitatud"
+   },
+   "extension_settings": {
+      "message": "Laienduse seaded"
+   },
+   "file_access_description": {
+      "message": "Palun minge oma brauseri laienduste seadistustesse ja lubage \"Luba juurdepääs faili URL-idele\", et laiendus pääseks sellele lehele ligi."
+   },
+   "file_access_title": {
+      "message": "Failiõigused on vajalikud"
+   },
+   "floating_button": {
+      "message": "Ujuv nupp"
+   },
+   "floating_button_pref_descr": {
+      "message": "Näita nuppu, et PrintFriendly-le hõlpsasti juurde pääseda."
+   },
+   "full_page_screenshot": {
+      "message": "Täissuuruses ekraanipilt"
+   },
+   "full_page_screenshot_desc": {
+      "message": "Püüdke veebileht sellisena, nagu see koos reklaamidega ilmub."
+   },
+   "give_feedback": {
+      "message": "Ei, anna tagasisidet."
+   },
+   "go_to_link": {
+      "message": "Mine lingile"
+   },
+   "got_it": {
+      "message": "Sain aru"
+   },
+   "heading_1": {
+      "message": "Pealkiri 1"
+   },
+   "heading_2": {
+      "message": "Pealkiri 2"
+   },
+   "heading_3": {
+      "message": "Pealkiri 3"
+   },
+   "heading_4": {
+      "message": "Pealkiri 4"
+   },
+   "heading_5": {
+      "message": "Pealkiri 5"
+   },
+   "heading_6": {
+      "message": "Pealkiri 6"
+   },
+   "highlight": {
+      "message": "Esiletoomine"
+   },
+   "history_menu": {
+      "message": "Ajalugu (Varsti tulekul)"
+   },
+   "image": {
+      "message": "Pilt"
+   },
+   "image_size_pref": {
+      "message": "Pildi suuruse eelistus"
+   },
+   "image_size_pref_desc": {
+      "message": "Määrake piltide suurus, kui vaatate lehti laiendusega."
+   },
+   "image_upload_file_too_large": {
+      "message": "Pildifail on liiga suur. Valige palun alla 5 MB suurune pilt"
+   },
+   "image_upload_select_file": {
+      "message": "Palun valige pildifail"
+   },
+   "insert_image": {
+      "message": "Lisa Pilt"
+   },
+   "italic": {
+      "message": "Kursiiv"
+   },
+   "lang_display_name": {
+      "message": "Eesti (Estonian)"
+   },
+   "language_setting": {
+      "message": "Keel"
+   },
+   "language_setting_desc": {
+      "message": "Valige oma eelistatud keel."
+   },
+   "left": {
+      "message": "Vasak"
+   },
+   "letter_paper_size": {
+      "message": "Letter"
+   },
+   "like_printfriendly_extension": {
+      "message": "Kas teile meeldib PrintFriendly laiendus?"
+   },
+   "like_printfriendly_p1_description": {
+      "message": "Teie tagasiside motiveerib meid!"
+   },
+   "like_printfriendly_p2_description_chrome": {
+      "message": "Kas soovite PrintFriendly üle vaadata Chrome'i veebipoes?"
+   },
+   "like_printfriendly_p2_description_edge": {
+      "message": "Kas oleksite valmis PrintFriendlyt Microsoft Edge'i lisandmoodulite veebisaidil üle vaatama?"
+   },
+   "like_printfriendly_p2_description_firefox": {
+      "message": "Kas oleksite valmis Firefoxi lisandmoodulite poes PrintFriendlyi üle vaatama?"
+   },
+   "like_printfriendly_p2_description_safari": {
+      "message": "Kas olete valmis üle vaatama PrintFriendly Safari Extension Store'is?"
+   },
+   "like_printfriendly_title": {
+      "message": "Meil on hea meel, et teile meeldib PrintFriendly!"
+   },
+   "log_out": {
+      "message": "Väljalogimine"
+   },
+   "never": {
+      "message": "Mitte kunagi"
+   },
+   "no": {
+      "message": "Ei"
+   },
+   "no_thanks": {
+      "message": "Ei, aitäh"
+   },
+   "numbered_list": {
+      "message": "Nummerdatud loend"
+   },
+   "off": {
+      "message": "Väljas"
+   },
+   "one_day": {
+      "message": "1 päev"
+   },
+   "one_month": {
+      "message": "1 kuu"
+   },
+   "one_week": {
+      "message": "1 nädal"
+   },
+   "optional_cookie_permission_descr_line1": {
+      "message": "Sisselogimise lubamiseks klõpsake järgmisel ekraanil \"Luba\"."
+   },
+   "optional_cookie_permission_descr_line2": {
+      "message": "See luba võimaldab PrintFriendly laiendusel kinnitada, millal olete PrintFriendly.com-i sisse loginud, et saaksime teie kontot laiendusega sünkroonida."
+   },
+   "optional_cookie_permission_descr_line3": {
+      "message": "Me ei kogu kunagi teie sirvimisajalugu ega andmeid teistelt veebisaitidelt."
+   },
+   "optional_downloads_permission_descr_line1": {
+      "message": "Ette konkreetse kausta salvestamiseks klikkige järgmisel ekraanil \"Luba\"."
+   },
+   "optional_downloads_permission_descr_line2": {
+      "message": "See luba võimaldab PrintFriendly laiendusel alla laadida teie PDF-id ja pildid otse valitud asukohta."
+   },
+   "optional_host_permission_descr": {
+      "message": "Käivitatava nupu toimimiseks vajame luba veebisaidil sisustuse kuvamiseks ja muutmiseks:"
+   },
+   "optional_host_permission_footer": {
+      "message": "Lubamiseks klõpsake järgmisel ekraanil Luba."
+   },
+   "optional_host_permission_item_1": {
+      "message": "See on valikuline ja pole PrintFriendly kasutamiseks vajalik."
+   },
+   "optional_host_permission_item_2": {
+      "message": "Selle saab igal ajal seadetes välja lülitada."
+   },
+   "optional_host_permission_item_3": {
+      "message": "Me ei salvesta ühtegi teie sirvimisandmetest."
+   },
+   "optional_host_permission_title": {
+      "message": "Kas lubada hõljuva nupu funktsioonid?"
+   },
+   "optional_permission_descr": {
+      "message": "See veebisait kasutab ifraame, mis piiravad meie võimet kogu lehte jäädvustada. Täieliku lehekuva tegemiseks vajame täiendavat luba. Pärast selle sõnumi sulgemist klõpsake jätkamiseks nuppu „Luba“."
+   },
+   "optional_permission_title": {
+      "message": "Nõutav täiendav luba"
+   },
+   "other_tools": {
+      "message": "Tööriистад"
+   },
+   "page_blocking_printfriendly": {
+      "message": "See leht blokeerib PrintFriendly"
+   },
+   "paragraph": {
+      "message": "Lõik"
+   },
+   "pdf": {
+      "message": "PDF"
+   },
+   "pdf_file_downloaded": {
+      "message": "Teie PDF-fail on allalaaditud."
+   },
+   "pdf_generation_error": {
+      "message": "PDF-i genereerimise viga"
+   },
+   "pdf_paper_size": {
+      "message": "PDF-i paberiformaat"
+   },
+   "preformatted": {
+      "message": "Eelvormindatud"
+   },
+   "print": {
+      "message": "Trüki"
+   },
+   "print_pdf_margin_pref": {
+      "message": "Print ja PDF-i seadistus"
+   },
+   "print_pdf_margin_pref_descr": {
+      "message": "Kohandage printimise ja PDF-i marginaale."
+   },
+   "printer_friendly_desc": {
+      "message": "Eemaldage reklaamid ja navigeerimine veebilehtedelt."
+   },
+   "printfriendly_page": {
+      "message": "PrintFriendly leht"
+   },
+   "profile_settings": {
+      "message": "Profiili seaded"
+   },
+   "remove": {
+      "message": "Eemalda"
+   },
+   "remove_formatting": {
+      "message": "Eemalda vormindus"
+   },
+   "remove_link": {
+      "message": "Eemalda link"
+   },
+   "report": {
+      "message": "Teata"
+   },
+   "resolve_issue": {
+      "message": "ja me aitame teil probleemi lahendada."
+   },
+   "right": {
+      "message": "Paremal"
+   },
+   "safari_description": {
+      "message": "Muunna verkkosivut PDF:ksi tai kuviksi. Mainoksettomat sivut, valmiit tulostettavaksi tai tallennettavaksi."
+   },
+   "safari_name": {
+      "message": "PrintFriendly: PDF ja Hõivamine"
+   },
+   "save_as": {
+      "message": "Salvesta nimega"
+   },
+   "save_as_description": {
+      "message": "Ava alla automaatselt \"Salvesta kui\" dialoog, kui laadid alla PDF-e või ekraanikuvasid. Kui su brauser on juba seadistatud küsima, kuhu failid salvestada, saab selle seadistuse eelis."
+   },
+   "save_changes": {
+      "message": "Salvesta"
+   },
+   "save_updates": {
+      "message": "Salvesta muudatused"
+   },
+   "saved": {
+      "message": "Salvestatud."
+   },
+   "screenshot": {
+      "message": "Kuvatõmmis"
+   },
+   "screenshot_image_format": {
+      "message": "Kuvatõmmise pildivorming"
+   },
+   "screenshot_restriction_message": {
+      "message": "PrintFriendly töötab enamikul veebisaitidel, muutes lihtsamaks puhtamate, printimiseks sõbralike lehekülgede ja ekraanipiltide loomise. Kuid teatud lehed - näiteks brauseri seaded, laienduste poed ja muud piiratud alad - on brauseripoliitikate tõttu keelatud. Kui teil on küsimusi, võtke meiega ühendust."
+   },
+   "settings": {
+      "message": "Seaded"
+   },
+   "settings_saved": {
+      "message": "Sinu seaded on salvestatud."
+   },
+   "share_feedback": {
+      "message": "Jaga tagasisidet."
+   },
+   "show_context_menu_pref": {
+      "message": "Kuva PrintFriendly paremklõpsu kontekstimenüüs."
+   },
+   "show_context_menu_pref_descr": {
+      "message": "Kui see on lubatud, saate PrintFriendly-le juurde pääseda otse oma brauseri kontekstimenüüst."
+   },
+   "show_download_complete_descr": {
+      "message": "Kui on lubatud, ilmub pärast PDF-i allalaadimist kinnitusaken, kus on kiirtegevused uuesti allalaadimiseks või teisendamiseks, redigeerimiseks või allkirjastamiseks."
+   },
+   "show_download_complete_pref": {
+      "message": "Kuva „Allalaadimine on lõpetatud” aken."
+   },
+   "show_float_button_on_articles_only": {
+      "message": "Näita ujuvat nuppu ainult artikli lehtedel"
+   },
+   "show_float_button_on_articles_only_pref_descr": {
+      "message": "Luba see valik, et kuvada hõljuvat PrintFriendly nuppu ainult lehekülgedel, mis tunduvad olevat uudisartiklid või blogipostitused."
+   },
+   "sign_in": {
+      "message": "Logi sisse"
+   },
+   "sign_pdf": {
+      "message": "Allkirjasta PDF"
+   },
+   "skip_screen_next_time": {
+      "message": "Jäta see ekraan järgmisel korral vahele"
+   },
+   "small_images_pref_descr": {
+      "message": "Väikesed pildid on tavaliselt peidetud, kuna need pole sageli kasulikud printimisel või PDF-i salvestamisel. Lülitage see seadistus sisse, kui soovite neid näha."
+   },
+   "small_images_pref_title": {
+      "message": "Kuva väikseid pilte"
+   },
+   "start_download_pdf_subtitle": {
+      "message": "Palun ärge sulgege oma brauserit. See võib võtta minuti."
+   },
+   "start_download_pdf_title": {
+      "message": "Teie PDF-faili allalaadimine"
+   },
+   "still_does_not_work": {
+      "message": "Kui see ikka ei tööta, võtke meiega ühendust aadressil"
+   },
+   "stop_capturing": {
+      "message": "Lõpeta jäädvustamine"
+   },
+   "strict_security_settings": {
+      "message": "Vabandame, kuid sellel lehel aadressil {{domainName}} on ranged turvaseaded (Sisu Turbepoliitika), mis takistavad PrintFriendly töötamist."
+   },
+   "strict_security_settings_support": {
+      "message": "Lisateabe või toe saamiseks võtke meiega ühendust aadressil"
+   },
+   "strict_security_unsupported_page": {
+      "message": "Lehte ei toeta PrintFriendly"
+   },
+   "strikethrough": {
+      "message": "Läbikriipsutatud"
+   },
+   "style": {
+      "message": "Stiil"
+   },
+   "take_me_there": {
+      "message": "Muidugi, vii mind sinna!"
+   },
+   "text_size_pref": {
+      "message": "Teksti suuruse eelistus"
+   },
+   "text_size_pref_desc": {
+      "message": "Määrake teksti suurus, kui vaatate lehti laiendusega."
+   },
+   "timed_out_pdf": {
+      "message": "PrintFriendly võis PDF-i loomisel aeguda. See võis olla liiga suur, et meie süsteem seda käsitseda saaks."
+   },
+   "top": {
+      "message": "Tipp"
+   },
+   "turn_off_delete": {
+      "message": "Lülitage kustutamine välja, et linkidele klõpsata."
+   },
+   "unable_to_generate_pdf": {
+      "message": "Me ei saanud selle lehe jaoks PDF-i genereerida."
+   },
+   "underline": {
+      "message": "Allajoonimine"
+   },
+   "undo": {
+      "message": "Võta tagasi"
+   },
+   "when_to_show_again": {
+      "message": "Millal peaksime seda uuesti näitama?"
+   },
+   "which_option_best": {
+      "message": "Milline valik on mulle parim?"
+   },
+   "yes": {
+      "message": "Jah"
+   }
+}

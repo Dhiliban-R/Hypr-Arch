@@ -1,0 +1,491 @@
+{
+   "a4_paper_size": {
+      "message": "A4"
+   },
+   "add_link": {
+      "message": "Adicionar link"
+   },
+   "app_description": {
+      "message": "Torne as páginas da web compatíveis com impressão, converta em PDFs ou capture capturas de tela. Remova os anúncios para obter páginas limpas prontas para impressão ou salvar como PDF."
+   },
+   "app_name": {
+      "message": "PrintFriendly - Imprimir, PDF e captura de tela de páginas da web"
+   },
+   "back": {
+      "message": "Voltar"
+   },
+   "blocked_by_extension": {
+      "message": "O PrintFriendly pode estar sendo bloqueado por outra extensão que você instalou, como um bloqueador de anúncios. Desative temporariamente as outras extensões e tente criar um PDF novamente."
+   },
+   "blockquote": {
+      "message": "Citação em bloco"
+   },
+   "bold": {
+      "message": "Negrito"
+   },
+   "bottom": {
+      "message": "Inferior"
+   },
+   "bullet_list": {
+      "message": "Lista com marcadores"
+   },
+   "cancel": {
+      "message": "Cancelar"
+   },
+   "capture_failed": {
+      "message": "Não é possível capturar uma captura de tela de página inteira neste site."
+   },
+   "capture_failed_descr": {
+      "message": "Alguns sites utilizam frames ou elementos dinâmicos que impedem uma captura de tela completa. Por favor, tente outro site."
+   },
+   "capturing": {
+      "message": "Capturando"
+   },
+   "capturing_desc": {
+      "message": "Por favor, aguarde, a captura de tela estará pronta em breve."
+   },
+   "choose_paper_size": {
+      "message": "Escolha o tamanho de papel preferido para PDFs."
+   },
+   "choose_save_method": {
+      "message": "Escolha como salvar esta página"
+   },
+   "compress_pdf": {
+      "message": "Comprimir PDF"
+   },
+   "continue_to": {
+      "message": "Continuar para..."
+   },
+   "convert_pdf": {
+      "message": "Converter PDF"
+   },
+   "current_view_screenshot": {
+      "message": "Captura Atual"
+   },
+   "current_view_screenshot_desc": {
+      "message": "Capture apenas a parte visível da página."
+   },
+   "default_mode": {
+      "message": "Modo padrão"
+   },
+   "default_mode_checkbox": {
+      "message": "Lembre-se da minha seleção e pule esta etapa na próxima vez."
+   },
+   "default_mode_checkbox_descr": {
+      "message": "Você pode alterar isso mais tarde nas Configurações."
+   },
+   "default_mode_desc": {
+      "message": "Escolha a ação que será selecionada automaticamente ao clicar no botão."
+   },
+   "delete": {
+      "message": "Clique para Excluir"
+   },
+   "delete_button": {
+      "message": "Excluir"
+   },
+   "dialog_close": {
+      "message": "Fechar"
+   },
+   "dont_like_printfriendly_description": {
+      "message": "Seu feedback molda o que construímos e como melhoramos. Tem um segundo para nos dizer como podemos fazer melhor?"
+   },
+   "dont_like_printfriendly_title": {
+      "message": "Obrigado por nos dar uma chance"
+   },
+   "download_again": {
+      "message": "Baixar novamente"
+   },
+   "download_directory": {
+      "message": "Diretório"
+   },
+   "download_directory_description": {
+      "message": "Especifique uma pasta dentro do seu diretório de Downloads onde deseja que seus PDFs e imagens sejam salvos. Se você deixar em branco, eles irão apenas para Downloads. Use letras, números, traços, sublinhados e barras (outros caracteres serão removidos)."
+   },
+   "edit": {
+      "message": "Editar"
+   },
+   "edit_link": {
+      "message": "Editar link"
+   },
+   "edit_pdf": {
+      "message": "Editar PDF"
+   },
+   "email": {
+      "message": "E-mail"
+   },
+   "enable_delete": {
+      "message": "Começar com Excluir ativado"
+   },
+   "extension_settings": {
+      "message": "Configurações da extensão"
+   },
+   "file_access_description": {
+      "message": "Por favor, vá para as configurações da extensão do seu navegador e ative \"Permitir acesso a URLs de arquivos\", para que a extensão possa acessar esta página."
+   },
+   "file_access_title": {
+      "message": "Acesso ao arquivo necessário"
+   },
+   "floating_button": {
+      "message": "Botão flutuante"
+   },
+   "floating_button_pref_descr": {
+      "message": "Mostrar um botão para acessar facilmente o PrintFriendly."
+   },
+   "full_page_screenshot": {
+      "message": "Captura Completa"
+   },
+   "full_page_screenshot_desc": {
+      "message": "Capture a página da web como ela aparece com anúncios, etc."
+   },
+   "give_feedback": {
+      "message": "Não, dê seu feedback."
+   },
+   "go_to_link": {
+      "message": "Ir para o link"
+   },
+   "got_it": {
+      "message": "Entendi"
+   },
+   "heading_1": {
+      "message": "Cabeçalho 1"
+   },
+   "heading_2": {
+      "message": "Cabeçalho 2"
+   },
+   "heading_3": {
+      "message": "Cabeçalho 3"
+   },
+   "heading_4": {
+      "message": "Cabeçalho 4"
+   },
+   "heading_5": {
+      "message": "Cabeçalho 5"
+   },
+   "heading_6": {
+      "message": "Cabeçalho 6"
+   },
+   "highlight": {
+      "message": "Destacar"
+   },
+   "history_menu": {
+      "message": "Histórico (Em breve)"
+   },
+   "image": {
+      "message": "Imagem"
+   },
+   "image_size_pref": {
+      "message": "Preferência de tamanho de imagem"
+   },
+   "image_size_pref_desc": {
+      "message": "Defina o tamanho das imagens ao visualizar páginas com a extensão."
+   },
+   "image_upload_file_too_large": {
+      "message": "O arquivo de imagem é muito grande. Selecione uma imagem menor que 5 MB"
+   },
+   "image_upload_select_file": {
+      "message": "Por favor, selecione um arquivo de imagem"
+   },
+   "insert_image": {
+      "message": "Inserir Imagem"
+   },
+   "italic": {
+      "message": "Itálico"
+   },
+   "lang_display_name": {
+      "message": "Português (Brasil)"
+   },
+   "language_setting": {
+      "message": "Idioma"
+   },
+   "language_setting_desc": {
+      "message": "Selecione o seu idioma preferido."
+   },
+   "left": {
+      "message": "Esquerda"
+   },
+   "letter_paper_size": {
+      "message": "Carta"
+   },
+   "like_printfriendly_extension": {
+      "message": "Gosta da extensão PrintFriendly?"
+   },
+   "like_printfriendly_p1_description": {
+      "message": "O seu feedback nos motiva!"
+   },
+   "like_printfriendly_p2_description_chrome": {
+      "message": "Você estaria disposto a avaliar o PrintFriendly na Chrome Web Store?"
+   },
+   "like_printfriendly_p2_description_edge": {
+      "message": "Você estaria disposto a avaliar o PrintFriendly no site de complementos do Microsoft Edge?"
+   },
+   "like_printfriendly_p2_description_firefox": {
+      "message": "Você estaria disposto a avaliar o PrintFriendly na loja de complementos do Firefox?"
+   },
+   "like_printfriendly_p2_description_safari": {
+      "message": "Você estaria disposto a avaliar o PrintFriendly na loja de extensões do Safari?"
+   },
+   "like_printfriendly_title": {
+      "message": "Ficamos felizes que você goste do PrintFriendly!"
+   },
+   "log_out": {
+      "message": "Logout"
+   },
+   "never": {
+      "message": "Nunca"
+   },
+   "no": {
+      "message": "Não"
+   },
+   "no_thanks": {
+      "message": "Não, obrigado."
+   },
+   "numbered_list": {
+      "message": "Lista numerada"
+   },
+   "off": {
+      "message": "Desligado"
+   },
+   "one_day": {
+      "message": "1 dia"
+   },
+   "one_month": {
+      "message": "1 mês"
+   },
+   "one_week": {
+      "message": "1 semana"
+   },
+   "optional_cookie_permission_descr_line1": {
+      "message": "Para ativar o login, clique em “Permitir” na próxima tela."
+   },
+   "optional_cookie_permission_descr_line2": {
+      "message": "Esta permissão permite que a extensão PrintFriendly confirme quando você estiver logado no PrintFriendly.com, para que possamos sincronizar sua conta com a extensão."
+   },
+   "optional_cookie_permission_descr_line3": {
+      "message": "Nunca coletamos seu histórico de navegação ou dados de outros sites."
+   },
+   "optional_downloads_permission_descr_line1": {
+      "message": "Para salvar arquivos em uma pasta específica, clique em “Permitir” na próxima tela."
+   },
+   "optional_downloads_permission_descr_line2": {
+      "message": "Esta permissão permite que a extensão PrintFriendly baixe seus PDFs e imagens diretamente para a localização escolhida."
+   },
+   "optional_host_permission_descr": {
+      "message": "Para que o botão flutuante funcione, precisamos de permissão para visualizar e alterar conteúdo em sites:"
+   },
+   "optional_host_permission_footer": {
+      "message": "Para ativar, clique em Permitir na próxima tela."
+   },
+   "optional_host_permission_item_1": {
+      "message": "Isso é opcional e não é necessário para usar o PrintFriendly."
+   },
+   "optional_host_permission_item_2": {
+      "message": "Você pode desativar isso a qualquer momento nas configurações."
+   },
+   "optional_host_permission_item_3": {
+      "message": "Não armazenamos nenhum dado de navegação seu."
+   },
+   "optional_host_permission_title": {
+      "message": "Ativar os recursos do botão flutuante?"
+   },
+   "optional_permission_descr": {
+      "message": "Este site usa iframes, o que limita a nossa capacidade de capturar a página inteira. Para tirar uma captura de ecrã completa, precisamos de permissão adicional. Após fechar esta mensagem, clique em “Permitir” para continuar."
+   },
+   "optional_permission_title": {
+      "message": "Permissão adicional necessária"
+   },
+   "other_tools": {
+      "message": "Ferramentas"
+   },
+   "page_blocking_printfriendly": {
+      "message": "Esta página está bloqueando o PrintFriendly"
+   },
+   "paragraph": {
+      "message": "Parágrafo"
+   },
+   "pdf": {
+      "message": "PDF"
+   },
+   "pdf_file_downloaded": {
+      "message": "Seu arquivo PDF foi baixado."
+   },
+   "pdf_generation_error": {
+      "message": "Erro na geração de PDF"
+   },
+   "pdf_paper_size": {
+      "message": "Tamanho do papel PDF"
+   },
+   "preformatted": {
+      "message": "Pré-formatado"
+   },
+   "print": {
+      "message": "Imprimir"
+   },
+   "print_pdf_margin_pref": {
+      "message": "Margem de Impressão e PDF"
+   },
+   "print_pdf_margin_pref_descr": {
+      "message": "Personalize as margens de impressão e PDF."
+   },
+   "printer_friendly_desc": {
+      "message": "Remova os anúncios e a navegação das páginas da web."
+   },
+   "printfriendly_page": {
+      "message": "Página PrintFriendly"
+   },
+   "profile_settings": {
+      "message": "Configurações de perfil"
+   },
+   "remove": {
+      "message": "Remover"
+   },
+   "remove_formatting": {
+      "message": "Remover formatação"
+   },
+   "remove_link": {
+      "message": "Remover link"
+   },
+   "report": {
+      "message": "Reportar"
+   },
+   "resolve_issue": {
+      "message": "e nós o ajudaremos a resolver o problema."
+   },
+   "right": {
+      "message": "Direita"
+   },
+   "safari_description": {
+      "message": "Converter páginas web em PDF ou capturas. Páginas limpas e sem anúncios, prontas para imprimir ou salvar."
+   },
+   "safari_name": {
+      "message": "PrintFriendly: PDF e Captura"
+   },
+   "save_as": {
+      "message": "Salvar como"
+   },
+   "save_as_description": {
+      "message": "Abra automaticamente uma caixa de diálogo “Salvar como” ao baixar PDFs ou imagens de tela. Se o seu navegador já estiver configurado para perguntar onde salvar arquivos, essa configuração terá preferência."
+   },
+   "save_changes": {
+      "message": "Guardar"
+   },
+   "save_updates": {
+      "message": "Salvar alterações"
+   },
+   "saved": {
+      "message": "Guardado."
+   },
+   "screenshot": {
+      "message": "Captura de tela"
+   },
+   "screenshot_image_format": {
+      "message": "Formato de imagem da captura de tela"
+   },
+   "screenshot_restriction_message": {
+      "message": "O PrintFriendly funciona na maioria dos sites, facilitando a criação de páginas e capturas de tela mais limpas e amigáveis para impressão. No entanto, algumas páginas—como as configurações do navegador, lojas de extensões e outras áreas restritas—não estão disponíveis devido às políticas do navegador. Entre em contato conosco se tiver alguma dúvida."
+   },
+   "settings": {
+      "message": "Config"
+   },
+   "settings_saved": {
+      "message": "Suas configurações foram salvas."
+   },
+   "share_feedback": {
+      "message": "Compartilhe seu feedback."
+   },
+   "show_context_menu_pref": {
+      "message": "Mostrar PrintFriendly no menu de contexto do clique direito."
+   },
+   "show_context_menu_pref_descr": {
+      "message": "Quando ativado, você pode acessar o PrintFriendly diretamente no menu de contexto do navegador."
+   },
+   "show_download_complete_descr": {
+      "message": "Quando ativado, uma janela de confirmação aparece após o download do seu PDF, com ações rápidas para baixar novamente ou converter, editar ou assinar."
+   },
+   "show_download_complete_pref": {
+      "message": "Mostrar janela \"Download concluído\"."
+   },
+   "show_float_button_on_articles_only": {
+      "message": "Mostrar botão flutuante apenas nas páginas de artigos"
+   },
+   "show_float_button_on_articles_only_pref_descr": {
+      "message": "Ative esta opção para exibir o botão flutuante PrintFriendly apenas em páginas que pareçam ser artigos de notícias ou postagens de blog."
+   },
+   "sign_in": {
+      "message": "Entrar"
+   },
+   "sign_pdf": {
+      "message": "Assinar PDF"
+   },
+   "skip_screen_next_time": {
+      "message": "Ignorar esta tela na próxima vez"
+   },
+   "small_images_pref_descr": {
+      "message": "Imagens pequenas geralmente são ocultadas porque frequentemente não são úteis ao imprimir ou salvar para PDF. Ative esta configuração se você quiser vê-las."
+   },
+   "small_images_pref_title": {
+      "message": "Mostrar imagens pequenas"
+   },
+   "start_download_pdf_subtitle": {
+      "message": "Por favor, não feche o navegador. Isso pode levar um minuto."
+   },
+   "start_download_pdf_title": {
+      "message": "Baixando seu arquivo PDF"
+   },
+   "still_does_not_work": {
+      "message": "Se ainda não funcionar, entre em contato conosco pelo endereço"
+   },
+   "stop_capturing": {
+      "message": "Parar captura"
+   },
+   "strict_security_settings": {
+      "message": "Lamentamos, mas esta página em {{domainName}} possui configurações de segurança rigorosas (Política de Segurança de Conteúdo) que impedem o funcionamento do PrintFriendly."
+   },
+   "strict_security_settings_support": {
+      "message": "Para mais detalhes ou suporte, por favor entre em contato conosco em"
+   },
+   "strict_security_unsupported_page": {
+      "message": "A página não é suportada pelo PrintFriendly"
+   },
+   "strikethrough": {
+      "message": "Riscado"
+   },
+   "style": {
+      "message": "Estilo"
+   },
+   "take_me_there": {
+      "message": "Claro, me leve lá!"
+   },
+   "text_size_pref": {
+      "message": "Preferência de tamanho de texto"
+   },
+   "text_size_pref_desc": {
+      "message": "Defina o tamanho do texto ao visualizar páginas com a extensão."
+   },
+   "timed_out_pdf": {
+      "message": "O PrintFriendly pode ter expirado enquanto criava o PDF. Pode ter sido grande demais para o nosso sistema processar."
+   },
+   "top": {
+      "message": "Topo"
+   },
+   "turn_off_delete": {
+      "message": "Desative Excluir para clicar nos links."
+   },
+   "unable_to_generate_pdf": {
+      "message": "Não conseguimos gerar um PDF para esta página."
+   },
+   "underline": {
+      "message": "Sublinhado"
+   },
+   "undo": {
+      "message": "Desfazer"
+   },
+   "when_to_show_again": {
+      "message": "Quando devemos mostrar isso novamente?"
+   },
+   "which_option_best": {
+      "message": "Qual é a melhor opção para mim?"
+   },
+   "yes": {
+      "message": "Sim"
+   }
+}

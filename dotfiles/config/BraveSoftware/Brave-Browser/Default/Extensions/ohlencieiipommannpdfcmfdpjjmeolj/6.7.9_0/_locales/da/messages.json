@@ -1,0 +1,491 @@
+{
+   "a4_paper_size": {
+      "message": "A4"
+   },
+   "add_link": {
+      "message": "Tilføj link"
+   },
+   "app_description": {
+      "message": "Gør websider printervenlige, konverter til PDF'er eller tag skærmbilleder. Fjern annoncer for rene sider, klar til at udskrive eller gemme som PDF."
+   },
+   "app_name": {
+      "message": "PrintFriendly - Udskriv, PDF og skærmbillede af websider"
+   },
+   "back": {
+      "message": "Tilbage"
+   },
+   "blocked_by_extension": {
+      "message": "PrintFriendly kan være blokeret af en anden udvidelse, du har installeret, såsom en annonceblokering. Deaktiver venligst midlertidigt dine andre udvidelser, og prøv at oprette en PDF igen."
+   },
+   "blockquote": {
+      "message": "Blok citat"
+   },
+   "bold": {
+      "message": "Fed"
+   },
+   "bottom": {
+      "message": "Bund"
+   },
+   "bullet_list": {
+      "message": "Punktliste"
+   },
+   "cancel": {
+      "message": "Annuller"
+   },
+   "capture_failed": {
+      "message": "Det er ikke muligt at tage et fuldside-skærmbillede på dette websted."
+   },
+   "capture_failed_descr": {
+      "message": "Nogle websites bruger rammer eller dynamiske elementer, der forhindrer et komplet screenshot. Prøv venligst en anden side."
+   },
+   "capturing": {
+      "message": "Optager"
+   },
+   "capturing_desc": {
+      "message": "Vent venligst, skærmbilledet vil være klar om et øjeblik."
+   },
+   "choose_paper_size": {
+      "message": "Vælg din foretrukne papirstørrelse til PDF'er."
+   },
+   "choose_save_method": {
+      "message": "Vælg, hvordan du vil gemme denne side"
+   },
+   "compress_pdf": {
+      "message": "Komprimér PDF"
+   },
+   "continue_to": {
+      "message": "Fortsæt til..."
+   },
+   "convert_pdf": {
+      "message": "Konverter PDF"
+   },
+   "current_view_screenshot": {
+      "message": "Nuværende visning"
+   },
+   "current_view_screenshot_desc": {
+      "message": "Fang kun den synlige del af siden."
+   },
+   "default_mode": {
+      "message": "Standardtilstand"
+   },
+   "default_mode_checkbox": {
+      "message": "Husk mit valg og spring dette trin over næste gang."
+   },
+   "default_mode_checkbox_descr": {
+      "message": "Du kan ændre dette senere i Indstillinger."
+   },
+   "default_mode_desc": {
+      "message": "Vælg den handling, der automatisk vælges, når du klikker på udvidelsesknappen."
+   },
+   "delete": {
+      "message": "Klik for at fjerne"
+   },
+   "delete_button": {
+      "message": "Slet"
+   },
+   "dialog_close": {
+      "message": "Luk"
+   },
+   "dont_like_printfriendly_description": {
+      "message": "Din feedback former det, vi bygger, og hvordan vi forbedrer os. Har du et øjeblik til at fortælle os, hvordan vi kan gøre det bedre?"
+   },
+   "dont_like_printfriendly_title": {
+      "message": "Tak fordi du gav os en chance"
+   },
+   "download_again": {
+      "message": "Download igen"
+   },
+   "download_directory": {
+      "message": "Bibliotek"
+   },
+   "download_directory_description": {
+      "message": "Angiv en mappe inde i din Downloads-mappe, hvor du gerne vil have, at dine PDF'er og billeder gemmes. Hvis du lader det være tomt, går de blot til Downloads. Hold dig til bogstaver, tal, bindestreger, understregninger og skråstreger (andre tegn fjernes automatisk)."
+   },
+   "edit": {
+      "message": "Rediger"
+   },
+   "edit_link": {
+      "message": "Rediger link"
+   },
+   "edit_pdf": {
+      "message": "Rediger PDF"
+   },
+   "email": {
+      "message": "Email"
+   },
+   "enable_delete": {
+      "message": "Start med sletning aktiveret"
+   },
+   "extension_settings": {
+      "message": "Udvidelsesindstillinger"
+   },
+   "file_access_description": {
+      "message": "Gå til dine browserudvidelsesindstillinger og aktiver \"Tillad adgang til fil-URL'er\", så udvidelsen kan få adgang til denne side."
+   },
+   "file_access_title": {
+      "message": "Adgang til fil nødvendig"
+   },
+   "floating_button": {
+      "message": "Flydende knap"
+   },
+   "floating_button_pref_descr": {
+      "message": "Vis en knap for nem adgang til PrintFriendly."
+   },
+   "full_page_screenshot": {
+      "message": "Fuld side skærmbillede"
+   },
+   "full_page_screenshot_desc": {
+      "message": "Fang websiden, som den vises med annoncer osv."
+   },
+   "give_feedback": {
+      "message": "Nej, giv feedback."
+   },
+   "go_to_link": {
+      "message": "Gå til link"
+   },
+   "got_it": {
+      "message": "Forstået"
+   },
+   "heading_1": {
+      "message": "Overskrift 1"
+   },
+   "heading_2": {
+      "message": "Overskrift 2"
+   },
+   "heading_3": {
+      "message": "Overskrift 3"
+   },
+   "heading_4": {
+      "message": "Overskrift 4"
+   },
+   "heading_5": {
+      "message": "Overskrift 5"
+   },
+   "heading_6": {
+      "message": "Overskrift 6"
+   },
+   "highlight": {
+      "message": "Fremhæv"
+   },
+   "history_menu": {
+      "message": "Historik (Kommer snart)"
+   },
+   "image": {
+      "message": "Billede"
+   },
+   "image_size_pref": {
+      "message": "Billedstørrelsespræference"
+   },
+   "image_size_pref_desc": {
+      "message": "Indstil billedstørrelsen, når du ser sider med udvidelsen."
+   },
+   "image_upload_file_too_large": {
+      "message": "Billedfilen er for stor. Vælg venligst et billede mindre end 5MB"
+   },
+   "image_upload_select_file": {
+      "message": "Vælg venligst en billedfil"
+   },
+   "insert_image": {
+      "message": "Indsæt Billede"
+   },
+   "italic": {
+      "message": "Kursiv"
+   },
+   "lang_display_name": {
+      "message": "Dansk (Danish)"
+   },
+   "language_setting": {
+      "message": "Sprog"
+   },
+   "language_setting_desc": {
+      "message": "Vælg dit foretrukne sprog."
+   },
+   "left": {
+      "message": "Venstre"
+   },
+   "letter_paper_size": {
+      "message": "Letter"
+   },
+   "like_printfriendly_extension": {
+      "message": "Kan du lide PrintFriendly-udvidelsen?"
+   },
+   "like_printfriendly_p1_description": {
+      "message": "Din feedback motiverer os!"
+   },
+   "like_printfriendly_p2_description_chrome": {
+      "message": "Vil du være villig til at anmelde PrintFriendly i Chrome Webshoppen?"
+   },
+   "like_printfriendly_p2_description_edge": {
+      "message": "Vil du være villig til at anmelde PrintFriendly på Microsoft Edge Add-ons-webstedet?"
+   },
+   "like_printfriendly_p2_description_firefox": {
+      "message": "Vil du være villig til at gennemgå PrintFriendly i Firefox Add-ons Store?"
+   },
+   "like_printfriendly_p2_description_safari": {
+      "message": "Vil du være villig til at anmelde PrintFriendly på Safari Extension Store?"
+   },
+   "like_printfriendly_title": {
+      "message": "Vi er glade for, at du kan lide PrintFriendly!"
+   },
+   "log_out": {
+      "message": "Log ud"
+   },
+   "never": {
+      "message": "Aldrig"
+   },
+   "no": {
+      "message": "Nej"
+   },
+   "no_thanks": {
+      "message": "Nej, tak"
+   },
+   "numbered_list": {
+      "message": "Nummereret liste"
+   },
+   "off": {
+      "message": "Fra"
+   },
+   "one_day": {
+      "message": "1 dag"
+   },
+   "one_month": {
+      "message": "1 måned"
+   },
+   "one_week": {
+      "message": "1 uge"
+   },
+   "optional_cookie_permission_descr_line1": {
+      "message": "For at aktivere login skal du klikke på \"Tillad\" på den næste skærm."
+   },
+   "optional_cookie_permission_descr_line2": {
+      "message": "Denne tilladelse giver PrintFriendly-udvidelsen mulighed for at bekræfte, når du er logget ind på PrintFriendly.com, så vi kan synkronisere din konto med udvidelsen."
+   },
+   "optional_cookie_permission_descr_line3": {
+      "message": "Vi indsamler aldrig din browserhistorik eller data fra andre websteder."
+   },
+   "optional_downloads_permission_descr_line1": {
+      "message": "For at gemme filer i en specifik mappe skal du klikke på \"Tillad\" på næste skærm."
+   },
+   "optional_downloads_permission_descr_line2": {
+      "message": "Denne tilladelse giver PrintFriendly-udvidelsen mulighed for at downloade dine PDF’er og billeder direkte til din valgte placering."
+   },
+   "optional_host_permission_descr": {
+      "message": "For at få den flydende knap til at fungere, har vi brug for tilladelse til at se og ændre indhold på hjemmesider:"
+   },
+   "optional_host_permission_footer": {
+      "message": "For at aktivere, klik venligst på Tillad på næste skærmbillede."
+   },
+   "optional_host_permission_item_1": {
+      "message": "Dette er valgfrit og ikke nødvendigt for at bruge PrintFriendly."
+   },
+   "optional_host_permission_item_2": {
+      "message": "Du kan slå dette fra når som helst i indstillingerne."
+   },
+   "optional_host_permission_item_3": {
+      "message": "Vi gemmer ikke nogen af dine browserdata."
+   },
+   "optional_host_permission_title": {
+      "message": "Aktivér funktioner for den flydende knap?"
+   },
+   "optional_permission_descr": {
+      "message": "Dette websted bruger iframes, hvilket begrænser vores evne til at fange hele siden. For at tage et fuldt skærmbillede har vi brug for yderligere tilladelse. Efter at have lukket denne besked, skal du klikke på “Tillad” for at fortsætte."
+   },
+   "optional_permission_title": {
+      "message": "Yderligere tilladelse kræves"
+   },
+   "other_tools": {
+      "message": "Værktøjer"
+   },
+   "page_blocking_printfriendly": {
+      "message": "Denne side blokerer PrintFriendly"
+   },
+   "paragraph": {
+      "message": "Afsnit"
+   },
+   "pdf": {
+      "message": "PDF"
+   },
+   "pdf_file_downloaded": {
+      "message": "Din PDF-fil er blevet downloadet."
+   },
+   "pdf_generation_error": {
+      "message": "Fejl ved PDF-generering"
+   },
+   "pdf_paper_size": {
+      "message": "PDF-papirstørrelse"
+   },
+   "preformatted": {
+      "message": "Forformatteret"
+   },
+   "print": {
+      "message": "Print"
+   },
+   "print_pdf_margin_pref": {
+      "message": "Udskrivning og PDF-margin"
+   },
+   "print_pdf_margin_pref_descr": {
+      "message": "Tilpas udskrifts- og PDF-marginer."
+   },
+   "printer_friendly_desc": {
+      "message": "Fjern annoncer og navigation fra websider."
+   },
+   "printfriendly_page": {
+      "message": "PrintFriendly-side"
+   },
+   "profile_settings": {
+      "message": "Profilindstillinger"
+   },
+   "remove": {
+      "message": "Fjern"
+   },
+   "remove_formatting": {
+      "message": "Fjern formatering"
+   },
+   "remove_link": {
+      "message": "Fjern link"
+   },
+   "report": {
+      "message": "Rapportér"
+   },
+   "resolve_issue": {
+      "message": "og vi vil hjælpe dig med at løse problemet."
+   },
+   "right": {
+      "message": "Højre"
+   },
+   "safari_description": {
+      "message": "Konvertér websider til PDF eller skærmbilleder. Rene, reklamefri sider — klar til print eller gem."
+   },
+   "safari_name": {
+      "message": "PrintFriendly: PDF og Fangst"
+   },
+   "save_as": {
+      "message": "Gem som"
+   },
+   "save_as_description": {
+      "message": "Åbn automatisk et \"gem som\"-vindue, når du downloader PDF’er eller skærmbilleder. Hvis din browser allerede er sat til at spørge, hvor filerne skal gemmes, er det den indstilling, der gælder."
+   },
+   "save_changes": {
+      "message": "Gem"
+   },
+   "save_updates": {
+      "message": "Gem ændringer"
+   },
+   "saved": {
+      "message": "Gemte."
+   },
+   "screenshot": {
+      "message": "Skærmbillede"
+   },
+   "screenshot_image_format": {
+      "message": "Skærmbillede billedformat"
+   },
+   "screenshot_restriction_message": {
+      "message": "PrintFriendly fungerer på de fleste websites og gør det nemt at skabe renere, printervenlige sider og skærmbilleder. Dog er visse sider – såsom browserindstillinger, udvidelsesbutikker og andre begrænsede områder – uden for grænserne på grund af browserpolitikker. Kontakt os venligst, hvis du har spørgsmål."
+   },
+   "settings": {
+      "message": "Indstillinger"
+   },
+   "settings_saved": {
+      "message": "Dine indstillinger er blevet gemt."
+   },
+   "share_feedback": {
+      "message": "Del feedback."
+   },
+   "show_context_menu_pref": {
+      "message": "Vis PrintFriendly i højreklik kontekstmenuen."
+   },
+   "show_context_menu_pref_descr": {
+      "message": "Når aktiveret, kan du få adgang til PrintFriendly direkte fra din browsers kontekstmenu."
+   },
+   "show_download_complete_descr": {
+      "message": "Når aktiveret, vises et bekræftelsesvindue efter din PDF er downloadet, med hurtige handlinger til at downloade igen eller konvertere, redigere eller underskrive."
+   },
+   "show_download_complete_pref": {
+      "message": "Vis \"Download fuldført\"-vinduet."
+   },
+   "show_float_button_on_articles_only": {
+      "message": "Vis kun den flydende knap på artikel-sider"
+   },
+   "show_float_button_on_articles_only_pref_descr": {
+      "message": "Aktivér denne mulighed for kun at vise den flydende PrintFriendly-knap på sider, der ligner nyhedsartikler eller blogindlæg."
+   },
+   "sign_in": {
+      "message": "Log ind"
+   },
+   "sign_pdf": {
+      "message": "Underskriv PDF"
+   },
+   "skip_screen_next_time": {
+      "message": "Spring denne skærm over næste gang"
+   },
+   "small_images_pref_descr": {
+      "message": "Små billeder er normalt skjult, da de ofte ikke er nyttige ved udskrivning eller gemning som PDF. Aktiver denne indstilling, hvis du gerne vil se dem."
+   },
+   "small_images_pref_title": {
+      "message": "Vis små billeder"
+   },
+   "start_download_pdf_subtitle": {
+      "message": "Luk ikke din browser. Dette kan tage et minut."
+   },
+   "start_download_pdf_title": {
+      "message": "Downloader din PDF-fil"
+   },
+   "still_does_not_work": {
+      "message": "Hvis det stadig ikke virker, bedes du kontakte os på"
+   },
+   "stop_capturing": {
+      "message": "Stop optagelse"
+   },
+   "strict_security_settings": {
+      "message": "Vi beklager, men denne side på {{domainName}} har strenge sikkerhedsindstillinger (Content Security Policy), der forhindrer PrintFriendly i at fungere."
+   },
+   "strict_security_settings_support": {
+      "message": "For yderligere oplysninger eller support, kontakt os venligst på"
+   },
+   "strict_security_unsupported_page": {
+      "message": "Siden understøttes ikke af PrintFriendly"
+   },
+   "strikethrough": {
+      "message": "Gennemstreget"
+   },
+   "style": {
+      "message": "Stil"
+   },
+   "take_me_there": {
+      "message": "Selvfølgelig, tag mig derhen!"
+   },
+   "text_size_pref": {
+      "message": "Tekststørrelsespræference"
+   },
+   "text_size_pref_desc": {
+      "message": "Indstil tekststørrelsen, når du ser sider med udvidelsen."
+   },
+   "timed_out_pdf": {
+      "message": "PrintFriendly kan være udløbet, mens du oprettede PDF’en. Det kan have været for stort til vores system at håndtere."
+   },
+   "top": {
+      "message": "Top"
+   },
+   "turn_off_delete": {
+      "message": "Slå sletning fra for at kunne klikke på links."
+   },
+   "unable_to_generate_pdf": {
+      "message": "Vi kunne ikke generere en PDF for denne side."
+   },
+   "underline": {
+      "message": "Understreg"
+   },
+   "undo": {
+      "message": "Fortryd"
+   },
+   "when_to_show_again": {
+      "message": "Hvornår skal vi vise dette igen?"
+   },
+   "which_option_best": {
+      "message": "Hvilken mulighed er bedst for mig?"
+   },
+   "yes": {
+      "message": "Ja"
+   }
+}

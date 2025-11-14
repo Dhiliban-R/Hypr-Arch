@@ -1,0 +1,491 @@
+{
+   "a4_paper_size": {
+      "message": "A4"
+   },
+   "add_link": {
+      "message": "Προσθήκη συνδέσμου"
+   },
+   "app_description": {
+      "message": "Κάντε τις ιστοσελίδες φιλικές για εκτύπωση, μετατρέψτε τις σε PDF ή τραβήξτε στιγμιότυπα οθόνης. Αφαιρέστε τις διαφημίσεις για καθαρές σελίδες έτοιμες για εκτύπωση ή αποθήκευση ως PDF."
+   },
+   "app_name": {
+      "message": "PrintFriendly - Εκτύπωση, PDF και στιγμιότυπο ιστοσελίδων"
+   },
+   "back": {
+      "message": "Πίσω"
+   },
+   "blocked_by_extension": {
+      "message": "Το PrintFriendly ενδέχεται να έχει αποκλειστεί από άλλη επέκταση που έχετε εγκαταστήσει, όπως ένα πρόγραμμα αποκλεισμού διαφημίσεων. Απενεργοποιήστε προσωρινά τις άλλες επεκτάσεις και δοκιμάστε να δημιουργήσετε ξανά ένα PDF."
+   },
+   "blockquote": {
+      "message": "Αποσπασμα σε μπλοκ"
+   },
+   "bold": {
+      "message": "Έντονα"
+   },
+   "bottom": {
+      "message": "Κάτω"
+   },
+   "bullet_list": {
+      "message": "Λίστα με κουκκίδες"
+   },
+   "cancel": {
+      "message": "Ακύρωση"
+   },
+   "capture_failed": {
+      "message": "Δεν είναι δυνατή η λήψη στιγμιότυπου πλήρους σελίδας σε αυτόν τον ιστότοπο."
+   },
+   "capture_failed_descr": {
+      "message": "Ορισμένοι ιστότοποι χρησιμοποιούν πλαίσια ή δυναμικά στοιχεία που εμποδίζουν την πλήρη λήψη στιγμιότυπου οθόνης. Παρακαλώ δοκιμάστε άλλο ιστότοπο."
+   },
+   "capturing": {
+      "message": "Καταγραφή"
+   },
+   "capturing_desc": {
+      "message": "Παρακαλώ περιμένετε, το στιγμιότυπο οθόνης θα είναι έτοιμο σε λίγο."
+   },
+   "choose_paper_size": {
+      "message": "Επιλέξτε το προτιμώμενο μέγεθος χαρτιού για PDF."
+   },
+   "choose_save_method": {
+      "message": "Επιλέξτε πώς να αποθηκεύσετε αυτήν τη σελίδα"
+   },
+   "compress_pdf": {
+      "message": "Συμπίεση PDF"
+   },
+   "continue_to": {
+      "message": "Συνέχεια στο..."
+   },
+   "convert_pdf": {
+      "message": "Μετατροπή PDF"
+   },
+   "current_view_screenshot": {
+      "message": "Στιγμιότυπο προβολής"
+   },
+   "current_view_screenshot_desc": {
+      "message": "Καταγράψτε μόνο το ορατό μέρος της σελίδας."
+   },
+   "default_mode": {
+      "message": "Προεπιλεγμένη λειτουργία"
+   },
+   "default_mode_checkbox": {
+      "message": "Θυμήσου την επιλογή μου και παράλειψε αυτό το βήμα την επόμενη φορά."
+   },
+   "default_mode_checkbox_descr": {
+      "message": "Μπορείτε να το αλλάξετε αργότερα στις Ρυθμίσεις."
+   },
+   "default_mode_desc": {
+      "message": "Επιλέξτε την ενέργεια που θα επιλέγεται αυτόματα με το πάτημα του κουμπιού."
+   },
+   "delete": {
+      "message": "Διαγραφή"
+   },
+   "delete_button": {
+      "message": "Διαγραφή"
+   },
+   "dialog_close": {
+      "message": "Κλείσιμο"
+   },
+   "dont_like_printfriendly_description": {
+      "message": "Τα σχόλιά σας διαμορφώνουν αυτό που χτίζουμε και τον τρόπο που βελτιωνόμαστε. Έχετε ένα δευτερόλεπτο να μας πείτε πώς μπορούμε να γίνουμε καλύτεροι;"
+   },
+   "dont_like_printfriendly_title": {
+      "message": "Ευχαριστούμε που μας δώσατε μια ευκαιρία"
+   },
+   "download_again": {
+      "message": "Λήψη ξανά"
+   },
+   "download_directory": {
+      "message": "Κατάλογος"
+   },
+   "download_directory_description": {
+      "message": "Καθορίστε ένα φάκελο μέσα στον κατάλογο Λήψεις όπου θέλετε να αποθηκευτούν τα αρχεία PDF και οι εικόνες σας. Αν το αφήσετε κενό, θα αποθηκευτούν απευθείας στον φάκελο Λήψεις. Χρησιμοποιήστε μόνο γράμματα, αριθμούς, παύλες, κάτω παύλες και κάθετες γραμμές (οι υπόλοικοι χαρακτήρες θα αφαιρεθούν)."
+   },
+   "edit": {
+      "message": "Επεξεργασία"
+   },
+   "edit_link": {
+      "message": "Επεξεργασία συνδέσμου"
+   },
+   "edit_pdf": {
+      "message": "Επεξεργασία PDF"
+   },
+   "email": {
+      "message": "Email"
+   },
+   "enable_delete": {
+      "message": "Ξεκινήστε με ενεργοποιημένη τη διαγραφή"
+   },
+   "extension_settings": {
+      "message": "Ρυθμίσεις επεκτάσεων"
+   },
+   "file_access_description": {
+      "message": "Παρακαλώ μεταβείτε στις ρυθμίσεις επεκτάσεων του προγράμματος περιήγησής σας και ενεργοποιήστε την επιλογή \"Να επιτρέπεται η πρόσβαση σε URL αρχείων\", ώστε η επέκταση να έχει πρόσβαση σε αυτήν τη σελίδα."
+   },
+   "file_access_title": {
+      "message": "Απαιτείται πρόσβαση στο αρχείο"
+   },
+   "floating_button": {
+      "message": "Επιπλέουσας κουμπί"
+   },
+   "floating_button_pref_descr": {
+      "message": "Εμφανίστε ένα κουμπί για εύκολη πρόσβαση στο PrintFriendly."
+   },
+   "full_page_screenshot": {
+      "message": "Στιγμιότυπο σελίδας"
+   },
+   "full_page_screenshot_desc": {
+      "message": "Καταγράψτε την ιστοσελίδα όπως εμφανίζεται με διαφημίσεις κ.λπ."
+   },
+   "give_feedback": {
+      "message": "Όχι, δώστε σχόλια."
+   },
+   "go_to_link": {
+      "message": "Μετάβαση στον σύνδεσμο"
+   },
+   "got_it": {
+      "message": "Κατάλαβα"
+   },
+   "heading_1": {
+      "message": "Επικεφαλίδα 1"
+   },
+   "heading_2": {
+      "message": "Επικεφαλίδα 2"
+   },
+   "heading_3": {
+      "message": "Επικεφαλίδα 3"
+   },
+   "heading_4": {
+      "message": "Επικεφαλίδα 4"
+   },
+   "heading_5": {
+      "message": "Επικεφαλίδα 5"
+   },
+   "heading_6": {
+      "message": "Επικεφαλίδα 6"
+   },
+   "highlight": {
+      "message": "Επισημάνετε"
+   },
+   "history_menu": {
+      "message": "Ιστορικό (Έρχεται σύντομα)"
+   },
+   "image": {
+      "message": "Εικόνα"
+   },
+   "image_size_pref": {
+      "message": "Προτίμηση μεγέθους εικόνας"
+   },
+   "image_size_pref_desc": {
+      "message": "Ρυθμίστε το μέγεθος των εικόνων κατά την προβολή σελίδων με την επέκταση."
+   },
+   "image_upload_file_too_large": {
+      "message": "Το αρχείο εικόνας είναι πολύ μεγάλο. Επιλέξτε μια εικόνα μικρότερη από 5 MB"
+   },
+   "image_upload_select_file": {
+      "message": "Επιλέξτε ένα αρχείο εικόνας"
+   },
+   "insert_image": {
+      "message": "Εισαγωγή Εικόνας"
+   },
+   "italic": {
+      "message": "Πλάγια"
+   },
+   "lang_display_name": {
+      "message": "Ελληνικά (Greek - Greece)"
+   },
+   "language_setting": {
+      "message": "Γλώσσα"
+   },
+   "language_setting_desc": {
+      "message": "Επιλέξτε την προτιμώμενη γλώσσα σας."
+   },
+   "left": {
+      "message": "Αριστερά"
+   },
+   "letter_paper_size": {
+      "message": "Letter"
+   },
+   "like_printfriendly_extension": {
+      "message": "Σας αρέσει η επέκταση PrintFriendly;"
+   },
+   "like_printfriendly_p1_description": {
+      "message": "Τα σχόλιά σας μας παρακινούν!"
+   },
+   "like_printfriendly_p2_description_chrome": {
+      "message": "Θα θέλατε να αξιολογήσετε το PrintFriendly στο Chrome Web Store;"
+   },
+   "like_printfriendly_p2_description_edge": {
+      "message": "Θα ήσασταν πρόθυμοι να αξιολογήσετε το PrintFriendly στον ιστότοπο προσθηκών του Microsoft Edge;"
+   },
+   "like_printfriendly_p2_description_firefox": {
+      "message": "Θα ήσασταν πρόθυμοι να αξιολογήσετε το PrintFriendly στο κατάστημα πρόσθετων του Firefox;"
+   },
+   "like_printfriendly_p2_description_safari": {
+      "message": "Θα ήσασταν πρόθυμοι να αξιολογήσετε το PrintFriendly στο Safari Extension Store;"
+   },
+   "like_printfriendly_title": {
+      "message": "Χαιρόμαστε που σας αρέσει το PrintFriendly!"
+   },
+   "log_out": {
+      "message": "Αποσύνδεση"
+   },
+   "never": {
+      "message": "Ποτέ"
+   },
+   "no": {
+      "message": "Όχι"
+   },
+   "no_thanks": {
+      "message": "Όχι, ευχαριστώ"
+   },
+   "numbered_list": {
+      "message": "Αριθμημένη λίστα"
+   },
+   "off": {
+      "message": "Απενεργοποίηση"
+   },
+   "one_day": {
+      "message": "1 ημέρα"
+   },
+   "one_month": {
+      "message": "1 μήνας"
+   },
+   "one_week": {
+      "message": "1 εβδομάδα"
+   },
+   "optional_cookie_permission_descr_line1": {
+      "message": "Για να ενεργοποιήσετε τη σύνδεση, κάντε κλικ στο \"Επίτρεψε\" στην επόμενη οθόνη."
+   },
+   "optional_cookie_permission_descr_line2": {
+      "message": "Αυτή η άδεια επιτρέπει στην επέκταση PrintFriendly να επιβεβαιώσει πότε έχετε συνδεθεί στο PrintFriendly.com, ώστε να μπορούμε να συγχρονίσουμε τον λογαριασμό σας με την επέκταση."
+   },
+   "optional_cookie_permission_descr_line3": {
+      "message": "Δεν συλλέγουμε ποτέ το ιστορικό περιήγησης ή δεδομένα από άλλους ιστότοπους."
+   },
+   "optional_downloads_permission_descr_line1": {
+      "message": "Για να αποθηκεύσετε αρχεία σε συγκεκριμένο φάκελο, κάντε κλικ στο \"Επίτρεψε\" στην επόμενη οθόνη."
+   },
+   "optional_downloads_permission_descr_line2": {
+      "message": "Αυτή η άδεια επιτρέπει στην επέκταση PrintFriendly να κατεβάζει τα PDF και τις εικόνες σας απευθείας στον επιλεγμένο προορισμό σας."
+   },
+   "optional_host_permission_descr": {
+      "message": "Για να λειτουργήσει το κουμπί αιώρησης, χρειαζόμαστε άδεια για προβολή και αλλαγή περιεχομένου σε ιστότοπους:"
+   },
+   "optional_host_permission_footer": {
+      "message": "Για να ενεργοποιήσετε, κάντε κλικ στο Επίτρεψε στην επόμενη οθόνη."
+   },
+   "optional_host_permission_item_1": {
+      "message": "Αυτό είναι προαιρετικό και δεν απαιτείται για τη χρήση του PrintFriendly."
+   },
+   "optional_host_permission_item_2": {
+      "message": "Μπορείτε να το απενεργοποιήσετε οποιαδήποτε στιγμή στις ρυθμίσεις."
+   },
+   "optional_host_permission_item_3": {
+      "message": "Δεν αποθηκεύουμε κανένα από τα δεδομένα περιήγησής σας."
+   },
+   "optional_host_permission_title": {
+      "message": "Ενεργοποίηση λειτουργιών πλωτού κουμπιού;"
+   },
+   "optional_permission_descr": {
+      "message": "Αυτός ο ιστότοπος χρησιμοποιεί iframes, τα οποία περιορίζουν την ικανότητά μας να καταγράψουμε ολόκληρη τη σελίδα. Για να τραβήξουμε ένα στιγμιότυπο πλήρους σελίδας, χρειαζόμαστε επιπλέον άδεια. Αφού κλείσετε αυτό το μήνυμα, κάντε κλικ στο “Επιτρέπω” για να συνεχίσετε."
+   },
+   "optional_permission_title": {
+      "message": "Απαιτείται πρόσθετη άδεια"
+   },
+   "other_tools": {
+      "message": "Εργαλεία"
+   },
+   "page_blocking_printfriendly": {
+      "message": "Αυτή η σελίδα μπλοκάρει το PrintFriendly"
+   },
+   "paragraph": {
+      "message": "Παράγραφος"
+   },
+   "pdf": {
+      "message": "PDF"
+   },
+   "pdf_file_downloaded": {
+      "message": "Το αρχείο PDF σας έχει ληφθεί."
+   },
+   "pdf_generation_error": {
+      "message": "Σφάλμα δημιουργίας PDF"
+   },
+   "pdf_paper_size": {
+      "message": "Μέγεθος χαρτιού PDF"
+   },
+   "preformatted": {
+      "message": "Προδιαμορφωμένο"
+   },
+   "print": {
+      "message": "Εκτύπωση"
+   },
+   "print_pdf_margin_pref": {
+      "message": "Περιθώριο εκτύπωσης και PDF"
+   },
+   "print_pdf_margin_pref_descr": {
+      "message": "Προσαρμόστε τα περιθώρια εκτύπωσης και PDF."
+   },
+   "printer_friendly_desc": {
+      "message": "Αφαιρέστε τις διαφημίσεις και την πλοήγηση από τις ιστοσελίδες."
+   },
+   "printfriendly_page": {
+      "message": "Σελίδα PrintFriendly"
+   },
+   "profile_settings": {
+      "message": "Ρυθμίσεις προφίλ"
+   },
+   "remove": {
+      "message": "Αφαίρεση"
+   },
+   "remove_formatting": {
+      "message": "Αφαίρεση μορφοποίησης"
+   },
+   "remove_link": {
+      "message": "Αφαίρεση συνδέσμου"
+   },
+   "report": {
+      "message": "Αναφορά"
+   },
+   "resolve_issue": {
+      "message": "και θα σας βοηθήσουμε να επιλύσετε το πρόβλημα."
+   },
+   "right": {
+      "message": "Δεξιά"
+   },
+   "safari_description": {
+      "message": "Μετατρέψτε ιστοσελίδες σε PDF ή εικόνες. Καθαρές, χωρίς διαφημίσεις, έτοιμες για εκτύπωση ή αποθήκευση."
+   },
+   "safari_name": {
+      "message": "PrintFriendly: PDF και Λήψη"
+   },
+   "save_as": {
+      "message": "Αποθήκευση ως"
+   },
+   "save_as_description": {
+      "message": "Αυτόματα άνοιγμα διαλόγου \"Αποθήκευση ως\" όταν κατεβάζετε PDF ή εικόνες οθόνης. Αν ο περιηγητής σας ήδη έχει ρυθμιστεί να ρωτά πού να αποθηκεύσει αρχεία, αυτή η ρύθμιση υπερισχύει."
+   },
+   "save_changes": {
+      "message": "Αποθήκευση"
+   },
+   "save_updates": {
+      "message": "Αποθήκευση αλλαγών"
+   },
+   "saved": {
+      "message": "Αποθηκεύτηκε."
+   },
+   "screenshot": {
+      "message": "Στιγμιότυπο οθόνης"
+   },
+   "screenshot_image_format": {
+      "message": "Μορφή εικόνας στιγμιότυπου οθόνης"
+   },
+   "screenshot_restriction_message": {
+      "message": "Το PrintFriendly λειτουργεί στα περισσότερα ιστοσελίδες, καθιστώντας εύκολη τη δημιουργία καθαρότερων, φιλικών για εκτύπωση σελίδων και στιγμιότυπων οθόνης. Ωστόσο, ορισμένες σελίδες—όπως ρυθμίσεις περιηγητή, καταστήματα επεκτάσεων και άλλες περιορισμένες περιοχές—είναι εκτός ορίων λόγω των πολιτικών περιηγητή. Παρακαλώ επικοινωνήστε μαζί μας αν έχετε οποιαδήποτε απορία."
+   },
+   "settings": {
+      "message": "Ρυθμίσεις"
+   },
+   "settings_saved": {
+      "message": "Οι ρυθμίσεις σας αποθηκεύτηκαν."
+   },
+   "share_feedback": {
+      "message": "Μοιραστείτε σχόλια."
+   },
+   "show_context_menu_pref": {
+      "message": "Εμφάνιση του PrintFriendly στο μενού περιβάλλοντος δεξιού κλικ."
+   },
+   "show_context_menu_pref_descr": {
+      "message": "Όταν είναι ενεργοποιημένο, μπορείτε να έχετε πρόσβαση στο PrintFriendly απευθείας από το μενού περιεχομένου του προγράμματος περιήγησης."
+   },
+   "show_download_complete_descr": {
+      "message": "Όταν είναι ενεργοποιημένο, εμφανίζεται ένα παράθυρο επιβεβαίωσης μετά τη λήψη του PDF σας, με γρήγορες ενέργειες για επαναλήψη λήψης ή μετατροπή, επεξεργασία ή υπογραφή."
+   },
+   "show_download_complete_pref": {
+      "message": "Εμφάνιση παραθύρου «Η λήψη ολοκληρώθηκε»."
+   },
+   "show_float_button_on_articles_only": {
+      "message": "Εμφάνιση του πλωτού κουμπιού μόνο στις σελίδες άρθρων"
+   },
+   "show_float_button_on_articles_only_pref_descr": {
+      "message": "Ενεργοποιήστε αυτή την επιλογή για να εμφανίζεται το πλωτό κουμπί PrintFriendly μόνο στις σελίδες που φαίνεται να είναι ειδησεογραφικά άρθρα ή αναρτήσεις ιστολογίου."
+   },
+   "sign_in": {
+      "message": "Σύνδεση"
+   },
+   "sign_pdf": {
+      "message": "Υπογραφή PDF"
+   },
+   "skip_screen_next_time": {
+      "message": "Παράλειψη αυτής της οθόνης την επόμενη φορά"
+   },
+   "small_images_pref_descr": {
+      "message": "Μικρές εικόνες συνήθως δεν εμφανίζονται καθώς συχνά δεν είναι χρήσιμες για εκτύπωση ή αποθήκευση σε μορφή PDF. Ενεργοποιήστε αυτήν τη ρύθμιση αν θέλετε να τις δείτε."
+   },
+   "small_images_pref_title": {
+      "message": "Εμφάνιση μικρών εικόνων"
+   },
+   "start_download_pdf_subtitle": {
+      "message": "Μην κλείσετε το πρόγραμμα περιήγησής σας. Αυτό μπορεί να πάρει ένα λεπτό."
+   },
+   "start_download_pdf_title": {
+      "message": "Λήψη του αρχείου PDF σας"
+   },
+   "still_does_not_work": {
+      "message": "Εάν εξακολουθεί να μην λειτουργεί, επικοινωνήστε μαζί μας στο"
+   },
+   "stop_capturing": {
+      "message": "Διακοπή καταγραφής"
+   },
+   "strict_security_settings": {
+      "message": "Λυπούμαστε, αλλά αυτή η σελίδα στο {{domainName}} έχει αυστηρές ρυθμίσεις ασφαλείας (Πολιτική Ασφάλειας Περιεχομένου) που εμποδίζουν τη λειτουργία του PrintFriendly."
+   },
+   "strict_security_settings_support": {
+      "message": "Για περισσότερες λεπτομέρειες ή υποστήριξη, παρακαλώ επικοινωνήστε μαζί μας στο"
+   },
+   "strict_security_unsupported_page": {
+      "message": "Η σελίδα δεν υποστηρίζεται από το PrintFriendly"
+   },
+   "strikethrough": {
+      "message": "Διαγραφή"
+   },
+   "style": {
+      "message": "Στυλ"
+   },
+   "take_me_there": {
+      "message": "Σίγουρα, πάμε εκεί!"
+   },
+   "text_size_pref": {
+      "message": "Προτίμηση μεγέθους κειμένου"
+   },
+   "text_size_pref_desc": {
+      "message": "Ρυθμίστε το μέγεθος του κειμένου κατά την προβολή σελίδων με την επέκταση."
+   },
+   "timed_out_pdf": {
+      "message": "Το PrintFriendly μπορεί να έληξε κατά τη δημιουργία του PDF. Μπορεί να ήταν πολύ μεγάλο για να το διαχειριστεί το σύστημά μας."
+   },
+   "top": {
+      "message": "Κορυφή"
+   },
+   "turn_off_delete": {
+      "message": "Απενεργοποιήστε τη διαγραφή για να κάνετε κλικ στους συνδέσμους."
+   },
+   "unable_to_generate_pdf": {
+      "message": "Δεν μπορέσαμε να δημιουργήσουμε PDF για αυτήν τη σελίδα."
+   },
+   "underline": {
+      "message": "Υπογράμμιση"
+   },
+   "undo": {
+      "message": "Αναίρεση"
+   },
+   "when_to_show_again": {
+      "message": "Πότε να το εμφανίσουμε ξανά;"
+   },
+   "which_option_best": {
+      "message": "Ποια επιλογή είναι η καλύτερη για μένα;"
+   },
+   "yes": {
+      "message": "Ναι"
+   }
+}

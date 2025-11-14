@@ -1,0 +1,491 @@
+{
+   "a4_paper_size": {
+      "message": "A4"
+   },
+   "add_link": {
+      "message": "لنک شامل کریں"
+   },
+   "app_description": {
+      "message": "ویب صفحات کو پرنٹ کے لیے موزوں بنائیں، پی ڈی ایف میں تبدیل کریں یا اسکرین شاٹس لیں۔ صاف صفحات کے لیے اشتہارات ہٹائیں جو پرنٹ یا پی ڈی ایف کے طور پر محفوظ کرنے کے لیے تیار ہوں۔"
+   },
+   "app_name": {
+      "message": "PrintFriendly - پرنٹ کریں، PDF، اور ویب صفحات کے اسکرین شاٹ"
+   },
+   "back": {
+      "message": "پیچھے"
+   },
+   "blocked_by_extension": {
+      "message": "PrintFriendly شاید کسی اور توسیع کی وجہ سے بلاک ہو گیا ہو جو آپ نے انسٹال کی ہو، جیسے کہ ایڈ بلاکر۔ براہ کرم عارضی طور پر اپنی دوسری توسیعات کو غیر فعال کریں اور دوبارہ پی ڈی ایف بنانے کی کوشش کریں۔"
+   },
+   "blockquote": {
+      "message": "بلاک اقتباس"
+   },
+   "bold": {
+      "message": "موٹا"
+   },
+   "bottom": {
+      "message": "نیچے"
+   },
+   "bullet_list": {
+      "message": "بلٹ فہرست"
+   },
+   "cancel": {
+      "message": "منسوخ کریں"
+   },
+   "capture_failed": {
+      "message": "اس سائٹ پر مکمل صفحہ کا اسکرین شاٹ لینا ممکن نہیں ہے۔"
+   },
+   "capture_failed_descr": {
+      "message": "کچھ ویب سائٹس فریمز یا متحرک عناصر استعمال کرتی ہیں جو مکمل اسکرین شاٹ لینے سے روکتی ہیں۔ براہ کرم کسی اور سائٹ کو آزمائیں۔"
+   },
+   "capturing": {
+      "message": "کیپچر کر رہا ہے"
+   },
+   "capturing_desc": {
+      "message": "براہ کرم انتظار کریں، اسکرین شاٹ ایک لمحے میں تیار ہو جائے گا۔"
+   },
+   "choose_paper_size": {
+      "message": "PDF کے لیے اپنے پسندیدہ کاغذ کا سائز منتخب کریں۔"
+   },
+   "choose_save_method": {
+      "message": "اس صفحے کو محفوظ کرنے کا طریقہ منتخب کریں۔"
+   },
+   "compress_pdf": {
+      "message": "پی ڈی ایف کمپریس کریں"
+   },
+   "continue_to": {
+      "message": "جاری رکھیں..."
+   },
+   "convert_pdf": {
+      "message": "PDF کو تبدیل کریں"
+   },
+   "current_view_screenshot": {
+      "message": "اسکرین شاٹ"
+   },
+   "current_view_screenshot_desc": {
+      "message": "صرف صفحے کا مرئی حصہ کیپچر کریں۔"
+   },
+   "default_mode": {
+      "message": "ڈیفالٹ موڈ"
+   },
+   "default_mode_checkbox": {
+      "message": "میری پسند کو یاد رکھیں اور اگلی بار اس مرحلے کو چھوڑ دیں۔"
+   },
+   "default_mode_checkbox_descr": {
+      "message": "آپ اسے بعد میں سیٹنگز میں تبدیل کر سکتے ہیں۔"
+   },
+   "default_mode_desc": {
+      "message": "وہ عمل منتخب کریں جو آپ ایکسٹینشن بٹن پر کلک کرتے وقت خود بخود منتخب ہو۔"
+   },
+   "delete": {
+      "message": "حذف کریں"
+   },
+   "delete_button": {
+      "message": "حذف کریں"
+   },
+   "dialog_close": {
+      "message": "بند کریں"
+   },
+   "dont_like_printfriendly_description": {
+      "message": "آپ کی رائے اس بات کی تشکیل کرتی ہے کہ ہم کیا بناتے ہیں اور ہم کیسے بہتر ہوتے ہیں۔ کیا آپ کے پاس ایک لمحہ ہے ہمیں بتانے کے لیے کہ ہم کیسے بہتر ہو سکتے ہیں؟"
+   },
+   "dont_like_printfriendly_title": {
+      "message": "ہمیں ایک موقع دینے کا شکریہ۔"
+   },
+   "download_again": {
+      "message": "دوبارہ ڈاؤن لوڈ کریں"
+   },
+   "download_directory": {
+      "message": "ڈائریکٹری"
+   },
+   "download_directory_description": {
+      "message": "براہ کرم اپنے ڈاؤن لوڈز ڈائریکٹری کے اندر ایک فولڈر منتخب کریں جہاں آپ اپنی PDF فائلیں اور تصاویر رکھنا چاہتے ہیں۔ اگر آپ اسے خالی چھوڑ دیتے ہیں، تو وہ صرف ڈاؤن لوڈز میں چلی جائیں گی۔ حروف، اعداد، ڈیش، انڈر اسکور، اور سلیش تک محدود رہیں (دوسرے کردار حذف کر دیے جائیں گے)۔"
+   },
+   "edit": {
+      "message": "تدوین کریں"
+   },
+   "edit_link": {
+      "message": "لنک میں ترمیم کریں"
+   },
+   "edit_pdf": {
+      "message": "PDF میں ترمیم کریں"
+   },
+   "email": {
+      "message": "ای میل"
+   },
+   "enable_delete": {
+      "message": "‘ڈیلیٹ’ کو آن کرکے شروع کریں"
+   },
+   "extension_settings": {
+      "message": "ایکسٹینشن کی ترتیبات"
+   },
+   "file_access_description": {
+      "message": "براہ کرم اپنے براؤزر کی ایکسٹینشن سیٹنگز پر جائیں اور \"فائل یو آر ایل تک رسائی کی اجازت دیں\" کو فعال کریں تاکہ ایکسٹینشن اس صفحے تک رسائی حاصل کر سکے۔"
+   },
+   "file_access_title": {
+      "message": "فائل تک رسائی درکار ہے"
+   },
+   "floating_button": {
+      "message": "فلوٹنگ بٹن"
+   },
+   "floating_button_pref_descr": {
+      "message": "PrintFriendly تک آسان رسائی کے لئے بٹن دکھائیں۔"
+   },
+   "full_page_screenshot": {
+      "message": "مکمل صفحہ کا اسکرین شاٹ"
+   },
+   "full_page_screenshot_desc": {
+      "message": "ویب صفحہ کو جیسا کہ اشتہارات وغیرہ کے ساتھ ظاہر ہوتا ہے، کیپچر کریں۔"
+   },
+   "give_feedback": {
+      "message": "نہیں، رد عمل دیں۔"
+   },
+   "go_to_link": {
+      "message": "لنک پر جائیں"
+   },
+   "got_it": {
+      "message": "سمجھ گیا"
+   },
+   "heading_1": {
+      "message": "ہیڈنگ 1"
+   },
+   "heading_2": {
+      "message": "ہیڈنگ 2"
+   },
+   "heading_3": {
+      "message": "ہیڈنگ 3"
+   },
+   "heading_4": {
+      "message": "ہیڈنگ 4"
+   },
+   "heading_5": {
+      "message": "ہیڈنگ 5"
+   },
+   "heading_6": {
+      "message": "ہیڈنگ 6"
+   },
+   "highlight": {
+      "message": "نمایاں کریں"
+   },
+   "history_menu": {
+      "message": "تاریخ (جلد آ رہا ہے)"
+   },
+   "image": {
+      "message": "تصویر"
+   },
+   "image_size_pref": {
+      "message": "تصویر کے سائز کی ترجیح"
+   },
+   "image_size_pref_desc": {
+      "message": "توسیع کے ساتھ صفحات دیکھتے وقت تصاویر کا سائز سیٹ کریں۔"
+   },
+   "image_upload_file_too_large": {
+      "message": "تصویر فائل بہت بڑی ہے۔ براہ کرم 5MB سے چھوٹی تصویر منتخب کریں"
+   },
+   "image_upload_select_file": {
+      "message": "براہ مہربانی ایک امیج فائل منتخب کریں"
+   },
+   "insert_image": {
+      "message": "تصویر داخل کریں"
+   },
+   "italic": {
+      "message": "ترچھا"
+   },
+   "lang_display_name": {
+      "message": "اردو (Urdu)"
+   },
+   "language_setting": {
+      "message": "زبان"
+   },
+   "language_setting_desc": {
+      "message": "اپنی پسندیدہ زبان منتخب کریں۔"
+   },
+   "left": {
+      "message": "بائیں"
+   },
+   "letter_paper_size": {
+      "message": "خط"
+   },
+   "like_printfriendly_extension": {
+      "message": "کیا آپ کو PrintFriendly ایکسٹینشن پسند ہے؟"
+   },
+   "like_printfriendly_p1_description": {
+      "message": "آپ کی رائے ہمیں متحرک کرتی ہے!"
+   },
+   "like_printfriendly_p2_description_chrome": {
+      "message": "کیا آپ Chrome ویب اسٹور پر PrintFriendly کا جائزہ لینے کے لیے تیار ہوں گے؟"
+   },
+   "like_printfriendly_p2_description_edge": {
+      "message": "کیا آپ Microsoft Edge Add-ons ویب سائٹ پر PrintFriendly کا جائزہ لینے پر راضی ہوں گے؟"
+   },
+   "like_printfriendly_p2_description_firefox": {
+      "message": "کیا آپ Firefox Add-ons Store پر PrintFriendly کا جائزہ لینے کے لیے تیار ہوں گے؟"
+   },
+   "like_printfriendly_p2_description_safari": {
+      "message": "کیا آپ Safari Extension Store پر PrintFriendly کا جائزہ لینے کے لیے تیار ہوں گے؟"
+   },
+   "like_printfriendly_title": {
+      "message": "ہمیں خوشی ہے کہ آپ کو PrintFriendly پسند آیا!"
+   },
+   "log_out": {
+      "message": "لاگ آؤٹ"
+   },
+   "never": {
+      "message": "کبھی نہیں"
+   },
+   "no": {
+      "message": "نہیں"
+   },
+   "no_thanks": {
+      "message": "نہیں، شکریہ"
+   },
+   "numbered_list": {
+      "message": "نمبر شدہ فہرست"
+   },
+   "off": {
+      "message": "بند"
+   },
+   "one_day": {
+      "message": "1 دن"
+   },
+   "one_month": {
+      "message": "1 مہینہ"
+   },
+   "one_week": {
+      "message": "1 ہفتہ"
+   },
+   "optional_cookie_permission_descr_line1": {
+      "message": "سائن ان فعال کرنے کے لیے، براہ کرم اگلی اسکرین پر \"اجازت دیں\" پر کلک کریں۔"
+   },
+   "optional_cookie_permission_descr_line2": {
+      "message": "یہ اجازت PrintFriendly ایکسٹینشن کو اس وقت کی تصدیق کرنے دیتی ہے جب آپ PrintFriendly.com میں لاگ ان ہوتے ہیں، تاکہ ہم آپ کے اکاؤنٹ کو ایکسٹینشن کے ساتھ ہم آہنگ کر سکیں۔"
+   },
+   "optional_cookie_permission_descr_line3": {
+      "message": "ہم کبھی بھی آپ کی براؤزنگ ہسٹری یا دیگر ویب سائٹس سے ڈیٹا اکٹھا نہیں کرتے۔"
+   },
+   "optional_downloads_permission_descr_line1": {
+      "message": "براہ کرم فائلوں کو مخصوص فولڈر میں محفوظ کرنے کے لیے اگلی اسکرین پر \"اجازت دیں\" پر کلک کریں۔"
+   },
+   "optional_downloads_permission_descr_line2": {
+      "message": "یہ اجازت PrintFriendly ایکسٹینشن کو آپ کے PDF اور تصاویر کو براہِ راست آپ کی منتخب کردہ جگہ پر ڈاؤن لوڈ کرنے دیتی ہے۔"
+   },
+   "optional_host_permission_descr": {
+      "message": "فلوٹنگ بٹن کو کام کرنے کے لئے ہمیں ویب سائٹس پر مواد دیکھنے اور تبدیل کرنے کی اجازت درکار ہے:"
+   },
+   "optional_host_permission_footer": {
+      "message": "فعال کرنے کے لیے، براہ کرم اگلی سکرین پر اجازت پر کلک کریں۔"
+   },
+   "optional_host_permission_item_1": {
+      "message": "یہ اختیاری ہے اور PrintFriendly استعمال کرنے کے لئے ضروری نہیں ہے۔"
+   },
+   "optional_host_permission_item_2": {
+      "message": "آپ اسے کسی بھی وقت سیٹنگز میں بند کر سکتے ہیں۔"
+   },
+   "optional_host_permission_item_3": {
+      "message": "ہم آپ کی براؤزنگ ڈیٹا کو محفوظ نہیں کرتے ہیں۔"
+   },
+   "optional_host_permission_title": {
+      "message": "فلوٹنگ بٹن کی خصوصیات کو فعال کریں؟"
+   },
+   "optional_permission_descr": {
+      "message": "یہ ویب سائٹ iframes استعمال کرتی ہے، جو مکمل صفحہ کیپچر کرنے کی ہماری صلاحیت کو محدود کرتی ہے۔ مکمل صفحے کا اسکرین شاٹ لینے کے لیے، ہمیں اضافی اجازت درکار ہے۔ اس پیغام کو بند کرنے کے بعد، براہ کرم آگے بڑھنے کے لیے “اجازت دیں” پر کلک کریں۔"
+   },
+   "optional_permission_title": {
+      "message": "اضافی اجازت درکار ہے"
+   },
+   "other_tools": {
+      "message": "دیگر ٹولز"
+   },
+   "page_blocking_printfriendly": {
+      "message": "یہ صفحہ PrintFriendly کو روک رہا ہے"
+   },
+   "paragraph": {
+      "message": "پیراگراف"
+   },
+   "pdf": {
+      "message": "پی ڈی ایف"
+   },
+   "pdf_file_downloaded": {
+      "message": "آپ کی PDF فائل ڈاؤن لوڈ ہو چکی ہے۔"
+   },
+   "pdf_generation_error": {
+      "message": "PDF کی تخلیق میں خرابی"
+   },
+   "pdf_paper_size": {
+      "message": "PDF کاغذ کا سائز"
+   },
+   "preformatted": {
+      "message": "پیش ساختہ"
+   },
+   "print": {
+      "message": "پرنٹ"
+   },
+   "print_pdf_margin_pref": {
+      "message": "پرنٹ اور پی ڈی ایف مارجن"
+   },
+   "print_pdf_margin_pref_descr": {
+      "message": "پرنٹ اور PDF مارجن کو حسب ضرورت بنائیں۔"
+   },
+   "printer_friendly_desc": {
+      "message": "ویب صفحات سے اشتہارات اور نیویگیشن کو ہٹا دیں۔"
+   },
+   "printfriendly_page": {
+      "message": "PrintFriendly صفحہ"
+   },
+   "profile_settings": {
+      "message": "پروفائل کی ترتیبات"
+   },
+   "remove": {
+      "message": "ہٹائیں"
+   },
+   "remove_formatting": {
+      "message": "فارمیٹنگ ہٹائیں"
+   },
+   "remove_link": {
+      "message": "لنک ہٹائیں"
+   },
+   "report": {
+      "message": "رپورٹ"
+   },
+   "resolve_issue": {
+      "message": "اور ہم آپ کو مسئلہ حل کرنے میں مدد کریں گے۔"
+   },
+   "right": {
+      "message": "دائیں"
+   },
+   "safari_description": {
+      "message": "ویب صفحات کو PDF یا تصاویر میں تبدیل کریں۔ صاف، بغیر اشتہارات کے صفحات، پرنٹ یا محفوظ کرنے کو تیار۔"
+   },
+   "safari_name": {
+      "message": "PrintFriendly: PDF اور گرفت"
+   },
+   "save_as": {
+      "message": "اس نام سے محفوظ کریں"
+   },
+   "save_as_description": {
+      "message": "جب آپ PDF یا سکرین شاٹ کی تصاویر ڈاؤن لوڈ کریں تو خود بخود \"Save As\" ڈائیلاگ باکس کھل جائے۔ اگر آپ کا براؤزر پہلے سے یہ پوچھنے پر سیٹ ہے کہ فائلیں کہاں محفوظ کرنی ہیں، تو وہ سیٹنگ ترجیحی ہوگی۔"
+   },
+   "save_changes": {
+      "message": "محفوظ کریں"
+   },
+   "save_updates": {
+      "message": "تبدیلیاں محفوظ کریں"
+   },
+   "saved": {
+      "message": "محفوظ کیا گیا۔"
+   },
+   "screenshot": {
+      "message": "اسکرین شاٹ"
+   },
+   "screenshot_image_format": {
+      "message": "اسکرین شاٹ تصویر کی شکل"
+   },
+   "screenshot_restriction_message": {
+      "message": "PrintFriendly زیادہ تر ویب سائٹس پر کام کرتا ہے، صاف ستھری، پرنٹ کے لیے دوستانہ صفحات اور اسکرین شاٹس بنانا آسان بناتا ہے۔ تاہم، کچھ صفحات—جیسے براؤزر سیٹنگز، ایکسٹینشن اسٹورز، اور دیگر محدود علاقوں—براؤزر کی پالیسیوں کی وجہ سے محدود ہیں۔ اگر آپ کے کوئی سوالات ہوں تو براہ کرم ہم سے رابطہ کریں۔"
+   },
+   "settings": {
+      "message": "ترتیبات"
+   },
+   "settings_saved": {
+      "message": "آپ کی ترتیبات محفوظ کر لی گئی ہیں۔"
+   },
+   "share_feedback": {
+      "message": "تاثرات شیئر کریں۔"
+   },
+   "show_context_menu_pref": {
+      "message": "PrintFriendly کو دائیں کلک والے کانٹیکسٹ مینو میں دکھائیں۔"
+   },
+   "show_context_menu_pref_descr": {
+      "message": "چالو کرنے پر، آپ اپنے براؤزر کے کانٹیکسٹ مینو سے براہ راست PrintFriendly تک رسائی حاصل کر سکتے ہیں۔"
+   },
+   "show_download_complete_descr": {
+      "message": "فعال ہونے پر، آپ کی PDF ڈاؤن لوڈ ہونے کے بعد ایک تصدیقی ونڈو ظاہر ہوتی ہے، جس میں دوبارہ ڈاؤن لوڈ یا تبدیل، ترمیم یا دستخط کرنے کے فوری اقدامات ہوتے ہیں۔"
+   },
+   "show_download_complete_pref": {
+      "message": "ڈاؤن لوڈ مکمل ونڈو دکھائیں۔"
+   },
+   "show_float_button_on_articles_only": {
+      "message": "فلوٹنگ بٹن کو صرف مضمون صفحات پر دکھائیں"
+   },
+   "show_float_button_on_articles_only_pref_descr": {
+      "message": "اس اختیار کو فعال کریں تاکہ صرف ان صفحات پر فلوٹنگ پرنٹ فرینڈلی بٹن دکھائی دے جو خبری مضامین یا بلاگ پوسٹس کے طور پر ظاہر ہوتے ہیں۔"
+   },
+   "sign_in": {
+      "message": "سائن ان کریں"
+   },
+   "sign_pdf": {
+      "message": "پی ڈی ایف پر دستخط کریں"
+   },
+   "skip_screen_next_time": {
+      "message": "اگلی بار اس اسکرین کو چھوڑ دیں"
+   },
+   "small_images_pref_descr": {
+      "message": "چھوٹے تصاویر عام طور پر اس لیے چھپائے جاتے ہیں کیونکہ وہ اکثر پرنٹ کرنے یا پی ڈی ایف میں محفوظ کرنے کے وقت مفید نہیں ہوتے۔ اگر آپ انہیں دیکھنا چاہتے ہیں تو یہ سیٹنگ آن کریں۔"
+   },
+   "small_images_pref_title": {
+      "message": "چھوٹی تصاویر دکھائیں"
+   },
+   "start_download_pdf_subtitle": {
+      "message": "براہ کرم اپنا براؤزر بند نہ کریں۔ اس میں ایک منٹ لگ سکتا ہے۔"
+   },
+   "start_download_pdf_title": {
+      "message": "آپ کی پی ڈی ایف فائل ڈاؤن لوڈ ہو رہی ہے"
+   },
+   "still_does_not_work": {
+      "message": "اگر یہ اب بھی کام نہیں کرتا ہے، تو براہ کرم ہم سے رابطہ کریں"
+   },
+   "stop_capturing": {
+      "message": "کیپچر کرنا روکیں"
+   },
+   "strict_security_settings": {
+      "message": "معذرت کے ساتھ، لیکن {{domainName}} پر یہ صفحہ سخت حفاظتی ترتیبات (مواد کی سلامتی کی پالیسی) رکھتا ہے جو PrintFriendly کو کام کرنے سے روکتی ہیں۔"
+   },
+   "strict_security_settings_support": {
+      "message": "مزید تفصیلات یا معاونت کے لیے، براہ کرم ہم سے رابطہ کریں"
+   },
+   "strict_security_unsupported_page": {
+      "message": "صفحہ PrintFriendly کے ذریعے سپورٹ نہیں کیا جاتا"
+   },
+   "strikethrough": {
+      "message": "کاٹا ہوا"
+   },
+   "style": {
+      "message": "انداز"
+   },
+   "take_me_there": {
+      "message": "بالکل، مجھے وہاں لے چلو!"
+   },
+   "text_size_pref": {
+      "message": "متن کے سائز کی ترجیح"
+   },
+   "text_size_pref_desc": {
+      "message": "توسیع کے ساتھ صفحات دیکھتے وقت متن کا سائز سیٹ کریں۔"
+   },
+   "timed_out_pdf": {
+      "message": "PrintFriendly شاید PDF بناتے وقت وقت ختم ہو گیا ہو۔ یہ ہمارے سسٹم کے لیے سنبھالنے کے لیے بہت بڑا ہو سکتا ہے۔"
+   },
+   "top": {
+      "message": "اوپر"
+   },
+   "turn_off_delete": {
+      "message": "لنکس پر کلک کرنے کے لیے ڈیلیٹ بند کریں۔"
+   },
+   "unable_to_generate_pdf": {
+      "message": "ہم اس صفحے کے لیے PDF نہیں بنا سکے۔"
+   },
+   "underline": {
+      "message": "زیریں لکیر"
+   },
+   "undo": {
+      "message": "کالعدم کریں"
+   },
+   "when_to_show_again": {
+      "message": "ہمیں یہ دوبارہ کب دکھانا چاہیے؟"
+   },
+   "which_option_best": {
+      "message": "میرے لیے کون سا اختیار بہترین ہے؟"
+   },
+   "yes": {
+      "message": "جی ہاں"
+   }
+}

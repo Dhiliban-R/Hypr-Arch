@@ -1,0 +1,491 @@
+{
+   "a4_paper_size": {
+      "message": "A4"
+   },
+   "add_link": {
+      "message": "Thêm liên kết"
+   },
+   "app_description": {
+      "message": "Biến các trang web thân thiện với máy in, chuyển đổi thành PDF hoặc chụp ảnh màn hình. Xóa quảng cáo để có các trang sạch sẵn sàng in hoặc lưu dưới dạng PDF."
+   },
+   "app_name": {
+      "message": "PrintFriendly - In, PDF và ảnh chụp màn hình trang web"
+   },
+   "back": {
+      "message": "Quay lại"
+   },
+   "blocked_by_extension": {
+      "message": "PrintFriendly có thể đã bị chặn bởi tiện ích khác mà bạn đã cài đặt, chẳng hạn như trình chặn quảng cáo. Vui lòng tạm thời tắt các tiện ích khác và thử tạo lại PDF."
+   },
+   "blockquote": {
+      "message": "Trích dẫn khối"
+   },
+   "bold": {
+      "message": "In đậm"
+   },
+   "bottom": {
+      "message": "Phần dưới"
+   },
+   "bullet_list": {
+      "message": "Danh sách có gạch đầu dòng"
+   },
+   "cancel": {
+      "message": "Hủy"
+   },
+   "capture_failed": {
+      "message": "Không thể chụp ảnh màn hình toàn trang trên trang web này."
+   },
+   "capture_failed_descr": {
+      "message": "Một số trang web sử dụng khung hoặc các yếu tố động ngăn chặn việc chụp màn hình đầy đủ. Vui lòng thử một trang web khác."
+   },
+   "capturing": {
+      "message": "Đang Chụp"
+   },
+   "capturing_desc": {
+      "message": "Vui lòng đợi, ảnh chụp màn hình sẽ sẵn sàng trong giây lát."
+   },
+   "choose_paper_size": {
+      "message": "Chọn kích thước giấy ưa thích cho PDF."
+   },
+   "choose_save_method": {
+      "message": "Chọn cách lưu trang này"
+   },
+   "compress_pdf": {
+      "message": "Nén PDF"
+   },
+   "continue_to": {
+      "message": "Tiếp tục đến..."
+   },
+   "convert_pdf": {
+      "message": "Chuyển đổi PDF"
+   },
+   "current_view_screenshot": {
+      "message": "Ảnh chụp màn hình"
+   },
+   "current_view_screenshot_desc": {
+      "message": "Chụp chỉ phần hiển thị của trang."
+   },
+   "default_mode": {
+      "message": "Chế độ mặc định"
+   },
+   "default_mode_checkbox": {
+      "message": "Ghi nhớ lựa chọn của tôi và bỏ qua bước này lần sau."
+   },
+   "default_mode_checkbox_descr": {
+      "message": "Bạn có thể thay đổi điều này sau trong Cài đặt."
+   },
+   "default_mode_desc": {
+      "message": "Chọn hành động sẽ được tự động chọn khi bạn nhấp vào nút tiện ích."
+   },
+   "delete": {
+      "message": "Click để xóa"
+   },
+   "delete_button": {
+      "message": "Xóa"
+   },
+   "dialog_close": {
+      "message": "Đóng"
+   },
+   "dont_like_printfriendly_description": {
+      "message": "Phản hồi của bạn định hình những gì chúng tôi xây dựng và cách chúng tôi cải thiện. Bạn có một giây để cho chúng tôi biết cách làm tốt hơn không?"
+   },
+   "dont_like_printfriendly_title": {
+      "message": "Cảm ơn bạn đã cho chúng tôi một cơ hội"
+   },
+   "download_again": {
+      "message": "Tải xuống lại"
+   },
+   "download_directory": {
+      "message": "Thư mục"
+   },
+   "download_directory_description": {
+      "message": "Chỉ định một thư mục bên trong thư mục Tải xuống của bạn nơi bạn muốn lưu các tệp PDF và hình ảnh của mình. Nếu để trống, các tệp sẽ được lưu trong thư mục Tải xuống. Giữ nguyên các chữ cái, số, dấu gạch ngang, dấu gạch dưới và dấu gạch chéo (các ký tự khác sẽ bị loại bỏ)."
+   },
+   "edit": {
+      "message": "Chỉnh sửa"
+   },
+   "edit_link": {
+      "message": "Chỉnh sửa liên kết"
+   },
+   "edit_pdf": {
+      "message": "Chỉnh sửa PDF"
+   },
+   "email": {
+      "message": "Email"
+   },
+   "enable_delete": {
+      "message": "Bắt đầu khi Xóa được bật"
+   },
+   "extension_settings": {
+      "message": "Cài đặt tiện ích mở rộng"
+   },
+   "file_access_description": {
+      "message": "Vui lòng vào cài đặt tiện ích mở rộng của trình duyệt và bật \"Cho phép truy cập vào URL tệp\", để tiện ích có thể truy cập trang này."
+   },
+   "file_access_title": {
+      "message": "Cần quyền truy cập tệp"
+   },
+   "floating_button": {
+      "message": "Nút nổi"
+   },
+   "floating_button_pref_descr": {
+      "message": "Hiển thị nút để dễ dàng truy cập PrintFriendly."
+   },
+   "full_page_screenshot": {
+      "message": "Ảnh chụp toàn trang"
+   },
+   "full_page_screenshot_desc": {
+      "message": "Chụp trang web như nó xuất hiện với quảng cáo, v.v."
+   },
+   "give_feedback": {
+      "message": "Không, hãy gửi phản hồi."
+   },
+   "go_to_link": {
+      "message": "Đi đến liên kết"
+   },
+   "got_it": {
+      "message": "Đã hiểu"
+   },
+   "heading_1": {
+      "message": "Tiêu đề 1"
+   },
+   "heading_2": {
+      "message": "Tiêu đề 2"
+   },
+   "heading_3": {
+      "message": "Tiêu đề 3"
+   },
+   "heading_4": {
+      "message": "Tiêu đề 4"
+   },
+   "heading_5": {
+      "message": "Tiêu đề 5"
+   },
+   "heading_6": {
+      "message": "Tiêu đề 6"
+   },
+   "highlight": {
+      "message": "Làm nổi bật"
+   },
+   "history_menu": {
+      "message": "Lịch sử (Sắp ra mắt)"
+   },
+   "image": {
+      "message": "Hình ảnh"
+   },
+   "image_size_pref": {
+      "message": "Tùy chọn kích thước hình ảnh"
+   },
+   "image_size_pref_desc": {
+      "message": "Đặt kích thước hình ảnh khi xem các trang bằng tiện ích mở rộng."
+   },
+   "image_upload_file_too_large": {
+      "message": "Tệp hình ảnh quá lớn. Vui lòng chọn hình nhỏ hơn 5MB"
+   },
+   "image_upload_select_file": {
+      "message": "Vui lòng chọn một tệp hình ảnh"
+   },
+   "insert_image": {
+      "message": "Chèn Hình Ảnh"
+   },
+   "italic": {
+      "message": "Nghiêng"
+   },
+   "lang_display_name": {
+      "message": "Tiếng Việt (Vietnamese)"
+   },
+   "language_setting": {
+      "message": "Ngôn ngữ"
+   },
+   "language_setting_desc": {
+      "message": "Chọn ngôn ngữ bạn muốn."
+   },
+   "left": {
+      "message": "Trái"
+   },
+   "letter_paper_size": {
+      "message": "Thư"
+   },
+   "like_printfriendly_extension": {
+      "message": "Bạn có thích tiện ích mở rộng PrintFriendly không?"
+   },
+   "like_printfriendly_p1_description": {
+      "message": "Phản hồi của bạn là động lực cho chúng tôi!"
+   },
+   "like_printfriendly_p2_description_chrome": {
+      "message": "Bạn có sẵn lòng đánh giá PrintFriendly trên Chrome Web Store không?"
+   },
+   "like_printfriendly_p2_description_edge": {
+      "message": "Bạn có sẵn lòng đánh giá PrintFriendly trên trang web Microsoft Edge Add-ons không?"
+   },
+   "like_printfriendly_p2_description_firefox": {
+      "message": "Bạn có sẵn lòng đánh giá PrintFriendly trên Firefox Add-ons Store không?"
+   },
+   "like_printfriendly_p2_description_safari": {
+      "message": "Bạn có sẵn lòng đánh giá PrintFriendly trên Safari Extension Store không?"
+   },
+   "like_printfriendly_title": {
+      "message": "Chúng tôi rất vui vì bạn thích PrintFriendly!"
+   },
+   "log_out": {
+      "message": "Đăng xuất"
+   },
+   "never": {
+      "message": "Không bao giờ"
+   },
+   "no": {
+      "message": "Không"
+   },
+   "no_thanks": {
+      "message": "Không, cảm ơn."
+   },
+   "numbered_list": {
+      "message": "Danh sách được đánh số"
+   },
+   "off": {
+      "message": "Tắt"
+   },
+   "one_day": {
+      "message": "1 ngày"
+   },
+   "one_month": {
+      "message": "1 tháng"
+   },
+   "one_week": {
+      "message": "1 tuần"
+   },
+   "optional_cookie_permission_descr_line1": {
+      "message": "Để bật đăng nhập, vui lòng nhấp “Cho phép” trên màn hình tiếp theo."
+   },
+   "optional_cookie_permission_descr_line2": {
+      "message": "Quyền này cho phép tiện ích mở rộng PrintFriendly xác nhận khi bạn đã đăng nhập vào PrintFriendly.com, để chúng tôi có thể đồng bộ hóa tài khoản của bạn với tiện ích."
+   },
+   "optional_cookie_permission_descr_line3": {
+      "message": "Chúng tôi không bao giờ thu thập lịch sử duyệt web hoặc dữ liệu từ các trang web khác."
+   },
+   "optional_downloads_permission_descr_line1": {
+      "message": "Để lưu tệp vào thư mục cụ thể, vui lòng nhấp “Cho phép” trên màn hình tiếp theo."
+   },
+   "optional_downloads_permission_descr_line2": {
+      "message": "Quyền này cho phép tiện ích mở rộng PrintFriendly tự động tải PDF và hình ảnh của bạn trực tiếp đến vị trí bạn chọn."
+   },
+   "optional_host_permission_descr": {
+      "message": "Để nút nổi hoạt động, chúng tôi cần quyền xem và thay đổi nội dung trên các trang web:"
+   },
+   "optional_host_permission_footer": {
+      "message": "Để kích hoạt, vui lòng nhấp Cho phép ở màn hình tiếp theo."
+   },
+   "optional_host_permission_item_1": {
+      "message": "Điều này là tùy chọn và không bắt buộc để sử dụng PrintFriendly."
+   },
+   "optional_host_permission_item_2": {
+      "message": "Bạn có thể tắt điều này bất cứ lúc nào trong cài đặt."
+   },
+   "optional_host_permission_item_3": {
+      "message": "Chúng tôi không lưu trữ dữ liệu duyệt web của bạn."
+   },
+   "optional_host_permission_title": {
+      "message": "Bật tính năng nút nổi?"
+   },
+   "optional_permission_descr": {
+      "message": "Trang web này sử dụng iframe, điều này giới hạn khả năng chụp toàn bộ trang của chúng tôi. Để chụp ảnh toàn bộ trang, chúng tôi cần thêm quyền. Sau khi đóng thông báo này, vui lòng nhấp vào “Cho phép” để tiếp tục."
+   },
+   "optional_permission_title": {
+      "message": "Cần có quyền bổ sung"
+   },
+   "other_tools": {
+      "message": "Công cụ"
+   },
+   "page_blocking_printfriendly": {
+      "message": "Trang này đang chặn PrintFriendly"
+   },
+   "paragraph": {
+      "message": "Đoạn văn"
+   },
+   "pdf": {
+      "message": "PDF"
+   },
+   "pdf_file_downloaded": {
+      "message": "Tệp PDF của bạn đã được tải xuống."
+   },
+   "pdf_generation_error": {
+      "message": "Lỗi tạo PDF"
+   },
+   "pdf_paper_size": {
+      "message": "Kích Thước Giấy PDF"
+   },
+   "preformatted": {
+      "message": "Được định dạng trước"
+   },
+   "print": {
+      "message": "In"
+   },
+   "print_pdf_margin_pref": {
+      "message": "Lề In & PDF"
+   },
+   "print_pdf_margin_pref_descr": {
+      "message": "Tùy chỉnh lề in và PDF."
+   },
+   "printer_friendly_desc": {
+      "message": "Xóa quảng cáo và điều hướng khỏi các trang web."
+   },
+   "printfriendly_page": {
+      "message": "Trang PrintFriendly"
+   },
+   "profile_settings": {
+      "message": "Cài đặt hồ sơ"
+   },
+   "remove": {
+      "message": "Xóa"
+   },
+   "remove_formatting": {
+      "message": "Xóa định dạng"
+   },
+   "remove_link": {
+      "message": "Xóa liên kết"
+   },
+   "report": {
+      "message": "Báo Cáo"
+   },
+   "resolve_issue": {
+      "message": "và chúng tôi sẽ giúp bạn giải quyết vấn đề."
+   },
+   "right": {
+      "message": "Phải"
+   },
+   "safari_description": {
+      "message": "Chuyển trang web thành PDF hoặc hình ảnh. Trang sạch, không quảng cáo, sẵn sàng in hoặc lưu."
+   },
+   "safari_name": {
+      "message": "PrintFriendly: PDF và Bắt giữ"
+   },
+   "save_as": {
+      "message": "Lưu dưới tên"
+   },
+   "save_as_description": {
+      "message": "Mở tự động hộp thoại “Lưu dưới dạng” khi bạn tải PDF hoặc ảnh chụp màn hình. Nếu trình duyệt của bạn đã được cài đặt để hỏi nơi lưu tệp, thì thiết lập đó sẽ được ưu tiên."
+   },
+   "save_changes": {
+      "message": "Lưu"
+   },
+   "save_updates": {
+      "message": "Lưu Thay Đổi"
+   },
+   "saved": {
+      "message": "Đã lưu."
+   },
+   "screenshot": {
+      "message": "Ảnh Chụp Màn Hình"
+   },
+   "screenshot_image_format": {
+      "message": "Định Dạng Ảnh Chụp Màn Hình"
+   },
+   "screenshot_restriction_message": {
+      "message": "PrintFriendly hoạt động trên hầu hết các trang web, giúp việc tạo ra các trang in sạch sẽ, thân thiện và ảnh chụp màn hình trở nên dễ dàng. Tuy nhiên, một số trang—như cài đặt trình duyệt, cửa hàng tiện ích mở rộng và các khu vực bị giới hạn khác—không thể truy cập được do chính sách của trình duyệt. Vui lòng liên hệ với chúng tôi nếu bạn có bất kỳ câu hỏi nào."
+   },
+   "settings": {
+      "message": "Cài Đặt"
+   },
+   "settings_saved": {
+      "message": "Cài đặt của bạn đã được lưu."
+   },
+   "share_feedback": {
+      "message": "Chia sẻ phản hồi."
+   },
+   "show_context_menu_pref": {
+      "message": "Hiển thị PrintFriendly trong menu ngữ cảnh chuột phải."
+   },
+   "show_context_menu_pref_descr": {
+      "message": "Khi được kích hoạt, bạn có thể truy cập trực tiếp PrintFriendly từ menu ngữ cảnh của trình duyệt."
+   },
+   "show_download_complete_descr": {
+      "message": "Khi được bật, một cửa sổ xác nhận xuất hiện sau khi PDF của bạn được tải xuống, với các hành động nhanh để tải lại hoặc chuyển đổi, chỉnh sửa hoặc ký."
+   },
+   "show_download_complete_pref": {
+      "message": "Hiển thị cửa sổ “Tải xuống hoàn tất”."
+   },
+   "show_float_button_on_articles_only": {
+      "message": "Chỉ hiển thị nút nổi trên các trang bài viết"
+   },
+   "show_float_button_on_articles_only_pref_descr": {
+      "message": "Kích hoạt tùy chọn này để hiển thị nút PrintFriendly nổi chỉ trên các trang xuất hiện như các bài báo hoặc bài đăng trên blog."
+   },
+   "sign_in": {
+      "message": "Đăng nhập"
+   },
+   "sign_pdf": {
+      "message": "Ký PDF"
+   },
+   "skip_screen_next_time": {
+      "message": "Bỏ qua màn hình này lần sau"
+   },
+   "small_images_pref_descr": {
+      "message": "Hình ảnh nhỏ thường bị ẩn vì chúng thường không hữu ích khi in hoặc lưu dưới dạng PDF. Bật cài đặt này nếu bạn muốn xem chúng."
+   },
+   "small_images_pref_title": {
+      "message": "Hiển thị hình ảnh nhỏ"
+   },
+   "start_download_pdf_subtitle": {
+      "message": "Vui lòng không đóng trình duyệt của bạn. Điều này có thể mất một phút."
+   },
+   "start_download_pdf_title": {
+      "message": "Tệp PDF của bạn đang được tải xuống"
+   },
+   "still_does_not_work": {
+      "message": "Nếu vẫn không hoạt động, vui lòng liên hệ với chúng tôi tại"
+   },
+   "stop_capturing": {
+      "message": "Dừng Chụp"
+   },
+   "strict_security_settings": {
+      "message": "Xin lỗi, nhưng trang này trên {{domainName}} có các cài đặt bảo mật nghiêm ngặt (Chính sách Bảo mật Nội dung) khiến PrintFriendly không thể hoạt động."
+   },
+   "strict_security_settings_support": {
+      "message": "Để biết thêm chi tiết hoặc hỗ trợ, vui lòng liên hệ với chúng tôi tại"
+   },
+   "strict_security_unsupported_page": {
+      "message": "Trang không được hỗ trợ bởi PrintFriendly"
+   },
+   "strikethrough": {
+      "message": "Gạch ngang"
+   },
+   "style": {
+      "message": "Kiểu"
+   },
+   "take_me_there": {
+      "message": "Chắc chắn rồi, đưa tôi đến đó nhé!"
+   },
+   "text_size_pref": {
+      "message": "Tùy chọn kích thước văn bản"
+   },
+   "text_size_pref_desc": {
+      "message": "Đặt kích thước văn bản khi xem các trang bằng tiện ích mở rộng."
+   },
+   "timed_out_pdf": {
+      "message": "PrintFriendly có thể đã hết thời gian chờ khi tạo tệp PDF. Có thể tệp quá lớn để hệ thống của chúng tôi xử lý."
+   },
+   "top": {
+      "message": "Trên cùng"
+   },
+   "turn_off_delete": {
+      "message": "Tắt Xóa để nhấp vào liên kết."
+   },
+   "unable_to_generate_pdf": {
+      "message": "Chúng tôi không thể tạo tệp PDF cho trang này."
+   },
+   "underline": {
+      "message": "Gạch chân"
+   },
+   "undo": {
+      "message": "Hoàn Tác"
+   },
+   "when_to_show_again": {
+      "message": "Khi nào chúng ta nên hiển thị lại điều này?"
+   },
+   "which_option_best": {
+      "message": "Lựa chọn nào là tốt nhất cho tôi?"
+   },
+   "yes": {
+      "message": "Vâng"
+   }
+}

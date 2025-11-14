@@ -1,0 +1,491 @@
+{
+   "a4_paper_size": {
+      "message": "A4"
+   },
+   "add_link": {
+      "message": "افزودن لینک"
+   },
+   "app_description": {
+      "message": "صفحات وب را برای چاپ مناسب کنید، به PDF تبدیل کنید یا اسکرین‌شات بگیرید. تبلیغات را حذف کنید تا صفحات تمیزی برای چاپ یا ذخیره به صورت PDF داشته باشید."
+   },
+   "app_name": {
+      "message": "PrintFriendly - چاپ، PDF و عکس از صفحات وب"
+   },
+   "back": {
+      "message": "بازگشت"
+   },
+   "blocked_by_extension": {
+      "message": "ممکن است PrintFriendly توسط افزونه دیگری که نصب کرده‌اید، مانند مسدود کننده تبلیغات، مسدود شده باشد. لطفاً به طور موقت سایر افزونه‌های خود را غیرفعال کنید و دوباره سعی کنید یک فایل PDF ایجاد کنید."
+   },
+   "blockquote": {
+      "message": "نقل قول بلوکی"
+   },
+   "bold": {
+      "message": "ضخیم"
+   },
+   "bottom": {
+      "message": "پایین"
+   },
+   "bullet_list": {
+      "message": "فهرست با بولت"
+   },
+   "cancel": {
+      "message": "لغو کردن"
+   },
+   "capture_failed": {
+      "message": "گرفتن اسکرین‌شات تمام‌صفحه در این سایت امکان‌پذیر نیست."
+   },
+   "capture_failed_descr": {
+      "message": "برخی از وب‌سایت‌ها از فریم‌ها یا عناصر دینامیک استفاده می‌کنند که مانع از گرفتن اسکرین‌شات کامل می‌شوند. لطفاً سایت دیگری را امتحان کنید."
+   },
+   "capturing": {
+      "message": "در حال ضبط"
+   },
+   "capturing_desc": {
+      "message": "لطفاً صبر کنید، تصویر صفحه به زودی آماده خواهد شد."
+   },
+   "choose_paper_size": {
+      "message": "اندازه کاغذ مورد نظر خود را برای PDF انتخاب کنید."
+   },
+   "choose_save_method": {
+      "message": "انتخاب کنید که چگونه این صفحه را ذخیره کنید"
+   },
+   "compress_pdf": {
+      "message": "فشرده سازی PDF"
+   },
+   "continue_to": {
+      "message": "ادامه به..."
+   },
+   "convert_pdf": {
+      "message": "تبدیل PDF"
+   },
+   "current_view_screenshot": {
+      "message": "تصویر نمای فعلی"
+   },
+   "current_view_screenshot_desc": {
+      "message": "فقط بخش قابل مشاهده صفحه را ضبط کنید."
+   },
+   "default_mode": {
+      "message": "حالت پیش‌فرض"
+   },
+   "default_mode_checkbox": {
+      "message": "انتخاب من را به خاطر بسپار و این مرحله را دفعه بعد رد کن."
+   },
+   "default_mode_checkbox_descr": {
+      "message": "می‌توانید این را بعداً در تنظیمات تغییر دهید."
+   },
+   "default_mode_desc": {
+      "message": "عملی را انتخاب کنید که هنگام کلیک روی دکمه افزونه به طور خودکار انتخاب شود."
+   },
+   "delete": {
+      "message": "حذف"
+   },
+   "delete_button": {
+      "message": "حذف"
+   },
+   "dialog_close": {
+      "message": "بستن"
+   },
+   "dont_like_printfriendly_description": {
+      "message": "بازخورد شما شکل‌دهنده آن چیزی است که می‌سازیم و نحوه پیشرفت ما. یه لحظه وقت داری بگی چگونه می‌توانیم بهتر عمل کنیم؟"
+   },
+   "dont_like_printfriendly_title": {
+      "message": "ممنون که به ما یک شانس دادید"
+   },
+   "download_again": {
+      "message": "دوباره دانلود کنید"
+   },
+   "download_directory": {
+      "message": "دایرکتوری"
+   },
+   "download_directory_description": {
+      "message": "یک پوشه را در داخل پوشه دانلودهای خود مشخص کنید که می‌خواهید فایل‌های PDF و تصاویرتان به آنجا بروند. اگر آن را خالی بگذارید، آنها به پوشه دانلودها خواهند رفت. فقط از حروف، اعداد، خط تیره، زیرخط و اسلش استفاده کنید (کاراکترهای دیگر حذف خواهند شد)."
+   },
+   "edit": {
+      "message": "ویرایش"
+   },
+   "edit_link": {
+      "message": "ویرایش پیوند"
+   },
+   "edit_pdf": {
+      "message": "ویرایش PDF"
+   },
+   "email": {
+      "message": "ایمیل"
+   },
+   "enable_delete": {
+      "message": "با فعال بودن حذف شروع کنید"
+   },
+   "extension_settings": {
+      "message": "تنظیمات افزونه"
+   },
+   "file_access_description": {
+      "message": "لطفاً به تنظیمات افزونه مرورگر خود بروید و «اجازه دسترسی به URLهای فایل» را فعال کنید تا افزونه بتواند به این صفحه دسترسی داشته باشد."
+   },
+   "file_access_title": {
+      "message": "نیاز به دسترسی به پرونده"
+   },
+   "floating_button": {
+      "message": "دکمه شناور"
+   },
+   "floating_button_pref_descr": {
+      "message": "دکمه‌ای برای دسترسی آسان به PrintFriendly نمایش دهید."
+   },
+   "full_page_screenshot": {
+      "message": "تصویر تمام‌صفحه"
+   },
+   "full_page_screenshot_desc": {
+      "message": "صفحه وب را همانطور که با تبلیغات و غیره ظاهر می‌شود، ضبط کنید."
+   },
+   "give_feedback": {
+      "message": "نه، بازخورد دهید."
+   },
+   "go_to_link": {
+      "message": "برو به پیوند"
+   },
+   "got_it": {
+      "message": "متوجه شدم"
+   },
+   "heading_1": {
+      "message": "سرتیتر 1"
+   },
+   "heading_2": {
+      "message": "سرتیتر 2"
+   },
+   "heading_3": {
+      "message": "سرتیتر 3"
+   },
+   "heading_4": {
+      "message": "سرتیتر 4"
+   },
+   "heading_5": {
+      "message": "سرتیتر 5"
+   },
+   "heading_6": {
+      "message": "سرتیتر 6"
+   },
+   "highlight": {
+      "message": "برجسته‌سازی"
+   },
+   "history_menu": {
+      "message": "تاریخچه (به زودی)"
+   },
+   "image": {
+      "message": "تصویر"
+   },
+   "image_size_pref": {
+      "message": "ترجیح اندازه تصویر"
+   },
+   "image_size_pref_desc": {
+      "message": "اندازه تصاویر را هنگام مشاهده صفحات با افزونه تنظیم کنید."
+   },
+   "image_upload_file_too_large": {
+      "message": "حجم فایل تصویر بسیار بزرگ است. لطفاً تصویری کوچکتر از ۵ مگابایت انتخاب کنید"
+   },
+   "image_upload_select_file": {
+      "message": "لطفاً یک فایل تصویر انتخاب کنید"
+   },
+   "insert_image": {
+      "message": "درج تصویر"
+   },
+   "italic": {
+      "message": "کج"
+   },
+   "lang_display_name": {
+      "message": "فارسی (Persian)"
+   },
+   "language_setting": {
+      "message": "زبان"
+   },
+   "language_setting_desc": {
+      "message": "لطفاً زبان مورد نظر خود را انتخاب کنید."
+   },
+   "left": {
+      "message": "چپ"
+   },
+   "letter_paper_size": {
+      "message": "نامه"
+   },
+   "like_printfriendly_extension": {
+      "message": "آیا افزونه PrintFriendly را دوست دارید؟"
+   },
+   "like_printfriendly_p1_description": {
+      "message": "بازخورد شما ما را انگیزه می‌دهد!"
+   },
+   "like_printfriendly_p2_description_chrome": {
+      "message": "آیا مایلید PrintFriendly را در فروشگاه وب Chrome مرور کنید؟"
+   },
+   "like_printfriendly_p2_description_edge": {
+      "message": "آیا مایلید PrintFriendly را در وب‌سایت افزودنی‌های Microsoft Edge بررسی کنید؟"
+   },
+   "like_printfriendly_p2_description_firefox": {
+      "message": "آیا مایل هستید PrintFriendly را در فروشگاه افزونه‌های فایرفاکس بررسی کنید؟"
+   },
+   "like_printfriendly_p2_description_safari": {
+      "message": "آیا مایل هستید PrintFriendly را در فروشگاه افزونه‌های Safari بررسی کنید؟"
+   },
+   "like_printfriendly_title": {
+      "message": "خوشحالیم که PrintFriendly را دوست دارید!"
+   },
+   "log_out": {
+      "message": "خروج"
+   },
+   "never": {
+      "message": "هرگز"
+   },
+   "no": {
+      "message": "نه"
+   },
+   "no_thanks": {
+      "message": "نه، متشکرم"
+   },
+   "numbered_list": {
+      "message": "لیست شماره‌دار"
+   },
+   "off": {
+      "message": "خاموش"
+   },
+   "one_day": {
+      "message": "۱ روز"
+   },
+   "one_month": {
+      "message": "1 ماه"
+   },
+   "one_week": {
+      "message": "۱ هفته"
+   },
+   "optional_cookie_permission_descr_line1": {
+      "message": "برای فعال‌سازی ورود، لطفاً در صفحه بعد روی «اجازه دادن» کلیک کنید."
+   },
+   "optional_cookie_permission_descr_line2": {
+      "message": "این اجازه به افزونه PrintFriendly اجازه می‌دهد تا زمانی که وارد PrintFriendly.com شده‌اید را تأیید کند، تا بتوانیم حساب شما را با افزونه همگام‌سازی کنیم."
+   },
+   "optional_cookie_permission_descr_line3": {
+      "message": "ما هرگز تاریخچه مرور یا داده‌های شما از وب‌سایت‌های دیگر را جمع‌آوری نمی‌کنیم."
+   },
+   "optional_downloads_permission_descr_line1": {
+      "message": "برای ذخیره فایل‌ها در یک پوشه مشخص، لطفاً در صفحه بعد روی «اجازه دادن» کلیک کنید."
+   },
+   "optional_downloads_permission_descr_line2": {
+      "message": "این اجازه به افزونه PrintFriendly اجازه می‌دهد تا فایل‌های PDF و تصاویر شما را مستقیماً به مکان انتخاب‌شده توسط شما دانلود کند."
+   },
+   "optional_host_permission_descr": {
+      "message": "برای عملکرد دکمه شناور، به مجوز مشاهده و تغییر محتوا در وب‌سایت‌ها نیاز داریم:"
+   },
+   "optional_host_permission_footer": {
+      "message": "برای فعال‌سازی، لطفاً در صفحه بعد روی گزینه اجازه دادن کلیک کنید."
+   },
+   "optional_host_permission_item_1": {
+      "message": "این اختیاری است و برای استفاده از PrintFriendly نیازی نیست."
+   },
+   "optional_host_permission_item_2": {
+      "message": "شما می‌توانید این را هر زمان در تنظیمات خاموش کنید."
+   },
+   "optional_host_permission_item_3": {
+      "message": "ما هیچ‌یک از داده‌های مرور شما را ذخیره نمی‌کنیم."
+   },
+   "optional_host_permission_title": {
+      "message": "فعال کردن ویژگی‌های دکمه شناور؟"
+   },
+   "optional_permission_descr": {
+      "message": "این وب‌سایت از آی‌فریم‌ها استفاده می‌کند که توانایی ما را در ضبط کل صفحه محدود می‌کند. برای گرفتن اسکرین‌شات کامل، به مجوز اضافی نیاز داریم. پس از بستن این پیام، لطفاً برای ادامه روی “اجازه دادن” کلیک کنید."
+   },
+   "optional_permission_title": {
+      "message": "مجوز اضافی مورد نیاز است"
+   },
+   "other_tools": {
+      "message": "ابزارهای دیگر"
+   },
+   "page_blocking_printfriendly": {
+      "message": "این صفحه PrintFriendly را مسدود می‌کند"
+   },
+   "paragraph": {
+      "message": "پاراگراف"
+   },
+   "pdf": {
+      "message": "پی‌دی‌اف"
+   },
+   "pdf_file_downloaded": {
+      "message": "فایل PDF شما دانلود شده است."
+   },
+   "pdf_generation_error": {
+      "message": "خطای ایجاد PDF"
+   },
+   "pdf_paper_size": {
+      "message": "اندازه کاغذ PDF"
+   },
+   "preformatted": {
+      "message": "پیش‌قالب‌بندی‌شده"
+   },
+   "print": {
+      "message": "چاپ"
+   },
+   "print_pdf_margin_pref": {
+      "message": "چاپ و حاشیه PDF"
+   },
+   "print_pdf_margin_pref_descr": {
+      "message": "شخصی‌سازی حاشیه‌های چاپ و PDF."
+   },
+   "printer_friendly_desc": {
+      "message": "تبلیغات و ناوبری را از صفحات وب حذف کنید."
+   },
+   "printfriendly_page": {
+      "message": "صفحه PrintFriendly"
+   },
+   "profile_settings": {
+      "message": "تنظیمات نمایه"
+   },
+   "remove": {
+      "message": "حذف"
+   },
+   "remove_formatting": {
+      "message": "حذف قالب‌بندی"
+   },
+   "remove_link": {
+      "message": "حذف پیوند"
+   },
+   "report": {
+      "message": "گزارش"
+   },
+   "resolve_issue": {
+      "message": "و ما به شما در حل مشکل کمک خواهیم کرد."
+   },
+   "right": {
+      "message": "راست"
+   },
+   "safari_description": {
+      "message": "تبدیل صفحات وب به PDF یا اسکرین‌شات. صفحات تمیز و بدون تبلیغ، آماده چاپ یا ذخیره."
+   },
+   "safari_name": {
+      "message": "PrintFriendly: PDF و ضبط"
+   },
+   "save_as": {
+      "message": "ذخیره با نام"
+   },
+   "save_as_description": {
+      "message": "به‌طور خودکار دیالوگ «ذخیره به‌عنوان» را هنگام دانلود PDF یا تصاویر صفحه باز کن. اگر مرورگر شما از قبل تنظیم شده باشد برای پرسش مکان ذخیره، آن تنظیم برنده است."
+   },
+   "save_changes": {
+      "message": "ذخیره"
+   },
+   "save_updates": {
+      "message": "ذخیره تغییرات"
+   },
+   "saved": {
+      "message": "ذخیره شد."
+   },
+   "screenshot": {
+      "message": "تصویر صفحه"
+   },
+   "screenshot_image_format": {
+      "message": "قالب تصویر صفحه"
+   },
+   "screenshot_restriction_message": {
+      "message": "PrintFriendly در اکثر وب‌سایت‌ها کار می‌کند و ایجاد صفحات و اسکرین‌شات‌های تمیز و مناسب چاپ را آسان می‌کند. با این حال، برخی صفحات - مانند تنظیمات مرورگر، فروشگاه‌های افزونه و سایر مناطق محدود - به دلیل سیاست‌های مرورگر غیرقابل دسترسی هستند. لطفاً در صورت داشتن سوال با ما تماس بگیرید."
+   },
+   "settings": {
+      "message": "تنظیمات"
+   },
+   "settings_saved": {
+      "message": "تنظیمات شما ذخیره شد."
+   },
+   "share_feedback": {
+      "message": "بازخورد را به اشتراک بگذارید."
+   },
+   "show_context_menu_pref": {
+      "message": "نمایش PrintFriendly در منوی زمینه کلیک راست."
+   },
+   "show_context_menu_pref_descr": {
+      "message": "هنگام فعال بودن، می‌توانید مستقیماً از منوی زمینه مرورگر خود به PrintFriendly دسترسی داشته باشید."
+   },
+   "show_download_complete_descr": {
+      "message": "وقتی فعال باشد، پس از دانلود PDF شما یک پنجره تأیید ظاهر می‌شود که اقدامات سریعی برای دانلود مجدد یا تبدیل، ویرایش یا امضا ارائه می‌دهد."
+   },
+   "show_download_complete_pref": {
+      "message": "نمایش پنجره \"دانلود کامل شد\"."
+   },
+   "show_float_button_on_articles_only": {
+      "message": "دکمه شناور را فقط در صفحات مقاله نشان دهید"
+   },
+   "show_float_button_on_articles_only_pref_descr": {
+      "message": "این گزینه را فعال کنید تا فقط در صفحاتی که مقاله‌های خبری یا پست‌های وبلاگ به نظر می‌آیند، دکمه شناور PrintFriendly نمایش داده شود."
+   },
+   "sign_in": {
+      "message": "ورود"
+   },
+   "sign_pdf": {
+      "message": "امضای PDF"
+   },
+   "skip_screen_next_time": {
+      "message": "دفعه بعد این صفحه را رد کنید"
+   },
+   "small_images_pref_descr": {
+      "message": "تصاویر کوچک معمولاً مخفی هستند زیرا اغلب هنگام چاپ یا ذخیره به فرمت PDF مفید نیستند. این تنظیم را روشن کنید اگر مایل به دیدن آنها هستید."
+   },
+   "small_images_pref_title": {
+      "message": "نمایش تصاویر کوچک"
+   },
+   "start_download_pdf_subtitle": {
+      "message": "لطفاً مرورگر خود را نبندید. ممکن است یک دقیقه طول بکشد."
+   },
+   "start_download_pdf_title": {
+      "message": "در حال بارگیری فایل PDF شما"
+   },
+   "still_does_not_work": {
+      "message": "اگر همچنان کار نکرد، لطفاً با ما در"
+   },
+   "stop_capturing": {
+      "message": "توقف ضبط"
+   },
+   "strict_security_settings": {
+      "message": "متأسفیم، اما این صفحه در {{domainName}} دارای تنظیمات امنیتی سخت‌گیرانه‌ای (سیاست امنیت محتوایی) است که مانع از عملکرد PrintFriendly می‌شود."
+   },
+   "strict_security_settings_support": {
+      "message": "برای جزئیات بیشتر یا پشتیبانی، لطفاً با ما تماس بگیرید"
+   },
+   "strict_security_unsupported_page": {
+      "message": "این صفحه توسط PrintFriendly پشتیبانی نمی‌شود"
+   },
+   "strikethrough": {
+      "message": "خط خورده"
+   },
+   "style": {
+      "message": "سبک"
+   },
+   "take_me_there": {
+      "message": "حتماً، من را به آنجا ببرید!"
+   },
+   "text_size_pref": {
+      "message": "ترجیح اندازه متن"
+   },
+   "text_size_pref_desc": {
+      "message": "اندازه متن را هنگام مشاهده صفحات با افزونه تنظیم کنید."
+   },
+   "timed_out_pdf": {
+      "message": "ممکن است PrintFriendly هنگام ایجاد PDF از زمان‌بندی خارج شده باشد. ممکن است برای سیستم ما بیش از حد بزرگ باشد."
+   },
+   "top": {
+      "message": "بالا"
+   },
+   "turn_off_delete": {
+      "message": "برای کلیک روی لینک‌ها، گزینه حذف را خاموش کنید."
+   },
+   "unable_to_generate_pdf": {
+      "message": "ما نتوانستیم برای این صفحه فایل PDF ایجاد کنیم."
+   },
+   "underline": {
+      "message": "زیرخط"
+   },
+   "undo": {
+      "message": "خنثی کردن"
+   },
+   "when_to_show_again": {
+      "message": "چه زمانی دوباره باید این را نشان دهیم؟"
+   },
+   "which_option_best": {
+      "message": "کدام گزینه برای من بهترین است؟"
+   },
+   "yes": {
+      "message": "بله"
+   }
+}

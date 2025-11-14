@@ -1,0 +1,491 @@
+{
+   "a4_paper_size": {
+      "message": "A4"
+   },
+   "add_link": {
+      "message": "இணைப்பைச் சேர்க்கவும்"
+   },
+   "app_description": {
+      "message": "வலைப்பக்கங்களை அச்சுக்கு மாற்றவும்: PDF ஆக சேமிக்கவும் அல்லது திரைபிடிப்பெடுக்கவும், தூய பக்கங்களுக்கு விளம்பரங்களை அகற்றவும்."
+   },
+   "app_name": {
+      "message": "PrintFriendly - அச்சிடு, PDF மற்றும் இணையப் பக்கங்களை ஸ்கிரீன்ஷாட் செய்"
+   },
+   "back": {
+      "message": "மீண்டும்"
+   },
+   "blocked_by_extension": {
+      "message": "PrintFriendly உங்கள் நிறுவியுள்ள மற்றொரு நீட்டிப்பால் தடையுற்றிருக்கலாம், உதாரணமாக, ஒரு விளம்பர தடுப்பான். உங்கள் பிற நீட்டிப்புகளை தற்காலிகமாக முடக்கி, PDF ஐ மீண்டும் உருவாக்க முயற்சிக்கவும்."
+   },
+   "blockquote": {
+      "message": "தொகுப்பு மேற்கோள்"
+   },
+   "bold": {
+      "message": "திட்டு எழுத்து"
+   },
+   "bottom": {
+      "message": "கீழே"
+   },
+   "bullet_list": {
+      "message": "புள்ளி பட்டியல்"
+   },
+   "cancel": {
+      "message": "ரத்து செய்"
+   },
+   "capture_failed": {
+      "message": "இந்த தளத்தில் முழுப் பக்க ஸ்கிரீன் ஷாட் எடுக்க முடியாது."
+   },
+   "capture_failed_descr": {
+      "message": "சில வலைத்தளங்கள் முழு திரைக்காட்சி எடுக்க அனுமதிக்காத கருவிகள் அல்லது இயக்க அங்கங்களைப் பயன்படுத்துகின்றன. कृपया மற்றொரு சைட் முயற்சி செய்க."
+   },
+   "capturing": {
+      "message": "கைப்பற்றுகிறது"
+   },
+   "capturing_desc": {
+      "message": "தயவுசெய்து காத்திருக்கவும், திரைப்பிடிப்பு ஒரு கணத்தில் தயாராகும்."
+   },
+   "choose_paper_size": {
+      "message": "PDF-களுக்கான உங்கள் விருப்பமான தாள் அளவைத் தேர்வுசெய்க."
+   },
+   "choose_save_method": {
+      "message": "இந்தப் பக்கத்தை எவ்வாறு சேமிப்பது என்பதைத் தேர்ந்தெடுக்கவும்"
+   },
+   "compress_pdf": {
+      "message": "பி.டி.எப் சுருக்கு"
+   },
+   "continue_to": {
+      "message": "தொடரவும்..."
+   },
+   "convert_pdf": {
+      "message": "PDF ஐ மாற்று"
+   },
+   "current_view_screenshot": {
+      "message": "காட்சி ஸ்கிரீன்ஷாட்"
+   },
+   "current_view_screenshot_desc": {
+      "message": "பக்கத்தின் காட்சியளிக்கும் பகுதியை மட்டும் பிடிக்கவும்."
+   },
+   "default_mode": {
+      "message": "இயல்புநிலை முறையில்"
+   },
+   "default_mode_checkbox": {
+      "message": "என்னுடைய தேர்வை நினைவில் வையுங்கள், அடுத்த முறையில் இந்த படியைக் தவிருங்கள்."
+   },
+   "default_mode_checkbox_descr": {
+      "message": "நீங்கள் இதை பின்னர் அமைப்புகளில் மாற்றலாம்."
+   },
+   "default_mode_desc": {
+      "message": "நீக்கு பட்டனை அழுத்தும் போது தானாக தேர்ந்தெடுக்கப்படும் செயல்பாட்டை தேர்ந்தெடுக்கவும்."
+   },
+   "delete": {
+      "message": "நீக்க கிளிக் செய்யவும்"
+   },
+   "delete_button": {
+      "message": "நீக்கு"
+   },
+   "dialog_close": {
+      "message": "மூடு"
+   },
+   "dont_like_printfriendly_description": {
+      "message": "உங்கள் கருத்து நாங்கள் உருவாக்கும் மற்றும் எப்படி மேம்படுகிறோம் என்பதில் வடிவமைக்கிறது. நாம் மேலும் நன்றாக செய்வதற்காக எங்களைத் தெரிவித்துக் கொள்வதற்கு ஒரு விநாடி உங்களிடம் உள்ளதா?"
+   },
+   "dont_like_printfriendly_title": {
+      "message": "நமக்கு ஒரு வாய்ப்பு அளித்ததற்கு நன்றி"
+   },
+   "download_again": {
+      "message": "மீண்டும் பதிவிறக்கவும்"
+   },
+   "download_directory": {
+      "message": "அடைவு"
+   },
+   "download_directory_description": {
+      "message": "உங்கள் பதிவிறக்கங்கள் அடைவில் உங்கள் PDF மற்றும் படங்கள் செல்ல வேண்டிய ஒரு கோப்புறையை தேர்ந்தெடுக்கவும். நீங்கள் அதை காலி விட்டால், அவை பதிவிறக்கங்களில் செல்லும். எழுத்துக்கள், எண்கள், டாஷ்கள், அண்டர்ஸ்கோர் மற்றும் ஸ்லாஷ்களை மட்டும் பயன்படுத்தவும் (மற்ற எழுத்துக்கள் தானாக நீக்கப்படும்)."
+   },
+   "edit": {
+      "message": "திருத்து"
+   },
+   "edit_link": {
+      "message": "இணைப்பைத் திருத்தவும்"
+   },
+   "edit_pdf": {
+      "message": "PDF ஐத் திருத்து"
+   },
+   "email": {
+      "message": "மின்னஞ்சல்"
+   },
+   "enable_delete": {
+      "message": "“அழி” செயல்பாட்டை இயக்கிய நிலையில் தொடங்கவும்"
+   },
+   "extension_settings": {
+      "message": "நீட்டிப்பு அமைப்புகள்"
+   },
+   "file_access_description": {
+      "message": "உங்கள் உலாவியின் நீட்சி அமைப்புகளுக்கு சென்று \"கோப்பு URL-களை அணுக அனுமதிக்கவும்\" என்பதை இயக்கவும், அதனால் நீட்சிக்கு இந்தப் பக்கத்தை அணுக முடியும்."
+   },
+   "file_access_title": {
+      "message": "கோப்பு அணுகல் தேவை"
+   },
+   "floating_button": {
+      "message": "மிதக்கும் பொத்தான்"
+   },
+   "floating_button_pref_descr": {
+      "message": "PrintFriendly-ஐ எளிதில் அணுக ஒரு பொத்தானைக் காண்பிக்கவும்."
+   },
+   "full_page_screenshot": {
+      "message": "முழு பக்கம் ஸ்கிரீன்ஷாட்"
+   },
+   "full_page_screenshot_desc": {
+      "message": "விளம்பரங்கள் போன்றவற்றுடன் இணையப் பக்கத்தை அது தோன்றும் விதமாகப் பிடிக்கவும்."
+   },
+   "give_feedback": {
+      "message": "இல்லை, கருத்து அளிக்கவும்."
+   },
+   "go_to_link": {
+      "message": "இணைப்பிற்கு செல்லவும்"
+   },
+   "got_it": {
+      "message": "புரிந்தது"
+   },
+   "heading_1": {
+      "message": "தலைப்பு 1"
+   },
+   "heading_2": {
+      "message": "தலைப்பு 2"
+   },
+   "heading_3": {
+      "message": "தலைப்பு 3"
+   },
+   "heading_4": {
+      "message": "தலைப்பு 4"
+   },
+   "heading_5": {
+      "message": "தலைப்பு 5"
+   },
+   "heading_6": {
+      "message": "தலைப்பு 6"
+   },
+   "highlight": {
+      "message": "சிறப்பிக்கவும்"
+   },
+   "history_menu": {
+      "message": "வரலாறு (விரைவில் வருகிறது)"
+   },
+   "image": {
+      "message": "படம்"
+   },
+   "image_size_pref": {
+      "message": "படத்தின் அளவு விருப்பம்"
+   },
+   "image_size_pref_desc": {
+      "message": "நீட்சியுடன் பக்கங்களைப் பார்க்கும் போது படங்களின் அளவை அமைக்கவும்."
+   },
+   "image_upload_file_too_large": {
+      "message": "படக் கோப்பு மிகவும் பெரியது. 5MB-க்குக் குறைவான படம் தேர்வு செய்யவும்"
+   },
+   "image_upload_select_file": {
+      "message": "தயவுச் செய்து ஒரு படம் கோப்பைத் தேர்ந்தெடுக்கவும்"
+   },
+   "insert_image": {
+      "message": "படத்தை நுழைக்கவும்"
+   },
+   "italic": {
+      "message": "சாய்வு எழுத்து"
+   },
+   "lang_display_name": {
+      "message": "தமிழ் (Tamil)"
+   },
+   "language_setting": {
+      "message": "மொழி"
+   },
+   "language_setting_desc": {
+      "message": "உங்கள் விருப்பமான மொழியைத் தேர்வுசெய்க."
+   },
+   "left": {
+      "message": "இடது"
+   },
+   "letter_paper_size": {
+      "message": "கடிதம்"
+   },
+   "like_printfriendly_extension": {
+      "message": "PrintFriendly நீட்சியை பிடிக்கிறீர்களா?"
+   },
+   "like_printfriendly_p1_description": {
+      "message": "உங்கள் கருத்துகள் எங்களுக்கு ஊக்கமளிக்கின்றன!"
+   },
+   "like_printfriendly_p2_description_chrome": {
+      "message": "நீங்கள் Chrome வலைக் கடையில் PrintFriendly-ஐ மதிப்பாய்வு செய்ய தயாரா?"
+   },
+   "like_printfriendly_p2_description_edge": {
+      "message": "Microsoft Edge Add-ons இணையதளத்தில் PrintFriendly-ஐ மதிப்பீடு செய்ய நீங்கள் தயார் தானா?"
+   },
+   "like_printfriendly_p2_description_firefox": {
+      "message": "நீங்கள் Firefox Add-ons Store இல் PrintFriendly ஐ மதிப்பீடு செய்யத் தயாரா?"
+   },
+   "like_printfriendly_p2_description_safari": {
+      "message": "சாஃபாரி நீட்டிப்பு அங்காடியில் PrintFriendly ஐ விமர்சிக்க உங்களுக்கு விருப்பமா?"
+   },
+   "like_printfriendly_title": {
+      "message": "உங்களுக்கு PrintFriendly பிடித்திருக்கிறதைக் கேட்டதில் நாங்கள் மகிழ்ச்சியடைந்தோம்!"
+   },
+   "log_out": {
+      "message": "வெளியேறு"
+   },
+   "never": {
+      "message": "ஒருபோதும்"
+   },
+   "no": {
+      "message": "இல்லை"
+   },
+   "no_thanks": {
+      "message": "இல்லை, நன்றி"
+   },
+   "numbered_list": {
+      "message": "எண்கள் பட்டியல்"
+   },
+   "off": {
+      "message": "அணை"
+   },
+   "one_day": {
+      "message": "1 நாள்"
+   },
+   "one_month": {
+      "message": "1 மாதம்"
+   },
+   "one_week": {
+      "message": "1 வாரம்"
+   },
+   "optional_cookie_permission_descr_line1": {
+      "message": "உள்நுழைவை இயக்க, தயவுசெய்து அடுத்த திரையில் \"அனுமதி\" என்பதைக் கிளிக் செய்யவும்."
+   },
+   "optional_cookie_permission_descr_line2": {
+      "message": "இந்த அனுமதி, நீங்கள் PrintFriendly.com-ல் உள்நுழைந்திருக்கும்போது PrintFriendly நீட்சி அதை உறுதிப்படுத்த அனுமதிக்கிறது, எனவே உங்கள் கணக்கை நீட்சியுடன் ஒத்திசைக்க முடியும்."
+   },
+   "optional_cookie_permission_descr_line3": {
+      "message": "நாங்கள் எப்போதும் உங்கள் உலாவல் வரலாற்றை அல்லது பிற வலைத்தளங்களில் இருந்து தரவைச் சேகரிக்கவில்லை."
+   },
+   "optional_downloads_permission_descr_line1": {
+      "message": "தயவுசெய்து குறிப்பிட்ட ෆோல்டரில் கோப்புகளை சேமிக்க, அடுத்த திரையில் “அனுமதி” என்பதைக் கிளிக் செய்யவும்."
+   },
+   "optional_downloads_permission_descr_line2": {
+      "message": "இந்த அனுமதி PrintFriendly நீட்சியினால் உங்கள் PDF கோப்புகள் மற்றும் படங்களை நீங்கள் தேர்ந்தெடுக்கிற இடத்திற்கு நேரடியாக பதிவிறக்கம் செய்ய அனுமதிக்கிறது."
+   },
+   "optional_host_permission_descr": {
+      "message": "மிதக்கும் பொத்தானை செயல்படுத்த, இணையதளங்களில் உள்ளடக்கத்தை காண அனுமதி தேவையே:"
+   },
+   "optional_host_permission_footer": {
+      "message": "செயல்படுத்த, தயவுகூர்ந்து அடுத்த திரையில் அனுமதி கொடுக்கை கிளிக் செய்யவும்."
+   },
+   "optional_host_permission_item_1": {
+      "message": "இது விருப்பமானது மற்றும் PrintFriendly ஐ பயன்படுத்த தேவையில்லை."
+   },
+   "optional_host_permission_item_2": {
+      "message": "நீங்கள் இதை எந்த நேரத்திலும் அமைப்புகளில் அணைக்கலாம்."
+   },
+   "optional_host_permission_item_3": {
+      "message": "ஏதேனும் உங்களது உலாவல் தரவுகளை நாங்கள் சேமிக்கவில்லை."
+   },
+   "optional_host_permission_title": {
+      "message": "மிதக்கும் பட்டன் அம்சங்களை இயக்குமா?"
+   },
+   "optional_permission_descr": {
+      "message": "இந்த இணையதளம் iframes-ஐ பயன்படுத்துகிறது, இது முழு பக்கத்தையும் பிடிக்கும் திறனை கட்டுப்படுத்துகிறது. முழு பக்க ஸ்கிரீன்ஷாட்டை எடுக்க, கூடுதல் அனுமதி தேவை. இந்த செய்தியை மூடிய பிறகு, தயவுசெய்து “அனுமதி” என்பதைக் கிளிக் செய்யவும்."
+   },
+   "optional_permission_title": {
+      "message": "கூடுதல் அனுமதி தேவை"
+   },
+   "other_tools": {
+      "message": "கருவிகள்"
+   },
+   "page_blocking_printfriendly": {
+      "message": "இந்தப் பக்கம் PrintFriendly-ஐத் தடுக்கிறது"
+   },
+   "paragraph": {
+      "message": "பத்தி"
+   },
+   "pdf": {
+      "message": "PDF"
+   },
+   "pdf_file_downloaded": {
+      "message": "உங்கள் PDF கோப்பு பதிவிறக்கம் செய்யப்பட்டது."
+   },
+   "pdf_generation_error": {
+      "message": "PDF உருவாக்க குறைபாடு"
+   },
+   "pdf_paper_size": {
+      "message": "PDF தாள் அளவு"
+   },
+   "preformatted": {
+      "message": "முன்கூட்டியே வடிவமைக்கப்பட்டது"
+   },
+   "print": {
+      "message": "அச்சிடு"
+   },
+   "print_pdf_margin_pref": {
+      "message": "அச்சு மற்றும் PDF விளிமை"
+   },
+   "print_pdf_margin_pref_descr": {
+      "message": "மறுபிரிப்பு மற்றும் PDF வரம்புகளை தனிப்பயனாக்கவும்."
+   },
+   "printer_friendly_desc": {
+      "message": "இணையப் பக்கங்களில் இருந்து விளம்பரங்கள் மற்றும் வழிசெலுத்தலை அகற்றவும்."
+   },
+   "printfriendly_page": {
+      "message": "PrintFriendly பக்கம்"
+   },
+   "profile_settings": {
+      "message": "சுயவிவர அமைப்புகள்"
+   },
+   "remove": {
+      "message": "அகற்று"
+   },
+   "remove_formatting": {
+      "message": "வடிவமைப்பை அகற்று"
+   },
+   "remove_link": {
+      "message": "இணைப்பை அகற்று"
+   },
+   "report": {
+      "message": "அறிக்கை"
+   },
+   "resolve_issue": {
+      "message": ", மற்றும் பிரச்சினையைத் தீர்க்க நாங்கள் உங்களுக்கு உதவுவோம்."
+   },
+   "right": {
+      "message": "வலது"
+   },
+   "safari_description": {
+      "message": "வலைப் பக்கங்களை PDF அல்லது படங்களாக மாற்றவும். விளம்பரமில்லா பக்கங்கள் அச்சு அல்லது சேமிக்க தயார்."
+   },
+   "safari_name": {
+      "message": "PrintFriendly: PDF மற்றும் பிடிப்பு"
+   },
+   "save_as": {
+      "message": "இதன் பெயரால் சேரவும்"
+   },
+   "save_as_description": {
+      "message": "நீங்கள் PDF அல்லது ஸ்கிரீன்‌ஷாட் படங்களைப் பதிவிறக்கம் செய்யும் போது \"Save As\" உரையாடல் பெட்டிக்காட்சியை தானாகத் திறக்கவும். உங்கள் உலாவி ஏற்கனவே கோப்புக்களை எங்கே சேமிக்க வேண்டும் என்பதைக் கேட்க தளமாக அமைக்கப்பட்டிருந்தால் அது முன்னுரிமை பெறும்."
+   },
+   "save_changes": {
+      "message": "சேமிக்க"
+   },
+   "save_updates": {
+      "message": "மாற்றங்களை சேமிக்கவும்"
+   },
+   "saved": {
+      "message": "சேமிக்கப்பட்டது."
+   },
+   "screenshot": {
+      "message": "திரைப்பிடிப்பு"
+   },
+   "screenshot_image_format": {
+      "message": "திரைப்பிடிப்பு பட வடிவம்"
+   },
+   "screenshot_restriction_message": {
+      "message": "PrintFriendly பெரும்பாலான இணையதளங்களில் செயல்படுகிறது, சுத்தமான, அச்சு நட்பு பக்கங்களையும் திரைப்படங்களையும் உருவாக்க எளிதாக்குகிறது. இருப்பினும், உலாவி கொள்கைகள் காரணமாக சில பக்கங்கள்—உலாவி அமைப்புகள், நீட்டிப்பு கடைகள், மற்றும் பிற வரையறுக்கப்பட்ட பகுதிகள்—வரையறுக்கப்பட்டுள்ளன. உங்கள் கேள்விகள் இருந்தால் தயவுசெய்து எங்களை தொடர்பு கொள்ளவும்."
+   },
+   "settings": {
+      "message": "அமைப்புகள்"
+   },
+   "settings_saved": {
+      "message": "உங்கள் அமைப்புகள் சேமிக்கப்பட்டன."
+   },
+   "share_feedback": {
+      "message": "கருத்தை பகிரவும்."
+   },
+   "show_context_menu_pref": {
+      "message": "PrintFriendly ஐ வலது கிளிக் காட்பிரக்ட் மெனுவில் காண்பிக்கவும்."
+   },
+   "show_context_menu_pref_descr": {
+      "message": "இயக்கம் செய்தால், உங்களது உலாவியில் உள்ள தொடர்பு மெனுவில் இருந்து நேரடியாக PrintFriendly நுழையலாம்."
+   },
+   "show_download_complete_descr": {
+      "message": "இயக்கப்பட்டால், உங்கள் PDF பதிவிறக்கம் ஆன பிறகு உறுதிப்படுத்தும் சாளரம் தோன்றும், மீண்டும் பதிவிறக்கம் அல்லது மாற்றம், திருத்தம் அல்லது கையொப்பம் செய்வதற்கான விரைவு செயல்கள் உள்ளன."
+   },
+   "show_download_complete_pref": {
+      "message": "“பதிவிறக்கம் முடிந்தது” சாளரத்தை காண்பி."
+   },
+   "show_float_button_on_articles_only": {
+      "message": "ஆர்டிக்கிள் பக்கங்களில் மட்டும் மிதக்கும் பொத்தானை காட்டு"
+   },
+   "show_float_button_on_articles_only_pref_descr": {
+      "message": "நியூஸ் ஆவணங்களாகவோ அல்லது வலைப்பதிவு பதிவுகளாகவோ தோன்றும் பக்கங்களில் மட்டுமே மிதக்கும் PrintFriendly பொத்தானை காண்பிக்க இந்த விருப்பத்தை இயக்கவும்."
+   },
+   "sign_in": {
+      "message": "உள்நுழை"
+   },
+   "sign_pdf": {
+      "message": "PDF கையொப்பமிடு"
+   },
+   "skip_screen_next_time": {
+      "message": "அடுத்த முறை இந்த திரையை தவிர்க்கவும்"
+   },
+   "small_images_pref_descr": {
+      "message": "சிறிய படங்கள் சாதாரணமாக மறைக்கப்படும் ஏனெனில் மடிப்பு அல்லது PDF-வில் சேமிக்கும்போது அவற்றை எவ்வாறும் பயனில்லை. நீங்கள் அவற்றை பார்க்க விரும்பினால், இந்த அமைப்பை இயக்குங்கள்."
+   },
+   "small_images_pref_title": {
+      "message": "சிறிய படங்களைக் காட்டு"
+   },
+   "start_download_pdf_subtitle": {
+      "message": "தயவுசெய்து உங்கள் உலாவியை மூட வேண்டாம். இது ஒரு நிமிடம் ஆகலாம்."
+   },
+   "start_download_pdf_title": {
+      "message": "உங்கள் PDF கோப்பைப் பதிவிறக்கம் செய்கிறோம்"
+   },
+   "still_does_not_work": {
+      "message": "இன்னும் இது வேலைசெய்யாவிட்டால், தயவுசெய்து எங்களை தொடர்பு கொள்ளவும்"
+   },
+   "stop_capturing": {
+      "message": "கைப்பற்றுவதை நிறுத்து"
+   },
+   "strict_security_settings": {
+      "message": "மன்னிக்கவும், ஆனால் {{domainName}} இல் உள்ள இந்தப் பக்கம் கடுமையான பாதுகாப்பு அமைப்புகளைக் கொண்டுள்ளது (உள்ளடக்க பாதுகாப்பு கொள்கை), இது PrintFriendly வேலை செய்ய முடியாமல் செய்கிறது."
+   },
+   "strict_security_settings_support": {
+      "message": "மேலும் விவரங்கள் அல்லது ஆதரவிற்கு, தயவுசெய்து எங்களை தொடர்புகொள்ளவும்"
+   },
+   "strict_security_unsupported_page": {
+      "message": "பக்கம் PrintFriendly மூலம் ஆதரிக்கப்படவில்லை"
+   },
+   "strikethrough": {
+      "message": "குறுக்கே கோடு இட்டல்"
+   },
+   "style": {
+      "message": "பாணி"
+   },
+   "take_me_there": {
+      "message": "சரி, என்னை அங்கே அழைத்துச் செல்லுங்கள்!"
+   },
+   "text_size_pref": {
+      "message": "உரை அளவு விருப்பம்"
+   },
+   "text_size_pref_desc": {
+      "message": "நீட்சியுடன் பக்கங்களைப் பார்க்கும் போது உரையின் அளவை அமைக்கவும்."
+   },
+   "timed_out_pdf": {
+      "message": "PrintFriendly PDF உருவாக்கும் போது நேரம் கடந்து விட்டது. இது எங்கள் அமைப்பிற்கு செயல்படுத்த முடியாத அளவிற்கு பெரியதாக இருக்கலாம்."
+   },
+   "top": {
+      "message": "மேல்"
+   },
+   "turn_off_delete": {
+      "message": "இணைப்புகளை கிளிக் செய்ய ‘அழி’ ஆஃஃப் செய்யவும்."
+   },
+   "unable_to_generate_pdf": {
+      "message": "இந்தப் பக்கத்திற்கான PDF ஐ உருவாக்க எங்களால் முடியவில்லை."
+   },
+   "underline": {
+      "message": "அடிக்கோடு"
+   },
+   "undo": {
+      "message": "செயல்தவிர்"
+   },
+   "when_to_show_again": {
+      "message": "இதனை மீண்டும் எப்போது காட்ட வேண்டும்?"
+   },
+   "which_option_best": {
+      "message": "எனக்கு சிறந்த விருப்பம் எது?"
+   },
+   "yes": {
+      "message": "ஆம்"
+   }
+}

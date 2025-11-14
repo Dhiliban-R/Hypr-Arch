@@ -1,0 +1,384 @@
+/* Main Card */
+.main-card {
+  all: initial;
+  display: block;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 16px 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+  width: 325px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* btn classes borrowed from text blaze dashboard Mui button */
+
+.btn {
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  outline: 0px;
+  border: 0px;
+  margin: 0px;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  appearance: none;
+  text-decoration: none;
+  text-transform: none;
+  font-weight: 500;
+  line-height: 1.75;
+  letter-spacing: 1px;
+  min-width: 64px;
+  border-radius: 4px;
+  padding: 8px 10px;
+  font-size: 14px;
+  transition: background 0.2s;
+
+  /* For the badge icon */
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.drag-handle {
+  transform: rotate(90deg);
+  zoom: 0.5;
+  cursor: grab;
+  --width: 14px;
+  width: var(--width);
+  margin-right: 8px;
+  height: 20px;
+  /* Two columns and three rows of grey circles */
+  background-image: radial-gradient(circle, grey 1px, transparent 2px);
+  background-size: 50% 33.33%;
+  position: absolute;
+  top: 0;
+  left: calc(50% - var(--width) / 2);
+}
+
+.drag-handle:active {
+  cursor: grabbing;
+}
+
+.hostname-select {
+  margin-bottom: 0;
+  width: 100%;
+  max-width: 350px;
+  padding: 5px;
+}
+
+.hostname-select, input, .main-card, .popover {
+  /* On dark mode websites, the text becomes dark due to UA stylesheet, which looks
+  odd inside the white container. So we force the background and color to be
+  white and black respectively. */
+  background: white;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* Header */
+.header {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 32px;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 64px;
+  height: 64px;
+  border-radius: 100px;
+  zoom: 0.6;
+  user-select: none;
+}
+
+.logo-ai {
+  border-radius: 0;
+}
+
+.header-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+}
+
+.menu-dots {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #666;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  transition: 0.2s background;
+}
+
+/* Content Area */
+.content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+/* Action Buttons */
+.actions {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.menu-dots-with-badge {
+  position: relative;
+  width: fit-content;
+  anchor-name: --menu-anchor;
+}
+
+.count-badge {
+  display: inline-block;
+  padding: 2px 6px;
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+  background-color: #00acc1; /* same as save button */
+  border-radius: 10px; /* pill shape */
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  top: -4px;
+  /* horizontally center */
+  transform: translateX(-50%);
+}
+.count-badge:empty {
+  display: none;
+}
+
+.btn-cancel {
+  background: none;
+  color: #00acc1;
+}
+
+.btn-cancel:hover {
+  background: rgba(0, 172, 193, 0.1);
+}
+
+.btn-save {
+  background: #00acc1;
+  color: white;
+  anchor-name: --save-btn-anchor;
+}
+
+.btn-save:hover {
+  background: #00838f;
+}
+
+.btn-save:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+/* Popover */
+.popover {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  padding: 24px;
+  min-width: 300px;
+  position: fixed;
+
+  z-index: 1000;
+  transition: all 0.2s ease;
+
+  position-anchor: --menu-anchor;
+  /* 
+    Positioning on the top right allows flip-block flip-inline fallbacks to work 
+    Positioning on the top center does not allow that (because it's symmetric on one axis) 
+  */
+  position-area: top right;
+  left: calc(-1 * anchor-size(width));
+  position-try-fallbacks: flip-block, flip-inline, flip-block flip-inline;
+
+  margin: initial;
+  border: initial;
+}
+
+.popover-header {
+  margin-bottom: 20px;
+}
+
+.input-badge {
+  position: relative;
+}
+
+.badge, .go-up-badge {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%); /* vertical centering */
+
+  width: 18px;
+  height: 18px;
+  padding: 0 2px;
+  background: white;
+  color: grey;
+  font-size: 12px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  line-height: 1;
+  text-decoration: none;
+  border: none;
+  transition: 0.2s background;
+}
+
+.go-up-badge {
+  right: 35px;
+  cursor: pointer;
+}
+
+.menu-dots:hover, .badge:hover, .go-up-badge:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.css-selector-label {
+  margin-bottom: 8px;
+  display: block;
+}
+
+.css-selector-input {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+.css-selector-input:focus {
+  border-color: #00acc1;
+}
+
+/* Checkbox Section */
+.checkbox-section {
+  padding: 16px 0;
+  border-top: 1px solid #eee;
+}
+
+.hostname-menu {
+  padding-top: 16px;
+  border-top: 1px solid #eee;
+}
+
+.hostname-menu div {
+  margin-bottom: 10px;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+.checkbox-content h3 {
+  font-size: 16px;
+  color: #111;
+  margin: 0;
+  margin-bottom: 4px;
+  font-weight: 400;
+}
+
+.checkbox-content p {
+  font-size: 14px;
+  color: #777;
+  margin: 0;
+}
+
+/* Radio Section */
+.radio-section {
+  border-top: 1px solid #eee;
+}
+
+.radio-section h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background 0.2s;
+  opacity: 0.8;
+  font-size: 14px;
+}
+
+.radio-item:hover {
+  background: #f5f5f5;
+}
+
+.radio-item:has(input:checked) {
+  background: rgba(0, 172, 193, 0.1);
+}
+
+.radio {
+  width: 20px;
+  height: 20px;
+}
+
+/* Tooltip */
+.tooltip {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+  z-index: 1001;
+  margin: 10px;
+
+  position-anchor: --save-btn-anchor;
+  position-area: top center;
+  position-try-fallbacks: flip-block;
+}
+
+.actions:has(.btn-save:disabled:hover) + .tooltip {
+  opacity: 1;
+}
+
+/* Icons */
+.btn-icon { margin-right: 5px; }

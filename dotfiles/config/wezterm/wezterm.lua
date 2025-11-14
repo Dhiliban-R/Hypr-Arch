@@ -14,9 +14,23 @@ config.window_background_opacity = 0.0
 -- Move tab bar to bottom
 config.tab_bar_at_bottom = true
 
+wezterm.on('update-status', function(window, pane)
+  -- Left status: date
+  window:set_left_status(wezterm.format{
+    {Text=" " .. wezterm.strftime("%d/%m/%y") .. " "},
+  })
+
+  -- Right status: time
+  window:set_right_status(wezterm.format{
+    {Text=" " .. wezterm.strftime("%H:%M:%S") .. " "},
+  })
+end)
+
 
 -- Catppuccin-Mocha color scheme from Kitty
 config.colors = {
+    status_bar_fg = '#CDD6F4',
+    status_bar_bg = '#000000',
     foreground = "#CDD6F4",
     background = "#000000",
     cursor_bg = "#F5E0DC",

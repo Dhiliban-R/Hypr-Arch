@@ -1,0 +1,491 @@
+{
+   "a4_paper_size": {
+      "message": "A4"
+   },
+   "add_link": {
+      "message": "Dodaj link"
+   },
+   "app_description": {
+      "message": "Uczyń strony internetowe przyjaznymi dla drukarki, przekształć je na PDF lub zrób zrzuty ekranu. Usuń reklamy, aby uzyskać czyste strony gotowe do wydruku lub zapisania jako PDF."
+   },
+   "app_name": {
+      "message": "PrintFriendly - Drukuj, PDF i zrzut ekranu stron internetowych"
+   },
+   "back": {
+      "message": "Wstecz"
+   },
+   "blocked_by_extension": {
+      "message": "PrintFriendly może zostać zablokowany przez inne rozszerzenie, które zainstalowałeś, takie jak blokowanie reklam. Tymczasowo wyłącz inne rozszerzenia i spróbuj ponownie wygenerować plik PDF."
+   },
+   "blockquote": {
+      "message": "Cytat blokowy"
+   },
+   "bold": {
+      "message": "Pogrubienie"
+   },
+   "bottom": {
+      "message": "Dół"
+   },
+   "bullet_list": {
+      "message": "Lista punktowana"
+   },
+   "cancel": {
+      "message": "Anuluj"
+   },
+   "capture_failed": {
+      "message": "Zrzut ekranu całej strony nie jest możliwy na tej witrynie."
+   },
+   "capture_failed_descr": {
+      "message": "Niektóre strony internetowe używają ramek lub dynamicznych elementów, które uniemożliwiają wykonanie pełnego zrzutu ekranu. Spróbuj innej strony."
+   },
+   "capturing": {
+      "message": "Przechwytywanie"
+   },
+   "capturing_desc": {
+      "message": "Proszę czekać, zrzut ekranu będzie gotowy za chwilę."
+   },
+   "choose_paper_size": {
+      "message": "Wybierz preferowany rozmiar papieru dla plików PDF."
+   },
+   "choose_save_method": {
+      "message": "Wybierz, jak zapisać tę stronę"
+   },
+   "compress_pdf": {
+      "message": "Skompresuj PDF"
+   },
+   "continue_to": {
+      "message": "Przejdź do..."
+   },
+   "convert_pdf": {
+      "message": "Konwertuj PDF"
+   },
+   "current_view_screenshot": {
+      "message": "Zrzut widoku"
+   },
+   "current_view_screenshot_desc": {
+      "message": "Przechwyć tylko widoczną część strony."
+   },
+   "default_mode": {
+      "message": "Tryb domyślny"
+   },
+   "default_mode_checkbox": {
+      "message": "Zapamiętaj mój wybór i pomiń ten krok następnym razem."
+   },
+   "default_mode_checkbox_descr": {
+      "message": "Możesz to zmienić później w Ustawieniach."
+   },
+   "default_mode_desc": {
+      "message": "Wybierz działanie, które automatycznie zostanie wybrane po kliknięciu przycisku."
+   },
+   "delete": {
+      "message": "Usuń"
+   },
+   "delete_button": {
+      "message": "Usuń"
+   },
+   "dialog_close": {
+      "message": "Zamknij"
+   },
+   "dont_like_printfriendly_description": {
+      "message": "Twoja opinia kształtuje to, co tworzymy i jak się rozwijamy. Masz sekundę, żeby powiedzieć nam, jak możemy być lepsi?"
+   },
+   "dont_like_printfriendly_title": {
+      "message": "Dziękujemy za danie nam szansy"
+   },
+   "download_again": {
+      "message": "Pobierz ponownie"
+   },
+   "download_directory": {
+      "message": "Katalog"
+   },
+   "download_directory_description": {
+      "message": "Wybierz folder w katalogu Pobieranie, w którym chcesz zapisać pliki PDF i obrazy. Jeśli pozostawisz puste, zostaną one zapisane po prostu w katalogu Pobieranie. Trzymaj się liter, cyfr, myślników, podkreśleń i ukośników (inne znaki zostaną usunięte)."
+   },
+   "edit": {
+      "message": "Edytuj"
+   },
+   "edit_link": {
+      "message": "Edytuj link"
+   },
+   "edit_pdf": {
+      "message": "Edytuj PDF"
+   },
+   "email": {
+      "message": "E-mail"
+   },
+   "enable_delete": {
+      "message": "Rozpocznij z włączoną funkcją Usuwania"
+   },
+   "extension_settings": {
+      "message": "Ustawienia rozszerzenia"
+   },
+   "file_access_description": {
+      "message": "Przejdź do ustawień rozszerzeń przeglądarki i włącz „Zezwól na dostęp do adresów URL plików”, aby rozszerzenie mogło uzyskać dostęp do tej strony."
+   },
+   "file_access_title": {
+      "message": "Dostęp do pliku jest wymagany"
+   },
+   "floating_button": {
+      "message": "Przycisk pływający"
+   },
+   "floating_button_pref_descr": {
+      "message": "Pokaż przycisk, aby łatwo uzyskać dostęp do PrintFriendly."
+   },
+   "full_page_screenshot": {
+      "message": "Zrzut całej strony"
+   },
+   "full_page_screenshot_desc": {
+      "message": "Przechwyć stronę internetową tak, jak się pojawia z reklamami itp."
+   },
+   "give_feedback": {
+      "message": "Nie, zostaw opinię."
+   },
+   "go_to_link": {
+      "message": "Przejdź do linku"
+   },
+   "got_it": {
+      "message": "Rozumiem"
+   },
+   "heading_1": {
+      "message": "Nagłówek 1"
+   },
+   "heading_2": {
+      "message": "Nagłówek 2"
+   },
+   "heading_3": {
+      "message": "Nagłówek 3"
+   },
+   "heading_4": {
+      "message": "Nagłówek 4"
+   },
+   "heading_5": {
+      "message": "Nagłówek 5"
+   },
+   "heading_6": {
+      "message": "Nagłówek 6"
+   },
+   "highlight": {
+      "message": "Podświetl"
+   },
+   "history_menu": {
+      "message": "Historia (Wkrótce dostępna)"
+   },
+   "image": {
+      "message": "Obraz"
+   },
+   "image_size_pref": {
+      "message": "Preferencje rozmiaru obrazu"
+   },
+   "image_size_pref_desc": {
+      "message": "Ustaw rozmiar obrazów podczas przeglądania stron za pomocą rozszerzenia."
+   },
+   "image_upload_file_too_large": {
+      "message": "Plik obrazu jest za duży. Wybierz obraz mniejszy niż 5 MB"
+   },
+   "image_upload_select_file": {
+      "message": "Proszę wybrać plik obrazu"
+   },
+   "insert_image": {
+      "message": "Wstaw Obraz"
+   },
+   "italic": {
+      "message": "Kursywa"
+   },
+   "lang_display_name": {
+      "message": "Polski (Polish)"
+   },
+   "language_setting": {
+      "message": "Język"
+   },
+   "language_setting_desc": {
+      "message": "Wybierz preferowany język."
+   },
+   "left": {
+      "message": "Lewo"
+   },
+   "letter_paper_size": {
+      "message": "List"
+   },
+   "like_printfriendly_extension": {
+      "message": "Podoba Ci się rozszerzenie PrintFriendly?"
+   },
+   "like_printfriendly_p1_description": {
+      "message": "Twoja opinia nas motywuje!"
+   },
+   "like_printfriendly_p2_description_chrome": {
+      "message": "Czy byłbyś skłonny zrecenzować PrintFriendly w Chrome Web Store?"
+   },
+   "like_printfriendly_p2_description_edge": {
+      "message": "Czy byłbyś skłonny zrecenzować PrintFriendly na stronie Microsoft Edge Add-ons?"
+   },
+   "like_printfriendly_p2_description_firefox": {
+      "message": "Czy byłbyś gotów ocenić PrintFriendly w sklepie dodatków Firefox?"
+   },
+   "like_printfriendly_p2_description_safari": {
+      "message": "Czy byłbyś skłonny ocenić PrintFriendly w sklepie rozszerzeń Safari?"
+   },
+   "like_printfriendly_title": {
+      "message": "Cieszymy się, że lubisz PrintFriendly!"
+   },
+   "log_out": {
+      "message": "Wylogowanie"
+   },
+   "never": {
+      "message": "Nigdy"
+   },
+   "no": {
+      "message": "Nie"
+   },
+   "no_thanks": {
+      "message": "Nie, dziękuję"
+   },
+   "numbered_list": {
+      "message": "Lista numerowana"
+   },
+   "off": {
+      "message": "Wyłączone"
+   },
+   "one_day": {
+      "message": "1 dzień"
+   },
+   "one_month": {
+      "message": "1 miesiąc"
+   },
+   "one_week": {
+      "message": "1 tydzień"
+   },
+   "optional_cookie_permission_descr_line1": {
+      "message": "Aby włączyć logowanie, kliknij „Zezwól” na następnym ekranie."
+   },
+   "optional_cookie_permission_descr_line2": {
+      "message": "To uprawnienie umożliwia rozszerzeniu PrintFriendly potwierdzenie, kiedy jesteś zalogowany na PrintFriendly.com, abyśmy mogli zsynchronizować Twoje konto z rozszerzeniem."
+   },
+   "optional_cookie_permission_descr_line3": {
+      "message": "Nigdy nie zbieramy Twojej historii przeglądania ani danych z innych stron internetowych."
+   },
+   "optional_downloads_permission_descr_line1": {
+      "message": "Aby zapisać pliki do określonego folderu, kliknij „Zezwól” na następnym ekranie."
+   },
+   "optional_downloads_permission_descr_line2": {
+      "message": "To uprawnienie umożliwia rozszerzeniu PrintFriendly pobieranie twoich plików PDF i obrazów bezpośrednio do wybranej lokalizacji."
+   },
+   "optional_host_permission_descr": {
+      "message": "Aby przycisk działał, potrzebujemy uprawnień do przeglądania i zmiany treści na stronach internetowych:"
+   },
+   "optional_host_permission_footer": {
+      "message": "Aby włączyć, kliknij Zezwól na następnym ekranie."
+   },
+   "optional_host_permission_item_1": {
+      "message": "To jest opcjonalne i nie jest wymagane do korzystania z PrintFriendly."
+   },
+   "optional_host_permission_item_2": {
+      "message": "Możesz to wyłączyć w dowolnym momencie w ustawieniach."
+   },
+   "optional_host_permission_item_3": {
+      "message": "Nie przechowujemy żadnych danych o przeglądaniu."
+   },
+   "optional_host_permission_title": {
+      "message": "Włączyć funkcje pływającego przycisku?"
+   },
+   "optional_permission_descr": {
+      "message": "Ta strona używa ramek iframe, które ograniczają naszą zdolność do przechwytywania całej strony. Aby wykonać zrzut ekranu całej strony, potrzebujemy dodatkowego pozwolenia. Po zamknięciu tej wiadomości kliknij „Zezwól”, aby kontynuować."
+   },
+   "optional_permission_title": {
+      "message": "Wymagana dodatkowa zgoda"
+   },
+   "other_tools": {
+      "message": "Narzędzia"
+   },
+   "page_blocking_printfriendly": {
+      "message": "Ta strona blokuje PrintFriendly"
+   },
+   "paragraph": {
+      "message": "Akapit"
+   },
+   "pdf": {
+      "message": "PDF"
+   },
+   "pdf_file_downloaded": {
+      "message": "Twój plik PDF został pobrany."
+   },
+   "pdf_generation_error": {
+      "message": "Błąd generowania pliku PDF"
+   },
+   "pdf_paper_size": {
+      "message": "Rozmiar papieru PDF"
+   },
+   "preformatted": {
+      "message": "Wstępnie sformatowany"
+   },
+   "print": {
+      "message": "Drukuj"
+   },
+   "print_pdf_margin_pref": {
+      "message": "Marginesy druku i PDF"
+   },
+   "print_pdf_margin_pref_descr": {
+      "message": "Dostosuj marginesy wydruku i PDF."
+   },
+   "printer_friendly_desc": {
+      "message": "Usuń reklamy i nawigację ze stron internetowych."
+   },
+   "printfriendly_page": {
+      "message": "Strona PrintFriendly"
+   },
+   "profile_settings": {
+      "message": "Ustawienia profilu"
+   },
+   "remove": {
+      "message": "Usuń"
+   },
+   "remove_formatting": {
+      "message": "Usuń formatowanie"
+   },
+   "remove_link": {
+      "message": "Usuń link"
+   },
+   "report": {
+      "message": "Zgłoś"
+   },
+   "resolve_issue": {
+      "message": "a my pomożemy ci rozwiązać problem."
+   },
+   "right": {
+      "message": "Prawo"
+   },
+   "safari_description": {
+      "message": "Konwertuj strony internetowe na PDF lub zrzuty ekranu. Strony bez reklam gotowe do druku lub zapisu."
+   },
+   "safari_name": {
+      "message": "PrintFriendly: PDF i Przechwytywanie"
+   },
+   "save_as": {
+      "message": "Zapisz jako"
+   },
+   "save_as_description": {
+      "message": "Automatycznie otwórz okno dialogowe „Zapisz jako” podczas pobierania plików PDF lub zrzutów ekranu. Jeśli twoja przeglądarka jest już ustawiona tak, aby pytać, gdzie zapisać pliki, to to ustawienie ma pierwszeństwo."
+   },
+   "save_changes": {
+      "message": "Zapisz"
+   },
+   "save_updates": {
+      "message": "Zapisz zmiany"
+   },
+   "saved": {
+      "message": "Zapisano."
+   },
+   "screenshot": {
+      "message": "Zrzut ekranu"
+   },
+   "screenshot_image_format": {
+      "message": "Format obrazu zrzutu ekranu"
+   },
+   "screenshot_restriction_message": {
+      "message": "PrintFriendly działa na większości stron internetowych, ułatwiając tworzenie czystszych, przyjaznych dla drukarek stron i zrzutów ekranu. Jednak niektóre strony—takie jak ustawienia przeglądarki, sklepy z rozszerzeniami i inne ograniczone obszary—są niedostępne ze względu na politykę przeglądarek. Skontaktuj się z nami, jeśli masz jakiekolwiek pytania."
+   },
+   "settings": {
+      "message": "Ustawienia"
+   },
+   "settings_saved": {
+      "message": "Twoje ustawienia zostały zapisane."
+   },
+   "share_feedback": {
+      "message": "Podziel się opinią."
+   },
+   "show_context_menu_pref": {
+      "message": "Pokaż PrintFriendly w menu kontekstowym kliknięcia prawym przyciskiem."
+   },
+   "show_context_menu_pref_descr": {
+      "message": "Po włączeniu możesz uzyskać dostęp do PrintFriendly bezpośrednio z menu kontekstowego przeglądarki."
+   },
+   "show_download_complete_descr": {
+      "message": "Po włączeniu, po pobraniu pliku PDF pojawia się okno potwierdzenia z szybkimi akcjami ponownego pobierania, konwertowania, edytowania lub podpisywania."
+   },
+   "show_download_complete_pref": {
+      "message": "Pokaż okno „Pobieranie zakończone”."
+   },
+   "show_float_button_on_articles_only": {
+      "message": "Pokaż unoszący się przycisk tylko na stronach artykułów"
+   },
+   "show_float_button_on_articles_only_pref_descr": {
+      "message": "Włącz tę opcję, aby wyświetlać unoszący się przycisk PrintFriendly tylko na stronach, które wyglądają na artykuły prasowe lub wpisy na blogu."
+   },
+   "sign_in": {
+      "message": "Zaloguj się"
+   },
+   "sign_pdf": {
+      "message": "Podpisz PDF"
+   },
+   "skip_screen_next_time": {
+      "message": "Pomiń ten ekran następnym razem"
+   },
+   "small_images_pref_descr": {
+      "message": "Małe obrazy są zwykle ukryte, ponieważ często nie są przydatne podczas drukowania lub zapisywania jako PDF. Włącz tę opcję, jeśli chcesz je zobaczyć."
+   },
+   "small_images_pref_title": {
+      "message": "Pokaż małe obrazy"
+   },
+   "start_download_pdf_subtitle": {
+      "message": "Proszę nie zamykać przeglądarki. To może zająć minutę."
+   },
+   "start_download_pdf_title": {
+      "message": "Trwa pobieranie pliku PDF"
+   },
+   "still_does_not_work": {
+      "message": "Jeśli nadal nie działa, skontaktuj się z nami pod adresem"
+   },
+   "stop_capturing": {
+      "message": "Zatrzymaj przechwytywanie"
+   },
+   "strict_security_settings": {
+      "message": "Przepraszamy, ale ta strona na {{domainName}} ma rygorystyczne ustawienia bezpieczeństwa (Polityka Bezpieczeństwa Treści), które uniemożliwiają działanie PrintFriendly."
+   },
+   "strict_security_settings_support": {
+      "message": "Aby uzyskać więcej informacji lub wsparcie, prosimy o kontakt pod adresem"
+   },
+   "strict_security_unsupported_page": {
+      "message": "Strona nie jest obsługiwana przez PrintFriendly"
+   },
+   "strikethrough": {
+      "message": "Przekreślone"
+   },
+   "style": {
+      "message": "Styl"
+   },
+   "take_me_there": {
+      "message": "Pewnie, zaprowadź mnie tam!"
+   },
+   "text_size_pref": {
+      "message": "Preferencje rozmiaru tekstu"
+   },
+   "text_size_pref_desc": {
+      "message": "Ustaw rozmiar tekstu podczas przeglądania stron za pomocą rozszerzenia."
+   },
+   "timed_out_pdf": {
+      "message": "PrintFriendly mógł przekroczyć limit czasu podczas tworzenia pliku PDF. Może on być zbyt duży dla naszego systemu."
+   },
+   "top": {
+      "message": "Góra"
+   },
+   "turn_off_delete": {
+      "message": "Wyłącz usuwanie, aby kliknąć linki."
+   },
+   "unable_to_generate_pdf": {
+      "message": "Nie udało nam się wygenerować pliku PDF dla tej strony."
+   },
+   "underline": {
+      "message": "Podkreślenie"
+   },
+   "undo": {
+      "message": "Cofnij"
+   },
+   "when_to_show_again": {
+      "message": "Kiedy powinniśmy to pokazać ponownie?"
+   },
+   "which_option_best": {
+      "message": "Która opcja jest dla mnie najlepsza?"
+   },
+   "yes": {
+      "message": "Tak"
+   }
+}

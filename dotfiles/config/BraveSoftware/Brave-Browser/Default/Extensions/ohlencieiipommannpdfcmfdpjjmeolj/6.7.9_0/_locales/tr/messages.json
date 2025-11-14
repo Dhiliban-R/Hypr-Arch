@@ -1,0 +1,491 @@
+{
+   "a4_paper_size": {
+      "message": "A4"
+   },
+   "add_link": {
+      "message": "Bağlantı ekle"
+   },
+   "app_description": {
+      "message": "Web sayfalarını yazdırmaya uygun hale getirin, PDF'ye dönüştürün veya ekran görüntüsü alın. Yazdırılmaya veya PDF olarak kaydedilmeye hazır temiz sayfalar için reklamları kaldırın."
+   },
+   "app_name": {
+      "message": "PrintFriendly - Web sayfalarını yazdır, PDF oluştur ve ekran görüntüsü al"
+   },
+   "back": {
+      "message": "Geri"
+   },
+   "blocked_by_extension": {
+      "message": "PrintFriendly başka bir eklenti, örneğin bir reklam engelleyici tarafından engellenmiş olabilir. Lütfen diğer eklentilerinizi geçici olarak devre dışı bırakın ve tekrar PDF oluşturmaya çalışın."
+   },
+   "blockquote": {
+      "message": "Blok alıntı"
+   },
+   "bold": {
+      "message": "Kalın"
+   },
+   "bottom": {
+      "message": "Alt"
+   },
+   "bullet_list": {
+      "message": "Madde işaretli liste"
+   },
+   "cancel": {
+      "message": "İptal"
+   },
+   "capture_failed": {
+      "message": "Bu sitede tam sayfa ekran görüntüsü almak mümkün değil."
+   },
+   "capture_failed_descr": {
+      "message": "Bazı web siteleri, tam ekran görüntüsü almayı engelleyen çerçeveler veya dinamik öğeler kullanır. Lütfen başka bir siteyi deneyin."
+   },
+   "capturing": {
+      "message": "Yakalama"
+   },
+   "capturing_desc": {
+      "message": "Lütfen bekleyin, ekran görüntüsü kısa sürede hazır olacak."
+   },
+   "choose_paper_size": {
+      "message": "PDF'ler için tercih ettiğiniz kağıt boyutunu seçin."
+   },
+   "choose_save_method": {
+      "message": "Bu sayfayı nasıl kaydedeceğinizi seçin"
+   },
+   "compress_pdf": {
+      "message": "PDF'yi sıkıştır"
+   },
+   "continue_to": {
+      "message": "Devam et..."
+   },
+   "convert_pdf": {
+      "message": "PDF'i Dönüştür"
+   },
+   "current_view_screenshot": {
+      "message": "Görünüm Ekran"
+   },
+   "current_view_screenshot_desc": {
+      "message": "Sayfanın yalnızca görünen kısmını yakalayın."
+   },
+   "default_mode": {
+      "message": "Varsayılan Mod"
+   },
+   "default_mode_checkbox": {
+      "message": "Seçimimi hatırla ve bir dahaki sefere bu adımı atla."
+   },
+   "default_mode_checkbox_descr": {
+      "message": "Bunu daha sonra Ayarlar’da değiştirebilirsiniz."
+   },
+   "default_mode_desc": {
+      "message": "Uzantı düğmesine tıkladığınızda otomatik olarak seçilecek işlemi seçin."
+   },
+   "delete": {
+      "message": "Bu bölümü silmek için tıklayın"
+   },
+   "delete_button": {
+      "message": "Sil"
+   },
+   "dialog_close": {
+      "message": "Kapat"
+   },
+   "dont_like_printfriendly_description": {
+      "message": "Geri bildiriminiz, ne inşa ettiğimizi ve nasıl geliştiğimizi şekillendiriyor. Daha iyi olmamız için bize bir saniyen var mı?"
+   },
+   "dont_like_printfriendly_title": {
+      "message": "Bize bir şans verdiğin için teşekkürler"
+   },
+   "download_again": {
+      "message": "Tekrar indir"
+   },
+   "download_directory": {
+      "message": "Dizin"
+   },
+   "download_directory_description": {
+      "message": "İndirilenler dizininiz içinde PDF ve resimlerinizin gitmesini istediğiniz bir klasör belirtin. Boş bırakırsanız, dosyalar sadece İndirilenler klasörüne gider. Harfler, sayılar, kısa çizgiler, alt çizgiler ve eğik çizgilere bağlı kalın (diğer karakterler kaldırılır)."
+   },
+   "edit": {
+      "message": "Düzenle"
+   },
+   "edit_link": {
+      "message": "Bağlantıyı düzenle"
+   },
+   "edit_pdf": {
+      "message": "PDF'i Düzenle"
+   },
+   "email": {
+      "message": "E-posta"
+   },
+   "enable_delete": {
+      "message": "Sil özelliği açık olarak başlat"
+   },
+   "extension_settings": {
+      "message": "Uzantı ayarları"
+   },
+   "file_access_description": {
+      "message": "Lütfen tarayıcınızın uzantı ayarlarına gidin ve \"Dosya URL'lerine erişime izin ver\" seçeneğini etkinleştirin, böylece uzantı bu sayfaya erişebilir."
+   },
+   "file_access_title": {
+      "message": "Dosya erişimi gerekli"
+   },
+   "floating_button": {
+      "message": "Yüzen Düğme"
+   },
+   "floating_button_pref_descr": {
+      "message": "PrintFriendly'e kolayca erişmek için bir düğme gösterin."
+   },
+   "full_page_screenshot": {
+      "message": "Tam Sayfa Görüntüsü"
+   },
+   "full_page_screenshot_desc": {
+      "message": "Web sayfasını reklamlarla birlikte göründüğü şekilde yakalayın."
+   },
+   "give_feedback": {
+      "message": "Hayır, geri bildirimde bulunun."
+   },
+   "go_to_link": {
+      "message": "Bağlantıya git"
+   },
+   "got_it": {
+      "message": "Anladım"
+   },
+   "heading_1": {
+      "message": "Başlık 1"
+   },
+   "heading_2": {
+      "message": "Başlık 2"
+   },
+   "heading_3": {
+      "message": "Başlık 3"
+   },
+   "heading_4": {
+      "message": "Başlık 4"
+   },
+   "heading_5": {
+      "message": "Başlık 5"
+   },
+   "heading_6": {
+      "message": "Başlık 6"
+   },
+   "highlight": {
+      "message": "Vurgula"
+   },
+   "history_menu": {
+      "message": "Geçmiş (Çok yakında)"
+   },
+   "image": {
+      "message": "Görüntü"
+   },
+   "image_size_pref": {
+      "message": "Görüntü Boyutu Tercihi"
+   },
+   "image_size_pref_desc": {
+      "message": "Uzantıyla sayfaları görüntülerken resim boyutunu ayarlayın."
+   },
+   "image_upload_file_too_large": {
+      "message": "Görüntü dosyası çok büyük. Lütfen 5MB’dan küçük bir resim seçin"
+   },
+   "image_upload_select_file": {
+      "message": "Lütfen bir resim dosyası seçin"
+   },
+   "insert_image": {
+      "message": "Resim Ekle"
+   },
+   "italic": {
+      "message": "İtalik"
+   },
+   "lang_display_name": {
+      "message": "Türkçe (Turkish)"
+   },
+   "language_setting": {
+      "message": "Dil"
+   },
+   "language_setting_desc": {
+      "message": "Tercih ettiğiniz dili seçin."
+   },
+   "left": {
+      "message": "Sol"
+   },
+   "letter_paper_size": {
+      "message": "Mektup"
+   },
+   "like_printfriendly_extension": {
+      "message": "PrintFriendly uzantısını beğendiniz mi?"
+   },
+   "like_printfriendly_p1_description": {
+      "message": "Geri bildiriminiz bizi motive ediyor!"
+   },
+   "like_printfriendly_p2_description_chrome": {
+      "message": "PrintFriendly'i Chrome Web Mağazasında incelemek ister misiniz?"
+   },
+   "like_printfriendly_p2_description_edge": {
+      "message": "Microsoft Edge Eklentileri web sitesinde PrintFriendly'yi incelemeye istekli misiniz?"
+   },
+   "like_printfriendly_p2_description_firefox": {
+      "message": "Firefox Eklenti Mağazasında PrintFriendly'i incelemeye istekli olur musunuz?"
+   },
+   "like_printfriendly_p2_description_safari": {
+      "message": "Safari Extension Store'da PrintFriendly'i incelemeye istekli misiniz?"
+   },
+   "like_printfriendly_title": {
+      "message": "PrintFriendly’i beğendiğine sevindik!"
+   },
+   "log_out": {
+      "message": "Çıkış"
+   },
+   "never": {
+      "message": "Asla"
+   },
+   "no": {
+      "message": "Hayır"
+   },
+   "no_thanks": {
+      "message": "Hayır, teşekkürler"
+   },
+   "numbered_list": {
+      "message": "Numaralı liste"
+   },
+   "off": {
+      "message": "Kapalı"
+   },
+   "one_day": {
+      "message": "1 gün"
+   },
+   "one_month": {
+      "message": "1 ay"
+   },
+   "one_week": {
+      "message": "1 hafta"
+   },
+   "optional_cookie_permission_descr_line1": {
+      "message": "Oturum açmayı etkinleştirmek için lütfen sonraki ekranda “İzin Ver”e tıklayın."
+   },
+   "optional_cookie_permission_descr_line2": {
+      "message": "Bu izin, PrintFriendly uzantısının PrintFriendly.com’da oturum açtığınızı doğrulamasına olanak tanır; böylece hesabınızı uzantı ile senkronize edebiliriz."
+   },
+   "optional_cookie_permission_descr_line3": {
+      "message": "Hiçbir zaman tarama geçmişinizi veya diğer web sitelerinden gelen verileri toplamayız."
+   },
+   "optional_downloads_permission_descr_line1": {
+      "message": "Belirli bir klasöre dosya kaydetmek için lütfen sonraki ekranda “İzin Ver”e tıklayın."
+   },
+   "optional_downloads_permission_descr_line2": {
+      "message": "Bu izin, PrintFriendly uzantısının PDF’lerinizi ve görüntülerinizi doğrudan seçtiğiniz konuma indirmesine olanak tanır."
+   },
+   "optional_host_permission_descr": {
+      "message": "Dolaşan düğmenin çalışması için web sitelerinde içeriği görüntüleme ve değiştirme iznine ihtiyacımız var:"
+   },
+   "optional_host_permission_footer": {
+      "message": "Etkinleştirmek için lütfen bir sonraki ekranda İzin Ver'e tıklayın."
+   },
+   "optional_host_permission_item_1": {
+      "message": "Bu isteğe bağlıdır ve PrintFriendly kullanmak için gerekli değildir."
+   },
+   "optional_host_permission_item_2": {
+      "message": "Bunu ayarlardan istediğiniz zaman kapatabilirsiniz."
+   },
+   "optional_host_permission_item_3": {
+      "message": "Göz atma verilerinizden hiçbirini saklamıyoruz."
+   },
+   "optional_host_permission_title": {
+      "message": "Yüzen Düğme Özelliklerini Etkinleştir?"
+   },
+   "optional_permission_descr": {
+      "message": "Bu web sitesi iframe kullanıyor, bu da tüm sayfayı yakalama yeteneğimizi sınırlandırıyor. Tam sayfa ekran görüntüsü almak için ek izne ihtiyacımız var. Bu mesajı kapattıktan sonra lütfen devam etmek için “İzin Ver”e tıklayın."
+   },
+   "optional_permission_title": {
+      "message": "Ek izin gerekli"
+   },
+   "other_tools": {
+      "message": "Diğer Araçlar"
+   },
+   "page_blocking_printfriendly": {
+      "message": "Bu Sayfa PrintFriendly'yi Engelliyor"
+   },
+   "paragraph": {
+      "message": "Paragraf"
+   },
+   "pdf": {
+      "message": "PDF"
+   },
+   "pdf_file_downloaded": {
+      "message": "PDF dosyanız indirildi."
+   },
+   "pdf_generation_error": {
+      "message": "PDF Oluşturma Hatası"
+   },
+   "pdf_paper_size": {
+      "message": "PDF Kağıt Boyutu"
+   },
+   "preformatted": {
+      "message": "Önceden biçimlendirilmiş"
+   },
+   "print": {
+      "message": "Yazdır"
+   },
+   "print_pdf_margin_pref": {
+      "message": "Baskı ve PDF Kenar Boşluğu"
+   },
+   "print_pdf_margin_pref_descr": {
+      "message": "Yazdırma ve PDF kenar boşluklarını özelleştirin."
+   },
+   "printer_friendly_desc": {
+      "message": "Web sayfalarından reklamları ve gezinmeyi kaldırın."
+   },
+   "printfriendly_page": {
+      "message": "PrintFriendly Sayfası"
+   },
+   "profile_settings": {
+      "message": "Profil ayarları"
+   },
+   "remove": {
+      "message": "Kaldır"
+   },
+   "remove_formatting": {
+      "message": "Biçimlendirmeyi kaldır"
+   },
+   "remove_link": {
+      "message": "Bağlantıyı kaldır"
+   },
+   "report": {
+      "message": "Bildir"
+   },
+   "resolve_issue": {
+      "message": "sorunu çözmenize yardımcı olacağız."
+   },
+   "right": {
+      "message": "Sağ"
+   },
+   "safari_description": {
+      "message": "Web sayfalarını PDF veya ekran görüntüsüne çevirin. Reklamsız temiz sayfalar yazdırmaya ya da kaydetmeye hazır."
+   },
+   "safari_name": {
+      "message": "PrintFriendly: PDF ve Yakalama"
+   },
+   "save_as": {
+      "message": "Farklı Kaydet"
+   },
+   "save_as_description": {
+      "message": "PDF’leri veya ekran görüntüsü resimlerini indirirken otomatik olarak “Farklı Kaydet” iletişim kutusunu aç. Tarayıcınız zaten dosyaların nereye kaydedileceğini sormaya ayarlıysa, o ayar geçerli olur."
+   },
+   "save_changes": {
+      "message": "Kaydet"
+   },
+   "save_updates": {
+      "message": "Değişiklikleri Kaydet"
+   },
+   "saved": {
+      "message": "Kaydedildi."
+   },
+   "screenshot": {
+      "message": "Ekran Görüntüsü"
+   },
+   "screenshot_image_format": {
+      "message": "Ekran Görüntüsü Resim Formatı"
+   },
+   "screenshot_restriction_message": {
+      "message": "PrintFriendly çoğu web sitesinde çalışır ve daha temiz, yazıcı dostu sayfalar ve ekran görüntüleri oluşturmayı kolaylaştırır. Ancak, tarayıcı politikaları nedeniyle belirli sayfalar—tarayıcı ayarları, uzantı mağazaları ve diğer sınırlı alanlar—erişilemez. Herhangi bir sorunuz varsa lütfen bizimle iletişime geçin."
+   },
+   "settings": {
+      "message": "Ayarlar"
+   },
+   "settings_saved": {
+      "message": "Ayarlarınız kaydedildi."
+   },
+   "share_feedback": {
+      "message": "Geri bildirimi paylaş."
+   },
+   "show_context_menu_pref": {
+      "message": "Sağ tıklama bağlam menüsünde PrintFriendly göster."
+   },
+   "show_context_menu_pref_descr": {
+      "message": "Etkinleştirildiğinde, PrintFriendly'ye doğrudan tarayıcınızın bağlam menüsünden erişebilirsiniz."
+   },
+   "show_download_complete_descr": {
+      "message": "Etkinleştirildiğinde, PDF’iniz indirildikten sonra tekrar indirme, dönüştürme, düzenleme veya imzalama için hızlı işlemler içeren bir onay penceresi görünür."
+   },
+   "show_download_complete_pref": {
+      "message": "“İndirme Tamamlandı” penceresini göster."
+   },
+   "show_float_button_on_articles_only": {
+      "message": "Yüzen düğmeyi yalnızca makale sayfalarında göster"
+   },
+   "show_float_button_on_articles_only_pref_descr": {
+      "message": "Bu seçeneği etkinleştirerek yalnızca haber makaleleri veya blog gönderileri olarak görünen sayfalarda PrintFriendly düğmesini görüntüleyin."
+   },
+   "sign_in": {
+      "message": "Oturum aç"
+   },
+   "sign_pdf": {
+      "message": "PDF imzala"
+   },
+   "skip_screen_next_time": {
+      "message": "Bir dahaki sefere bu ekranı atla"
+   },
+   "small_images_pref_descr": {
+      "message": "Küçük resimler genellikle gizli tutulur çünkü baskı alırken veya PDF olarak kaydederken genellikle faydalı değildir. Bunları görmek istiyorsanız bu ayarı açın."
+   },
+   "small_images_pref_title": {
+      "message": "Küçük Resimleri Göster"
+   },
+   "start_download_pdf_subtitle": {
+      "message": "Lütfen tarayıcınızı kapatmayın. Bu bir dakika sürebilir."
+   },
+   "start_download_pdf_title": {
+      "message": "PDF dosyanız indiriliyor"
+   },
+   "still_does_not_work": {
+      "message": "Eğer hâlâ çalışmazsa, lütfen bizimle iletişime geçin"
+   },
+   "stop_capturing": {
+      "message": "Yakalamayı Durdur"
+   },
+   "strict_security_settings": {
+      "message": "Üzgünüz, ancak {{domainName}} üzerindeki bu sayfa, PrintFriendly’nin çalışmasını engelleyen katı güvenlik ayarlarına (İçerik Güvenlik Politikası) sahiptir."
+   },
+   "strict_security_settings_support": {
+      "message": "Daha fazla bilgi veya destek için lütfen bizimle iletişime geçin"
+   },
+   "strict_security_unsupported_page": {
+      "message": "Sayfa PrintFriendly tarafından desteklenmiyor"
+   },
+   "strikethrough": {
+      "message": "Üstü çizili"
+   },
+   "style": {
+      "message": "Stil"
+   },
+   "take_me_there": {
+      "message": "Tabii, beni oraya götür!"
+   },
+   "text_size_pref": {
+      "message": "Metin Boyutu Tercihi"
+   },
+   "text_size_pref_desc": {
+      "message": "Uzantıyla sayfaları görüntülerken metin boyutunu ayarlayın."
+   },
+   "timed_out_pdf": {
+      "message": "PrintFriendly, PDF oluştururken zaman aşımına uğramış olabilir. Sistemimizin başa çıkamayacağı kadar büyük olabilir."
+   },
+   "top": {
+      "message": "Üst"
+   },
+   "turn_off_delete": {
+      "message": "Bağlantılara tıklamak için Sil’i kapatın."
+   },
+   "unable_to_generate_pdf": {
+      "message": "Bu sayfa için PDF oluşturamadık."
+   },
+   "underline": {
+      "message": "Altı çizili"
+   },
+   "undo": {
+      "message": "Geri Al"
+   },
+   "when_to_show_again": {
+      "message": "Bunu yeniden ne zaman göstermeliyiz?"
+   },
+   "which_option_best": {
+      "message": "Benim için en iyi seçenek hangisi?"
+   },
+   "yes": {
+      "message": "Evet"
+   }
+}

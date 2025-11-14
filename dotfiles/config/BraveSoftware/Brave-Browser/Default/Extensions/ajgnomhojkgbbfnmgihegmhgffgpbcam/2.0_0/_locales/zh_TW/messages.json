@@ -1,0 +1,35 @@
+{
+   "appDesc": {
+      "message": "Gemini Storybook 繪本匯出成圖文、PDF、影片（即將支援）"
+   },
+   "appName": {
+      "message": "Gemini Storybook 繪本故事匯出器"
+   },
+   "downloadImagesAndTexts": {
+      "message": "下載圖文"
+   },
+   "downloadImagesAndTextsLoading": {
+      "message": "正在下載圖文"
+   },
+   "downloadPDF": {
+      "message": "匯出PDF"
+   },
+   "downloadPDFLoading": {
+      "message": "正在匯出PDF"
+   },
+   "downloadVideo": {
+      "message": "產生影片"
+   },
+   "downloadVideoLoading": {
+      "message": "正在產生影片"
+   },
+   "exportSetting": {
+      "message": "繪本匯出設定"
+   },
+   "fileNamePrefix": {
+      "message": "檔案名稱前綴："
+   },
+   "showExportButton": {
+      "message": "顯示/隱藏匯出按鈕："
+   }
+}

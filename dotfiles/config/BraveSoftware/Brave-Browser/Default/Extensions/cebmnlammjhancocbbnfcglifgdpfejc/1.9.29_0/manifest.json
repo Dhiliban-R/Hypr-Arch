@@ -1,0 +1,67 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "images/icon_128.png",
+         "16": "images/icon_16.png",
+         "32": "images/icon_32.png",
+         "48": "images/icon_48.png",
+         "64": "images/icon_64.png",
+         "96": "images/icon_96.png"
+      },
+      "default_title": "AI Blaze"
+   },
+   "background": {
+      "service_worker": "js/background.js",
+      "type": "module"
+   },
+   "commands": {
+      "_execute_action": {
+         "suggested_key": {
+            "default": "Ctrl+Period"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/inPageNotifier.js", "js/contentScript.js" ],
+      "match_about_blank": true,
+      "match_origin_as_fallback": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_idle"
+   } ],
+   "content_security_policy": {
+      "sandbox": "sandbox allow-scripts allow-forms allow-popups allow-modals allow-popups-to-escape-sandbox; script-src 'self' 'unsafe-inline' 'unsafe-eval'; child-src 'self';"
+   },
+   "description": "Blazing fast AI copilot on any website: write emails, summarize articles, do research, fix your writing using GPT-5 or Claude Sonnet",
+   "externally_connectable": {
+      "matches": [ "https://*.blaze.today/*", "https://blaze.today/*" ]
+   },
+   "homepage_url": "https://blaze.today",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "images/icon_128.png",
+      "16": "images/icon_16.png",
+      "32": "images/icon_32.png",
+      "48": "images/icon_48.png",
+      "64": "images/icon_64.png",
+      "96": "images/icon_96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyNgaq1xXWmLHNu8vp4LLBZwRDoVfkfXhuuh4PLOWOuNx6KV0qHCwYQdRd7+zN3dRiFVfcx9DllVDXnOvDMMpJOGYTD5htdNW25YCc/IawRcCvnZKvKCw519MqEEWoeW794lohM3GwsEy+1/ztcOopIp4g2XwA1uVxZ4cckvssgiJDaLyQ2+tclr81IoLD+8EseCDbLRblfgMLtXWEDrkMsq7muuCiYxz6UQX5b3cPdcSObzb3tuQ8+Sb5zPBbqha3q99H/Ev8sSTR6komh1QVq1M+N4/BbFjBk4m3oSs3N3PcOxhIMCA4Pi6nJB46RDqbhSK85r0fKR5Vf2aU6jJiQIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "135",
+   "name": "AI Blaze: Instantly Use AI in Any Webpage",
+   "offline_enabled": true,
+   "omnibox": {
+      "keyword": "/ai"
+   },
+   "permissions": [ "tabs", "storage", "unlimitedStorage", "clipboardRead", "clipboardWrite", "contextMenus", "offscreen", "scripting" ],
+   "sandbox": {
+      "pages": [ "html/sandbox.html" ]
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.9.29",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "js/tbremapper.js", "images/icon_128.png", "images/icon_128_white_bottom.png", "css/widget.css", "css/picker.css", "css/notifier.css" ]
+   } ]
+}

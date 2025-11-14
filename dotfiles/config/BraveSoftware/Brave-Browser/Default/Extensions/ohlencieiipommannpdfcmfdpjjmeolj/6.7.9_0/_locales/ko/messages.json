@@ -1,0 +1,491 @@
+{
+   "a4_paper_size": {
+      "message": "A4"
+   },
+   "add_link": {
+      "message": "링크 추가"
+   },
+   "app_description": {
+      "message": "웹 페이지를 인쇄에 적합하게 만들고, PDF로 변환하거나 스크린샷을 캡처하세요. 광고를 제거하여 인쇄하거나 PDF로 저장할 수 있는 깔끔한 페이지를 만드세요."
+   },
+   "app_name": {
+      "message": "PrintFriendly - 웹페이지 인쇄, PDF 및 스크린샷"
+   },
+   "back": {
+      "message": "뒤로"
+   },
+   "blocked_by_extension": {
+      "message": "PrintFriendly는 광고 차단기와 같은 설치된 다른 확장 프로그램에 의해 차단되었을 수 있습니다. 다른 확장 프로그램을 일시적으로 비활성화하고 PDF를 다시 생성해 보십시오."
+   },
+   "blockquote": {
+      "message": "블록 인용"
+   },
+   "bold": {
+      "message": "굵게"
+   },
+   "bottom": {
+      "message": "맨 아래"
+   },
+   "bullet_list": {
+      "message": "글머리 기호 목록"
+   },
+   "cancel": {
+      "message": "취소"
+   },
+   "capture_failed": {
+      "message": "이 사이트에서는 전체 페이지 스크린샷이 불가능합니다."
+   },
+   "capture_failed_descr": {
+      "message": "일부 웹사이트는 프레임 또는 동적 요소를 사용하여 전체 스크린샷을 방지합니다. 다른 사이트를 시도해 보세요."
+   },
+   "capturing": {
+      "message": "캡처 중"
+   },
+   "capturing_desc": {
+      "message": "잠시만 기다려 주세요. 스크린샷이 곧 준비됩니다."
+   },
+   "choose_paper_size": {
+      "message": "PDF용 선호하는 용지 크기를 선택하세요."
+   },
+   "choose_save_method": {
+      "message": "이 페이지를 저장하는 방법을 선택하세요"
+   },
+   "compress_pdf": {
+      "message": "PDF 압축"
+   },
+   "continue_to": {
+      "message": "계속하기..."
+   },
+   "convert_pdf": {
+      "message": "PDF 변환"
+   },
+   "current_view_screenshot": {
+      "message": "현재 보기 스크린샷"
+   },
+   "current_view_screenshot_desc": {
+      "message": "페이지의 보이는 부분만 캡처하세요."
+   },
+   "default_mode": {
+      "message": "기본 모드"
+   },
+   "default_mode_checkbox": {
+      "message": "내 선택을 기억하고 다음에는 이 단계를 건너뛰세요."
+   },
+   "default_mode_checkbox_descr": {
+      "message": "나중에 설정에서 이것을 변경할 수 있습니다."
+   },
+   "default_mode_desc": {
+      "message": "확장 버튼을 클릭할 때 자동으로 선택될 작업을 선택하세요."
+   },
+   "delete": {
+      "message": "삭제하려면 클릭하세요"
+   },
+   "delete_button": {
+      "message": "삭제"
+   },
+   "dialog_close": {
+      "message": "닫기"
+   },
+   "dont_like_printfriendly_description": {
+      "message": "여러분의 피드백은 저희가 만드는 것과 개선 방법을 결정합니다. 어떻게 하면 더 나아질 수 있는지 말씀해주실 시간 있으신가요?"
+   },
+   "dont_like_printfriendly_title": {
+      "message": "기회를 주셔서 감사합니다."
+   },
+   "download_again": {
+      "message": "다시 다운로드"
+   },
+   "download_directory": {
+      "message": "디렉토리"
+   },
+   "download_directory_description": {
+      "message": "다운로드 디렉토리 내에서 PDF와 이미지가 저장될 폴더를 지정하세요. 빈 칸으로 두면 다운로드 폴더에 저장됩니다. 문자, 숫자, 대시, 밑줄, 슬래시만 사용하세요 (기타 문자는 자동으로 제거됩니다)."
+   },
+   "edit": {
+      "message": "편집"
+   },
+   "edit_link": {
+      "message": "링크 편집"
+   },
+   "edit_pdf": {
+      "message": "PDF 편집"
+   },
+   "email": {
+      "message": "이메일"
+   },
+   "enable_delete": {
+      "message": "삭제 기능이 켜진 상태로 시작"
+   },
+   "extension_settings": {
+      "message": "확장 설정"
+   },
+   "file_access_description": {
+      "message": "브라우저의 확장 프로그램 설정으로 이동하여 \"파일 URL에 대한 액세스 허용\"을 활성화하세요. 그러면 확장 프로그램이 이 페이지에 접근할 수 있습니다."
+   },
+   "file_access_title": {
+      "message": "파일 액세스 필요"
+   },
+   "floating_button": {
+      "message": "플로팅 버튼"
+   },
+   "floating_button_pref_descr": {
+      "message": "PrintFriendly에 쉽게 액세스할 수 있는 버튼을 표시하세요."
+   },
+   "full_page_screenshot": {
+      "message": "전체 페이지 스크린샷"
+   },
+   "full_page_screenshot_desc": {
+      "message": "광고 등이 포함된 웹페이지를 그대로 캡처하세요."
+   },
+   "give_feedback": {
+      "message": "아니요, 의견을 주세요."
+   },
+   "go_to_link": {
+      "message": "링크로 이동"
+   },
+   "got_it": {
+      "message": "알겠습니다"
+   },
+   "heading_1": {
+      "message": "제목 1"
+   },
+   "heading_2": {
+      "message": "제목 2"
+   },
+   "heading_3": {
+      "message": "제목 3"
+   },
+   "heading_4": {
+      "message": "제목 4"
+   },
+   "heading_5": {
+      "message": "제목 5"
+   },
+   "heading_6": {
+      "message": "제목 6"
+   },
+   "highlight": {
+      "message": "강조 표시"
+   },
+   "history_menu": {
+      "message": "기록 (곧 출시 예정)"
+   },
+   "image": {
+      "message": "이미지"
+   },
+   "image_size_pref": {
+      "message": "이미지 크기 설정"
+   },
+   "image_size_pref_desc": {
+      "message": "확장 프로그램으로 페이지를 볼 때 이미지 크기를 설정하세요."
+   },
+   "image_upload_file_too_large": {
+      "message": "이미지 파일이 너무 큽니다. 5MB 이하의 이미지를 선택하세요"
+   },
+   "image_upload_select_file": {
+      "message": "이미지 파일을 선택해 주세요"
+   },
+   "insert_image": {
+      "message": "이미지 삽입"
+   },
+   "italic": {
+      "message": "이탤릭"
+   },
+   "lang_display_name": {
+      "message": "한국어 (Korean)"
+   },
+   "language_setting": {
+      "message": "언어"
+   },
+   "language_setting_desc": {
+      "message": "선호하는 언어를 선택하세요."
+   },
+   "left": {
+      "message": "왼쪽"
+   },
+   "letter_paper_size": {
+      "message": "레터"
+   },
+   "like_printfriendly_extension": {
+      "message": "PrintFriendly 확장 기능이 마음에 드시나요?"
+   },
+   "like_printfriendly_p1_description": {
+      "message": "여러분의 피드백은 우리에게 동기를 부여합니다!"
+   },
+   "like_printfriendly_p2_description_chrome": {
+      "message": "크롬 웹 스토어에서 PrintFriendly를 검토하시겠습니까?"
+   },
+   "like_printfriendly_p2_description_edge": {
+      "message": "Microsoft Edge 부가 기능 웹사이트에서 PrintFriendly를 검토하시겠습니까?"
+   },
+   "like_printfriendly_p2_description_firefox": {
+      "message": "Firefox 애드온 스토어에서 PrintFriendly를 검토하시겠습니까?"
+   },
+   "like_printfriendly_p2_description_safari": {
+      "message": "Safari Extension Store에서 PrintFriendly를 검토해 주시겠습니까?"
+   },
+   "like_printfriendly_title": {
+      "message": "PrintFriendly가 마음에 드셨다니 기쁩니다!"
+   },
+   "log_out": {
+      "message": "로그아웃"
+   },
+   "never": {
+      "message": "결코"
+   },
+   "no": {
+      "message": "아니요"
+   },
+   "no_thanks": {
+      "message": "아니요, 감사합니다"
+   },
+   "numbered_list": {
+      "message": "번호 매기기 목록"
+   },
+   "off": {
+      "message": "끔"
+   },
+   "one_day": {
+      "message": "1일"
+   },
+   "one_month": {
+      "message": "1개월"
+   },
+   "one_week": {
+      "message": "1주일"
+   },
+   "optional_cookie_permission_descr_line1": {
+      "message": "로그인을 활성화하려면 다음 화면에서 “허용”을 클릭하세요."
+   },
+   "optional_cookie_permission_descr_line2": {
+      "message": "이 권한을 통해 PrintFriendly 확장 프로그램은 사용자가 PrintFriendly.com에 로그인했을 때를 확인할 수 있으므로 계정을 확장 프로그램과 동기화할 수 있습니다."
+   },
+   "optional_cookie_permission_descr_line3": {
+      "message": "우리는 사용자의 브라우징 기록이나 다른 웹사이트에서의 데이터를 수집하지 않습니다."
+   },
+   "optional_downloads_permission_descr_line1": {
+      "message": "특정 폴더에 파일을 저장하려면 다음 화면에서 “허용”을 클릭하세요."
+   },
+   "optional_downloads_permission_descr_line2": {
+      "message": "이 권한을 통해 PrintFriendly 확장 기능은 PDF 및 이미지를 사용자가 선택한 위치에 직접 다운로드할 수 있습니다."
+   },
+   "optional_host_permission_descr": {
+      "message": "플로팅 버튼이 작동하려면 웹사이트에서 콘텐츠를 조회하고 변경할 수 있는 권한이 필요합니다:"
+   },
+   "optional_host_permission_footer": {
+      "message": "활성화하려면 다음 화면에서 허용을 클릭하세요."
+   },
+   "optional_host_permission_item_1": {
+      "message": "이것은 선택사항이며 PrintFriendly를 사용하는 데 필요하지 않습니다."
+   },
+   "optional_host_permission_item_2": {
+      "message": "설정에서 언제든지 이를 끌 수 있습니다."
+   },
+   "optional_host_permission_item_3": {
+      "message": "사용자의 브라우징 데이터를 저장하지 않습니다."
+   },
+   "optional_host_permission_title": {
+      "message": "플로팅 버튼 기능을 활성화하시겠습니까?"
+   },
+   "optional_permission_descr": {
+      "message": "이 웹사이트는 iframes를 사용하여 전체 페이지를 캡처하는 우리의 능력을 제한합니다. 전체 페이지 스크린샷을 찍으려면 추가 권한이 필요합니다. 이 메시지를 닫은 후, 계속하려면 “허용”을 클릭하십시오."
+   },
+   "optional_permission_title": {
+      "message": "추가 권한이 필요합니다"
+   },
+   "other_tools": {
+      "message": "기타 도구"
+   },
+   "page_blocking_printfriendly": {
+      "message": "이 페이지가 PrintFriendly를 차단하고 있습니다"
+   },
+   "paragraph": {
+      "message": "단락"
+   },
+   "pdf": {
+      "message": "PDF"
+   },
+   "pdf_file_downloaded": {
+      "message": "PDF 파일이 다운로드되었습니다."
+   },
+   "pdf_generation_error": {
+      "message": "PDF 생성 오류"
+   },
+   "pdf_paper_size": {
+      "message": "PDF 용지 크기"
+   },
+   "preformatted": {
+      "message": "미리 서식 지정됨"
+   },
+   "print": {
+      "message": "인쇄"
+   },
+   "print_pdf_margin_pref": {
+      "message": "인쇄 및 PDF 여백"
+   },
+   "print_pdf_margin_pref_descr": {
+      "message": "인쇄 및 PDF 여백을 사용자 정의하세요."
+   },
+   "printer_friendly_desc": {
+      "message": "웹 페이지에서 광고 및 탐색을 제거하세요."
+   },
+   "printfriendly_page": {
+      "message": "PrintFriendly 페이지"
+   },
+   "profile_settings": {
+      "message": "프로필 설정"
+   },
+   "remove": {
+      "message": "제거"
+   },
+   "remove_formatting": {
+      "message": "서식 제거"
+   },
+   "remove_link": {
+      "message": "링크 제거"
+   },
+   "report": {
+      "message": "신고"
+   },
+   "resolve_issue": {
+      "message": "문제 해결을 도와드리겠습니다."
+   },
+   "right": {
+      "message": "오른쪽"
+   },
+   "safari_description": {
+      "message": "웹 페이지를 PDF 또는 스크린샷으로 변환합니다. 광고 없는 깨끗한 페이지, 인쇄 또는 저장할 준비 완료."
+   },
+   "safari_name": {
+      "message": "PrintFriendly: PDF 및 캡처"
+   },
+   "save_as": {
+      "message": "다른 이름으로 저장"
+   },
+   "save_as_description": {
+      "message": "PDF 또는 스크린샷 이미지를 다운로드할 때 자동으로 ‘다른 이름으로 저장’ 대화창을 엽니다. 브라우저가 이미 파일 저장 위치를 묻도록 설정되어 있다면, 해당 설정이 우선 적용됩니다."
+   },
+   "save_changes": {
+      "message": "저장"
+   },
+   "save_updates": {
+      "message": "변경 사항 저장"
+   },
+   "saved": {
+      "message": "저장됨."
+   },
+   "screenshot": {
+      "message": "스크린샷"
+   },
+   "screenshot_image_format": {
+      "message": "스크린샷 이미지 형식"
+   },
+   "screenshot_restriction_message": {
+      "message": "PrintFriendly는 대부분의 웹사이트에서 작동하여 더 깨끗하고 인쇄 친화적인 페이지와 스크린샷을 쉽게 생성할 수 있습니다. 그러나 브라우저 설정, 확장 프로그램 스토어 및 기타 제한된 영역과 같은 특정 페이지는 브라우저 정책으로 인해 액세스할 수 없습니다. 질문이 있으면 문의해 주세요."
+   },
+   "settings": {
+      "message": "설정"
+   },
+   "settings_saved": {
+      "message": "설정이 저장되었습니다."
+   },
+   "share_feedback": {
+      "message": "피드백을 공유하세요."
+   },
+   "show_context_menu_pref": {
+      "message": "마우스 오른쪽 클릭 컨텍스트 메뉴에 PrintFriendly를 표시합니다."
+   },
+   "show_context_menu_pref_descr": {
+      "message": "활성화되면 브라우저의 컨텍스트 메뉴에서 PrintFriendly에 직접 액세스할 수 있습니다."
+   },
+   "show_download_complete_descr": {
+      "message": "활성화하면 PDF 다운로드 후 확인 창이 나타나며, 다시 다운로드하거나 변환, 편집 또는 서명할 수 있는 빠른 작업이 제공됩니다."
+   },
+   "show_download_complete_pref": {
+      "message": "“다운로드 완료” 창을 표시합니다."
+   },
+   "show_float_button_on_articles_only": {
+      "message": "기사 페이지에서만 떠 있는 버튼 표시"
+   },
+   "show_float_button_on_articles_only_pref_descr": {
+      "message": "이 옵션을 활성화하여 뉴스 기사 또는 블로그 게시물로 보이는 페이지에만 떠 있는 PrintFriendly 버튼을 표시하십시오."
+   },
+   "sign_in": {
+      "message": "로그인"
+   },
+   "sign_pdf": {
+      "message": "PDF 서명"
+   },
+   "skip_screen_next_time": {
+      "message": "다음 번에는 이 화면 건너뛰기"
+   },
+   "small_images_pref_descr": {
+      "message": "작은 이미지는 일반적으로 숨겨져 있으며 이는 인쇄하거나 PDF로 저장할 때 유용하지 않은 경우가 많습니다. 이 설정을 켜면 이를 볼 수 있습니다."
+   },
+   "small_images_pref_title": {
+      "message": "작은 이미지 표시"
+   },
+   "start_download_pdf_subtitle": {
+      "message": "브라우저를 닫지 마세요. 시간이 조금 걸릴 수 있습니다."
+   },
+   "start_download_pdf_title": {
+      "message": "PDF 파일을 다운로드하는 중입니다"
+   },
+   "still_does_not_work": {
+      "message": "여전히 작동하지 않으면"
+   },
+   "stop_capturing": {
+      "message": "캡처 중지"
+   },
+   "strict_security_settings": {
+      "message": "죄송합니다. 그러나 {{domainName}}의 이 페이지는 엄격한 보안 설정(콘텐츠 보안 정책)을 가지고 있어 PrintFriendly의 작동을 방해합니다."
+   },
+   "strict_security_settings_support": {
+      "message": "자세한 내용이나 지원이 필요하시면 아래로 문의해 주세요"
+   },
+   "strict_security_unsupported_page": {
+      "message": "페이지는 PrintFriendly에서 지원되지 않습니다"
+   },
+   "strikethrough": {
+      "message": "취소선"
+   },
+   "style": {
+      "message": "스타일"
+   },
+   "take_me_there": {
+      "message": "물론이죠, 저를 그곳으로 데려가 주세요!"
+   },
+   "text_size_pref": {
+      "message": "텍스트 크기 설정"
+   },
+   "text_size_pref_desc": {
+      "message": "확장 프로그램으로 페이지를 볼 때 텍스트 크기를 설정하세요."
+   },
+   "timed_out_pdf": {
+      "message": "PrintFriendly에서 PDF 생성 중에 시간이 초과되었을 수 있습니다. 시스템에서 처리하기에 너무 컸을 수 있습니다."
+   },
+   "top": {
+      "message": "맨 위"
+   },
+   "turn_off_delete": {
+      "message": "링크를 클릭하려면 삭제를 꺼주세요."
+   },
+   "unable_to_generate_pdf": {
+      "message": "이 페이지에 대한 PDF를 생성할 수 없습니다."
+   },
+   "underline": {
+      "message": "밑줄"
+   },
+   "undo": {
+      "message": "실행 취소"
+   },
+   "when_to_show_again": {
+      "message": "이것을 다시 보여줄 시점은 언제일까요?"
+   },
+   "which_option_best": {
+      "message": "어떤 옵션이 나에게 가장 좋습니까?"
+   },
+   "yes": {
+      "message": "예"
+   }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complete snippet</title>
+  <style>
+    body {
+      overscroll-behavior-y: none;
+      overflow: hidden;
+    }
+
+    html {
+      box-sizing:border-box;
+    }
+    
+    *,
+    *::before,
+    *::after{
+      box-sizing:inherit;
+    }
+
+    body, html, iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    /* Prevent an extra white page when printing */
+    /*https://stackoverflow.com/a/48115459/5993042*/
+    @media print {
+      html, body {
+        height:100vh;
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: hidden;
+      }
+    }
+  </style>
+  <script type="module" src="../js/formRoot.js"></script>
+</head>
+<body style="margin: 0px">
+</body>
+</html>

@@ -1,0 +1,491 @@
+{
+   "a4_paper_size": {
+      "message": "A4"
+   },
+   "add_link": {
+      "message": "లింక్ జోడించండి"
+   },
+   "app_description": {
+      "message": "వెబ్ పేజీలను ముద్రణకు అనుకూలంగా మార్చండి: PDFగా సేవ్ చేయండి లేదా స్క్రీన్‌షాట్ తీసుకోండి, శుభ్రంగా ఉండేందుకు ప్రకటనలను తీసివేయండి."
+   },
+   "app_name": {
+      "message": "PrintFriendly - ముద్రణ, PDF, మరియు వెబ్ పేజీల స్క్రీన్‌షాట్"
+   },
+   "back": {
+      "message": "వెనక్కి"
+   },
+   "blocked_by_extension": {
+      "message": "PrintFriendly ఇన్‌స్టాల్ చేసిన ఇతర విస్తరణ ద్వారా అడ్డుకోబడింది, ఉదాహరణకు, ప్రకటనల నిరోధకుడు. దయచేసి మీ ఇతర విస్తరణలను తాత్కాలికంగా అచేతనం చేసి, PDF ను మళ్లీ సృష్టించడానికి ప్రయత్నించండి."
+   },
+   "blockquote": {
+      "message": "బ్లాక్ కోట్"
+   },
+   "bold": {
+      "message": "బోల్డ్"
+   },
+   "bottom": {
+      "message": "కింద"
+   },
+   "bullet_list": {
+      "message": "బుల్లెట్ జాబితా"
+   },
+   "cancel": {
+      "message": "రద్దు చేయండి"
+   },
+   "capture_failed": {
+      "message": "ఈ సైట్‌లో పూర్తి-పేజీ స్క్రీన్‌షాట్ తీసుకోవడం సాధ్యం కాదు."
+   },
+   "capture_failed_descr": {
+      "message": "కొన్ని వెబ్‌సైట్లు పూర్తి స్క్రీన్ షాట్ తీసుకోవడాన్ని నిరోధించే ఫ్రేమ్‌లు లేదా డైనమిక్ అంశాలను ఉపయోగిస్తాయి. దయచేసి ఇంకొని సైట్ ప్రయత్నించండి."
+   },
+   "capturing": {
+      "message": "క్యాప్చర్ చేస్తోంది"
+   },
+   "capturing_desc": {
+      "message": "దయచేసి వేచి ఉండండి, స్క్రీన్‌షాట్ కొద్దిసేపట్లో సిద్ధమవుతుంది."
+   },
+   "choose_paper_size": {
+      "message": "PDF ల కోసం మీకు ఇష్టమైన పేపర్ పరిమాణాన్ని ఎంచుకోండి."
+   },
+   "choose_save_method": {
+      "message": "ఈ పేజీని ఎలా సేవ్ చేయాలో ఎంచుకోండి"
+   },
+   "compress_pdf": {
+      "message": "పిడిఎఫ్ కుదించు"
+   },
+   "continue_to": {
+      "message": "కొనసాగించు..."
+   },
+   "convert_pdf": {
+      "message": "PDF ని మార్చు"
+   },
+   "current_view_screenshot": {
+      "message": "వీక్షణ స్క్రీన్‌షాట్"
+   },
+   "current_view_screenshot_desc": {
+      "message": "పేజీ యొక్క కనిపించే భాగాన్ని మాత్రమే క్యాప్చర్ చేయండి."
+   },
+   "default_mode": {
+      "message": "డిఫాల్ట్ మోడ్"
+   },
+   "default_mode_checkbox": {
+      "message": "నా ఎంపికను గుర్తుంచుకోండి మరియు తరువాత ఈ దశను దాటవేయండి."
+   },
+   "default_mode_checkbox_descr": {
+      "message": "మీరు దీన్ని తర్వాత సెట్టింగ్‌లలో మార్చవచ్చు."
+   },
+   "default_mode_desc": {
+      "message": "మీరు ఎక్స్‌టెన్షన్ బటన్‌ను క్లిక్ చేసినప్పుడు ఆటోమేటిక్‌గా ఎంపిక చేయబడే చర్యను ఎంచుకోండి."
+   },
+   "delete": {
+      "message": "తొలగించడానికి క్లిక్ చేయండి"
+   },
+   "delete_button": {
+      "message": "తొలగించండి"
+   },
+   "dialog_close": {
+      "message": "మూసివేయి"
+   },
+   "dont_like_printfriendly_description": {
+      "message": "మీ ఫీడ్‌బ్యాక్ మేము ఏది నిర్మిస్తున్నామో మరియు మేము ఎలా మెరుగుపడుతున్నామో దానికి ఆకారం ఇస్తుంది. మేము మిన్నగాను ఉండాలంటే మీ దగ్గర ఒక నిమిషం ఉందా?"
+   },
+   "dont_like_printfriendly_title": {
+      "message": "మాకు అవకాశాన్ని ఇచ్చినందుకు ధన్యవాదాలు"
+   },
+   "download_again": {
+      "message": "మళ్లీ డౌన్‌లోడ్ చేయండి"
+   },
+   "download_directory": {
+      "message": "డైరెక్టరీ"
+   },
+   "download_directory_description": {
+      "message": "మీ డౌన్‌లోడ్స్ డైరెక్టరీలో మీ PDF‌లు మరియు చిత్రాలు వెళ్లాలని మీరు కోరుకునే ఫోల్డర్‌ను పేర్కొనండి. మీరు ఖాళీగా వదిలేస్తే, అవి డౌన్‌లోడ్స్‌లోకి వెళ్లతాయి. అక్షరాలు, సంఖ్యలు, డ్యాష్‌లు, అండర్స్కోర్లు మరియు స్లాష్‌లకు మాత్రమే ఆంక్షించండి (ఇతర అక్షరాలు తొలగించబడతాయి)."
+   },
+   "edit": {
+      "message": "సవరించండి"
+   },
+   "edit_link": {
+      "message": "లింక్‌ను సవరించండి"
+   },
+   "edit_pdf": {
+      "message": "PDF ని సవరించు"
+   },
+   "email": {
+      "message": "ఇమెయిల్"
+   },
+   "enable_delete": {
+      "message": "డిలీట్ ఆన్ అని ప్రారంభించండి"
+   },
+   "extension_settings": {
+      "message": "విస్తరణ సెట్టింగ్‌లు"
+   },
+   "file_access_description": {
+      "message": "దయచేసి మీ బ్రౌజర్‌లోని పొడిగింపు సెట్టింగ్‌లకు వెళ్లి \"ఫైల్ URL లకు యాక్సెస్‌ను అనుమతించు\"ని ప్రారంభించండి, తద్వారా పొడిగింపు ఈ పేజీని యాక్సెస్ చేయగలదు."
+   },
+   "file_access_title": {
+      "message": "ఫైల్ యాక్సెస్ అవసరం"
+   },
+   "floating_button": {
+      "message": "తేలియాడే బటన్"
+   },
+   "floating_button_pref_descr": {
+      "message": "PrintFriendly కి సులభంగా యాక్సెస్ చేయడానికి బటన్ చూపించండి."
+   },
+   "full_page_screenshot": {
+      "message": "పూర్తి పేజీ స్క్రీన్‌షాట్"
+   },
+   "full_page_screenshot_desc": {
+      "message": "ప్రకటనలు మొదలైన వాటితో వెబ్‌పేజీ ఎలా కనిపిస్తుందో అలా క్యాప్చర్ చేయండి."
+   },
+   "give_feedback": {
+      "message": "లేదు, అభిప్రాయం ఇవ్వండి."
+   },
+   "go_to_link": {
+      "message": "లింక్‌కు వెళ్లండి"
+   },
+   "got_it": {
+      "message": "అర్థమైంది"
+   },
+   "heading_1": {
+      "message": "శీర్షిక 1"
+   },
+   "heading_2": {
+      "message": "శీర్షిక 2"
+   },
+   "heading_3": {
+      "message": "శీర్షిక 3"
+   },
+   "heading_4": {
+      "message": "శీర్షిక 4"
+   },
+   "heading_5": {
+      "message": "శీర్షిక 5"
+   },
+   "heading_6": {
+      "message": "శీర్షిక 6"
+   },
+   "highlight": {
+      "message": "హైలైట్ చేయండి"
+   },
+   "history_menu": {
+      "message": "చరిత్ర (త్వరలో రానుంది)"
+   },
+   "image": {
+      "message": "చిత్రం"
+   },
+   "image_size_pref": {
+      "message": "చిత్ర పరిమాణం ప్రాధాన్యత"
+   },
+   "image_size_pref_desc": {
+      "message": "విస్తరణతో పేజీలను వీక్షించినప్పుడు చిత్ర పరిమాణాన్ని సెట్ చేయండి."
+   },
+   "image_upload_file_too_large": {
+      "message": "చిత్ర ఫైల్ చాలా పెద్దదిగా ఉంది. దయచేసి 5MB కంటే తక్కువ చిత్రాన్ని ఎంచుకోండి"
+   },
+   "image_upload_select_file": {
+      "message": "దయచేసి ఒక చిత్రం ఫైలును ఎంచుకోండి"
+   },
+   "insert_image": {
+      "message": "చిత్రాన్ని చేర్చండి"
+   },
+   "italic": {
+      "message": "ఓరెనాటి"
+   },
+   "lang_display_name": {
+      "message": "తెలుగు (Telugu)"
+   },
+   "language_setting": {
+      "message": "భాష"
+   },
+   "language_setting_desc": {
+      "message": "మీకు ఇష్టమైన భాషను ఎంచుకోండి."
+   },
+   "left": {
+      "message": "ఎడమ"
+   },
+   "letter_paper_size": {
+      "message": "లేఖ"
+   },
+   "like_printfriendly_extension": {
+      "message": "మీరు PrintFriendly విస్తరణను ఇష్టపడుతున్నారా?"
+   },
+   "like_printfriendly_p1_description": {
+      "message": "మీ అభిప్రాయం మాకు ప్రేరణ ఇస్తుంది!"
+   },
+   "like_printfriendly_p2_description_chrome": {
+      "message": "మీరు Chrome వెబ్ స్టోర్‌లో PrintFriendly ని సమీక్షించడానికి సిద్ధంగా ఉన్నారా?"
+   },
+   "like_printfriendly_p2_description_edge": {
+      "message": "మీరు Microsoft Edge Add-ons వెబ్‌సైట్‌లో PrintFriendly‌ను సమీక్షించడానికి సిద్ధంగా ఉంటారా?"
+   },
+   "like_printfriendly_p2_description_firefox": {
+      "message": "మీరు Firefox Add-ons Store లో PrintFriendly ను సమీక్షించడానికి సిద్ధంగా ఉన్నారా?"
+   },
+   "like_printfriendly_p2_description_safari": {
+      "message": "మీరు Safari Extension Store లో PrintFriendly ను రివ్యూ చేయడానికి సిద్ధంగా ఉన్నారా?"
+   },
+   "like_printfriendly_title": {
+      "message": "మీరు PrintFriendlyని ఇష్టపడినందుకు మాకు ఆనందంగా ఉంది!"
+   },
+   "log_out": {
+      "message": "లాగౌట్"
+   },
+   "never": {
+      "message": "ఎప్పుడూ"
+   },
+   "no": {
+      "message": "లేదు"
+   },
+   "no_thanks": {
+      "message": "కాదు, ధన్యవాదు"
+   },
+   "numbered_list": {
+      "message": "సంఖ్యల జాబితా"
+   },
+   "off": {
+      "message": "ఆఫ్"
+   },
+   "one_day": {
+      "message": "1 రోజు"
+   },
+   "one_month": {
+      "message": "1 నెల"
+   },
+   "one_week": {
+      "message": "1 వారం"
+   },
+   "optional_cookie_permission_descr_line1": {
+      "message": "సైన్ ఇన్‌ను ప్రారంభించడానికి, దయచేసి తదుపరి స్క్రీన్‌లో \"అనుమతించు\"పై క్లిక్ చేయండి."
+   },
+   "optional_cookie_permission_descr_line2": {
+      "message": "ఈ అనుమతి PrintFriendly పొడిగింపు మీరు PrintFriendly.comలో లాగిన్ అయినప్పుడు నిర్ధారించేందుకు అనుమతిస్తుంది, తద్వారా మేము మీ ఖాతాను పొడిగింపుతో సమకాలీకరించగలుగుతాము."
+   },
+   "optional_cookie_permission_descr_line3": {
+      "message": "మేము ఎప్పుడూ మీ బ్రౌజింగ్ చరిత్రను లేదా ఇతర వెబ్‌సైట్‌ల నుండి డేటాను సేకరించము."
+   },
+   "optional_downloads_permission_descr_line1": {
+      "message": "నిర్దిష్ట ఫోల్డర్‌లో ఫైళ్లను సేవ్ చేయడానికి, దయచేసి తదుపరి స్క్రీన్‌లో \"అనుమతించు\" కు క్లిక్ చేయండి."
+   },
+   "optional_downloads_permission_descr_line2": {
+      "message": "ఈ అనుమతి PrintFriendly పొడిగింపుకు మీ PDF ఫైళ్ళు మరియు చిత్రాలను మీరు ఎంచుకున్న స్థలానికి నేరుగా డౌన్లోడ్ చేసుకునే వీలును ఇస్తుంది."
+   },
+   "optional_host_permission_descr": {
+      "message": "ఫ్లోటింగ్ బటన్ పనిచేయడానికి, వెబ్‌సైట్‌లపై కంటెంట్‌ను వీక్షించడం మరియు మార్చడం కోసం అనుమతి అవసరం:"
+   },
+   "optional_host_permission_footer": {
+      "message": "చేయడానికి అనుమతించు నొక్కి తర్వాతి స్క్రీన్‌లో క్లిక్ చేయండి."
+   },
+   "optional_host_permission_item_1": {
+      "message": "ఇది ఐచ్ఛికమైనది మరియు PrintFriendly ఉపయోగించడానికి అవసరం లేదు."
+   },
+   "optional_host_permission_item_2": {
+      "message": "మీరు దీన్ని సెట్టింగ్స్‌లో ఎప్పుడు కావాలంటే అప్పుడే ఆఫ్ చేయవచ్చు."
+   },
+   "optional_host_permission_item_3": {
+      "message": "మీ బ్రౌజింగ్ డేటాను మేము నిల్వ చేయం."
+   },
+   "optional_host_permission_title": {
+      "message": "తేలుతూ ఉండే బటన్ ఫీచర్‌లను ప్రారంభించారా?"
+   },
+   "optional_permission_descr": {
+      "message": "ఈ వెబ్‌సైట్ iframes‌ను ఉపయోగిస్తుంది, ఇవి మొత్తం పేజీని క్యాప్చర్ చేయగల మా సామర్థ్యాన్ని పరిమితం చేస్తాయి. పూర్తి పేజీ స్క్రీన్‌షాట్ తీసుకోవడానికి మాకు అదనపు అనుమతి అవసరం. ఈ సందేశాన్ని మూసిన తర్వాత, దయచేసి కొనసాగించడానికి “అనుమతించు” క్లిక్ చేయండి."
+   },
+   "optional_permission_title": {
+      "message": "అదనపు అనుమతి అవసరం"
+   },
+   "other_tools": {
+      "message": "సాధనాలు"
+   },
+   "page_blocking_printfriendly": {
+      "message": "ఈ పేజీ PrintFriendly ని బ్లాక్ చేస్తోంది"
+   },
+   "paragraph": {
+      "message": "పేరా"
+   },
+   "pdf": {
+      "message": "PDF"
+   },
+   "pdf_file_downloaded": {
+      "message": "మీ PDF ఫైల్ డౌన్‌లోడ్ చేయబడింది."
+   },
+   "pdf_generation_error": {
+      "message": "PDF జనరేషన్ లోపం"
+   },
+   "pdf_paper_size": {
+      "message": "PDF పేపర్ పరిమాణం"
+   },
+   "preformatted": {
+      "message": "ముందుగా రూపకల్పన"
+   },
+   "print": {
+      "message": "ప్రింట్"
+   },
+   "print_pdf_margin_pref": {
+      "message": "ముద్రణ మరియు PDF మార్జిన్"
+   },
+   "print_pdf_margin_pref_descr": {
+      "message": "ముద్రణ మరియు PDF మార్జిన్లను అనుకూలంగా మార్చుకోండి."
+   },
+   "printer_friendly_desc": {
+      "message": "వెబ్‌పేజీల నుండి ప్రకటనలు మరియు నావిగేషన్‌ను తొలగించండి."
+   },
+   "printfriendly_page": {
+      "message": "PrintFriendly పేజీ"
+   },
+   "profile_settings": {
+      "message": "ప్రొఫైల్ సెట్టింగ్స్"
+   },
+   "remove": {
+      "message": "తీసివేయి"
+   },
+   "remove_formatting": {
+      "message": "ఫార్మాటింగ్ తీసివేయండి"
+   },
+   "remove_link": {
+      "message": "లింక్‌ను తీసివేయండి"
+   },
+   "report": {
+      "message": "నివేదిక"
+   },
+   "resolve_issue": {
+      "message": "మరియు సమస్యను పరిష్కరించడానికి మేము మీకు సహాయం చేస్తాము."
+   },
+   "right": {
+      "message": "కుడి"
+   },
+   "safari_description": {
+      "message": "వెబ్ పేజీలను PDF లేదా చిత్రాలుగా మార్చండి. శుభ్రమైన పేజీలు ముద్రణ లేదా సేవ్‌కి సిద్ధంగా ఉన్నాయి."
+   },
+   "safari_name": {
+      "message": "PrintFriendly: PDF మరియు క్యాప్చర్"
+   },
+   "save_as": {
+      "message": "ఈ పేరుతో సేవ్ చేయు"
+   },
+   "save_as_description": {
+      "message": "మీరు PDF లేదా స్క్రీన్‌షాట్ చిత్రాలను డౌన్‌లోడ్ చేసే సమయంలో “Save As” డైలాగ్‌ను స్వయంచాలకంగా తెరవండి. మీ బ్రౌజర్ ఇప్పటికే ఫైళ్లను ఎక్కడ నిల్వచెయ్యాలో అడగ గానీ సెట్టింగ్‌లో ఉంటే, అది వర్తిస్తుంది."
+   },
+   "save_changes": {
+      "message": "సేవ్"
+   },
+   "save_updates": {
+      "message": "మార్పులను సేవ్ చేయండి"
+   },
+   "saved": {
+      "message": "సేవ్ చేయబడింది."
+   },
+   "screenshot": {
+      "message": "స్క్రీన్‌షాట్"
+   },
+   "screenshot_image_format": {
+      "message": "స్క్రీన్‌షాట్ చిత్ర ఫార్మాట్"
+   },
+   "screenshot_restriction_message": {
+      "message": "PrintFriendly చాలా వెబ్‌సైట్లు పై పని చేస్తుంది, శుభ్రంగా, ప్రింటర్‌కు అనుకూలమైన పేజీలు మరియు స్క్రీన్‌షాట్‌లను సృష్టించడం సులభం చేస్తుంది. అయితే, బ్రౌజర్ విధానాల కారణంగా కొన్ని పేజీలు—బ్రౌజర్ సెట్టింగ్‌లు, ఎక్స్‌టెన్షన్ స్టోర్‌లు మరియు ఇతర పరిమిత ప్రాంతాలు—అనుమతించబడవు. మీకు ఏవైనా ప్రశ్నలు ఉంటే దయచేసి మాతో సంప్రదించండి."
+   },
+   "settings": {
+      "message": "సెట్టింగ్‌లు"
+   },
+   "settings_saved": {
+      "message": "మీ సెట్టింగ్‌లు సేవ్ చేయబడ్డాయి."
+   },
+   "share_feedback": {
+      "message": "అభిప్రాయం పంచుకోండి."
+   },
+   "show_context_menu_pref": {
+      "message": "రైట్ క్లిక్ కాంటెక్స్ట్ మెనులో PrintFriendly ని చూపించండి."
+   },
+   "show_context_menu_pref_descr": {
+      "message": "సక్రియం చేసిన సమయంలో, మీరు మీ బ్రౌజర్ యొక్క కాంటెక్స్ట్ మెను నుండి నేరుగా PrintFriendly యాక్సెస్ చేయవచ్చు."
+   },
+   "show_download_complete_descr": {
+      "message": "ప్రారంభించినప్పుడు, మీ PDF డౌన్‌లోడ్ అయిన తర్వాత నిర్ధారణ విండో కనిపిస్తుంది, మళ్లీ డౌన్‌లోడ్ చేయడం లేదా మార్చడం, సవరించడం లేదా సంతకం చేయడానికి వేగవంతమైన చర్యలు ఉంటాయి."
+   },
+   "show_download_complete_pref": {
+      "message": "“డౌన్‌లోడ్ పూర్తయింది” విండోను చూపించండి."
+   },
+   "show_float_button_on_articles_only": {
+      "message": "కేవలం వ్యాసపేజీలలో మాత్రమే తేలియాడేబటన్ చూపించు"
+   },
+   "show_float_button_on_articles_only_pref_descr": {
+      "message": "న్యూస్ ఆర్టికల్‌లు లేదా బ్లాగ్ పోస్టులుగా కనిపించే పేజీలపై మాత్రమే ఫ్లోటింగ్ PrintFriendly బటనును ప్రదర్శించడానికి ఈ ఎంపికను అమలులో పెట్టండి."
+   },
+   "sign_in": {
+      "message": "సైన్ ఇన్ చేయండి"
+   },
+   "sign_pdf": {
+      "message": "PDF సంతకం చేయండి"
+   },
+   "skip_screen_next_time": {
+      "message": "తదుపరి సారి ఈ స్క్రీన్‌ను దాటవేయండి"
+   },
+   "small_images_pref_descr": {
+      "message": "చిన్న చిత్రాలు సాధారణంగా దాచబడతాయి ఎందుకంటే అవి ముద్రించేటప్పుడు లేదా PDFకి సేవ్ చేసేటప్పుడు ఉపయోగకరంగా ఉండవు. మీరు వాటిని చూడాలని ఉంటే ఈ సెట్టింగ్‌ను ఆన్ చేయండి."
+   },
+   "small_images_pref_title": {
+      "message": "చిన్న చిత్రాలను చూపించు"
+   },
+   "start_download_pdf_subtitle": {
+      "message": "దయచేసి మీ బ్రౌజర్‌ను మూసవేయకండి. దీనికి ఒక నిమిషం పట్టవచ్చు."
+   },
+   "start_download_pdf_title": {
+      "message": "మీ PDF ఫైల్‌ను డౌన్‌లోడ్ చేస్తోంది"
+   },
+   "still_does_not_work": {
+      "message": "ఇది ఇంకా పనిచేయకపోతే, దయచేసి మా అడ్రస్"
+   },
+   "stop_capturing": {
+      "message": "క్యాప్చర్ చేయడం ఆపివేయండి"
+   },
+   "strict_security_settings": {
+      "message": "మाफచేయండి, కానీ {{domainName}} లోని ఈ పేజీలో కఠినమైన భద్రతా సెట్టింగ్‌లు (కంటెంట్ సెక్యూరిటీ పాలసీ) ఉన్నాయి, ఇవి PrintFriendly పని చేయకుండా చేస్తాయి."
+   },
+   "strict_security_settings_support": {
+      "message": "మరిన్ని వివరాలు లేదా మద్దతు కోసం, దయచేసి మమ్మల్ని సంప్రదించండి"
+   },
+   "strict_security_unsupported_page": {
+      "message": "పేజీ PrintFriendly ద్వారా మద్దతు ఇవ్వబడలేదు"
+   },
+   "strikethrough": {
+      "message": "గీతలతో వేయబడింది"
+   },
+   "style": {
+      "message": "శైలి"
+   },
+   "take_me_there": {
+      "message": "ఖచ్చితంగా, నన్ను అక్కడ తీసుకెళ్లండి!"
+   },
+   "text_size_pref": {
+      "message": "టెక్స్ట్ పరిమాణం ప్రాధాన్యత"
+   },
+   "text_size_pref_desc": {
+      "message": "విస్తరణతో పేజీలను వీక్షించినప్పుడు టెక్స్ట్ పరిమాణాన్ని సెట్ చేయండి."
+   },
+   "timed_out_pdf": {
+      "message": "PrintFriendly PDF సృష్టించేటప్పుడు సమయం ముగిసినట్లుగా కనిపిస్తుంది. ఇది మా సిస్టమ్‌కు హ్యాండిల్ చేయడానికి చాలా పెద్దదిగా ఉండవచ్చు."
+   },
+   "top": {
+      "message": "పైన"
+   },
+   "turn_off_delete": {
+      "message": "లింక్‌లపై క్లిక్ చేయడానికి డిలీట్‌ను ఆఫ్ చేయండి."
+   },
+   "unable_to_generate_pdf": {
+      "message": "ఈ పేజీకి PDF తయారు చేయలేకపోయాము."
+   },
+   "underline": {
+      "message": "అండర్‌లైన్"
+   },
+   "undo": {
+      "message": "చర్య రద్దు చేయి"
+   },
+   "when_to_show_again": {
+      "message": "ఇది మళ్ళీ ఎప్పుడు చూపించాలి?"
+   },
+   "which_option_best": {
+      "message": "నాకు ఏ ఎంపిక ఉత్తమం?"
+   },
+   "yes": {
+      "message": "అవును"
+   }
+}

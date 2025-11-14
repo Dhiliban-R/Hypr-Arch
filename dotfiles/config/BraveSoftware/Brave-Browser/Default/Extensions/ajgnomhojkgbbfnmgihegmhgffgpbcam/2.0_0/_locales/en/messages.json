@@ -1,0 +1,38 @@
+{
+   "appDesc": {
+      "message": "Export Gemini Storybook as images, PDF, and story video maker (coming soon)."
+   },
+   "appName": {
+      "message": "Gemini Storybook Exporter"
+   },
+   "downloadImagesAndTexts": {
+      "message": "Download Images and Texts"
+   },
+   "downloadImagesAndTextsLoading": {
+      "message": "Downloading Images and Texts"
+   },
+   "downloadPDF": {
+      "message": "Export PDF"
+   },
+   "downloadPDFLoading": {
+      "message": "Exporting PDF"
+   },
+   "downloadVideo": {
+      "message": "Generate Video"
+   },
+   "downloadVideoLoading": {
+      "message": "Generating Video"
+   },
+   "exportSetting": {
+      "message": "Storybook Export Setting"
+   },
+   "fileNamePrefix": {
+      "message": "File Name Prefix:"
+   },
+   "geminiStorybookLink": {
+      "message": "🌍 Open Gemini Storybook website"
+   },
+   "showExportButton": {
+      "message": "Show/Hide Export Button:"
+   }
+}

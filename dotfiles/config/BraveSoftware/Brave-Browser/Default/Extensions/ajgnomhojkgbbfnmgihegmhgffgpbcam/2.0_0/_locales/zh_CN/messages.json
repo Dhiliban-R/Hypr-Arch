@@ -1,0 +1,38 @@
+{
+   "appDesc": {
+      "message": "Gemini 绘本导出成图文、PDF、视频（即将支持）"
+   },
+   "appName": {
+      "message": "Gemini 绘本故事导出器"
+   },
+   "downloadImagesAndTexts": {
+      "message": "下载图文"
+   },
+   "downloadImagesAndTextsLoading": {
+      "message": "正在下载图文"
+   },
+   "downloadPDF": {
+      "message": "导出PDF"
+   },
+   "downloadPDFLoading": {
+      "message": "正在导出PDF"
+   },
+   "downloadVideo": {
+      "message": "生成视频"
+   },
+   "downloadVideoLoading": {
+      "message": "正在生成视频"
+   },
+   "exportSetting": {
+      "message": "绘本导出设置"
+   },
+   "fileNamePrefix": {
+      "message": "文件名前缀："
+   },
+   "geminiStorybookLink": {
+      "message": "🌍 打开 Gemini Storybook 网站"
+   },
+   "showExportButton": {
+      "message": "显示/隐藏导出按钮："
+   }
+}

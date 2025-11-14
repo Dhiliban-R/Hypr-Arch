@@ -1,0 +1,8 @@
+html, body {
+  /* Required for resizing the notification window correctly */
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: none;
+}

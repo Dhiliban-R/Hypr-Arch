@@ -1,0 +1,1 @@
+let messageBuffer=[];window.addEventListener("message",(e=>{window.forwardMessage?window.forwardMessage(e):messageBuffer.push(e)})),window.clearMessageBuffer=()=>{for(;messageBuffer.length;)window.forwardMessage(messageBuffer.shift())};

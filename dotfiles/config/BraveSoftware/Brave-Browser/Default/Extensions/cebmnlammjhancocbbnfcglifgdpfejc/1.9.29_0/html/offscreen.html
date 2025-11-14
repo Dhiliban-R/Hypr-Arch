@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+
+  <style>
+    body {
+      font-size: initial;
+      font-family: initial;
+    }
+  </style>
+</head>
+<body>
+  <div style='position: fixed; top: -20000px'>
+    <!-- width/height is an attempted performance optimization to try to reduce layouts -->
+    <textarea id="clip-write" style="width: 200px; height: 200px;"></textarea>
+  </div>
+  <script src="../js/offscreen_message_buffer.js"></script>
+  <script src="../js/offscreen.js" type="module"></script>
+</body>
+</html>

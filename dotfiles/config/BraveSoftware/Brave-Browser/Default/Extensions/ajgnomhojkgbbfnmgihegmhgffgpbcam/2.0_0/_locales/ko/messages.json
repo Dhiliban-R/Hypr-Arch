@@ -1,0 +1,38 @@
+{
+   "appDesc": {
+      "message": "Gemini Storybook을 이미지, PDF로 내보내고 스토리 비디오 제작기 (곧 출시)."
+   },
+   "appName": {
+      "message": "Gemini Storybook Exporter"
+   },
+   "downloadImagesAndTexts": {
+      "message": "이미지 및 텍스트 다운로드"
+   },
+   "downloadImagesAndTextsLoading": {
+      "message": "이미지 및 텍스트 다운로드 중"
+   },
+   "downloadPDF": {
+      "message": "PDF 내보내기"
+   },
+   "downloadPDFLoading": {
+      "message": "PDF 내보내기 중"
+   },
+   "downloadVideo": {
+      "message": "비디오 생성"
+   },
+   "downloadVideoLoading": {
+      "message": "비디오 생성 중"
+   },
+   "exportSetting": {
+      "message": "Storybook 내보내기 설정"
+   },
+   "fileNamePrefix": {
+      "message": "파일명 접두사:"
+   },
+   "geminiStorybookLink": {
+      "message": "🌍 Gemini Storybook 웹사이트 열기"
+   },
+   "showExportButton": {
+      "message": "내보내기 버튼 표시/숨기기:"
+   }
+}

@@ -1,0 +1,491 @@
+{
+   "a4_paper_size": {
+      "message": "A4"
+   },
+   "add_link": {
+      "message": "Tambah pautan"
+   },
+   "app_description": {
+      "message": "Jadikan halaman web ramah cetak, ubah ke PDF, atau ambil tangkapan layar. Hapus iklan untuk halaman bersih yang siap dicetak atau disimpan sebagai PDF."
+   },
+   "app_name": {
+      "message": "PrintFriendly - Cetak, PDF dan Tangkapan Skrin Halaman Web"
+   },
+   "back": {
+      "message": "Kembali"
+   },
+   "blocked_by_extension": {
+      "message": "PrintFriendly mungkin diblokir oleh ekstensi lain yang Anda pasang, seperti pemblokir iklan. Harap nonaktifkan ekstensi lainnya sementara dan coba buat PDF lagi."
+   },
+   "blockquote": {
+      "message": "Petikan blok"
+   },
+   "bold": {
+      "message": "Tebal"
+   },
+   "bottom": {
+      "message": "Bawah"
+   },
+   "bullet_list": {
+      "message": "Senarai bulet"
+   },
+   "cancel": {
+      "message": "Batal"
+   },
+   "capture_failed": {
+      "message": "Tangkapan skrin penuh halaman tidak mungkin di laman ini."
+   },
+   "capture_failed_descr": {
+      "message": "Beberapa laman web menggunakan bingkai atau elemen dinamik yang menghalang tangkapan skrin penuh. Sila cuba laman web lain."
+   },
+   "capturing": {
+      "message": "Mengambil"
+   },
+   "capturing_desc": {
+      "message": "Sila tunggu, tangkapan skrin akan siap sebentar lagi."
+   },
+   "choose_paper_size": {
+      "message": "Pilih saiz kertas pilihan anda untuk PDF."
+   },
+   "choose_save_method": {
+      "message": "Pilih cara untuk menyimpan halaman ini"
+   },
+   "compress_pdf": {
+      "message": "Mampatkan PDF"
+   },
+   "continue_to": {
+      "message": "Teruskan ke..."
+   },
+   "convert_pdf": {
+      "message": "Tukar PDF"
+   },
+   "current_view_screenshot": {
+      "message": "Tangkapan Skrin Semasa"
+   },
+   "current_view_screenshot_desc": {
+      "message": "Tangkap hanya bahagian halaman yang kelihatan."
+   },
+   "default_mode": {
+      "message": "Mod Lalai"
+   },
+   "default_mode_checkbox": {
+      "message": "Ingat pilihan saya dan langkau langkah ini lain kali."
+   },
+   "default_mode_checkbox_descr": {
+      "message": "Anda boleh menukar ini kemudian dalam Tetapan."
+   },
+   "default_mode_desc": {
+      "message": "Pilih tindakan yang akan dipilih secara otomatis saat Anda mengklik tombol."
+   },
+   "delete": {
+      "message": "Padam"
+   },
+   "delete_button": {
+      "message": "Padam"
+   },
+   "dialog_close": {
+      "message": "Tutup"
+   },
+   "dont_like_printfriendly_description": {
+      "message": "Maklum balas anda membentuk apa yang kami bina dan bagaimana kami memperbaiki diri. Ada sedetik untuk memberitahu kami cara kami boleh jadi lebih baik?"
+   },
+   "dont_like_printfriendly_title": {
+      "message": "Terima kasih kerana memberi kami peluang"
+   },
+   "download_again": {
+      "message": "Muat turun semula"
+   },
+   "download_directory": {
+      "message": "Direktori"
+   },
+   "download_directory_description": {
+      "message": "Folder dalam direktori Muat Turun anda, sila pilih folder untuk simpan PDF dan imej anda. Jika dibiarkan kosong, ia akan disimpan dalam Muat Turun sahaja. Gunakan huruf, nombor, dash, underscore dan slash sahaja (aksara lain akan dibuang)."
+   },
+   "edit": {
+      "message": "Edit"
+   },
+   "edit_link": {
+      "message": "Edit pautan"
+   },
+   "edit_pdf": {
+      "message": "Edit PDF"
+   },
+   "email": {
+      "message": "E-mel"
+   },
+   "enable_delete": {
+      "message": "Mula Dengan Padam Diaktifkan"
+   },
+   "extension_settings": {
+      "message": "Tetapan sambungan"
+   },
+   "file_access_description": {
+      "message": "Sila pergi ke tetapan sambungan pelayar anda dan aktifkan \"Benarkan akses ke URL fail\", supaya sambungan boleh mengakses halaman ini."
+   },
+   "file_access_title": {
+      "message": "Akses fail diperlukan"
+   },
+   "floating_button": {
+      "message": "Butang Terapung"
+   },
+   "floating_button_pref_descr": {
+      "message": "Tunjukkan butang untuk akses mudah ke PrintFriendly."
+   },
+   "full_page_screenshot": {
+      "message": "Tangkapan laman"
+   },
+   "full_page_screenshot_desc": {
+      "message": "Tangkap halaman web seperti yang muncul dengan iklan, dll."
+   },
+   "give_feedback": {
+      "message": "Tidak, berikan maklum balas."
+   },
+   "go_to_link": {
+      "message": "Pergi ke pautan"
+   },
+   "got_it": {
+      "message": "Faham"
+   },
+   "heading_1": {
+      "message": "Tajuk 1"
+   },
+   "heading_2": {
+      "message": "Tajuk 2"
+   },
+   "heading_3": {
+      "message": "Tajuk 3"
+   },
+   "heading_4": {
+      "message": "Tajuk 4"
+   },
+   "heading_5": {
+      "message": "Tajuk 5"
+   },
+   "heading_6": {
+      "message": "Tajuk 6"
+   },
+   "highlight": {
+      "message": "Serlahkan"
+   },
+   "history_menu": {
+      "message": "Sejarah (Akan datang)"
+   },
+   "image": {
+      "message": "Imej"
+   },
+   "image_size_pref": {
+      "message": "Keutamaan Saiz Imej"
+   },
+   "image_size_pref_desc": {
+      "message": "Tetapkan saiz imej semasa melihat halaman dengan sambungan."
+   },
+   "image_upload_file_too_large": {
+      "message": "Fail imej terlalu besar. Sila pilih imej yang lebih kecil daripada 5MB"
+   },
+   "image_upload_select_file": {
+      "message": "Sila pilih fail imej"
+   },
+   "insert_image": {
+      "message": "Sisipkan Imej"
+   },
+   "italic": {
+      "message": "Italik"
+   },
+   "lang_display_name": {
+      "message": "Bahasa Melayu (Malay)"
+   },
+   "language_setting": {
+      "message": "Bahasa"
+   },
+   "language_setting_desc": {
+      "message": "Pilih bahasa pilihan anda."
+   },
+   "left": {
+      "message": "Kiri"
+   },
+   "letter_paper_size": {
+      "message": "Surat"
+   },
+   "like_printfriendly_extension": {
+      "message": "Suka sambungan PrintFriendly?"
+   },
+   "like_printfriendly_p1_description": {
+      "message": "Maklum balas anda memberi motivasi kepada kami!"
+   },
+   "like_printfriendly_p2_description_chrome": {
+      "message": "Adakah anda bersedia untuk mengulas PrintFriendly di Chrome Web Store?"
+   },
+   "like_printfriendly_p2_description_edge": {
+      "message": "Adakah anda bersedia untuk menyemak PrintFriendly di laman web Microsoft Edge Add-ons?"
+   },
+   "like_printfriendly_p2_description_firefox": {
+      "message": "Adakah anda bersedia untuk menyemak PrintFriendly di Firefox Add-ons Store?"
+   },
+   "like_printfriendly_p2_description_safari": {
+      "message": "Adakah anda bersedia untuk mengulas PrintFriendly di Safari Extension Store?"
+   },
+   "like_printfriendly_title": {
+      "message": "Kami gembira kerana anda menyukai PrintFriendly!"
+   },
+   "log_out": {
+      "message": "Logout"
+   },
+   "never": {
+      "message": "Tidak pernah"
+   },
+   "no": {
+      "message": "Tidak"
+   },
+   "no_thanks": {
+      "message": "Tidak, terima kasih"
+   },
+   "numbered_list": {
+      "message": "Senarai bernombor"
+   },
+   "off": {
+      "message": "Mati"
+   },
+   "one_day": {
+      "message": "1 hari"
+   },
+   "one_month": {
+      "message": "1 bulan"
+   },
+   "one_week": {
+      "message": "1 minggu"
+   },
+   "optional_cookie_permission_descr_line1": {
+      "message": "Untuk mengaktifkan masuk, sila klik “Benarkan” pada skrin seterusnya."
+   },
+   "optional_cookie_permission_descr_line2": {
+      "message": "Kebenaran ini membolehkan sambungan PrintFriendly mengesahkan apabila anda log masuk ke PrintFriendly.com, supaya kami boleh menyegerakkan akaun anda dengan sambungan."
+   },
+   "optional_cookie_permission_descr_line3": {
+      "message": "Kami tidak pernah mengumpulkan riwayat penelusuran Anda atau data dari situs web lain."
+   },
+   "optional_downloads_permission_descr_line1": {
+      "message": "Untuk menyimpan fail ke folder tertentu, sila klik “Benarkan” pada skrin seterusnya."
+   },
+   "optional_downloads_permission_descr_line2": {
+      "message": "Kebenaran ini membolehkan pelanjutan PrintFriendly memuat turun fail PDF dan imej anda terus ke lokasi pilihan anda."
+   },
+   "optional_host_permission_descr": {
+      "message": "Untuk membuat butang terapung berfungsi, kami memerlukan kebenaran untuk melihat dan menukar kandungan di laman web:"
+   },
+   "optional_host_permission_footer": {
+      "message": "Untuk mengaktifkan, sila klik Benarkan pada skrin seterusnya."
+   },
+   "optional_host_permission_item_1": {
+      "message": "Ini adalah pilihan dan tidak diperlukan untuk menggunakan PrintFriendly."
+   },
+   "optional_host_permission_item_2": {
+      "message": "Anda boleh mematikannya pada bila-bila masa di tetapan."
+   },
+   "optional_host_permission_item_3": {
+      "message": "Kami tidak menyimpan sebarang data pelayaran anda."
+   },
+   "optional_host_permission_title": {
+      "message": "Aktifkan Ciri Butang Terapung?"
+   },
+   "optional_permission_descr": {
+      "message": "Laman web ini menggunakan iframe, yang mengehadkan keupayaan kami untuk menangkap keseluruhan halaman. Untuk mengambil tangkapan skrin penuh halaman, kami memerlukan kebenaran tambahan. Selepas menutup mesej ini, sila klik “Benarkan” untuk meneruskan."
+   },
+   "optional_permission_title": {
+      "message": "Kebenaran tambahan diperlukan"
+   },
+   "other_tools": {
+      "message": "Alat Lain"
+   },
+   "page_blocking_printfriendly": {
+      "message": "Halaman Ini Menyekat PrintFriendly"
+   },
+   "paragraph": {
+      "message": "Perenggan"
+   },
+   "pdf": {
+      "message": "PDF"
+   },
+   "pdf_file_downloaded": {
+      "message": "Fail PDF anda telah dimuat turun."
+   },
+   "pdf_generation_error": {
+      "message": "Ralat Penjanaan PDF"
+   },
+   "pdf_paper_size": {
+      "message": "Saiz Kertas PDF"
+   },
+   "preformatted": {
+      "message": "Pra-bentukan"
+   },
+   "print": {
+      "message": "Cetak"
+   },
+   "print_pdf_margin_pref": {
+      "message": "Margin Cetakan & PDF"
+   },
+   "print_pdf_margin_pref_descr": {
+      "message": "Sesuaikan margin cetakan dan PDF."
+   },
+   "printer_friendly_desc": {
+      "message": "Alih keluar iklan dan navigasi dari halaman web."
+   },
+   "printfriendly_page": {
+      "message": "Halaman PrintFriendly"
+   },
+   "profile_settings": {
+      "message": "Tetapan profil"
+   },
+   "remove": {
+      "message": "Buang"
+   },
+   "remove_formatting": {
+      "message": "Alih format"
+   },
+   "remove_link": {
+      "message": "Buang pautan"
+   },
+   "report": {
+      "message": "Lapor"
+   },
+   "resolve_issue": {
+      "message": "dan kami akan membantu Anda menyelesaikan masalah."
+   },
+   "right": {
+      "message": "Kanan"
+   },
+   "safari_description": {
+      "message": "Tukar halaman web menjadi PDF atau tangkapan skrin. Halaman bersih tanpa iklan, sedia untuk cetak atau simpan."
+   },
+   "safari_name": {
+      "message": "PrintFriendly: PDF dan Tangkapan"
+   },
+   "save_as": {
+      "message": "Simpan Sebagai"
+   },
+   "save_as_description": {
+      "message": "Buka secara automatik dialog “Simpan Sebagai” apabila anda memuat turun PDF atau imej tangkapan skrin. Jika pelayar anda sudah ditetapkan untuk bertanya di mana hendak menyimpan fail, tetapan itu akan diberi keutamaan."
+   },
+   "save_changes": {
+      "message": "Simpan"
+   },
+   "save_updates": {
+      "message": "Simpan Perubahan"
+   },
+   "saved": {
+      "message": "Disimpan."
+   },
+   "screenshot": {
+      "message": "Tangkapan Skrin"
+   },
+   "screenshot_image_format": {
+      "message": "Format Imej Tangkapan Skrin"
+   },
+   "screenshot_restriction_message": {
+      "message": "PrintFriendly berfungsi pada kebanyakan laman web, memudahkan untuk mencipta halaman dan tangkapan skrin yang lebih bersih dan mesra pencetak. Walau bagaimanapun, halaman tertentu—seperti tetapan pelayar, gedung sambungan, dan kawasan terhad lain—adalah terhad kerana dasar pelayar. Sila hubungi kami jika anda mempunyai sebarang pertanyaan."
+   },
+   "settings": {
+      "message": "Tetapan"
+   },
+   "settings_saved": {
+      "message": "Tetapan anda telah disimpan."
+   },
+   "share_feedback": {
+      "message": "Kongsi maklum balas."
+   },
+   "show_context_menu_pref": {
+      "message": "Paparkan PrintFriendly dalam menu konteks klik kanan."
+   },
+   "show_context_menu_pref_descr": {
+      "message": "Apabila diaktifkan, anda boleh mengakses PrintFriendly secara langsung dari menu konteks pelayar anda."
+   },
+   "show_download_complete_descr": {
+      "message": "Apabila diaktifkan, tetingkap pengesahan akan muncul selepas PDF anda dimuat turun, dengan tindakan pantas untuk memuat turun semula atau menukar, mengedit, atau menandatangani."
+   },
+   "show_download_complete_pref": {
+      "message": "Tunjukkan tetingkap \"Muat Turun Selesai\"."
+   },
+   "show_float_button_on_articles_only": {
+      "message": "Tunjukkan butang terapung hanya di halaman artikel"
+   },
+   "show_float_button_on_articles_only_pref_descr": {
+      "message": "Aktifkan pilihan ini untuk memaparkan butang PrintFriendly terapung hanya pada halaman yang kelihatan seperti artikel berita atau catatan blog."
+   },
+   "sign_in": {
+      "message": "Log masuk"
+   },
+   "sign_pdf": {
+      "message": "Tandatangan PDF"
+   },
+   "skip_screen_next_time": {
+      "message": "Langkau skrin ini lain kali"
+   },
+   "small_images_pref_descr": {
+      "message": "Imej kecil biasanya disembunyikan kerana ia sering tidak berguna apabila mencetak atau menyimpan dalam PDF. Hidupkan tetapan ini jika anda ingin melihatnya."
+   },
+   "small_images_pref_title": {
+      "message": "Tunjukkan Imej Kecil"
+   },
+   "start_download_pdf_subtitle": {
+      "message": "Sila jangan tutup pelayar anda. Ini mungkin mengambil masa seminit."
+   },
+   "start_download_pdf_title": {
+      "message": "Memuat turun fail PDF anda"
+   },
+   "still_does_not_work": {
+      "message": "Jika masih tidak berhasil, harap hubungi kami di"
+   },
+   "stop_capturing": {
+      "message": "Hentikan Pengambilan"
+   },
+   "strict_security_settings": {
+      "message": "Maaf, tetapi halaman ini di {{domainName}} mempunyai tetapan keselamatan yang ketat (Dasar Keselamatan Kandungan) yang menghalang PrintFriendly daripada berfungsi."
+   },
+   "strict_security_settings_support": {
+      "message": "Untuk maklumat lanjut atau sokongan, sila hubungi kami di"
+   },
+   "strict_security_unsupported_page": {
+      "message": "Halaman tidak disokong oleh PrintFriendly"
+   },
+   "strikethrough": {
+      "message": "Dicoret"
+   },
+   "style": {
+      "message": "Gaya"
+   },
+   "take_me_there": {
+      "message": "Pasti, bawa saya ke sana!"
+   },
+   "text_size_pref": {
+      "message": "Keutamaan Saiz Teks"
+   },
+   "text_size_pref_desc": {
+      "message": "Tetapkan saiz teks semasa melihat halaman dengan sambungan."
+   },
+   "timed_out_pdf": {
+      "message": "PrintFriendly mungkin telah habis waktu saat membuat PDF. Mungkin terlalu besar untuk sistem kami menangani."
+   },
+   "top": {
+      "message": "Atas"
+   },
+   "turn_off_delete": {
+      "message": "Matikan Padam untuk mengklik pautan."
+   },
+   "unable_to_generate_pdf": {
+      "message": "Kami tidak dapat menghasilkan PDF untuk halaman ini."
+   },
+   "underline": {
+      "message": "Garis bawah"
+   },
+   "undo": {
+      "message": "Batal"
+   },
+   "when_to_show_again": {
+      "message": "Bila pula kita patut tunjukkan ini lagi?"
+   },
+   "which_option_best": {
+      "message": "Pilihan mana yang terbaik untuk saya?"
+   },
+   "yes": {
+      "message": "Ya"
+   }
+}
