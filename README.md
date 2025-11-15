@@ -373,7 +373,7 @@ Customize as needed in `hyprland.conf`.
 
 ### 3.3 Wallpaper Configuration
 
-Wallpapers are managed by `hyprpaper` using the configuration file `~/.config/hypr/hyprpaper.conf`. This file is symlinked from `dotfiles/hypr/hyprpaper.conf` in this repository.
+Wallpapers are managed by `hyprpaper` using the configuration file `~/.config/hypr/hyprpaper.conf`. If you wish to manage `hyprpaper.conf` through this repository, ensure it is placed in `dotfiles/hypr/` within the repository, and the `setup_dotfiles.sh` script will create a symlink.
 
 To set a wallpaper, ensure `hyprpaper` is configured in `~/.config/hypr/hyprland.conf` (e.g., `exec-once = hyprpaper`).
 
