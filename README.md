@@ -14,10 +14,10 @@ This repository provides a complete, step-by-step guide to installing Arch Linux
 - **Wofi:** Efficient application launcher.
 - **Swaylock:** Secure screen locker.
 - **Mako:** Lightweight notification daemon.
-- **Kitty:** Feature-rich, GPU-accelerated terminal emulator.
+- **Wezterm:** Feature-rich, GPU-accelerated terminal emulator.
 - **Thunar:** Fast and user-friendly file manager.
 - **Dracula Theme:** Cohesive dark theme applied across the desktop.
-- **Essential Utilities:** Includes `grim` (screenshot), `slurp` (region selection), `polkit-gnome` (authentication agent), `xdg-desktop-portal-hyprland`, and `xdg-desktop-portal-gtk` (screen sharing/compatibility).
+- **Essential Utilities:** Includes `grim` (screenshot), `slurp` (region selection), `wl-clipboard` (clipboard management), `polkit-gnome` (authentication agent), `xdg-desktop-portal-hyprland`, and `xdg-desktop-portal-gtk` (screen sharing/compatibility).
 - **Automated Setup:** Scripts for package installation and dotfile deployment.
 
 ## 📋 Pre-Installation Requirements
@@ -354,9 +354,12 @@ Customize as needed in `hyprland.conf`.
 - **Hyprland:** `~/.config/hypr/hyprland.conf`
 - **Waybar:** `~/.config/waybar/config`, `style.css`
 - **Wofi:** `~/.config/wofi/config`, `style.css`
-- **Kitty:** `~/.config/kitty/kitty.conf`
+- **Wezterm:** `~/.config/wezterm/wezterm.lua`
 - **Mako:** `~/.config/mako/config`
+- **Yazi:** `~/.config/yazi/config.toml`
+- **Thunar:** `~/.config/Thunar/`
 - **GTK Themes:**  
+  The `setup_themes_icons_fonts.sh` script copies the Dracula theme and icon files to `~/.themes/Dracula` and `~/.icons/Dracula` respectively.
   - Install `lxappearance`: `sudo pacman -S lxappearance`
   - Set "Dracula" theme.
   - Or edit:
@@ -370,15 +373,18 @@ Customize as needed in `hyprland.conf`.
 
 ### 3.3 Wallpaper Configuration
 
-Set wallpaper with `hyprpaper`. In `~/.config/hypr/hyprland.conf`:
+Wallpapers are managed by `hyprpaper` using the configuration file `~/.config/hypr/hyprpaper.conf`. This file is symlinked from `dotfiles/hypr/hyprpaper.conf` in this repository.
 
+To set a wallpaper, ensure `hyprpaper` is configured in `~/.config/hypr/hyprland.conf` (e.g., `exec-once = hyprpaper`).
+
+Example entry in `~/.config/hypr/hyprpaper.conf`:
 ```ini
-exec-once = hyprpaper
-wallpaper = DP-1,/path/to/your/wallpaper.jpg
+preload = ~/Hypr-Arch/wallpapers/your_wallpaper.jpg
+wallpaper = DP-1,~/Hypr-Arch/wallpapers/your_wallpaper.jpg
 # For multiple monitors:
-# wallpaper = HDMI-A-1,/path/to/another/wallpaper.png
+# wallpaper = HDMI-A-1,~/Hypr-Arch/wallpapers/another_wallpaper.png
 ```
-Find monitor names with `hyprctl monitors`.
+Find monitor names with `hyprctl monitors`. You can place your desired wallpapers in the `wallpapers/` directory of this repository.
 
 ### 3.4 Display Manager Integration (Optional)
 
@@ -424,7 +430,7 @@ If you use `sddm`, ensure it's enabled and Hyprland session file exists at `/usr
 To set up a new Arch Linux system with this configuration:
 
 1.  **Perform Arch Linux Base Installation:** Follow "Part 1: Arch Linux Base Installation" and "Part 2: Hyprland Desktop Environment Setup" (up to "2.1.4 Clone this Repository") in this `README.md`.
-2.  **Run the full installation script:**
+2.  **Run the full installation script:** This script automates the installation of all necessary packages (both pacman and AUR), sets up dotfiles, and configures themes, icons, and fonts.
     ```bash
     cd ~/Hypr-Arch # Assuming you cloned to ~/Hypr-Arch
     ./install/full_install.sh

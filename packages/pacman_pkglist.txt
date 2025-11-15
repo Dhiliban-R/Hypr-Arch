@@ -807,4 +807,4 @@ zsh
 zsh-autosuggestions
 zsh-completions
 zstd
-zxing-cpp
+zxing-cppwl-clipboard

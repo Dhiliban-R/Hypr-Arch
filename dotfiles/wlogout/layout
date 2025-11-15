@@ -1,0 +1,32 @@
+[
+    {
+        "label": "lock",
+        "action": "loginctl lock-session",
+        "text": "Lock"
+    },
+    {
+        "label": "logout",
+        "action": "loginctl terminate-user $USER",
+        "text": "Logout"
+    },
+    {
+        "label": "suspend",
+        "action": "systemctl suspend",
+        "text": "Suspend"
+    },
+    {
+        "label": "hibernate",
+        "action": "systemctl hibernate",
+        "text": "Hibernate"
+    },
+    {
+        "label": "reboot",
+        "action": "systemctl reboot",
+        "text": "Reboot"
+    },
+    {
+        "label": "shutdown",
+        "action": "systemctl poweroff",
+        "text": "Shutdown"
+    }
+]
