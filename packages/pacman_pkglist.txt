@@ -808,4 +808,4 @@ zsh-autosuggestions
 zsh-completions
 zstd
 zxing-cpp
-wl-clipboardwl-clipboard
+wl-clipboard
