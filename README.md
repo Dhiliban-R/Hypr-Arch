@@ -373,18 +373,20 @@ Customize as needed in `hyprland.conf`.
 
 ### 3.3 Wallpaper Configuration
 
-Wallpapers are managed by `hyprpaper` using the configuration file `~/.config/hypr/hyprpaper.conf`. The `hyprpaper.conf` is managed through this repository and is located in `dotfiles/hypr/`. The `setup_dotfiles.sh` script will create a symlink to it.
+Wallpapers can be managed by `hyprpaper` using a configuration file, typically `~/.config/hypr/hyprpaper.conf`. This repository includes a `wallpapers/` directory where you can place your desired images.
 
-To set a wallpaper, ensure `hyprpaper` is configured in `~/.config/hypr/hyprland.conf` (e.g., `exec-once = hyprpaper`).
+To use `hyprpaper`:
+1.  Ensure `hyprpaper` is configured to run in your `~/.config/hypr/hyprland.conf` (e.g., `exec-once = hyprpaper`).
+2.  Create or edit `~/.config/hypr/hyprpaper.conf` to specify your wallpapers.
 
-Example entry in `~/.config/hypr/hyprpaper.conf`:
+Example `~/.config/hypr/hyprpaper.conf` entry:
 ```ini
-preload = ~/Hypr-Arch/wallpapers/your_wallpaper.jpg
-wallpaper = DP-1,~/Hypr-Arch/wallpapers/your_wallpaper.jpg
+preload = ~/Hyprland-Arch-Config/wallpapers/your_wallpaper.jpg
+wallpaper = DP-1,~/Hyprland-Arch-Config/wallpapers/your_wallpaper.jpg
 # For multiple monitors:
-# wallpaper = HDMI-A-1,~/Hypr-Arch/wallpapers/another_wallpaper.png
+# wallpaper = HDMI-A-1,~/Hyprland-Arch-Config/wallpapers/another_wallpaper.png
 ```
-Find monitor names with `hyprctl monitors`. You can place your desired wallpapers in the `wallpapers/` directory of this repository.
+Find your monitor names with `hyprctl monitors`.
 
 ### 3.4 Display Manager Integration (Optional)
 

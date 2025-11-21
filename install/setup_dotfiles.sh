@@ -29,7 +29,22 @@ declare -A dotfiles_to_symlink=(
     ["wlogout"]=".config/wlogout"
     ["yazi"]=".config/yazi"
     ["starship.toml"]=".config/starship.toml"
-    ["hypr/hyprpaper.conf"]=".config/hypr/hyprpaper.conf"
 )
+
+# Loop through the dotfiles and create symlinks
+for name in "${!dotfiles_to_symlink[@]}"; do
+    source_path="$REPO_DIR/dotfiles/$name"
+    target_path="$HOME_DIR/${dotfiles_to_symlink[$name]}"
+
+    # Ensure parent directory exists for the target
+    mkdir -p "$(dirname "$target_path")"
+
+    if [ -e "$source_path" ]; then
+        echo "Symlinking $source_path to $target_path"
+        ln -sf "$source_path" "$target_path"
+    else
+        echo "Warning: Source dotfile/directory not found: $source_path (Skipping)"
+    fi
+done
 
 echo "Dotfiles setup complete. You may need to log out and back in for some changes to take effect."
