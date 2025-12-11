@@ -373,13 +373,13 @@ Customize as needed in `hyprland.conf`.
 
 ### 3.3 Wallpaper Configuration
 
-Wallpapers can be managed by `hyprpaper` using a configuration file, typically `~/.config/hypr/hyprpaper.conf`. This repository includes a `wallpapers/` directory where you can place your desired images.
+Wallpapers can be managed by `hyprpaper` using a configuration file, typically `~/Hyprland-Arch-Config/dotfiles/hypr/hyprpaper.conf`. This repository includes a `wallpapers/` directory where you can place your desired images.
 
 To use `hyprpaper`:
 1.  Ensure `hyprpaper` is configured to run in your `~/.config/hypr/hyprland.conf` (e.g., `exec-once = hyprpaper`).
-2.  Create or edit `~/.config/hypr/hyprpaper.conf` to specify your wallpapers.
+2.  Create or edit `~/Hyprland-Arch-Config/dotfiles/hypr/hyprpaper.conf` to specify your wallpapers.
 
-Example `~/.config/hypr/hyprpaper.conf` entry:
+Example `~/Hyprland-Arch-Config/dotfiles/hypr/hyprpaper.conf` entry:
 ```ini
 preload = ~/Hyprland-Arch-Config/wallpapers/your_wallpaper.jpg
 wallpaper = DP-1,~/Hyprland-Arch-Config/wallpapers/your_wallpaper.jpg
