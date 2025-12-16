@@ -1,10 +1,10 @@
 {
     "layer": "top",
     "position": "top",
-    "height": 18,
+    "height": 38,
     "modules-left": ["hyprland/workspaces", "hyprland/window"],
     "modules-center": ["clock"],
-    "modules-right": ["memory", "cpu", "temperature", "backlight", "pulseaudio", "network", "bluetooth", "battery"],
+    "modules-right": ["memory", "cpu", "temperature", "backlight", "pulseaudio", "custom/wifi", "custom/bluetooth", "battery"],
 
     "hyprland/workspaces": {
         "on-click": "activate"
@@ -21,7 +21,7 @@
         "spacing": 10
     },
     "memory": {
-        "format": "󰍛 {}%"
+        "format": "󰍛 {}em%"
     },
     "cpu": {
         "format": " {usage}%"
@@ -42,19 +42,15 @@
             "default": ["", "", ""]
         }
     },
-    "network": {
-        "format-wifi": "󰤨 {signalStrength}%",
-        "format-ethernet": "󰊪 Connected",
-        "format-disconnected": "󰤮 Off",
-        "tooltip-format": "{ifname} via {gwaddr}"
+    "custom/wifi": {
+        "exec": "~/.config/waybar/scripts/wifi.sh",
+        "interval": 2,
+        "on-click": "~/.config/waybar/scripts/wifi.sh toggle"
     },
-    "bluetooth": {
-        "format": " {status}",
-        "format-disabled": " Off", // Show "Off" when disabled
-        "format-connected": " {num_connections}",
-        "tooltip-format": "{device_alias}",
-        "tooltip-format-connected": " {device_enumerate}",
-        "tooltip-format-enumerate-connected": "{device_alias}"
+    "custom/bluetooth": {
+        "exec": "~/.config/waybar/scripts/bluetooth.sh",
+        "interval": 2,
+        "on-click": "~/.config/waybar/scripts/bluetooth.sh toggle"
     },
     "battery": {
         "states": {
