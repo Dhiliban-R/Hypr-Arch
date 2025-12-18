@@ -44,13 +44,12 @@
     },
     "custom/wifi": {
         "exec": "~/.config/waybar/scripts/wifi.sh",
-        "interval": 2,
         "signal": 9,
         "on-click": "~/.config/waybar/scripts/wifi.sh toggle"
     },
     "custom/bluetooth": {
         "exec": "~/.config/waybar/scripts/bluetooth.sh",
-        "interval": 2,
+        "signal": 10,
         "on-click": "~/.config/waybar/scripts/bluetooth.sh toggle"
     },
     "battery": {

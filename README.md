@@ -267,8 +267,8 @@ rm -rf paru
 #### 2.1.4 Clone this Repository
 
 ```bash
-git clone https://github.com/Dhiliban-R/Hypr-Arch ~/Hypr-Arch
-cd ~/Hypr-Arch
+git clone https://github.com/Dhiliban-R/Hypr-Arch ~/Hyprland-Arch-Config
+cd ~/Hyprland-Arch-Config
 ```
 
 ### 2.2 Run Installation Scripts
@@ -337,7 +337,6 @@ The main config file is `~/.config/hypr/hyprland.conf`. Example keybindings:
 | Super + N           | Open Obsidian (if installed)              |
 | Super + M           | Toggle Maximize window                    |
 | Super + F           | Toggle Floating window                    |
-| Super + Shift + Q   | Exit Hyprland Session                     |
 | Super + Shift + R   | Reload Hyprland Session                   |
 | Super + Shift + B   | Blueman-manager                           |
 | Super + Shift + N   | Network manager                           |
@@ -345,7 +344,7 @@ The main config file is `~/.config/hypr/hyprland.conf`. Example keybindings:
 | Super + L           | Lock Screen with Swaylock                 |
 | Super + 1-9         | Switch to Workspace 1-9                   |
 | Super + Shift + 1-9 | Move window to Workspace 1-9              |
-| Super + Left/Right  | Move focus to adjacent window             |
+| Super + Left/Right/Up/Down  | Move focus to adjacent window             |
 
 Customize as needed in `hyprland.conf`.
 
@@ -373,24 +372,23 @@ Customize as needed in `hyprland.conf`.
 
 ### 3.3 Wallpaper Configuration
 
-Wallpapers can be managed by `hyprpaper` using a configuration file, typically `~/Hyprland-Arch-Config/dotfiles/hypr/hyprpaper.conf`. This repository includes a `wallpapers/` directory where you can place your desired images.
+Wallpapers are managed by `hyprpaper`. The configuration file is located at `~/.config/hypr/hyprpaper.conf`. This repository includes a `wallpapers/` directory for your images.
 
 To use `hyprpaper`:
-1.  Ensure `hyprpaper` is configured to run in your `~/.config/hypr/hyprland.conf` (e.g., `exec-once = hyprpaper`).
-2.  Create or edit `~/Hyprland-Arch-Config/dotfiles/hypr/hyprpaper.conf` to specify your wallpapers.
+1.  Ensure `hyprpaper` is launched in your `~/.config/hypr/hyprland.conf` (e.g., `exec-once = hyprpaper`).
+2.  Edit `~/.config/hypr/hyprpaper.conf` to set your wallpaper.
 
-Example `~/Hyprland-Arch-Config/dotfiles/hypr/hyprpaper.conf` entry:
+Example `hyprpaper.conf` entry:
 ```ini
 preload = ~/Hyprland-Arch-Config/wallpapers/your_wallpaper.jpg
-wallpaper = DP-1,~/Hyprland-Arch-Config/wallpapers/your_wallpaper.jpg
-# For multiple monitors:
+wallpaper = eDP-1,~/Hyprland-Arch-Config/wallpapers/your_wallpaper.jpg
+# For multiple monitors, find monitor names with `hyprctl monitors`
 # wallpaper = HDMI-A-1,~/Hyprland-Arch-Config/wallpapers/another_wallpaper.png
 ```
-Find your monitor names with `hyprctl monitors`.
 
 ### 3.4 Display Manager Integration (Optional)
 
-If you use `sddm`, ensure it's enabled and Hyprland session file exists at `/usr/share/wayland-sessions/hyprland.desktop`.
+If you use `sddm`, ensure it's enabled and the Hyprland session file exists at `/usr/share/wayland-sessions/hyprland.desktop`.
 
 ---
 
@@ -431,10 +429,13 @@ If you use `sddm`, ensure it's enabled and Hyprland session file exists at `/usr
 
 To set up a new Arch Linux system with this configuration:
 
-1.  **Perform Arch Linux Base Installation:** Follow "Part 1: Arch Linux Base Installation" and "Part 2: Hyprland Desktop Environment Setup" (up to "2.1.4 Clone this Repository") in this `README.md`.
-2.  **Run the full installation script:** This script automates the installation of all necessary packages (both pacman and AUR), sets up dotfiles, and configures themes, icons, and fonts.
+1.  **Perform Arch Linux Base Installation:** Follow "Part 1" and "Part 2" (up to "2.1.4 Clone this Repository").
+2.  **Run the installation scripts:**
     ```bash
-    cd ~/Hypr-Arch # Assuming you cloned to ~/Hypr-Arch
-    ./install/full_install.sh
+    cd ~/Hyprland-Arch-Config
+    chmod +x ./install/*.sh
+    ./install/install_packages.sh
+    ./install/setup_dotfiles.sh
+    ./install/setup_themes_icons_fonts.sh
     ```
-3.  **Continue Hyprland Setup:** Continue with "Part 2: Hyprland Desktop Environment Setup" from "2.3 Enable Services" onwards.
+3.  **Enable Services and start Hyprland:** Follow from "2.3 Enable Services" onwards.

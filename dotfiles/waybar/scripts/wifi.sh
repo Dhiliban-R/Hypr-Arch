@@ -3,8 +3,7 @@
 # Function to get Wi-Fi status
 get_wifi_status() {
     if nmcli radio wifi | grep -q "enabled"; then
-        ACTIVE_CONNECTION_INFO=$(nmcli -t -f NAME,TYPE connection show --active)
-        WIFI_SSID=$(echo "$ACTIVE_CONNECTION_INFO" | grep ':802-11-wireless$' | head -n 1 | cut -d':' -f1)
+        WIFI_SSID=$(nmcli -t -f ACTIVE,SSID dev wifi | grep '^yes:' | cut -d':' -f2)
 
         if [ -n "$WIFI_SSID" ]; then
             echo "󰤨 $WIFI_SSID"
@@ -21,6 +20,7 @@ toggle_wifi() {
     if nmcli radio wifi | grep -q "enabled"; then
         nmcli radio wifi off
     else
+        rfkill unblock wifi
         nmcli radio wifi on
     fi
     pkill -SIGRTMIN+9 waybar
