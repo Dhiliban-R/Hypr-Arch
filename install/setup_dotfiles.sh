@@ -40,7 +40,24 @@ for name in "${!dotfiles_to_symlink[@]}"; do
     mkdir -p "$(dirname "$target_path")"
 
     if [ -e "$source_path" ]; then
-        echo "Symlinking $source_path to $target_path"
+        echo "Processing $name..."
+
+        # Check if target exists
+        if [ -e "$target_path" ] || [ -L "$target_path" ]; then
+            # If it's already a correct symlink, skip
+            if [ -L "$target_path" ] && [ "$(readlink -f "$target_path")" == "$source_path" ]; then
+                echo "  Already linked correctly."
+                continue
+            fi
+
+            # Backup existing file/dir
+            timestamp=$(date +%Y%m%d_%H%M%S)
+            backup_path="${target_path}.bak_${timestamp}"
+            echo "  Backing up existing $target_path to $backup_path"
+            mv "$target_path" "$backup_path"
+        fi
+
+        echo "  Symlinking $source_path to $target_path"
         ln -sf "$source_path" "$target_path"
     else
         echo "Warning: Source dotfile/directory not found: $source_path (Skipping)"

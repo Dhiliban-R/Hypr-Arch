@@ -12,6 +12,7 @@ case $selected in
     loginctl terminate-user $USER
     ;;
   )
+    swaylock -i "/home/dhili/Downloads/Pretty scenery wallpaper_files/Boruto.png" --indicator-radius 120 --indicator-thickness 15 # Start swaylock in the background
     systemctl suspend
     ;;
   )

@@ -1,14 +1,14 @@
 daemonize
 show-failed-attempts
 clock
-screenshot
-effect-blur=13x13
-effect-vignette=0.5:0.5
+# screenshot
+# effect-blur=13x13
+# effect-vignette=0.5:0.5
 color=000000CC
 font="Inter"
-indicator
-indicator-radius=200
-indicator-thickness=20
+fade-in=1.5
+indicator-radius=120
+indicator-thickness=15
 line-color=282A36
 ring-color=BD93F9
 inside-color=282A36

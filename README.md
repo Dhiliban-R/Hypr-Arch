@@ -351,6 +351,7 @@ Customize as needed in `hyprland.conf`.
 ### 3.2 Customization Files
 
 - **Hyprland:** `~/.config/hypr/hyprland.conf`
+- **Wallpaper:** `~/.config/hypr/hyprpaper.conf`
 - **Waybar:** `~/.config/waybar/config`, `style.css`
 - **Wofi:** `~/.config/wofi/config`, `style.css`
 - **Wezterm:** `~/.config/wezterm/wezterm.lua`
