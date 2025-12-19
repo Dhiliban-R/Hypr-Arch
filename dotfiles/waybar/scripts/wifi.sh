@@ -3,7 +3,7 @@
 # Function to get Wi-Fi status
 get_wifi_status() {
     if nmcli radio wifi | grep -q "enabled"; then
-        WIFI_SSID=$(nmcli -t -f ACTIVE,SSID dev wifi | grep '^yes:' | cut -d':' -f2)
+        WIFI_SSID=$(nmcli -t -f ACTIVE,SSID dev wifi | grep '^yes:' | head -n 1 | sed 's/^yes://')
 
         if [ -n "$WIFI_SSID" ]; then
             echo "󰤨 $WIFI_SSID"
