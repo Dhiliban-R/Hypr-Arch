@@ -1,0 +1,66 @@
+# btop theme: "wezterm"
+# author: Gemini
+
+# All colors should be in hex format without the # prefix.
+
+# Main background
+theme[main_bg]=""
+
+# Main foreground
+theme[main_fg]="#CDD6F4"
+
+# Title color for boxes
+theme[title]="#89B4FA"
+
+# Higlight color for keyboard shortcuts
+theme[hi_fg]="#F5C2E7"
+
+# Background color of selected item in processes box
+theme[selected_bg]="#45475A"
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#CDD6F4"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#585B70"
+
+# Color of text appearing on top of graphs, i.e CPU usage
+theme[graph_text]="#CDD6F4"
+
+# Misc colors for processes box
+theme[proc_misc]="#A6E3A1"
+
+# CPU box
+theme[cpu_box]="#89B4FA"
+
+# Memory box
+theme[mem_box]="#F9E2AF"
+
+# Network box
+theme[net_box]="#A6E3A1"
+
+# Process box
+theme[proc_box]="#F38BA8"
+
+# Box divider line and small boxes line color
+theme[div_line]="#45475A"
+
+# Temperature graph colors
+theme[temp_start]="#A6E3A1"
+theme[temp_mid]="#F9E2AF"
+theme[temp_end]="#F38BA8"
+
+# CPU graph colors
+theme[cpu_start]="#A6E3A1"
+theme[cpu_mid]="#F9E2AF"
+theme[cpu_end]="#F38BA8"
+
+# Memory graph colors
+theme[mem_start]="#A6E3A1"
+theme[mem_mid]="#F9E2AF"
+theme[mem_end]="#F38BA8"
+
+# Network graph colors
+theme[net_start]="#A6E3A1"
+theme[net_mid]="#F9E2AF"
+theme[net_end]="#F38BA8"

@@ -1,0 +1,10 @@
+brave-bin 1:1.85.118-1
+cheese 44.1-5
+dracula-gtk-theme v4.0.0-1
+dracula-icons-git 1.0.0.de2a8edd-1
+fresh-editor-bin 0.1.67-1
+paru 2.1.0-2
+paru-debug 2.1.0-2
+swaylock-effects 1.7.0.0-4
+visual-studio-code-bin 1.107.1-1
+wlogout 1.2.2-0

@@ -1,0 +1,68 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 38,
+    "modules-left": ["hyprland/workspaces", "hyprland/window"],
+    "modules-center": ["clock#date", "clock", "clock#day"],
+    "modules-right": ["memory", "cpu", "backlight", "pulseaudio", "network", "battery"],
+
+    "hyprland/workspaces": {
+        "on-click": "activate"
+    },
+    "hyprland/window": {
+        "format": "{}"
+    },
+    "clock": {
+        "format": "{:%I:%M %p}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    },
+    "clock#date": {
+        "format": "{:%d/%m/%Y}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    },
+    "clock#day": {
+        "format": "{:%A}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    },
+    "tray": {
+        "icon-size": 20,
+        "spacing": 10
+    },
+    "memory": {
+        "format": "󰍛 {}em%"
+    },
+    "cpu": {
+        "format": " {usage}%"
+    },
+    "backlight": {
+        "format": "{icon} {percent}%",
+        "format-icons": ["󰃞", "󰃟", "󰃠"]
+    },
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": "󰝟 Muted",
+        "format-icons": {
+            "default": ["", "", ""]
+        }
+    },
+    "network": {
+        "interface": "wlo1",
+        "format-wifi": "󰤨 {essid}",
+        "format-disconnected": "󰤨 On",
+        "format-disabled": "󰤮 Off",
+        "interval": 1,
+        "on-click": "~/.config/waybar/scripts/wifi.sh toggle"
+    },
+    "battery": {
+        "interval": 1,
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        "format-charging": "󰂄 {capacity}%",
+        "format-plugged": "󰂄 {capacity}%",
+        "format-alt": "{time} {icon}",
+        "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
+    }
+}

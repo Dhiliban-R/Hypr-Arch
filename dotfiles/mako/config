@@ -1,0 +1,14 @@
+background-color=#000000
+text-color=#D8DEE9
+border-color=#4C566A
+default-timeout=5000
+border-radius=10
+
+[urgency=low]
+border-color=#4C566A
+
+[urgency=normal]
+border-color=#BF616A
+
+[urgency=high]
+border-color=#BF616A

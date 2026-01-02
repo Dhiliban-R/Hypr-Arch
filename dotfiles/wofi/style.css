@@ -1,0 +1,76 @@
+window {
+margin: 0px;
+border: 1px solid #bd93f9;
+background-color: rgba(0, 0, 0, 0);
+font-family: "Noto Serif";
+width: 40px; /* Even smaller width */
+display: flex; /* Make window a flex container */
+justify-content: center; /* Center horizontally */
+align-items: center; /* Center vertically */
+}
+
+#input {
+display: none;
+margin: 5px;
+border: none;
+color: #f8f8f2;
+background-color: #44475a;
+}
+
+#inner-box {
+margin: 5px;
+border: none;
+background-color: rgba(0, 0, 0, 0);
+}
+
+#outer-box {
+margin: 5px;
+border: none;
+background-color: rgba(0, 0, 0, 0);
+}
+
+#scroll {
+margin: 0px;
+border: none;
+}
+
+#text {
+margin: 2px; /* Reduced space between circles */
+padding: 5px; /* Reduced size of the circle */
+border: none;
+font-size: 24px; /* Smaller icons */
+} 
+
+#entry:nth-child(1) #text {
+color: #ff5555; /* Red for Logout */
+}
+
+#entry:nth-child(2) #text {
+color: #f1fa8c; /* Yellow for Suspend */
+}
+
+#entry:nth-child(3) #text {
+color: #50fa7b; /* Green for Reboot */
+}
+
+#entry:nth-child(4) #text {
+color: #bd93f9; /* Purple for Shutdown */
+}
+
+#entry.activatable #text {
+color: #282a36; /* Darker color for active icon */
+}
+
+#entry > * {
+/* Default color is overridden by nth-child */
+}
+
+#entry:selected {
+background-color: rgba(189, 147, 249, 0.5);
+border-radius: 25px;
+}
+
+#entry:selected #text {
+font-weight: bold;
+/* Color will be set by nth-child, but can be overridden here if needed */
+}

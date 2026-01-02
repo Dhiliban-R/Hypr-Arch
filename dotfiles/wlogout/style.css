@@ -1,0 +1,43 @@
+/* Custom wlogout style */
+window {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+button {
+    border: none;
+    border-radius: 50%; /* Circular shape */
+    margin: 10px;
+    padding: 15px;
+    font-size: 14px; /* Slightly reduced icon/text size */
+    color: #ffffff; /* Default text color */
+}
+
+/* Specific button colors */
+#reboot {
+    background-color: #FF6666; /* Thin red */
+}
+
+#shutdown {
+    background-color: #90EE90; /* Light green */
+}
+
+#suspend {
+    background-color: #00008B; /* Dark blue */
+}
+
+#lock {
+    background-color: #D3D3D3; /* Light grey */
+    color: #333333; /* Adjust text color for light background */
+}
+
+#logout {
+    background-color: #9370DB; /* Middle purple */
+}
+
+#hibernate {
+    background-color: #333333; /* Normal color (default) */
+}
+
+button:hover {
+    background-color: #555555; /* Hover effect */
+}
