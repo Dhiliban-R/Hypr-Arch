@@ -7,17 +7,17 @@ clock
 color=000000CC
 font="Inter"
 fade-in=1.5
-indicator-radius=120
+indicator-radius=90
 indicator-thickness=15
 line-color=282A36
-ring-color=BD93F9
+ring-color=FF79C6
 inside-color=282A36
 key-hl-color=50FA7B
 separator-color=00000000
 text-color=F8F8F2
 text-caps-lock-color=""
-line-ver-color=BD93F9
-ring-ver-color=BD93F9
+line-ver-color=FF79C6
+ring-ver-color=FF79C6
 inside-ver-color=282A36
 text-ver-color=8BE9FD
 ring-wrong-color=FF5555
@@ -29,7 +29,7 @@ ring-clear-color=8BE9FD
 line-clear-color=8BE9FD
 line-wrong-color=282A36
 bs-hl-color=8BE9FD
-grace=2
+grace=0
 grace-no-mouse
 grace-no-touch
 datestr=%a, %B %e
