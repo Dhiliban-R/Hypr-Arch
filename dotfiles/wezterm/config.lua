@@ -33,7 +33,7 @@ config.keys = {
   -- Close tab
   { key = "w", mods = "CTRL", action = wezterm.action.CloseCurrentTab({ confirm = true }) },
   -- Close pane
-  { key = "x", mods = "CTRL|SHIFT", action = wezterm.action.CloseCurrentPane({ confirm = true }) },
+  { key = "x", mods = "ALT", action = wezterm.action.CloseCurrentPane({ confirm = true }) },
   -- Split pane horizontally
   { key = "\\", mods = "CTRL", action = wezterm.action.SplitHorizontal({ domain = "CurrentPaneDomain" }) },
   -- Split pane vertically
@@ -69,17 +69,6 @@ config.keys = {
   { key = "c", mods = "CTRL|SHIFT", action = wezterm.action.CopyTo("ClipboardAndPrimarySelection") },
   -- Paste from clipboard
   { key = "v", mods = "CTRL|SHIFT", action = wezterm.action.PasteFrom("Clipboard") },
-
-  -- Select All (Copy all text in the buffer)
-  {
-    key = "a",
-    mods = "CTRL",
-    action = wezterm.action_callback(function(window, pane)
-      local dims = pane:get_dimensions()
-      local text = pane:get_text_from_region(0, 0, dims.scrollback_rows + dims.viewport_rows, dims.cols)
-      window:copy_to_clipboard(text)
-    end),
-  },
 
   -- Enter = proceed
   { key = "Enter", action = wezterm.action.SendString("\r") },

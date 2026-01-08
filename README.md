@@ -24,6 +24,23 @@ This repository provides a complete, step-by-step guide to installing Arch Linux
 - **Essential Utilities:** Includes `grim` (screenshot), `slurp` (region selection), `wl-clipboard` (clipboard management, required for Neovim/Wezterm integration), `hyprpaper` (wallpaper utility), `polkit-gnome` (authentication agent), `xdg-desktop-portal-hyprland`, and `xdg-desktop-portal-gtk` (screen sharing/compatibility).
 - **Automated Setup:** Scripts for package installation and dotfile deployment.
 
+## 🔄 Synchronization
+
+This repository is designed to be easily synchronized with your local system state.
+
+### ⬆️ Pushing Local Changes to Repository
+To update the repository with your current local configurations and package lists:
+1.  **Copy Dotfiles:** `cp -r ~/.config/{hypr,waybar,wofi,mako,btop,fastfetch,swaylock,Thunar,wezterm,wlogout,yazi,starship.toml} ~/Hyprland-Arch-Config/dotfiles/`
+2.  **Update Package Lists:**
+    - `pacman -Qqe > ~/Hyprland-Arch-Config/packages/pacman_pkglist.txt`
+    - `paru -Qme > ~/Hyprland-Arch-Config/packages/paru_pkglist.txt`
+3.  **Commit and Push:** Use standard git commands to push changes to your remote repository.
+
+### ⬇️ Pulling Changes to Local System
+To apply updates from the repository to your system:
+1.  **Pull Changes:** `git pull origin main`
+2.  **Run Setup Script:** `./install/setup_dotfiles.sh` (This will create symlinks and backup existing files).
+
 ## 📋 Pre-Installation Requirements
 
 Before you begin, ensure you have:

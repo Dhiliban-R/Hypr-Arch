@@ -116,26 +116,9 @@ export PATH="$HOME/.local/bin:$PATH"
 # Set nano as the default editor
 export VISUAL=nano
 export EDITOR="$VISUAL"
-alias updt="paru -Syu; sudo pacman -Syu; rm -rf /home/dhili/.npm-global/lib/node_modules/@google/gemini-cli; rm -f /home/dhili/.config/configstore/update-notifier-@google/gemini-cli.json; npm install -g @google/gemini-cli@nightly"
+alias updt="paru -Syu; rm -rf \$HOME/.npm-global/lib/node_modules/@google/gemini-cli; rm -f \$HOME/.config/configstore/update-notifier-@google/gemini-cli.json; npm install -g @google/gemini-cli@nightly"
 # Fix Hyprland startup warning by using the wrapper
 alias Hyprland='start-hyprland'
-
-
-
-# Override zsh-shift-select to auto-copy selection to clipboard
-function shift-select::select-and-invoke() {
-    if (( !REGION_ACTIVE )); then
-        zle set-mark-command -w
-        zle -K shift-select
-    fi
-    zle ${WIDGET#shift-select::} -w
-    
-    # Auto-copy to system clipboard
-    if (( REGION_ACTIVE )); then
-        zle copy-region-as-kill
-        printf "%s" "$CUTBUFFER" | wl-copy
-    fi
-}
 
 # Bind Ctrl+Backspace to delete word
 bindkey "^W" backward-kill-word
@@ -143,8 +126,8 @@ bindkey "^W" backward-kill-word
 # Bind Ctrl+Delete (mapped to Alt+d via WezTerm) to kill-word
 bindkey "^[d" kill-word
 
-# Custom 'reduce' command to clean system space
-reduce() {
+# Custom 'clean' command to clean system space
+clean() {
     echo "🧹 Starting system cleanup..."
     
     # 1. Clean Package Cache (keep last 2 versions)
@@ -171,11 +154,23 @@ reduce() {
 
     # 4. Clean User Cache
     echo "🧼 Clearing user cache (~/.cache)..."
-    rm -rf ~/.cache/*
-    
+    rm -rf ~/.cache/paru/clone/*
+    rm -rf ~/.cache/ms-playwright/*
+    # Note: Keeping the general cache cleanup but making these explicit
+    # rm -rf ~/.cache/* 
+
     # 5. Empty Trash
     echo "🗑️  Emptying Trash..."
     rm -rf ~/.local/share/Trash/*
+
+    # 6. Clean NPM/NPX Cache
+    echo "📦 Cleaning NPM/NPX cache..."
+    rm -rf ~/.npm/_npx ~/.npm/_cacache
+
+    # 7. Clean Gemini History Large Packs (>100MB)
+    echo "✨ Cleaning Gemini internal history (large pack files)..."
+    find ~/.gemini/history -type f -name "*.pack" -size +100M -delete 2>/dev/null
+    find ~/.gemini/history -type f -name "tmp_pack_*" -delete 2>/dev/null
 
     echo "✅ Cleanup complete!"
     echo "---"
