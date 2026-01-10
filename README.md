@@ -28,6 +28,85 @@ This repository provides a complete, step-by-step guide to installing Arch Linux
 - **Essential Utilities:** Includes `grim` (screenshot), `slurp` (region selection), `wl-clipboard` (CRITICAL for clipboard management and Neovim/Wezterm integration), `hyprpaper` (wallpaper utility), `polkit-gnome` (authentication agent), `xdg-desktop-portal-hyprland`, and `xdg-desktop-portal-gtk` (screen sharing/compatibility).
 - **Automated Setup:** Scripts for package installation and dotfile deployment.
 
+## ⌨️ Keybindings
+
+This configuration uses a consistent and "smart" keybinding philosophy across the system, terminal, and shell.
+
+### 🖥️ System (Hyprland)
+
+**Modifier Key:** `SUPER` (Windows Key)
+
+| Key | Action |
+| :--- | :--- |
+| **Apps** | |
+| `SUPER + Q` | Terminal (WezTerm) |
+| `SUPER + SPACE` | App Launcher (Wofi) |
+| `SUPER + E` | File Manager (Thunar) |
+| `SUPER + V` | Code Editor (VS Code) |
+| `SUPER + O` | Office Suite (LibreOffice) |
+| `SUPER + N` | Notes (Obsidian) |
+| `SUPER + T` | Telegram |
+| `SUPER + SHIFT + G` | Gemini Assistant (CLI) |
+| `SUPER + SHIFT + Y` | Yazi File Manager (CLI) |
+| `SUPER + SHIFT + T` | OCR Tool |
+| **System** | |
+| `SUPER + L` | Lock Screen |
+| `SUPER + X` | Power Menu (Logout, Reboot, Shutdown) |
+| `SUPER + SHIFT + R` | Reload Hyprland Config |
+| `F2 / F3` | Brightness Down / Up |
+| `F7 / F8` | Volume Down / Up |
+| `Mute` | Mute Audio |
+| **Window Management** | |
+| `SUPER + W` | Close Window |
+| `SUPER + F` | Toggle Floating |
+| `SUPER + M` | Fullscreen |
+| `SUPER + Arrows` | Move Focus |
+| `SUPER + 1-0` | Switch Workspace |
+| `SUPER + SHIFT + 1-0` | Move Window to Workspace |
+| `SUPER + SHIFT + M` | Move to Special Workspace |
+| `SUPER + Mouse` | Move/Resize Window |
+| **Utilities** | |
+| `SUPER + S` | Screenshot (Region Selection) |
+| `SUPER + SHIFT + B` | Bluetooth Manager |
+| `SUPER + SHIFT + N` | Toggle WiFi |
+
+### 📟 Terminal (WezTerm)
+
+These bindings are context-aware. They work "smartly" to handle both mouse selections and Zsh text regions.
+
+| Key | Action |
+| :--- | :--- |
+| **Clipboard & Editing** | |
+| `Ctrl + Shift + C` | **Smart Copy:** Copies mouse selection if present, otherwise copies Zsh active region. |
+| `Ctrl + Shift + X` | **Smart Cut:** Cuts text (integrated with Zsh). |
+| `Ctrl + Shift + V` | **Universal Paste:** Pastes from clipboard (auto-clears selection first). |
+| `Ctrl + Shift + Backspace` | Delete Selected Text |
+| `Ctrl + Shift + Z` | Undo |
+| `Ctrl + Shift + _` | Redo |
+| **View & Panes** | |
+| `Ctrl + +/-/0` | Increase / Decrease / Reset Font Size |
+| `Ctrl + T` | New Tab |
+| `Ctrl + W` | Close Tab |
+| `Alt + X` | Close Pane |
+| `Ctrl + \` | Split Horizontal |
+| `Ctrl + Shift + \|` | Split Vertical |
+| `Alt + Arrows` | Navigate Panes |
+
+### 🐚 Shell (Zsh)
+
+Enhances the command line with GUI-like text navigation and selection.
+
+| Key | Action |
+| :--- | :--- |
+| **Navigation & Selection** | |
+| `Ctrl + Arrows` | Jump Words |
+| `Shift + Arrows` | Select Character/Line |
+| `Ctrl + Shift + Arrows` | Select Word (Continuous) |
+| `Ctrl + A` | Select All |
+| **Helpers** | |
+| `Alt + S` | **Smart Sudo:** Toggles `sudo` at the start of the current command. |
+| `Shift + Enter` | Soft Newline (continue typing without executing) |
+
 ## 🔄 Synchronization
 
 This repository is designed to be easily synchronized with your local system state.
