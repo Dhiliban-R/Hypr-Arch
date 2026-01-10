@@ -120,23 +120,6 @@ alias updt="paru -Syu; rm -rf \$HOME/.npm-global/lib/node_modules/@google/gemini
 # Fix Hyprland startup warning by using the wrapper
 alias Hyprland='start-hyprland'
 
-
-
-# Override zsh-shift-select to auto-copy selection to clipboard
-function shift-select::select-and-invoke() {
-    if (( !REGION_ACTIVE )); then
-        zle set-mark-command -w
-        zle -K shift-select
-    fi
-    zle ${WIDGET#shift-select::} -w
-    
-    # Auto-copy to system clipboard
-    if (( REGION_ACTIVE )); then
-        zle copy-region-as-kill
-        printf "%s" "$CUTBUFFER" | wl-copy
-    fi
-}
-
 # Bind Ctrl+Backspace to delete word
 bindkey "^W" backward-kill-word
 
@@ -193,3 +176,63 @@ clean() {
     echo "---"
     df -h /
 }
+# Ensure selection is visible in Zsh
+zle_highlight+=(region:bg=yellow,fg=black)
+
+# --- Gemini Smart Clipboard & Selection Integration ---
+
+# 1. Widgets handling the logic
+gemini-copy() {
+    if (( REGION_ACTIVE )); then
+        zle copy-region-as-kill
+        if [[ "$XDG_SESSION_TYPE" == "wayland" ]]; then
+            printf "%s" "$CUTBUFFER" | wl-copy
+        else
+            printf "%s" "$CUTBUFFER" | xclip -selection clipboard
+        fi
+        REGION_ACTIVE=0 
+    fi
+}
+zle -N gemini-copy
+
+gemini-cut() {
+    if (( REGION_ACTIVE )); then
+        zle kill-region
+        if [[ "$XDG_SESSION_TYPE" == "wayland" ]]; then
+            printf "%s" "$CUTBUFFER" | wl-copy
+        else
+            printf "%s" "$CUTBUFFER" | xclip -selection clipboard
+        fi
+    fi
+}
+zle -N gemini-cut
+
+gemini-paste() {
+    if (( REGION_ACTIVE )); then
+        zle kill-region
+    fi
+    if [[ "$XDG_SESSION_TYPE" == "wayland" ]]; then
+        LBUFFER+="$(wl-paste 2>/dev/null || echo '')"
+    else
+        LBUFFER+="$(xclip -selection clipboard -o 2>/dev/null || echo '')"
+    fi
+}
+zle -N gemini-paste
+
+gemini-delete() {
+    if (( REGION_ACTIVE )); then
+        zle kill-region
+    fi
+}
+zle -N gemini-delete
+
+# 2. Bind WezTerm's custom signals to these widgets
+bindkey "\x1b_copy"   gemini-copy
+bindkey "\x1b_cut"    gemini-cut
+bindkey "\x1b_paste"  gemini-paste
+bindkey "\x1b_delsel" gemini-delete
+
+# 3. Bind Ctrl+Arrow for Word Navigation (No Selection)
+bindkey "^[[1;5D" backward-word
+bindkey "^[[1;5C" forward-word
+

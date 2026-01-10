@@ -20,6 +20,10 @@ This repository provides a complete, step-by-step guide to installing Arch Linux
 - **Btop:** Resource monitor that shows usage and stats for processor, memory, disks, network and processes.
 - **Fastfetch:** Like neofetch, but much faster because written in C.
 - **Starship:** The minimal, blazing-fast, and infinitely customizable prompt for any shell.
+- **Smart Clipboard & Selection Logic:** Integrated experience between WezTerm and Zsh.
+    - **Smart Copy:** Ctrl+Shift+C (copies mouse selection or Zsh active region).
+    - **Smart Cut/Paste/Delete:** Ctrl+Shift+X/V/Backspace (integrated with Zsh ZLE widgets).
+    - **Session Aware:** Automatically switches between `wl-copy` (Wayland) and `xclip` (X11).
 - **Dracula Theme:** Cohesive dark theme applied across the desktop.
 - **Essential Utilities:** Includes `grim` (screenshot), `slurp` (region selection), `wl-clipboard` (clipboard management, required for Neovim/Wezterm integration), `hyprpaper` (wallpaper utility), `polkit-gnome` (authentication agent), `xdg-desktop-portal-hyprland`, and `xdg-desktop-portal-gtk` (screen sharing/compatibility).
 - **Automated Setup:** Scripts for package installation and dotfile deployment.
