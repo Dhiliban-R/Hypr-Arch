@@ -30,10 +30,6 @@ declare -A dotfiles_to_symlink=(
     ["yazi"]=".config/yazi"
     ["starship.toml"]=".config/starship.toml"
     ["zshrc"]=".zshrc"
-    [".bashrc"]=".bashrc"
-    [".profile"]=".profile"
-    [".bash_profile"]=".bash_profile"
-    [".gtkrc-2.0"]=".gtkrc-2.0"
 )
 
 # Loop through the dotfiles and create symlinks

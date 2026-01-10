@@ -1,0 +1,114 @@
+local wezterm = require 'wezterm'
+local act = wezterm.action
+
+local config = {}
+if wezterm.config_builder then
+  config = wezterm.config_builder()
+end
+
+-- =============================================================
+--  APPEARANCE & SYSTEM
+-- =============================================================
+config.color_scheme = "Nord (Gogh)"
+config.font = wezterm.font("JetBrains Mono", { weight = "Bold" })
+config.font_size = 10
+
+config.window_background_opacity = 0.0
+config.text_background_opacity = 0.0
+config.window_decorations = "RESIZE"
+config.window_padding = { left = 7, right = 5, top = 2, bottom = 0 }
+
+config.enable_tab_bar = false
+config.use_fancy_tab_bar = false
+config.tab_bar_at_bottom = false
+config.automatically_reload_config = true
+config.window_close_confirmation = "NeverPrompt"
+config.check_for_updates = false
+config.enable_wayland = false
+config.adjust_window_size_when_changing_font_size = false
+config.default_cursor_style = "SteadyBar"
+
+-- =============================================================
+--  KEYS & BINDINGS
+-- =============================================================
+config.keys = {
+  -- 1. SMART COPY (Handles both mouse and keyboard selection)
+  {
+    key = 'c',
+    mods = 'CTRL|SHIFT',
+    action = wezterm.action_callback(function(window, pane)
+      -- Force copy whatever is currently 'selected' (highlighted) on screen
+      window:perform_action(act.CopyTo 'ClipboardAndPrimarySelection', pane)
+      window:perform_action(act.ClearSelection, pane)
+      -- Signal Zsh to stop the yellow highlight
+      window:perform_action(act.SendString '\x1b[1;21~', pane)
+    end),
+  },
+
+  -- 2. SMART CUT
+  {
+    key = 'x',
+    mods = 'CTRL|SHIFT',
+    action = wezterm.action_callback(function(window, pane)
+      window:perform_action(act.CopyTo 'ClipboardAndPrimarySelection', pane)
+      -- Signal Zsh to actually DELETE the text now that it's copied
+      window:perform_action(act.SendString '\x1b[1;22~', pane)
+    end),
+  },
+
+  -- 3. UNIVERSAL PASTE
+  {
+    key = 'v',
+    mods = 'CTRL|SHIFT',
+    action = wezterm.action_callback(function(window, pane)
+      window:perform_action(act.SendString '\x1b[1;21~', pane)
+      window:perform_action(act.PasteFrom 'Clipboard', pane)
+    end),
+  },
+
+  -- 4. SMART DELETE SELECTION (Ctrl+Shift+Backspace)
+  { key = 'Backspace', mods = 'CTRL|SHIFT', action = act.SendString '\x1b[1;23~' },
+
+  -- 5. NAVIGATION & WINDOW MANAGEMENT
+  { key = "t", mods = "CTRL", action = act.SpawnTab("CurrentPaneDomain") },
+  { key = "w", mods = "CTRL", action = act.CloseCurrentTab({ confirm = true }) },
+  { key = "x", mods = "ALT", action = act.CloseCurrentPane({ confirm = true }) },
+  
+  -- FIXED: Used named key "Backslash" to avoid all escaping issues
+  { key = "Backslash", mods = "CTRL", action = act.SplitHorizontal({ domain = "CurrentPaneDomain" }) },
+  
+  { key = "|", mods = "CTRL|SHIFT", action = act.SplitVertical({ domain = "CurrentPaneDomain" }) },
+  
+  { key = "j", mods = "CTRL|SHIFT", action = act.ActivatePaneDirection("Left") },
+  { key = "l", mods = "CTRL|SHIFT", action = act.ActivatePaneDirection("Right") },
+  { key = "i", mods = "CTRL|SHIFT", action = act.ActivatePaneDirection("Up") },
+  { key = "k", mods = "CTRL|SHIFT", action = act.ActivatePaneDirection("Down") },
+
+  { key = "LeftArrow", mods = "ALT", action = act.ActivatePaneDirection("Left") },
+  { key = "RightArrow", mods = "ALT", action = act.ActivatePaneDirection("Right") },
+  { key = "UpArrow", mods = "ALT", action = act.ActivatePaneDirection("Up") },
+  { key = "DownArrow", mods = "ALT", action = act.ActivatePaneDirection("Down") },
+  { key = "LeftArrow", mods = "CTRL|ALT", action = act.ActivateTabRelative(-1) },
+  { key = "RightArrow", mods = "CTRL|ALT", action = act.ActivateTabRelative(1) },
+
+  { key = "LeftArrow", mods = "CTRL", action = act.SendString("\x1b[1;5D") },
+  { key = "RightArrow", mods = "CTRL", action = act.SendString("\x1b[1;5C") },
+  { key = "LeftArrow", mods = "SHIFT", action = act.SendString("\x1b[1;2D") },
+  { key = "RightArrow", mods = "SHIFT", action = act.SendString("\x1b[1;2C") },
+  { key = "LeftArrow", mods = "CTRL|SHIFT", action = act.SendString("\x1b[1;6D") },
+  { key = "RightArrow", mods = "CTRL|SHIFT", action = act.SendString("\x1b[1;6C") },
+  
+  { key = "Backspace", mods = "CTRL", action = act.SendString("\x17") },
+  { key = "Delete", mods = "CTRL", action = act.SendString("\x1bd") },
+  { key = "Enter", mods = "SHIFT", action = act.SendString("\x1b\r") },
+  { key = "f", mods = "SHIFT|SUPER", action = act.SpawnCommandInNewWindow { args = { "fresh" } } },
+}
+
+config.hyperlink_rules = {
+  { regex = [[ \(\w+://\S+\) ]], format = "$1", highlight = 1 },
+  { regex = [[ \[\[\w+://\S+\]\] ]], format = "$1", highlight = 1 },
+  { regex = [[ \{\w+://\S+\} ]], format = "$1", highlight = 1 },
+  { regex = [[ <\w+://\S+> ]],    format = "$1", highlight = 1 },
+}
+
+return config

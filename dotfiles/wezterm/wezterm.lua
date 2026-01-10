@@ -30,9 +30,7 @@ config.check_for_updates = false
 config.enable_wayland = false
 config.adjust_window_size_when_changing_font_size = false
 config.default_cursor_style = "BlinkingUnderline"
-config.cursor_thickness = "1.5px"
-config.underline_position = "0.6cell"
-config.underline_thickness = "1.5px"
+config.cursor_thickness = "1px"
 
 -- =============================================================
 --  KEYS & BINDINGS

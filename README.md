@@ -34,7 +34,7 @@ This repository is designed to be easily synchronized with your local system sta
 
 ### ⬆️ Pushing Local Changes to Repository
 To update the repository with your current local configurations and package lists:
-1.  **Copy Dotfiles:** `cp -r ~/.config/{hypr,waybar,wofi,mako,btop,fastfetch,swaylock,Thunar,wezterm,wlogout,yazi,starship.toml} ~/Hyprland-Arch-Config/dotfiles/`
+1.  **Copy Dotfiles:** `cp -r ~/.config/{hypr,waybar,wofi,mako,btop,fastfetch,swaylock,Thunar,wezterm,wlogout,yazi} ~/Hyprland-Arch-Config/dotfiles/` && `cp ~/.zshrc ~/Hyprland-Arch-Config/dotfiles/zshrc` && `cp ~/.config/starship.toml ~/Hyprland-Arch-Config/dotfiles/starship.toml`
 2.  **Update Package Lists:**
     - `pacman -Qqe > ~/Hyprland-Arch-Config/packages/pacman_pkglist.txt`
     - `paru -Qme > ~/Hyprland-Arch-Config/packages/paru_pkglist.txt`
