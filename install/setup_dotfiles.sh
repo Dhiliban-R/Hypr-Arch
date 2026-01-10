@@ -70,3 +70,9 @@ for name in "${!dotfiles_to_symlink[@]}"; do
 done
 
 echo "Dotfiles setup complete. You may need to log out and back in for some changes to take effect."
+
+# Check for wl-clipboard
+if ! command -v wl-copy &> /dev/null; then
+    echo "Warning: 'wl-clipboard' is not installed. Clipboard integration (WezTerm/Neovim) may not work correctly."
+    echo "Install it with: sudo pacman -S wl-clipboard"
+fi

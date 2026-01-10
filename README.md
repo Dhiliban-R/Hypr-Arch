@@ -25,7 +25,7 @@ This repository provides a complete, step-by-step guide to installing Arch Linux
     - **Smart Cut/Paste/Delete:** Ctrl+Shift+X/V/Backspace (integrated with Zsh ZLE widgets).
     - **Session Aware:** Automatically switches between `wl-copy` (Wayland) and `xclip` (X11).
 - **Dracula Theme:** Cohesive dark theme applied across the desktop.
-- **Essential Utilities:** Includes `grim` (screenshot), `slurp` (region selection), `wl-clipboard` (clipboard management, required for Neovim/Wezterm integration), `hyprpaper` (wallpaper utility), `polkit-gnome` (authentication agent), `xdg-desktop-portal-hyprland`, and `xdg-desktop-portal-gtk` (screen sharing/compatibility).
+- **Essential Utilities:** Includes `grim` (screenshot), `slurp` (region selection), `wl-clipboard` (CRITICAL for clipboard management and Neovim/Wezterm integration), `hyprpaper` (wallpaper utility), `polkit-gnome` (authentication agent), `xdg-desktop-portal-hyprland`, and `xdg-desktop-portal-gtk` (screen sharing/compatibility).
 - **Automated Setup:** Scripts for package installation and dotfile deployment.
 
 ## 🔄 Synchronization
