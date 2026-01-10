@@ -47,6 +47,7 @@ This configuration uses a consistent and "smart" keybinding philosophy across th
 | Key | Action |
 | :--- | :--- |
 | `SUPER + W` | **Close** Active Window |
+| `SUPER + P` | **Toggle Split** Orientation (Vert/Horiz) |
 | `SUPER + F` | Toggle **Floating** Mode |
 | `SUPER + M` | Toggle **Fullscreen** |
 | `SUPER + Arrows` | **Move Focus** (Left, Right, Up, Down) |
@@ -105,6 +106,7 @@ Context-aware bindings that handle both mouse selections and Zsh text regions.
 | `Ctrl + Shift + C` | **Smart Copy:** Copies mouse selection if present, otherwise copies Zsh active region. |
 | `Ctrl + Shift + X` | **Smart Cut:** Cuts text (integrated with Zsh). |
 | `Ctrl + Shift + V` | **Universal Paste:** Pastes from clipboard (auto-clears selection first). |
+| `Ctrl + Backspace` | Delete Word Backward |
 | `Ctrl + Shift + Backspace` | Delete Selected Text |
 | `Ctrl + Shift + Z` | Undo |
 | `Ctrl + Shift + _` | Redo |

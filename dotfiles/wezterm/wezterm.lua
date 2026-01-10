@@ -98,6 +98,7 @@ config.keys = {
   { key = 'a', mods = 'CTRL', action = act.SendString "\x01" }, -- Ctrl+A (Select All)
 
   -- 7. FONT RESIZING
+  { key = 'Backspace', mods = 'CTRL', action = act.SendString '\x17' },
   { key = '+', mods = 'CTRL', action = act.IncreaseFontSize },
   { key = '-', mods = 'CTRL', action = act.DecreaseFontSize },
   { key = '0', mods = 'CTRL', action = act.ResetFontSize },
