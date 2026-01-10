@@ -1,1 +1,9 @@
-/home/dhili/Hyprland-Arch-Config/dotfiles/starship.toml
+# Basic Starship Config
+add_newline = false
+
+[character]
+success_symbol = "[➜](bold green)"
+error_symbol = "[➜](bold red)"
+
+[package]
+disabled = true
