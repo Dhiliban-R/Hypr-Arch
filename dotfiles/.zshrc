@@ -176,3 +176,63 @@ clean() {
     echo "---"
     df -h /
 }
+# Ensure selection is visible in Zsh
+zle_highlight+=(region:bg=yellow,fg=black)
+
+# --- Gemini Smart Clipboard & Selection Integration ---
+
+# 1. Widgets handling the logic
+gemini-copy() {
+    if (( REGION_ACTIVE )); then
+        zle copy-region-as-kill
+        if [[ "$XDG_SESSION_TYPE" == "wayland" ]]; then
+            printf "%s" "$CUTBUFFER" | wl-copy
+        else
+            printf "%s" "$CUTBUFFER" | xclip -selection clipboard
+        fi
+        REGION_ACTIVE=0 
+    fi
+}
+zle -N gemini-copy
+
+gemini-cut() {
+    if (( REGION_ACTIVE )); then
+        zle kill-region
+        if [[ "$XDG_SESSION_TYPE" == "wayland" ]]; then
+            printf "%s" "$CUTBUFFER" | wl-copy
+        else
+            printf "%s" "$CUTBUFFER" | xclip -selection clipboard
+        fi
+    fi
+}
+zle -N gemini-cut
+
+gemini-paste() {
+    if (( REGION_ACTIVE )); then
+        zle kill-region
+    fi
+    if [[ "$XDG_SESSION_TYPE" == "wayland" ]]; then
+        LBUFFER+="$(wl-paste 2>/dev/null || echo '')"
+    else
+        LBUFFER+="$(xclip -selection clipboard -o 2>/dev/null || echo '')"
+    fi
+}
+zle -N gemini-paste
+
+gemini-delete() {
+    if (( REGION_ACTIVE )); then
+        zle kill-region
+    fi
+}
+zle -N gemini-delete
+
+# 2. Bind WezTerm's custom signals to these widgets
+bindkey "\x1b_copy"   gemini-copy
+bindkey "\x1b_cut"    gemini-cut
+bindkey "\x1b_paste"  gemini-paste
+bindkey "\x1b_delsel" gemini-delete
+
+# 3. Bind Ctrl+Arrow for Word Navigation (No Selection)
+bindkey "^[[1;5D" backward-word
+bindkey "^[[1;5C" forward-word
+
