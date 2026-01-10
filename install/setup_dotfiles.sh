@@ -33,6 +33,7 @@ declare -A dotfiles_to_symlink=(
     [".bashrc"]=".bashrc"
     [".profile"]=".profile"
     [".bash_profile"]=".bash_profile"
+    [".gtkrc-2.0"]=".gtkrc-2.0"
 )
 
 # Loop through the dotfiles and create symlinks
