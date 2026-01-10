@@ -28,6 +28,14 @@ This repository provides a complete, step-by-step guide to installing Arch Linux
 - **Essential Utilities:** Includes `grim` (screenshot), `slurp` (region selection), `wl-clipboard` (CRITICAL for clipboard management and Neovim/Wezterm integration), `hyprpaper` (wallpaper utility), `polkit-gnome` (authentication agent), `xdg-desktop-portal-hyprland`, and `xdg-desktop-portal-gtk` (screen sharing/compatibility).
 - **Automated Setup:** Scripts for package installation and dotfile deployment.
 
+## 🖼️ Wallpaper & Theming
+
+- **Wallpaper:** Currently managed by `swaybg` in `~/.config/hypr/hyprland.conf`.
+    - Default command: `exec-once = swaybg -i /path/to/image.png -m fill`
+    - **Alternative:** `hyprpaper` config is located at `~/.config/hypr/hyprpaper.conf`. To use it, comment out `swaybg` and uncomment `hyprpaper` in `hyprland.conf`.
+    - Wallpapers are stored in `~/Hyprland-Arch-Config/wallpapers/`.
+- **Theming:** GTK themes are handled by `lxappearance` or `nwg-look`. The configuration uses the **Dracula** theme.
+
 ## ⌨️ System-Wide Keybindings
 
 This configuration uses a consistent and "smart" keybinding philosophy across the desktop environment.

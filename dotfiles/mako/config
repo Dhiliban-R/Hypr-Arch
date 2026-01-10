@@ -1,14 +1,55 @@
-background-color=#000000
-text-color=#D8DEE9
-border-color=#4C566A
-default-timeout=5000
-border-radius=10
+# Mako Configuration
+anchor=top-center
+font=JetBrainsMono Nerd Font 10
+background-color=#1E1E2E
+text-color=#CDD6F4
+border-size=2
+border-color=#cba6f7
+border-radius=20
+icons=1
+max-icon-size=16
+default-timeout=4000
+text-alignment=center
+width=300
+height=26
+padding=4
+margin=10
+format=<b>%s</b>: %b
 
+# Urgency defaults
 [urgency=low]
-border-color=#4C566A
+border-color=#9399b2
 
 [urgency=normal]
-border-color=#BF616A
+border-color=#cba6f7
 
 [urgency=high]
-border-color=#BF616A
+border-color=#f38ba8
+default-timeout=0
+
+# --- Caps Lock (Text Matching - Works Best) ---
+[summary="Caps Lock" body="ON"]
+width=140
+border-color=#50fa7b
+text-color=#50fa7b
+
+[summary="Caps Lock" body="OFF"]
+width=140
+border-color=#ff5555
+text-color=#ff5555
+
+# --- Other Categories (Restored for Wi-Fi, Bluetooth, Volume) ---
+
+[category=volume]
+width=140
+
+[category=brightness]
+width=140
+
+[category=style_green]
+border-color=#50fa7b
+text-color=#50fa7b
+
+[category=style_red]
+border-color=#ff5555
+text-color=#ff5555
