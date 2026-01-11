@@ -32,7 +32,7 @@ window#waybar {
 }
 
 #workspaces {
-    background: @selection;
+    background: transparent;
     margin: 5px;
     padding: 0 5px;
     border-radius: 10px;
@@ -47,6 +47,7 @@ window#waybar {
     color: @purple;
 }
 
+#custom-arch,
 #window,
 #clock,
 #clock.date,
@@ -63,11 +64,16 @@ window#waybar {
 #custom-weather,
 #custom-wifi,
 #custom-bluetooth {
-    background: #333333;
-    padding: 5px 15px;
-    margin: 5px 0;
+    background: transparent;
+    padding: 0px 10px;
+    margin: 2px 0;
     border-radius: 10px;
     color: #FFFFFF;
+}
+
+#custom-arch {
+    color: #ff0000;
+    font-size: 20px;
 }
 
 #clock {

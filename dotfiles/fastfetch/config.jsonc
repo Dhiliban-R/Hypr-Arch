@@ -10,28 +10,93 @@
     }
   },
   "display": {
+    "separator": "  ",
     "color": {
-      "title": "#ffb86c",
-      "key": "#50fa7b",
-      "value": "#f8f8f2"
+      "keys": "magenta"
     }
   },
   "modules": [
-    "os",
-    "kernel",
-    "host",
-    "uptime",
-    "cpu",
-    "gpu",
-    "memory",
-    "disk",
-    "break",
-    "shell",
-    "terminal",
-    "packages",
-    "wm",
-    "theme",
-    "icons",
-    "font"
+    {
+      "type": "os",
+      "key": "",
+      "keyColor": "blue"
+    },
+    {
+      "type": "kernel",
+      "key": "",
+      "keyColor": "white"
+    },
+    {
+      "type": "host",
+      "key": "󰌢",
+      "keyColor": "magenta"
+    },
+    {
+      "type": "uptime",
+      "key": "󰅐",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "cpu",
+      "key": "",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "gpu",
+      "key": "󰢮",
+      "keyColor": "green"
+    },
+    {
+      "type": "memory",
+      "key": "",
+      "keyColor": "red"
+    },
+    {
+      "type": "disk",
+      "key": "",
+      "keyColor": "yellow",
+      "folders": ["/"]
+    },
+    {
+      "type": "disk",
+      "key": "",
+      "keyColor": "blue",
+      "folders": ["/home"]
+    },
+    {
+      "type": "shell",
+      "key": "",
+      "keyColor": "green"
+    },
+    {
+      "type": "terminal",
+      "key": "",
+      "keyColor": "magenta"
+    },
+    {
+      "type": "packages",
+      "key": "󰏖",
+      "keyColor": "red"
+    },
+    {
+      "type": "wm",
+      "key": "",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "theme",
+      "key": "󰔉",
+      "keyColor": "white"
+    },
+    {
+      "type": "icons",
+      "key": "",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "font",
+      "key": "",
+      "keyColor": "blue"
+    }
   ]
 }

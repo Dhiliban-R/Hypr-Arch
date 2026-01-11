@@ -1,32 +1,44 @@
 {
     "layer": "top",
     "position": "top",
-    "height": 38,
-    "modules-left": ["hyprland/workspaces", "hyprland/window"],
+    "height": 30,
+    "modules-left": ["custom/arch", "hyprland/workspaces", "hyprland/window"],
     "modules-center": ["clock#date", "clock", "clock#day"],
     "modules-right": ["memory", "cpu", "backlight", "pulseaudio", "network", "battery"],
 
+    "custom/arch": {
+        "format": "  ",
+        "tooltip": false
+    },
     "hyprland/workspaces": {
         "on-click": "activate"
     },
     "hyprland/window": {
-        "format": "{}"
+        "format": "{class} | {title}",
+        "max-length": 40,
+        "rewrite": {
+            "Brave-browser \\| (.*) - Brave": "Brave | $1",
+            "Brave-browser \\| (.*)": "Brave | $1",
+            "org.wezfurlong.wezterm \\| (.*)": "WezTerm | $1",
+            "code-oss \\| (.*)": "VS-Code | $1",
+            "thunar \\| (.*)": "Files | $1",
+            "obsidian \\| (.*)": "Obsidian | $1",
+            "vlc \\| (.*)": "VLC | $1",
+            "libreoffice-(.*) \\| (.*)": "LibreOffice | $2"
+        },
+        "separate-outputs": true
     },
     "clock": {
         "format": "{:%I:%M %p}",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+        "tooltip": false
     },
     "clock#date": {
         "format": "{:%d/%m/%Y}",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+        "tooltip": false
     },
     "clock#day": {
         "format": "{:%A}",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
-    },
-    "tray": {
-        "icon-size": 20,
-        "spacing": 10
+        "tooltip": false
     },
     "memory": {
         "format": "󰍛 {}em%"
