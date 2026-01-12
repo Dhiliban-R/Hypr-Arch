@@ -30,11 +30,11 @@ This repository provides a complete, step-by-step guide to installing Arch Linux
 
 ## 🖼️ Wallpaper & Theming
 
-- **Wallpaper:** Currently managed by `swaybg` in `~/.config/hypr/hyprland.conf`.
-    - Default command: `exec-once = swaybg -i /path/to/image.png -m fill`
-    - **Alternative:** `hyprpaper` config is located at `~/.config/hypr/hyprpaper.conf`. To use it, comment out `swaybg` and uncomment `hyprpaper` in `hyprland.conf`.
-    - Wallpapers are stored in `~/Hyprland-Arch-Config/wallpapers/`.
-- **Theming:** GTK themes are handled by `lxappearance` or `nwg-look`. The configuration uses the **Dracula** theme.
+- **Wallpaper:** Managed by `hyprpaper`.
+    - Configuration: `~/.config/hypr/hyprpaper.conf`
+    - Preloaded wallpapers are stored in `~/Hyprland-Arch-Config/wallpapers/`.
+    - Ensure `exec-once = hyprpaper` is present in `hyprland.conf`.
+- **Theming:** GTK themes are handled by `nwg-look`. The configuration uses the **Dracula** theme.
 
 ## ⌨️ System-Wide Keybindings
 
@@ -155,13 +155,13 @@ This repository is designed to be easily synchronized with your local system sta
 To update the repository with your current local configurations and package lists:
 1.  **Copy Dotfiles:**
     ```bash
-    cp -r ~/.config/{hypr,waybar,wofi,mako,btop,fastfetch,swaylock,Thunar,wezterm,wlogout,yazi} ~/Hyprland-Arch-Config/dotfiles/
-    cp ~/.zshrc ~/Hyprland-Arch-Config/dotfiles/zshrc
-    cp ~/.config/starship.toml ~/Hyprland-Arch-Config/dotfiles/starship.toml
+    cp -rf ~/.config/{hypr,waybar,wofi,mako,btop,fastfetch,swaylock,Thunar,wezterm,wlogout,yazi} ~/Hyprland-Arch-Config/dotfiles/
+    cp -f ~/.zshrc ~/Hyprland-Arch-Config/dotfiles/zshrc
+    cp -f ~/.config/starship.toml ~/Hyprland-Arch-Config/dotfiles/starship.toml
     ```
 2.  **Update Package Lists:**
-    - `pacman -Qqe > ~/Hyprland-Arch-Config/packages/pacman_pkglist.txt`
-    - `paru -Qme > ~/Hyprland-Arch-Config/packages/paru_pkglist.txt`
+    - `pacman -Qqen > ~/Hyprland-Arch-Config/packages/pacman_pkglist.txt`
+    - `pacman -Qqem > ~/Hyprland-Arch-Config/packages/paru_pkglist.txt`
 3.  **Commit and Push:** Use standard git commands to push changes to your remote repository.
 
 ### ⬇️ Pulling Changes to Local System
