@@ -30,123 +30,14 @@ This repository provides a complete, step-by-step guide to installing Arch Linux
 
 ## 🖼️ Wallpaper & Theming
 
-- **Wallpaper:** Currently managed by `swaybg` in `~/.config/hypr/hyprland.conf`.
-    - Default command: `exec-once = swaybg -i /path/to/image.png -m fill`
-    - **Alternative:** `hyprpaper` config is located at `~/.config/hypr/hyprpaper.conf`. To use it, comment out `swaybg` and uncomment `hyprpaper` in `hyprland.conf`.
-    - Wallpapers are stored in `~/Hyprland-Arch-Config/wallpapers/`.
-- **Theming:** GTK themes are handled by `lxappearance` or `nwg-look`. The configuration uses the **Dracula** theme.
+- **Wallpaper:** Managed by `hyprpaper`.
+    - Configuration: `~/.config/hypr/hyprpaper.conf`
+    - Preloaded wallpapers are stored in `~/Hyprland-Arch-Config/wallpapers/`.
+    - Ensure `exec-once = hyprpaper` is present in `hyprland.conf`.
+- **Theming:** GTK themes are handled by `nwg-look`. The configuration uses the **Dracula** theme.
 
 ## ⌨️ System-Wide Keybindings
-
-This configuration uses a consistent and "smart" keybinding philosophy across the desktop environment.
-
-### 🖥️ System & Session Control
-
-| Key | Action |
-| :--- | :--- |
-| `SUPER + L` | **Lock Screen** (Swaylock) |
-| `SUPER + X` | **Power Menu** (Logout, Suspend, Reboot, Shutdown) |
-| `SUPER + SHIFT + R` | **Reload** Hyprland Configuration |
-| `SUPER + SHIFT + N` | **Toggle WiFi** (On/Off) |
-| `SUPER + SHIFT + B` | **Bluetooth Manager** (Blueman) |
-
-### 🪟 Window Management (Hyprland)
-
-| Key | Action |
-| :--- | :--- |
-| `SUPER + W` | **Close** Active Window |
-| `SUPER + P` | **Toggle Split** Orientation (Vert/Horiz) |
-| `SUPER + F` | Toggle **Floating** Mode |
-| `SUPER + M` | Toggle **Fullscreen** |
-| `SUPER + Arrows` | **Move Focus** (Left, Right, Up, Down) |
-| `SUPER + 1-0` | Switch to **Workspace** 1-10 |
-| `SUPER + SHIFT + 1-0` | **Move Window** to Workspace 1-10 |
-| `SUPER + SHIFT + M` | Move Window to **Special Workspace** |
-| `SUPER + Mouse Drag` | **Move** Window |
-| `SUPER + Mouse Resize` | **Resize** Window |
-| `Scroll Wheel` | Switch Workspace (on Desktop) |
-
-### 🚀 Application Shortcuts
-
-| Key | Action |
-| :--- | :--- |
-| `SUPER + SPACE` | **App Launcher** (Wofi) |
-| `SUPER + Q` | **Terminal** (WezTerm) |
-| `SUPER + E` | **File Manager** (Thunar) |
-| `SUPER + V` | **Code Editor** (VS Code) |
-| `SUPER + O` | **Office** (LibreOffice) |
-| `SUPER + N` | **Notes** (Obsidian) |
-| `SUPER + T` | **Telegram** |
-| `SUPER + SHIFT + G` | **Gemini Assistant** (CLI) |
-| `SUPER + SHIFT + Y` | **Yazi** (CLI File Manager) |
-| `SUPER + SHIFT + T` | **OCR Tool** (Extract Text from Screen) |
-
-### 🔊 Media & Hardware
-
-| Key | Action |
-| :--- | :--- |
-| `F2 / F3` | **Brightness** Decrease / Increase |
-| `F7 / F8` | **Volume** Decrease / Increase |
-| `Mute Key` | **Mute** Audio |
-| `Play/Pause Key` | Media Play / Pause |
-| `Next/Prev Key` | Media Next / Previous |
-
-### 📂 File Management (Yazi CLI)
-
-| Key | Action |
-| :--- | :--- |
-| `Arrows / h,j,k,l` | **Navigate** Files/Directories |
-| `Enter` | **Open** File / Enter Directory |
-| `p` | Go to **Parent** Directory |
-| `cc` | **Copy** Selected File(s) |
-| `vv` | **Paste** File(s) |
-| `dd` | **Delete** Selected File(s) |
-| `r` | **Rename** File |
-| `/` or `Ctrl + s` | **Search** |
-| `q` | **Quit** |
-
-### 📟 Terminal (WezTerm)
-
-Context-aware bindings that handle both mouse selections and Zsh text regions.
-
-| Key | Action |
-| :--- | :--- |
-| `Ctrl + Shift + C` | **Smart Copy:** Copies mouse selection if present, otherwise copies Zsh active region. |
-| `Ctrl + Shift + X` | **Smart Cut:** Cuts text (integrated with Zsh). |
-| `Ctrl + Shift + V` | **Universal Paste:** Pastes from clipboard (auto-clears selection first). |
-| `Ctrl + Backspace` | Delete Word Backward |
-| `Ctrl + Shift + Backspace` | Delete Selected Text |
-| `Ctrl + Shift + Z` | Undo |
-| `Ctrl + Shift + _` | Redo |
-| `Ctrl + +/-/0` | Increase / Decrease / Reset Font Size |
-| `Ctrl + T` | New Tab |
-| `Ctrl + W` | Close Tab |
-| `Alt + Arrows` | Navigate Panes |
-| `Ctrl + \` | Split Horizontal |
-| `Ctrl + Shift + \|` | Split Vertical |
-
-### 🐚 Shell (Zsh)
-
-GUI-like text navigation and editing.
-
-| Key | Action |
-| :--- | :--- |
-| `Ctrl + Arrows` | Jump Words |
-| `Shift + Arrows` | Select Character/Line |
-| `Ctrl + Shift + Arrows` | Select Word (Continuous) |
-| `Ctrl + A` | Select All |
-| `Alt + S` | **Smart Sudo:** Toggles `sudo` at the start of the command. |
-| `Shift + Enter` | Soft Newline |
-
-### 🛠️ Utilities & Interactive Bars
-
-| Feature | Interaction |
-| :--- | :--- |
-| **Screenshot** | `SUPER + S` (Select region -> Edit in Swappy) |
-| **Waybar Workspaces** | Click to Switch Workspace |
-| **Waybar Network** | Click WiFi Icon to Toggle Connection |
-| **Power Menu** | Select from: Lock, Suspend, Reboot, Shutdown |
-
+...
 ## 🔄 Synchronization
 
 This repository is designed to be easily synchronized with your local system state.
@@ -155,13 +46,13 @@ This repository is designed to be easily synchronized with your local system sta
 To update the repository with your current local configurations and package lists:
 1.  **Copy Dotfiles:**
     ```bash
-    cp -r ~/.config/{hypr,waybar,wofi,mako,btop,fastfetch,swaylock,Thunar,wezterm,wlogout,yazi} ~/Hyprland-Arch-Config/dotfiles/
-    cp ~/.zshrc ~/Hyprland-Arch-Config/dotfiles/zshrc
-    cp ~/.config/starship.toml ~/Hyprland-Arch-Config/dotfiles/starship.toml
+    cp -rf ~/.config/{hypr,waybar,wofi,mako,btop,fastfetch,swaylock,Thunar,wezterm,wlogout,yazi} ~/Hyprland-Arch-Config/dotfiles/
+    cp -f ~/.zshrc ~/Hyprland-Arch-Config/dotfiles/zshrc
+    cp -f ~/.config/starship.toml ~/Hyprland-Arch-Config/dotfiles/starship.toml
     ```
 2.  **Update Package Lists:**
-    - `pacman -Qqe > ~/Hyprland-Arch-Config/packages/pacman_pkglist.txt`
-    - `paru -Qme > ~/Hyprland-Arch-Config/packages/paru_pkglist.txt`
+    - `pacman -Qqen > ~/Hyprland-Arch-Config/packages/pacman_pkglist.txt`
+    - `pacman -Qqem > ~/Hyprland-Arch-Config/packages/paru_pkglist.txt`
 3.  **Commit and Push:** Use standard git commands to push changes to your remote repository.
 
 ### ⬇️ Pulling Changes to Local System
