@@ -1,9 +1,9 @@
 window {
 margin: 0px;
 border: 1px solid #bd93f9;
+border-radius: 5px;
 background-color: rgba(0, 0, 0, 0);
 font-family: "Noto Serif";
-width: 40px; /* Even smaller width */
 display: flex; /* Make window a flex container */
 justify-content: center; /* Center horizontally */
 align-items: center; /* Center vertically */
@@ -66,8 +66,10 @@ color: #282a36; /* Darker color for active icon */
 }
 
 #entry:selected {
-background-color: rgba(189, 147, 249, 0.5);
+background-color: #262626;
 border-radius: 25px;
+border: none;
+outline: none;
 }
 
 #entry:selected #text {

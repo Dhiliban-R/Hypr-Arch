@@ -59,16 +59,21 @@ window#waybar {
 #memory,
 #temperature,
 #backlight,
-#tray,
-#bluetooth,
-#custom-weather,
 #custom-wifi,
-#custom-bluetooth {
+#custom-dnd {
     background: transparent;
     padding: 0px 10px;
     margin: 2px 0;
     border-radius: 10px;
     color: #FFFFFF;
+}
+
+#custom-dnd.dnd-on {
+    color: @red;
+}
+
+#custom-dnd.dnd-off {
+    color: @green;
 }
 
 #custom-arch {

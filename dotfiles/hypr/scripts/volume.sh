@@ -2,29 +2,24 @@
 
 # $1: up, down, mute
 
-ACTION=$1
-
-if [ "$ACTION" == "up" ]; then
-    pamixer -i 5
-    STYLE="style_green"
-elif [ "$ACTION" == "down" ]; then
-    pamixer -d 5
-    STYLE="style_red"
-elif [ "$ACTION" == "mute" ]; then
+# Send notification
+if [[ "$1" == "mute" ]]; then
+    # Toggle Mute
     pamixer -t
-    STYLE="style_red"
-fi
-
-VOLUME=$(pamixer --get-volume)
-IS_MUTED=$(pamixer --get-mute)
-
-if [ "$IS_MUTED" == "true" ]; then
-    notify-send -c style_red -h string:x-canonical-private-synchronous:sys-notify -u low -i audio-volume-muted "Volume" "Muted"
-else
-    # If unmuted, use style based on action (up=green, down=red)
-    # If action was mute toggling to unmute, let's make it green
-    if [ "$ACTION" == "mute" ]; then
-         STYLE="style_green"
+    if $(pamixer --get-mute); then
+        /home/dhili/.local/bin/notify-system --type volume --state muted --text "Muted"
+    else
+        VOLUME=$(pamixer --get-volume)
+        /home/dhili/.local/bin/notify-system --type volume --state "${VOLUME}" --text "${VOLUME}%"
     fi
-    notify-send -c "$STYLE" -h string:x-canonical-private-synchronous:sys-notify -u low -i audio-volume-high "Volume" "${VOLUME}%"
+else
+    # Up / Down
+    if [[ "$1" == "up" ]]; then
+        pamixer -i 5
+    elif [[ "$1" == "down" ]]; then
+        pamixer -d 5
+    fi
+    
+    VOLUME=$(pamixer --get-volume)
+    /home/dhili/.local/bin/notify-system --type volume --state "${VOLUME}" --text "${VOLUME}%"
 fi

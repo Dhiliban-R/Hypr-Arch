@@ -1,22 +1,31 @@
-# Mako Configuration
-anchor=top-center
+# =============================================================================
+# Mako Configuration - Modern Transparent Pill
+# =============================================================================
+
+# --- Global Defaults ---
+anchor=top-right
 font=JetBrainsMono Nerd Font 10
-background-color=#1E1E2E
+# Dark Blue Background with 90% Opacity (EE)
+background-color=#1E1E2EEE
 text-color=#CDD6F4
 border-size=2
 border-color=#cba6f7
-border-radius=20
+border-radius=25
 icons=1
-max-icon-size=16
-default-timeout=4000
+max-icon-size=32
+default-timeout=5000
 text-alignment=center
-width=300
-height=26
-padding=4
+width=260
+height=80
+padding=10
 margin=10
-format=<b>%s</b>: %b
+# Progress Bar Color (Purple Overlaid on Background)
+progress-color=over #313244
 
-# Urgency defaults
+# Format: Title (Bold), Newline, Body
+format=<b>%s</b>\n%b
+
+# --- Urgency Levels ---
 [urgency=low]
 border-color=#9399b2
 
@@ -26,30 +35,42 @@ border-color=#cba6f7
 [urgency=high]
 border-color=#f38ba8
 default-timeout=0
+background-color=#313244FF
 
-# --- Caps Lock (Text Matching - Works Best) ---
-[summary="Caps Lock" body="ON"]
-width=140
-border-color=#50fa7b
-text-color=#50fa7b
-
-[summary="Caps Lock" body="OFF"]
-width=140
-border-color=#ff5555
-text-color=#ff5555
-
-# --- Other Categories (Restored for Wi-Fi, Bluetooth, Volume) ---
+# --- Categories ---
 
 [category=volume]
-width=140
+# Inherits global styles but enables progress bar handling via hints
+format=<b>%s</b> %b
 
 [category=brightness]
-width=140
+format=<b>%s</b> %b
 
 [category=style_green]
 border-color=#50fa7b
 text-color=#50fa7b
+format=<b>%s</b> %b
 
 [category=style_red]
 border-color=#ff5555
 text-color=#ff5555
+format=<b>%s</b> %b
+
+# --- Specific Overrides ---
+
+# Caps Lock (Text Matching)
+[summary="Caps Lock"]
+# Inherits global position/width
+format=<b>%s</b> %b
+
+[summary="Caps Lock" body="ON"]
+border-color=#50fa7b
+text-color=#50fa7b
+
+[summary="Caps Lock" body="OFF"]
+border-color=#ff5555
+text-color=#ff5555
+
+# --- Modes ---
+[mode=dnd]
+invisible=1

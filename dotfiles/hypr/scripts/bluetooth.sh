@@ -9,7 +9,7 @@ if [ -n "$IS_ON" ]; then
     # Turn Off
     bluetoothctl power off
     # OFF = Red
-    notify-send -c style_red -u low -i bluetooth-disabled "Bluetooth" "OFF"
+    /home/dhili/.local/bin/notify-system --type bluetooth --state off --text "OFF"
 else
     # Turn On
     rfkill unblock bluetooth
@@ -25,9 +25,9 @@ else
     
     if [ -n "$DEVICES" ]; then
         # Connected = Green
-        notify-send -c style_green -u low -i bluetooth-active "Bluetooth" "On ($DEVICES)"
+        /home/dhili/.local/bin/notify-system --type bluetooth --state connected --text "On ($DEVICES)"
     else
         # Disconnected = Red
-        notify-send -c style_red -u low -i bluetooth-active "Bluetooth" "On (Disconnected)"
+        /home/dhili/.local/bin/notify-system --type bluetooth --state disconnected --text "On (Disconnected)"
     fi
 fi

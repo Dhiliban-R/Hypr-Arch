@@ -4,8 +4,15 @@
     "height": 30,
     "modules-left": ["custom/arch", "hyprland/workspaces", "hyprland/window"],
     "modules-center": ["clock#date", "clock", "clock#day"],
-    "modules-right": ["memory", "cpu", "backlight", "pulseaudio", "network", "battery"],
+    "modules-right": ["custom/dnd", "memory", "cpu", "backlight", "pulseaudio", "network", "battery"],
 
+    "custom/dnd": {
+        "format": "{}",
+        "interval": 1,
+        "on-click": "~/.config/hypr/scripts/dnd_toggle.sh",
+        "return-type": "json",
+        "exec": "~/.config/hypr/scripts/dnd_status.sh"
+    },
     "custom/arch": {
         "format": "  ",
         "tooltip": false

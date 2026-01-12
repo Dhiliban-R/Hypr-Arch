@@ -6,11 +6,8 @@ export DBUS_SESSION_BUS_ADDRESS="unix:path=${XDG_RUNTIME_DIR}/bus"
 
 # Tools
 HYPRCTL="/usr/bin/hyprctl"
-NOTIFY="/usr/bin/notify-send"
+NOTIFY="/home/dhili/.local/bin/notify-system"
 PYTHON="/usr/bin/python3"
-
-# ID for replacement
-NOTIFY_ID=9999
 
 # Helper to get state
 get_caps_state() {
@@ -42,10 +39,10 @@ while true; do
     if [ "$CURRENT_STATE" != "error" ] && [ "$CURRENT_STATE" != "$LAST_STATE" ]; then
         if [ "$CURRENT_STATE" == "1" ]; then
             # ON
-            $NOTIFY -r $NOTIFY_ID -u low -i input-keyboard "Caps Lock" "ON"
+            $NOTIFY --type capslock --state on --text "ON"
         else
             # OFF
-            $NOTIFY -r $NOTIFY_ID -u low -i input-keyboard "Caps Lock" "OFF"
+            $NOTIFY --type capslock --state off --text "OFF"
         fi
         LAST_STATE=$CURRENT_STATE
         sleep 0.2

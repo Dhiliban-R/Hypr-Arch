@@ -1,21 +1,23 @@
 #!/bin/bash
 set -e # Exit immediately if a command exits with a non-zero status.
 
-# This script sets up symlinks for dotfiles.
-# It assumes the repository is cloned to ~/Hyprland-Arch-Config
+# =============================================================================
+# Dotfiles Setup Script
+# =============================================================================
+# Links configuration files from the local repository to the system.
+# Assumes the repository is cloned to ~/Hyprland-Arch-Config
+# =============================================================================
 
 REPO_DIR="$(dirname "$(dirname "$(readlink -f "$0")")")"
 HOME_DIR="$HOME"
 
-echo "Starting dotfiles setup..."
+echo ">> Starting dotfiles synchronization..."
 
-# Create .config directory if it doesn't exist
-mkdir -p "$HOME_DIR/.config" || { echo "Error: Failed to create $HOME_DIR/.config directory."; exit 1; }
-echo "$HOME_DIR/.config directory ensured."
+# Ensure .config directory exists
+mkdir -p "$HOME_DIR/.config"
 
-# Define dotfiles to symlink (directories and files)
-# Key: name within dotfiles/ directory
-# Value: target path relative to $HOME_DIR
+# Define dotfiles to symlink
+# Key: Source name (in dotfiles/ dir) | Value: Target path (relative to HOME)
 declare -A dotfiles_to_symlink=(
     ["hypr"]=".config/hypr"
     ["waybar"]=".config/waybar"
@@ -32,43 +34,39 @@ declare -A dotfiles_to_symlink=(
     ["zshrc"]=".zshrc"
 )
 
-# Loop through the dotfiles and create symlinks
+# Execute Symlinking
 for name in "${!dotfiles_to_symlink[@]}"; do
     source_path="$REPO_DIR/dotfiles/$name"
     target_path="$HOME_DIR/${dotfiles_to_symlink[$name]}"
 
-    # Ensure parent directory exists for the target
+    # Create parent dir if missing
     mkdir -p "$(dirname "$target_path")"
 
     if [ -e "$source_path" ]; then
-        echo "Processing $name..."
+        # Check if valid link already exists
+        if [ -L "$target_path" ] && [ "$(readlink -f "$target_path")" == "$source_path" ]; then
+            echo " [OK] $name is already linked."
+            continue
+        fi
 
-        # Check if target exists
+        # Backup existing file/dir
         if [ -e "$target_path" ] || [ -L "$target_path" ]; then
-            # If it's already a correct symlink, skip
-            if [ -L "$target_path" ] && [ "$(readlink -f "$target_path")" == "$source_path" ]; then
-                echo "  Already linked correctly."
-                continue
-            fi
-
-            # Backup existing file/dir
             timestamp=$(date +%Y%m%d_%H%M%S)
             backup_path="${target_path}.bak_${timestamp}"
-            echo "  Backing up existing $target_path to $backup_path"
+            echo " [BACKUP] Moving $target_path to $backup_path"
             mv "$target_path" "$backup_path"
         fi
 
-        echo "  Symlinking $source_path to $target_path"
+        echo " [LINK] Linking $name -> $target_path"
         ln -sf "$source_path" "$target_path"
     else
-        echo "Warning: Source dotfile/directory not found: $source_path (Skipping)"
+        echo " [MISSING] Source $name not found in repo. Skipping."
     fi
 done
 
-echo "Dotfiles setup complete. You may need to log out and back in for some changes to take effect."
+echo ">> Dotfiles setup complete."
 
-# Check for wl-clipboard
+# Post-Install Checks
 if ! command -v wl-copy &> /dev/null; then
-    echo "Warning: 'wl-clipboard' is not installed. Clipboard integration (WezTerm/Neovim) may not work correctly."
-    echo "Install it with: sudo pacman -S wl-clipboard"
+    echo " [WARN] 'wl-clipboard' is not installed. Clipboard integration will be limited."
 fi
