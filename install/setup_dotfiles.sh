@@ -32,6 +32,7 @@ declare -A dotfiles_to_symlink=(
     ["yazi"]=".config/yazi"
     ["starship.toml"]=".config/starship.toml"
     ["zshrc"]=".zshrc"
+    ["bin"]=".local/bin"
 )
 
 # Execute Symlinking
