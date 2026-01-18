@@ -11,16 +11,15 @@ This file is **automatically generated**. It serves as the single source of trut
 | :--- | :--- |
 | `SUPER + B` | Web Browser (Brave) |
 | `SUPER + E` | File Manager (Thunar) |
-| `SUPER + L` | Launch Boruto.Png"   Indicator Radius 90   Indicator Thickness 15 |
 | `SUPER + N` | Launch Obsidian |
 | `SUPER + O` | Launch Libreoffice |
 | `SUPER + Q` | Terminal (WezTerm) |
-| `SUPER + SHIFT + B` | Launch Bluetooth_Menu |
+| `SUPER + SHIFT + B` | Bluetooth Menu |
 | `SUPER + SHIFT + D` | Toggle Do Not Disturb |
-| `SUPER + SHIFT + G` | Terminal (WezTerm) |
-| `SUPER + SHIFT + N` | Launch Wifi_Menu |
-| `SUPER + SHIFT + T` | Launch Ocr_Tool |
-| `SUPER + SHIFT + Y` | Terminal (WezTerm) |
+| `SUPER + SHIFT + G` | Launch Gemini CLI |
+| `SUPER + SHIFT + N` | WiFi Menu |
+| `SUPER + SHIFT + T` | Launch OCR Tool |
+| `SUPER + SHIFT + Y` | Launch Yazi File Manager |
 | `SUPER + SPACE` | App Launcher |
 | `SUPER + T` | Launch Telegram |
 | `SUPER + V` | VS Code |
@@ -73,10 +72,11 @@ This file is **automatically generated**. It serves as the single source of trut
 
 | Key Combination | Action |
 | :--- | :--- |
+| `SUPER + L` | Launch Lock Screen |
 | `SUPER + S` | Screenshot |
 | `SUPER + SHIFT + R` | Launch Hyprctl Reload |
 | `SUPER + SHIFT + V` | Clipboard Manager |
-| `SUPER + X` | Launch Powermenu |
+| `SUPER + X` | Power Menu |
 
 ### 🔊 Hardware & Media
 
