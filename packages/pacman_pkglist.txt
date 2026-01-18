@@ -6,20 +6,15 @@ blueman
 bluez
 bluez-tools
 bluez-utils
-brave-bin
 brightnessctl
 btop
 chafa
-cheese
 cliphist
 cups
 dialog
-dracula-gtk-theme
-dracula-icons-git
 efibootmgr
 expac
 fastfetch
-fresh-editor-bin
 git
 grim
 grub
@@ -50,8 +45,6 @@ obsidian
 os-prober
 pacman-contrib
 pamixer
-paru
-paru-debug
 pipewire
 pipewire-alsa
 pipewire-jack
@@ -66,7 +59,6 @@ starship
 supergfxctl
 swappy
 swaybg
-swaylock-effects
 telegram-desktop
 tesseract
 tesseract-data-eng
@@ -76,7 +68,6 @@ tree
 ttf-dejavu
 ttf-jetbrains-mono-nerd
 vim
-visual-studio-code-bin
 vlc
 vlc-plugin-ffmpeg
 waybar
@@ -84,7 +75,6 @@ wev
 wezterm
 wireplumber
 wl-clipboard
-wlogout
 wofi
 wtype
 xclip
