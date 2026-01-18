@@ -5,7 +5,7 @@ This file is **automatically generated**. It serves as the single source of trut
 **Modifier Key:** `SUPER` (Windows Key)
 
 
-### 🚀 Applications
+### 🚀 Application Shortcuts
 
 | Key Combination | Action |
 | :--- | :--- |
@@ -14,10 +14,8 @@ This file is **automatically generated**. It serves as the single source of trut
 | `SUPER + N` | Launch Obsidian |
 | `SUPER + O` | Launch Libreoffice |
 | `SUPER + Q` | Terminal (WezTerm) |
-| `SUPER + SHIFT + B` | Bluetooth Menu |
-| `SUPER + SHIFT + D` | Toggle Do Not Disturb |
+| `SUPER + S` | Screenshot |
 | `SUPER + SHIFT + G` | Launch Gemini CLI |
-| `SUPER + SHIFT + N` | WiFi Menu |
 | `SUPER + SHIFT + T` | Launch OCR Tool |
 | `SUPER + SHIFT + Y` | Launch Yazi File Manager |
 | `SUPER + SPACE` | App Launcher |
@@ -68,17 +66,7 @@ This file is **automatically generated**. It serves as the single source of trut
 | `SUPER + SHIFT + 9` | Move Window to Workspace 9 |
 | `SUPER + SHIFT + M` | Move Window to Workspace special |
 
-### 🖥️ System & Session
-
-| Key Combination | Action |
-| :--- | :--- |
-| `SUPER + L` | Launch Lock Screen |
-| `SUPER + S` | Screenshot |
-| `SUPER + SHIFT + R` | Launch Hyprctl Reload |
-| `SUPER + SHIFT + V` | Clipboard Manager |
-| `SUPER + X` | Power Menu |
-
-### 🔊 Hardware & Media
+### 🛠️ System Controls & Utilities
 
 | Key Combination | Action |
 | :--- | :--- |
@@ -86,6 +74,13 @@ This file is **automatically generated**. It serves as the single source of trut
 | `F3` | Launch Brightness Up |
 | `F7` | Launch Volume Down |
 | `F8` | Launch Volume Up |
+| `SUPER + L` | Launch Lock Screen |
+| `SUPER + SHIFT + B` | Bluetooth Menu |
+| `SUPER + SHIFT + D` | Toggle Do Not Disturb |
+| `SUPER + SHIFT + N` | WiFi Menu |
+| `SUPER + SHIFT + R` | Launch Hyprctl Reload |
+| `SUPER + SHIFT + V` | Clipboard Manager |
+| `SUPER + X` | Power Menu |
 | `XF86AUDIOMUTE` | Launch Volume Mute |
 | `XF86AUDIONEXT` | Launch Playerctl Next |
 | `XF86AUDIOPLAY` | Launch Playerctl Play Pause |
@@ -101,13 +96,6 @@ This file is **automatically generated**. It serves as the single source of trut
 | `CTRL + SHIFT + ARROWS` | Select Word (Continuous) |
 | `SHIFT + ARROWS` | Select Character/Line |
 | `SHIFT + ENTER` | Soft Newline |
-
-### 🛠️ Utilities & Interactive
-
-| Key Combination | Action |
-| :--- | :--- |
-| `CLICK (Waybar Network)` | Toggle WiFi Connection |
-| `CLICK (Waybar Workspace)` | Switch Workspace |
 
 ### ⚙️ Other
 
