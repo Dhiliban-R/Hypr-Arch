@@ -44,17 +44,27 @@ def parse_dispatcher(dispatcher, params):
     
     # Beautify common actions
     if "exec" in dispatcher:
+        # Handle complex commands first
+        if "swaylock" in params: return "Launch Lock Screen"
+        if "gemini" in params: return "Launch Gemini CLI"
+        if "yazi" in params: return "Launch Yazi File Manager"
+        if "ocr_tool" in params: return "Launch OCR Tool"
+        
+        # General cleanup for simple commands
         cmd = params.split("/")[-1].replace(".sh", "").replace("-", " ").title()
+        
         if "Wezterm" in cmd: return "Terminal (WezTerm)"
         if "Code" in cmd: return "VS Code"
         if "Thunar" in cmd: return "File Manager (Thunar)"
         if "Brave" in cmd: return "Web Browser (Brave)"
         if "Grim" in cmd: return "Screenshot"
         if "Wofi" in cmd or "Smart_Launcher" in cmd: return "App Launcher"
-        if "Gemini" in cmd: return "Gemini Assistant (CLI)"
-        if "Yazi" in cmd: return "Yazi File Manager (CLI)"
         if "Dnd" in cmd: return "Toggle Do Not Disturb"
         if "Clip" in cmd: return "Clipboard Manager"
+        if "Powermenu" in cmd: return "Power Menu"
+        if "Bluetooth" in cmd: return "Bluetooth Menu"
+        if "Wifi" in cmd: return "WiFi Menu"
+        
         return f"Launch {cmd}"
     
     if dispatcher == "killactive": return "Close Active Window"
@@ -73,17 +83,22 @@ def get_category(raw_disp, action_text):
     action_text = action_text.lower()
     raw_disp = raw_disp.lower()
     
+    # Workspaces
     if "workspace" in raw_disp or "movetoworkspace" in raw_disp:
         return "🔢 Workspaces"
-    if any(x in raw_disp for x in ["movewindow", "movefocus", "killactive", "fullscreen", "togglefloating", "togglesplit"]):
-        return "🪟 Window Management"
-    if any(x in raw_disp for x in ["volume", "brightness", "playerctl"]):
-        return "🔊 Hardware & Media"
-    if "exec" in raw_disp:
-        if any(x in action_text for x in ["screenshot", "lock", "power", "clipboard", "wlogout", "swaylock", "reload"]):
-            return "🖥️ System & Session"
-        return "🚀 Applications"
     
+    # Window Management
+    if any(x in raw_disp for x in ["movewindow", "movefocus", "killactive", "fullscreen", "togglefloating", "togglesplit", "group"]):
+        return "🪟 Window Management"
+    
+    # System Controls (Hardware, Session, Utilities)
+    if any(x in raw_disp for x in ["volume", "brightness", "playerctl", "swaylock", "wlogout", "powermenu", "screenshot", "reload", "bluetooth", "wifi", "clipboard", "color picker", "dnd"]):
+        return "🛠️ System Controls & Utilities"
+    
+    # Applications
+    if "exec" in raw_disp:
+        return "🚀 Application Shortcuts"
+        
     return "⚙️ Other"
 
 def main():
@@ -139,13 +154,11 @@ def main():
     # 4. Generate Markdown
     # Define category order
     cat_order = [
-        "🚀 Applications",
+        "🚀 Application Shortcuts",
         "🪟 Window Management",
         "🔢 Workspaces",
-        "🖥️ System & Session",
-        "🔊 Hardware & Media",
+        "🛠️ System Controls & Utilities",
         "🐚 Shell (Zsh)",
-        "🛠️ Utilities & Interactive",
         "⚙️ Other"
     ]
 
