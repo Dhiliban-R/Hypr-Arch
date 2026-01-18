@@ -43,28 +43,6 @@ This configuration uses a consistent and "smart" keybinding philosophy across th
 **For a complete, automatically updated list of all configured keybindings, please refer to:**
 👉 **[Keybindings.md](Keybindings.md)**
 
-### 🐚 Shell (Zsh)
-
-GUI-like text navigation and editing.
-
-| Key | Action |
-| :--- | :--- |
-| `Ctrl + Arrows` | Jump Words |
-| `Shift + Arrows` | Select Character/Line |
-| `Ctrl + Shift + Arrows` | Select Word (Continuous) |
-| `Ctrl + A` | Select All |
-| `Alt + S` | **Smart Sudo:** Toggles `sudo` at the start of the command. |
-| `Shift + Enter` | Soft Newline |
-
-### 🛠️ Utilities & Interactive Bars
-
-| Feature | Interaction |
-| :--- | :--- |
-| **Screenshot** | `SUPER + S` (Select region -> Edit in Swappy) |
-| **Waybar Workspaces** | Click to Switch Workspace |
-| **Waybar Network** | Click WiFi Icon to Toggle Connection |
-| **Power Menu** | Select from: Lock, Suspend, Reboot, Shutdown |
-
 ## 🔄 Synchronization
 
 This repository is designed to be easily synchronized with your local system state.

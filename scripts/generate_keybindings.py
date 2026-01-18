@@ -7,32 +7,37 @@ REPO_ROOT = os.path.expanduser("~/Hyprland-Arch-Config")
 CONFIG_FILE = os.path.join(REPO_ROOT, "dotfiles/hypr/hyprland.conf")
 OUTPUT_FILE = os.path.join(REPO_ROOT, "Keybindings.md")
 
-# Header for the Markdown file
-HEADER = """# ⌨️ Hyprland Keybindings
+# Header
+HEADER = """# ⌨️ System Keybindings
 
-This file is **automatically generated** from the active `hyprland.conf`. 
-Any changes made to the configuration will be reflected here after a repository sync.
+This file is **automatically generated**. It serves as the single source of truth for all keybindings in this Hyprland configuration, including Shell (Zsh) and Terminal (WezTerm) shortcuts.
 
 **Modifier Key:** `SUPER` (Windows Key)
 
-## 🖥️ System & Session
 """
 
-# Categorization logic (simple keyword matching)
-CATEGORIES = {
-    "Apps": ["exec, wezterm", "exec, code", "exec, firefox", "exec, brave", "exec, thunar", "exec, obsidian", "exec, telegram", "exec, libreoffice"],
-    "System": ["exec, swaylock", "exec, wlogout", "reload", "exec, ~/.config/hypr/powermenu.sh"],
-    "Window Management": ["killactive", "togglesplit", "togglefloating", "fullscreen", "movefocus", "movewindow", "resize"],
-    "Workspaces": ["workspace", "movetoworkspace"],
-    "Hardware & Media": ["volume", "brightness", "playerctl"],
-    "Utilities": ["grim", "slurp", "cliphist", "ocr", "color picker", "clipboard"],
-    "Scratchpad": ["special"]
-}
+# Static bindings (Zsh, Utilities, etc. that aren't in hyprland.conf)
+STATIC_BINDINGS = [
+    # Shell (Zsh)
+    {"category": "🐚 Shell (Zsh)", "key": "CTRL + ARROWS", "action": "Jump Words"},
+    {"category": "🐚 Shell (Zsh)", "key": "SHIFT + ARROWS", "action": "Select Character/Line"},
+    {"category": "🐚 Shell (Zsh)", "key": "CTRL + SHIFT + ARROWS", "action": "Select Word (Continuous)"},
+    {"category": "🐚 Shell (Zsh)", "key": "CTRL + A", "action": "Select All Text"},
+    {"category": "🐚 Shell (Zsh)", "key": "ALT + S", "action": "Smart Sudo (Toggle 'sudo' at start of line)"},
+    {"category": "🐚 Shell (Zsh)", "key": "SHIFT + ENTER", "action": "Soft Newline"},
+    
+    # Utilities / Interactive
+    {"category": "🛠️ Utilities & Interactive", "key": "SUPER + S", "action": "Screenshot (Region Selection -> Edit)"},
+    {"category": "🛠️ Utilities & Interactive", "key": "CLICK (Waybar Workspace)", "action": "Switch Workspace"},
+    {"category": "🛠️ Utilities & Interactive", "key": "CLICK (Waybar Network)", "action": "Toggle WiFi Connection"},
+    {"category": "🛠️ Utilities & Interactive", "key": "SUPER + X", "action": "Power Menu (Lock/Suspend/Reboot/Shutdown)"}
+]
 
 def parse_key(key_part):
     key_part = key_part.replace("$mainMod", "SUPER").replace("$mod", "SUPER")
-    parts = [p.strip() for p in key_part.split(" ") if p.strip()]
-    return " + ".join(parts).upper()
+    # Clean up standardizers
+    parts = [p.strip().upper() for p in key_part.split(" ") if p.strip()]
+    return " + ".join(parts)
 
 def parse_dispatcher(dispatcher, params):
     action = f"{dispatcher} {params}".strip()
@@ -46,6 +51,10 @@ def parse_dispatcher(dispatcher, params):
         if "Brave" in cmd: return "Web Browser (Brave)"
         if "Grim" in cmd: return "Screenshot"
         if "Wofi" in cmd or "Smart_Launcher" in cmd: return "App Launcher"
+        if "Gemini" in cmd: return "Gemini Assistant (CLI)"
+        if "Yazi" in cmd: return "Yazi File Manager (CLI)"
+        if "Dnd" in cmd: return "Toggle Do Not Disturb"
+        if "Clip" in cmd: return "Clipboard Manager"
         return f"Launch {cmd}"
     
     if dispatcher == "killactive": return "Close Active Window"
@@ -56,66 +65,102 @@ def parse_dispatcher(dispatcher, params):
     if dispatcher == "movewindow": return f"Move Window {params.upper()}"
     if dispatcher == "workspace": return f"Switch to Workspace {params}"
     if dispatcher == "movetoworkspace": return f"Move Window to Workspace {params}"
+    if dispatcher == "movetoworkspace" and params == "special": return "Move to Special Scratchpad"
     
     return action
+
+def get_category(raw_disp, action_text):
+    action_text = action_text.lower()
+    raw_disp = raw_disp.lower()
+    
+    if "workspace" in raw_disp or "movetoworkspace" in raw_disp:
+        return "🔢 Workspaces"
+    if any(x in raw_disp for x in ["movewindow", "movefocus", "killactive", "fullscreen", "togglefloating", "togglesplit"]):
+        return "🪟 Window Management"
+    if any(x in raw_disp for x in ["volume", "brightness", "playerctl"]):
+        return "🔊 Hardware & Media"
+    if "exec" in raw_disp:
+        if any(x in action_text for x in ["screenshot", "lock", "power", "clipboard", "wlogout", "swaylock", "reload"]):
+            return "🖥️ System & Session"
+        return "🚀 Applications"
+    
+    return "⚙️ Other"
 
 def main():
     if not os.path.exists(CONFIG_FILE):
         print(f"Error: Config file not found at {CONFIG_FILE}")
         return
 
-    bindings = []
-    
+    # Dictionary to ensure uniqueness: Key = Hotkey String, Value = Item Dict
+    unique_bindings = {}
+
+    # 1. Load Static Bindings first (can be overwritten by hyprland.conf if collision, or kept)
+    for b in STATIC_BINDINGS:
+        unique_bindings[b['key']] = b
+
+    # 2. Parse Hyprland Config
     with open(CONFIG_FILE, "r") as f:
         for line in f:
             line = line.strip()
             if line.startswith("bind =") or line.startswith("bindm ="):
-                # Remove comments
-                if "#" in line:
-                    line = line.split("#")[0]
+                if "#" in line: line = line.split("#")[0] # Strip comments
                 
                 parts = line.split(",")
                 if len(parts) >= 3:
-                    # Format: bind = MOD, KEY, DISPATCHER, PARAMS
                     mod_key = parts[0].split("=")[1].strip()
                     key = parts[1].strip()
                     dispatcher = parts[2].strip()
                     params = parts[3].strip() if len(parts) > 3 else ""
-                    
-                    # Clean up mouse binds
-                    if "mouse" in key:
-                        continue # Skip mouse binds for the simplified table for now
-                    
+
+                    # Skip mouse move/resize specific binds if desired, or format them nicely
+                    if "mouse" in key and "272" in key: key = "MOUSE LEFT DRAG"
+                    elif "mouse" in key and "273" in key: key = "MOUSE RIGHT DRAG"
+                    elif "mouse" in key: continue 
+
                     hotkey = parse_key(f"{mod_key} {key}")
                     action = parse_dispatcher(dispatcher, params)
-                    
-                    bindings.append({"key": hotkey, "action": action, "raw_disp": f"{dispatcher} {params}"})
+                    raw_disp = f"{dispatcher} {params}"
+                    category = get_category(raw_disp, action)
 
-    # Generate Markdown
+                    # Store/Overwrite in dictionary to deduplicate
+                    unique_bindings[hotkey] = {
+                        "category": category,
+                        "key": hotkey,
+                        "action": action
+                    }
+
+    # 3. Group by Category
+    grouped = {}
+    for hotkey, item in unique_bindings.items():
+        cat = item['category']
+        if cat not in grouped: grouped[cat] = []
+        grouped[cat].append(item)
+
+    # 4. Generate Markdown
+    # Define category order
+    cat_order = [
+        "🚀 Applications",
+        "🪟 Window Management",
+        "🔢 Workspaces",
+        "🖥️ System & Session",
+        "🔊 Hardware & Media",
+        "🐚 Shell (Zsh)",
+        "🛠️ Utilities & Interactive",
+        "⚙️ Other"
+    ]
+
     with open(OUTPUT_FILE, "w") as f:
         f.write(HEADER)
         
-        # Helper to write table
-        def write_category(name, filter_func):
-            f.write(f"\n### {name}\n\n")
-            f.write("| Key Combination | Action |\n")
-            f.write("| :--- | :--- |\n")
-            count = 0
-            for b in bindings:
-                if filter_func(b):
-                    f.write(f"| `{b['key']}` | {b['action']} |\n")
-                    count += 1
-            if count == 0:
-                f.write("| - | No bindings found |\n")
-
-        # Define categories
-        write_category("🪟 Window Management", lambda b: any(k in b['raw_disp'] for k in ["killactive", "togglesplit", "togglefloating", "fullscreen", "movefocus", "movewindow"]))
-        write_category("🚀 Applications", lambda b: "exec" in b['raw_disp'] and not any(k in b['raw_disp'] for k in ["volume", "brightness", "swaylock", "wlogout", "powermenu", "screenshot", "grim"]))
-        write_category("🖥️ System & Session", lambda b: any(k in b['raw_disp'] for k in ["swaylock", "powermenu", "reload", "wlogout", "exit"]))
-        write_category("🔢 Workspaces", lambda b: "workspace" in b['raw_disp'] and "movetoworkspace" not in b['raw_disp'])
-        write_category("📦 Move to Workspace", lambda b: "movetoworkspace" in b['raw_disp'])
-        write_category("🔊 Hardware & Media", lambda b: any(k in b['raw_disp'] for k in ["volume", "brightness", "playerctl"]))
-        write_category("🛠️ Utilities", lambda b: "grim" in b['raw_disp'] or "slurp" in b['raw_disp'] or "clipboard" in b['raw_disp'])
+        for cat in cat_order:
+            if cat in grouped and grouped[cat]:
+                f.write(f"\n### {cat}\n\n")
+                f.write("| Key Combination | Action |\n")
+                f.write("| :--- | :--- |\n")
+                # Sort bindings alphabetically within category
+                sorted_items = sorted(grouped[cat], key=lambda x: x['key'])
+                for item in sorted_items:
+                    f.write(f"| `{item['key']}` | {item['action']} |\n")
 
     print(f"Successfully generated {OUTPUT_FILE}")
 
