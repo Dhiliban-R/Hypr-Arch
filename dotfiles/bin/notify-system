@@ -1,0 +1,167 @@
+#!/bin/bash
+
+# =============================================================================
+# notify-system: Centralized Notification Controller
+# =============================================================================
+# Usage: notify-system --type <type> --state <state> --text "Message" [--title "Title"]
+# 
+# Types: wifi, bluetooth, volume, brightness, capslock, battery, system
+# States: on, off, connected, disconnected, muted, warning, critical, value (0-100)
+# =============================================================================
+
+TYPE=""
+STATE=""
+TEXT=""
+TITLE=""
+
+# Parse Arguments
+while [[ "$#" -gt 0 ]]; do
+    case $1 in
+        --type) TYPE="$2"; shift ;;
+        --state) STATE="$2"; shift ;;
+        --text) TEXT="$2"; shift ;;
+        --title) TITLE="$2"; shift ;;
+        *) echo "Unknown parameter passed: $1"; exit 1 ;;
+    esac
+    shift
+done
+
+# Defaults
+TITLE="${TITLE:-System}"
+CATEGORY="normal"
+ICON=""
+TAG="" # Prevents stacking
+EXTRA_HINTS=""
+
+# -----------------------------------------------------------------------------
+# Logic Engine
+# -----------------------------------------------------------------------------
+
+case "$TYPE" in
+    wifi)
+        TITLE="${TITLE:-Wi-Fi}"
+        TAG="string:x-canonical-private-synchronous:sys-notify-wifi"
+        case "$STATE" in
+            on|connected)
+                ICON="network-wireless-connected"
+                CATEGORY="style_green"
+                ;;
+            off|disconnected)
+                ICON="network-wireless-disconnected"
+                CATEGORY="style_red"
+                ;;
+            searching)
+                ICON="network-wireless-acquiring"
+                CATEGORY="style_green"
+                ;;
+            *)
+                ICON="network-wireless-signal-good"
+                ;;
+        esac
+        ;;
+
+    bluetooth)
+        TITLE="${TITLE:-Bluetooth}"
+        TAG="string:x-canonical-private-synchronous:sys-notify-bt"
+        case "$STATE" in
+            on|connected)
+                ICON="bluetooth-active"
+                CATEGORY="style_green"
+                ;;
+            off|disconnected)
+                ICON="bluetooth-disabled"
+                CATEGORY="style_red"
+                ;;
+            *)
+                ICON="bluetooth-active"
+                ;;
+        esac
+        ;;
+
+    volume)
+        TITLE="${TITLE:-Volume}"
+        TAG="string:x-canonical-private-synchronous:sys-notify-audio"
+        case "$STATE" in
+            muted)
+                ICON="audio-volume-muted"
+                CATEGORY="style_red"
+                ;;
+            *)
+                # Strip '%' if present to get raw number
+                VAL="${STATE%\%}"
+                ICON="audio-volume-high"
+                CATEGORY="volume"
+                # Add Value Hint for Progress Bar
+                EXTRA_HINTS="-h int:value:$VAL"
+                ;;
+        esac
+        ;;
+
+    brightness)
+        TITLE="${TITLE:-Brightness}"
+        TAG="string:x-canonical-private-synchronous:sys-notify-backlight"
+        ICON="display-brightness-symbolic"
+        CATEGORY="brightness"
+        # Strip '%' if present
+        VAL="${STATE%\%}"
+        EXTRA_HINTS="-h int:value:$VAL"
+        ;;
+
+    capslock)
+        TITLE="${TITLE:-Caps Lock}"
+        TAG="string:x-canonical-private-synchronous:sys-notify-caps"
+        case "$STATE" in
+            on)
+                ICON="input-keyboard"
+                CATEGORY="style_green"
+                ;;
+            off)
+                ICON="input-keyboard"
+                CATEGORY="style_red"
+                ;;
+        esac
+        ;;
+
+    battery)
+        TITLE="${TITLE:-Battery}"
+        TAG="string:x-canonical-private-synchronous:sys-notify-battery"
+        case "$STATE" in
+            low)
+                ICON="battery-caution"
+                CATEGORY="style_red"
+                ;;
+            critical)
+                ICON="battery-empty"
+                CATEGORY="style_red" # Should ideally be critical urgency
+                URGENCY="critical"
+                ;;
+            charging)
+                ICON="battery-charging"
+                CATEGORY="style_green"
+                ;;
+        esac
+        ;;
+    
+    *)
+        # Generic fallback
+        TAG="string:x-canonical-private-synchronous:sys-notify-generic"
+        ICON="dialog-information"
+        ;;
+esac
+
+# -----------------------------------------------------------------------------
+# Execution
+# -----------------------------------------------------------------------------
+
+# Use 'low' urgency by default for system OSDs to avoid stealing focus/being annoying
+# Unless explicitly set to critical
+URGENCY="${URGENCY:-low}"
+
+notify-send \
+    --category="$CATEGORY" \
+    --urgency="$URGENCY" \
+    --icon="$ICON" \
+    --hint="$TAG" \
+    $EXTRA_HINTS \
+    "$TITLE" \
+    "$TEXT"
