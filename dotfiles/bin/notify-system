@@ -27,7 +27,6 @@ while [[ "$#" -gt 0 ]]; do
 done
 
 # Defaults
-TITLE="${TITLE:-System}"
 CATEGORY="normal"
 ICON=""
 TAG="" # Prevents stacking
@@ -141,6 +140,45 @@ case "$TYPE" in
                 ;;
         esac
         ;;
+
+    system)
+        TAG="string:x-canonical-private-synchronous:sys-notify-system"
+        case "$STATE" in
+            dnd-on)
+                TITLE="Do Not Disturb"
+                ICON="notifications-disabled-symbolic"
+                CATEGORY="style_red"
+                ;;
+            dnd-off)
+                TITLE="Do Not Disturb"
+                ICON="notifications-symbolic"
+                CATEGORY="style_green"
+                ;;
+        esac
+        ;;
+
+    clipboard)
+        TITLE="${TITLE:-Clipboard}"
+        TAG="string:x-canonical-private-synchronous:sys-notify-clipboard"
+        case "$STATE" in
+            cleared)
+                ICON="edit-clear"
+                CATEGORY="style_green"
+                ;;
+            deleted)
+                ICON="edit-delete"
+                CATEGORY="style_red"
+                ;;
+            error)
+                ICON="dialog-error"
+                CATEGORY="style_red"
+                ;;
+            *)
+                ICON="edit-copy"
+                CATEGORY="normal"
+                ;;
+        esac
+        ;;
     
     *)
         # Generic fallback
@@ -156,6 +194,7 @@ esac
 # Use 'low' urgency by default for system OSDs to avoid stealing focus/being annoying
 # Unless explicitly set to critical
 URGENCY="${URGENCY:-low}"
+TITLE="${TITLE:-System}"
 
 notify-send \
     --category="$CATEGORY" \

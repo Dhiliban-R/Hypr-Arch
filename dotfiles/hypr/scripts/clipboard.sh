@@ -10,7 +10,7 @@ mkdir -p "$CACHE_DIR"
 
 # 1. Check if cliphist is even working
 if ! command -v cliphist &> /dev/null; then
-    notify-send "Clipboard Error" "cliphist is not installed"
+    ~/.local/bin/notify-system --type clipboard --state error --text "cliphist is not installed"
     exit 1
 fi
 
@@ -20,14 +20,14 @@ raw_list=$(cliphist list)
 # If history is empty, don't just quit—check if the watcher is even running!
 if [ -z "$raw_list" ]; then
     if ! pgrep -x "wl-paste" > /dev/null; then
-        notify-send "Clipboard" "Watchers are not running! Restarting..."
-        wl-paste --watch cliphist store & 
+        ~/.local/bin/notify-system --type clipboard --state error --text "Watchers are not running! Restarting..."
+        ~/.config/hypr/scripts/cliphist-init.sh & 
         sleep 0.5
     fi
     # Check again
     raw_list=$(cliphist list)
     if [ -z "$raw_list" ]; then
-        notify-send "Clipboard" "History is empty. Copy something first!"
+        ~/.local/bin/notify-system --type clipboard --state error --text "History is empty. Copy something first!"
         exit 0
     fi
 fi
@@ -64,7 +64,7 @@ fi
 if [[ "$selected" == *"󰃢 Clear History"* ]]; then
     cliphist wipe
     rm -rf "$CACHE_DIR"/*
-    notify-send "Clipboard" "History cleared" -i edit-clear
+    ~/.local/bin/notify-system --type clipboard --state cleared --text "History cleared"
     exit 0
 fi
 
@@ -96,7 +96,7 @@ case "$action" in
             sleep 0.4
             wtype -M ctrl v -m ctrl
         else
-            cliphist decode "$id" | wl-copy
+            cliphist decode "$id" | wl-copy --type text/plain
             sleep 0.2
             wtype -M ctrl v -m ctrl
         fi
@@ -104,7 +104,7 @@ case "$action" in
     *Delete)
         echo "$original_line" | cliphist delete
         rm -f "$CACHE_DIR/$id.png"
-        notify-send "Clipboard" "Item deleted" -i edit-delete
+        ~/.local/bin/notify-system --type clipboard --state deleted --text "Item deleted"
         ;; 
     *)
         exit 0

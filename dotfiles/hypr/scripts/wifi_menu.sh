@@ -127,6 +127,7 @@ show_menu() {
                          /home/dhili/.local/bin/notify-system --type wifi --state connected --text "Connected to $ssid"
                      else
                          /home/dhili/.local/bin/notify-system --type wifi --state disconnected --text "Connection failed."
+                         show_menu
                      fi
                 fi
             fi

@@ -112,6 +112,7 @@ show_menu() {
                      /home/dhili/.local/bin/notify-system --type bluetooth --state connected --text "Connected"
                  else
                      /home/dhili/.local/bin/notify-system --type bluetooth --state disconnected --text "Failed to connect"
+                     show_menu
                  fi
             fi
         fi

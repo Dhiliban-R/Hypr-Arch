@@ -42,9 +42,13 @@ background-color=#313244FF
 [category=volume]
 # Inherits global styles but enables progress bar handling via hints
 format=<b>%s</b> %b
+border-color=#8be9fd
+text-color=#8be9fd
 
 [category=brightness]
 format=<b>%s</b> %b
+border-color=#ffb86c
+text-color=#ffb86c
 
 [category=style_green]
 border-color=#50fa7b
@@ -74,3 +78,6 @@ text-color=#ff5555
 # --- Modes ---
 [mode=dnd]
 invisible=1
+
+[mode=dnd summary="Do Not Disturb"]
+invisible=0
