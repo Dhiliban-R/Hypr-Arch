@@ -8,7 +8,7 @@
 
     "custom/dnd": {
         "format": "{}",
-        "interval": 1,
+        "interval": 10,
         "on-click": "~/.config/hypr/scripts/dnd_toggle.sh",
         "return-type": "json",
         "exec": "~/.config/hypr/scripts/dnd_status.sh"
@@ -69,11 +69,11 @@
         "format-wifi": "󰤨 {essid}",
         "format-disconnected": "󰤨 On",
         "format-disabled": "󰤮 Off",
-        "interval": 1,
+        "interval": 60,
         "on-click": "~/.config/waybar/scripts/wifi.sh toggle"
     },
     "battery": {
-        "interval": 1,
+        "interval": 60,
         "states": {
             "warning": 30,
             "critical": 15

@@ -72,6 +72,8 @@ show_menu() {
         /home/dhili/.local/bin/notify-system --type bluetooth --state off --text "Powered OFF"
         
     elif [ "$selected" == "Turn Bluetooth ON" ]; then
+        rfkill unblock bluetooth
+        sleep 0.5
         bluetoothctl power on
         /home/dhili/.local/bin/notify-system --type bluetooth --state on --text "Powered ON"
         touch "$LOCK_FILE"
