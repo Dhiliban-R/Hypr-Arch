@@ -14,8 +14,8 @@ This file is **automatically generated**. It serves as the single source of trut
 | `SUPER + N` | Launch Obsidian |
 | `SUPER + O` | Launch Libreoffice |
 | `SUPER + Q` | Terminal (WezTerm) |
-| `SUPER + S` | Screenshot |
 | `SUPER + SHIFT + G` | Launch Gemini CLI |
+| `SUPER + SHIFT + S` | Screenshot |
 | `SUPER + SHIFT + T` | Launch OCR Tool |
 | `SUPER + SHIFT + Y` | Launch Yazi File Manager |
 | `SUPER + SPACE` | App Launcher |

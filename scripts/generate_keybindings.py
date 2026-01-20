@@ -27,7 +27,7 @@ STATIC_BINDINGS = [
     {"category": "🐚 Shell (Zsh)", "key": "SHIFT + ENTER", "action": "Soft Newline"},
     
     # Utilities / Interactive
-    {"category": "🛠️ Utilities & Interactive", "key": "SUPER + S", "action": "Screenshot (Region Selection -> Edit)"},
+    {"category": "🛠️ Utilities & Interactive", "key": "SUPER + SHIFT + S", "action": "Screenshot (Region Selection -> Edit)"},
     {"category": "🛠️ Utilities & Interactive", "key": "CLICK (Waybar Workspace)", "action": "Switch Workspace"},
     {"category": "🛠️ Utilities & Interactive", "key": "CLICK (Waybar Network)", "action": "Toggle WiFi Connection"},
     {"category": "🛠️ Utilities & Interactive", "key": "SUPER + X", "action": "Power Menu (Lock/Suspend/Reboot/Shutdown)"}
