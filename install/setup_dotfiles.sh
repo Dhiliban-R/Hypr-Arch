@@ -25,7 +25,6 @@ declare -A dotfiles_to_symlink=(
     ["mako"]=".config/mako"
     ["btop"]=".config/btop"
     ["fastfetch"]=".config/fastfetch"
-    ["swaylock"]=".config/swaylock"
     ["Thunar"]=".config/Thunar"
     ["wezterm"]=".config/wezterm"
     ["wlogout"]=".config/wlogout"

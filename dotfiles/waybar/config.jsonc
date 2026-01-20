@@ -18,7 +18,12 @@
         "tooltip": false
     },
     "hyprland/workspaces": {
-        "on-click": "activate"
+        "disable-scroll": true,
+        "all-outputs": true,
+        "active-only": false,
+        "on-click": "activate",
+        "format": "{name}",
+        "sort-by-number": true
     },
     "hyprland/window": {
         "format": "{class} | {title}",
@@ -33,7 +38,7 @@
             "vlc \\| (.*)": "VLC | $1",
             "libreoffice-(.*) \\| (.*)": "LibreOffice | $2"
         },
-        "separate-outputs": true
+        "separate-outputs": false
     },
     "clock": {
         "format": "{:%I:%M %p}",

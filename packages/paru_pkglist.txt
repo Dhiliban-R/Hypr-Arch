@@ -5,6 +5,5 @@ dracula-icons-git
 fresh-editor-bin
 paru
 paru-debug
-swaylock-effects
 visual-studio-code-bin
 wlogout

@@ -12,7 +12,6 @@ This repository provides a complete, step-by-step guide to installing Arch Linux
 - **Hyprland:** Cutting-edge Wayland tiling compositor.
 - **Waybar:** Dynamic and highly customizable status bar.
 - **Wofi:** Efficient application launcher.
-- **Swaylock:** Secure screen locker.
 - **Mako:** Lightweight notification daemon.
 - **Wezterm:** Feature-rich, GPU-accelerated terminal emulator (configured with Lua).
 - **Thunar:** Fast and user-friendly file manager.
@@ -51,7 +50,7 @@ This repository is designed to be easily synchronized with your local system sta
 To update the repository with your current local configurations and package lists:
 1.  **Copy Dotfiles:**
     ```bash
-    cp -rf ~/.config/{hypr,waybar,wofi,mako,btop,fastfetch,swaylock,Thunar,wezterm,wlogout,yazi} ~/Hyprland-Arch-Config/dotfiles/
+    cp -rf ~/.config/{hypr,waybar,wofi,mako,btop,fastfetch,Thunar,wezterm,wlogout,yazi} ~/Hyprland-Arch-Config/dotfiles/
     cp -f ~/.zshrc ~/Hyprland-Arch-Config/dotfiles/zshrc
     cp -f ~/.config/starship.toml ~/Hyprland-Arch-Config/dotfiles/starship.toml
     ```
