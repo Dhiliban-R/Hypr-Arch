@@ -1,1 +1,52 @@
-/home/dhili/Hyprland-Arch-Config/dotfiles/wofi/clipboard.css
+window {
+    margin: 0px;
+    border: 2px solid #bd93f9;
+    background-color: #282a36;
+    font-family: "JetBrains Mono Nerd Font";
+    font-size: 14px;
+}
+
+#input {
+    margin: 5px;
+    border: 1px solid #44475a;
+    color: #f8f8f2;
+    background-color: #44475a;
+}
+
+#inner-box {
+    margin: 5px;
+    background-color: #282a36;
+}
+
+#outer-box {
+    margin: 5px;
+    background-color: #282a36;
+}
+
+#scroll {
+    margin: 0px;
+}
+
+#text {
+    margin: 5px;
+    color: #f8f8f2;
+}
+
+#img {
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+#entry {
+    padding: 10px;
+}
+
+#entry:selected {
+    background-color: #44475a;
+    border-radius: 5px;
+}
+
+#entry:selected #text {
+    color: #50fa7b;
+    font-weight: bold;
+}
