@@ -39,6 +39,7 @@ margin: 2px; /* Reduced space between circles */
 padding: 5px; /* Reduced size of the circle */
 border: none;
 font-size: 24px; /* Smaller icons */
+background-color: transparent;
 } 
 
 #entry:nth-child(1) #text {

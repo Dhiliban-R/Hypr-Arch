@@ -297,15 +297,15 @@ nmcli device wifi connect <YOUR_WIFI_SSID> password <YOUR_WIFI_PASSWORD>
 sudo pacman -S git
 ```
 
-#### 2.1.3 Install an AUR Helper (`yay`)
+#### 2.1.3 Install an AUR Helper (`paru`)
 
 ```bash
 sudo pacman -S --needed git base-devel
-git clone https://aur.archlinux.org/yay.git
-cd yay
+git clone https://aur.archlinux.org/paru.git
+cd paru
 makepkg -si
 cd ..
-rm -rf yay
+rm -rf paru
 ```
 
 #### 2.1.4 Clone this Repository

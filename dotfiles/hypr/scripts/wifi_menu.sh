@@ -6,6 +6,18 @@ SCAN_TIMEOUT=5  # Reduced timeout for snappier loops if auto-scan is on
 
 # Function to handle the menu loop
 show_menu() {
+    # 0. Smart Auto-Scan Logic
+    # Check if we are connected to a valid network (not lo, not none)
+    current_connection=$(nmcli -t -f NAME,TYPE connection show --active | grep "802-11-wireless" | head -n1)
+    
+    if [ -n "$current_connection" ]; then
+        # We are connected, so BREAK the loop (remove lock file)
+        rm -f "$LOCK_FILE"
+    elif [ ! -f "$LOCK_FILE" ]; then
+        # We are NOT connected and lock file is missing, so START the loop
+        touch "$LOCK_FILE"
+    fi
+
     # 1. Scanning Logic (Only if Auto-Scan is ON)
     if [ -f "$LOCK_FILE" ]; then
         nmcli device wifi rescan &
@@ -111,6 +123,8 @@ show_menu() {
             
             # Restart Auto-Scan after disconnect
             touch "$LOCK_FILE"
+            # Give NM time to update state so the next show_menu call knows we are disconnected
+            sleep 2
             show_menu
         else
             /home/dhili/.local/bin/notify-system --type wifi --state searching --text "Connecting to: $ssid"

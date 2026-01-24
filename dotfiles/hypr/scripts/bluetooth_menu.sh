@@ -106,12 +106,18 @@ show_menu() {
                  /home/dhili/.local/bin/notify-system --type bluetooth --state connected --text "Disconnecting $selected..."
                  bluetoothctl disconnect "$mac"
                  /home/dhili/.local/bin/notify-system --type bluetooth --state disconnected --text "Disconnected"
+                 
+                 # Enforce Loop on Disconnect
                  touch "$LOCK_FILE"
+                 sleep 1
                  show_menu
             else
                  /home/dhili/.local/bin/notify-system --type bluetooth --state searching --text "Connecting to $selected..."
                  if bluetoothctl connect "$mac"; then
                      /home/dhili/.local/bin/notify-system --type bluetooth --state connected --text "Connected"
+                     # Enforce Break Loop on Connect
+                     rm -f "$LOCK_FILE"
+                     exit 0
                  else
                      /home/dhili/.local/bin/notify-system --type bluetooth --state disconnected --text "Failed to connect"
                      show_menu

@@ -9,6 +9,7 @@
     "custom/dnd": {
         "format": "{}",
         "interval": 10,
+        "signal": 11,
         "on-click": "~/.config/hypr/scripts/dnd_toggle.sh",
         "return-type": "json",
         "exec": "~/.config/hypr/scripts/dnd_status.sh"

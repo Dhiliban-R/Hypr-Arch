@@ -14,3 +14,6 @@ else
     sleep 0.1
     makoctl mode -a dnd
 fi
+
+# Refresh waybar module immediately
+pkill -SIGRTMIN+11 waybar
