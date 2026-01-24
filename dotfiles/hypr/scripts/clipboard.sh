@@ -55,7 +55,7 @@ while read -r line; do
 done <<< "$raw_list"
 
 # 4. Show Wofi
-selected=$(echo -e "󰃢 Clear History$final_menu" | wofi --dmenu --width 800 --height 500 --style "$STYLE" --allow-images --prompt "Search Clipboard...")
+selected=$(echo -e "󰃢 Clear History$final_menu" | wofi --dmenu --width 450 --height 400 --style "$STYLE" --allow-images --prompt "Search Clipboard...")
 
 if [ -z "$selected" ]; then
     exit 0
@@ -83,7 +83,7 @@ if [ -z "$id" ]; then
 fi
 
 # 6. Action
-action=$(echo -e "󰆑 Paste\n󰆴 Delete" | wofi --dmenu --width 250 --height 160 --style "$STYLE" --prompt "Action?" --lines 2)
+action=$(echo -e "󰆑 Paste\n󰆴 Delete" | wofi --dmenu --width 200 --height 120 --style "$STYLE" --prompt "Action?" --lines 2)
 
 case "$action" in
     *Paste)
