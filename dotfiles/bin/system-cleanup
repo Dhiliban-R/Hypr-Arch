@@ -1,0 +1,46 @@
+#!/bin/bash
+# System Cleanup Script for Root Partition
+# Targets /var/cache/pacman/pkg specifically as it's the main space hog.
+
+echo "🧹 Starting Root Partition Cleanup..."
+
+# Check if pacman-contrib is installed for paccache
+if ! command -v paccache &> /dev/null; then
+    echo "⚠️ 'pacman-contrib' is not installed. Installing it now..."
+    sudo pacman -S --noconfirm pacman-contrib
+fi
+
+# 1. Clean Pacman Cache
+# Keep only 1 version of installed packages (Standard is 3, strict is 1 for small roots)
+echo "📦 Cleaning package cache (keeping 1 version)..."
+sudo paccache -rk1
+
+# Remove ALL versions of uninstalled packages
+echo "🗑️ Removing cache of uninstalled packages..."
+sudo paccache -ruk0
+
+# 2. Remove Orphaned Packages
+orphans=$(pacman -Qtdq)
+if [ -n "$orphans" ]; then
+    echo "🔍 Found orphans: $orphans"
+    echo "🗑️ Removing orphaned packages..."
+    sudo pacman -Rns $orphans --noconfirm
+else
+    echo "✨ No orphaned packages found."
+fi
+
+# 3. Clean Journal Logs
+echo "📜 Vacuuming system journals to 50M..."
+sudo journalctl --vacuum-size=50M
+
+# 4. Clean Docker (if present)
+if command -v docker &> /dev/null; then
+    echo "🐳 Pruning unused Docker objects..."
+    sudo docker system prune -af --volumes
+fi
+
+# 5. Clean /var/tmp (older than 7 days)
+echo "🧹 Cleaning old temp files in /var/tmp..."
+sudo find /var/tmp -type f -atime +7 -delete
+
+echo "✅ Root cleanup complete!"

@@ -24,6 +24,7 @@ fi
 # 2. SYSTEM CONFIGURATION
 export VISUAL=nano
 export EDITOR="$VISUAL"
+
 [[ -o interactive ]] && fastfetch
 
 # 3. ALIASES
@@ -31,26 +32,11 @@ alias Hyprland='start-hyprland'
 alias updt="paru -Syu; rm -rf \$HOME/.npm-global/lib/node_modules/@google/gemini-cli; rm -f \$HOME/.config/configstore/update-notifier-@google/gemini-cli.json; npm install -g @google/gemini-cli@nightly"
 
 clean() {
-    echo "🧹 Starting system cleanup..."
-    if pacman -Q pacman-contrib > /dev/null 2>&1; then
-        echo "📦 Cleaning package cache..."
-        sudo paccache -rk2
-    else
-        echo "⚠️ 'pacman-contrib' not found. Skipping paccache."
-    fi
+    # 1. Root/System Cleanup (Requires Sudo)
+    /home/dhili/.local/bin/system-cleanup
 
-    orphans=$(pacman -Qtdq)
-    if [ -n "$orphans" ]; then
-        echo "🗑️ Removing orphaned packages..."
-        sudo pacman -Rns $orphans --noconfirm
-    else
-        echo "✨ No orphaned packages found."
-    fi
-
-    echo "📜 Limiting system logs to 50MB..."
-    sudo journalctl --vacuum-size=50M
-
-    echo "🧼 Clearing caches and trash..."
+    # 2. User/Home Cleanup
+    echo "🧼 Clearing user caches and trash..."
     rm -rf ~/.cache/paru/clone/*
     rm -rf ~/.cache/ms-playwright/*
     rm -rf ~/.local/share/Trash/*
@@ -59,8 +45,8 @@ clean() {
     echo "✨ Cleaning Gemini internal history..."
     find ~/.gemini/history -type f -name "*.pack" -size +100M -delete 2>/dev/null
     find ~/.gemini/history -type f -name "tmp_pack_*" -delete 2>/dev/null
-
-    echo "✅ Cleanup complete!"
+    
+    echo "🎉 All cleanup (Root + User) complete!"
 }
 
 # 4. ZLE & VISUALS
