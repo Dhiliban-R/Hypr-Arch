@@ -1,8 +1,13 @@
 brave-bin
 cheese
+clutter
+clutter-gst
+clutter-gtk
+cogl
 dracula-gtk-theme
 dracula-icons-git
 fresh-editor-bin
+libcheese
 paru
 paru-debug
 visual-studio-code-bin
