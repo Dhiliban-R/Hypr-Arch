@@ -4,7 +4,7 @@
 
 # 1. PATHS & OH-MY-ZSH BOOTSTRAP
 export ZSH="$HOME/.oh-my-zsh"
-export PATH="/home/dhili/.npm-global/bin:$PATH"
+export PATH="$HOME/.npm-global/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
 ZSH_THEME="robbyrussell"
@@ -33,7 +33,7 @@ alias updt="paru -Syu; rm -rf \$HOME/.npm-global/lib/node_modules/@google/gemini
 
 clean() {
     # 1. Root/System Cleanup (Requires Sudo)
-    /home/dhili/.local/bin/system-cleanup
+    $HOME/.local/bin/system-cleanup
 
     # 2. User/Home Cleanup
     echo "🧼 Clearing user caches and trash..."
