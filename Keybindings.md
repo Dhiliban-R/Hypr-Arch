@@ -66,6 +66,7 @@ This file is **automatically generated**. It serves as the single source of trut
 | `SUPER + SHIFT + 8` | Move Window to Workspace 8 |
 | `SUPER + SHIFT + 9` | Move Window to Workspace 9 |
 | `SUPER + SHIFT + M` | Move Window to Workspace special |
+| `SUPER + TAB` | Switch to Workspace previous |
 
 ### 🛠️ System Controls & Utilities
 

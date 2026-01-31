@@ -23,7 +23,6 @@ declare -A dotfiles_to_symlink=(
     ["wofi"]=".config/wofi"
     ["mako"]=".config/mako"
     ["btop"]=".config/btop"
-    ["Thunar"]=".config/Thunar"
     ["wezterm"]=".config/wezterm"
     ["wlogout"]=".config/wlogout"
     ["yazi"]=".config/yazi"

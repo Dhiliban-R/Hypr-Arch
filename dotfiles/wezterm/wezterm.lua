@@ -7,33 +7,53 @@ if wezterm.config_builder then
 end
 
 -- =============================================================
+--  CUSTOM COLOR THEME DEFINITION
+-- =============================================================
+local my_custom_scheme = {
+  -- REMOVED: name = "MyMocha" (This was causing the error)
+  foreground = "#d9e0ee",
+  background = "#1a1b26",
+  cursor_bg = "#f28fad",
+  cursor_fg = "#1a1b26",
+  cursor_border = "#f28fad",
+  selection_fg = "#1a1b26",
+  selection_bg = "#c4a7e7",
+  ansi = { "#313244", "#e06c75", "#98c379", "#e5c07b", "#61afef", "#c678dd", "#56b6c2", "#abb2bf" },
+  brights = { "#4b526d", "#e06c75", "#98c379", "#e5c07b", "#61afef", "#c678dd", "#56b6c2", "#c0caf5" },
+}
+
+-- Register the scheme and then select it
+config.color_schemes = {
+  ["MyMocha"] = my_custom_scheme,
+}
+config.color_scheme = "MyMocha"
+
+-- =============================================================
 --  APPEARANCE & SYSTEM
 -- =============================================================
-config.color_scheme = "Nord (Gogh)"
 config.font = wezterm.font("JetBrains Mono", { weight = "Bold" })
-config.font_size = 10
+config.font_size = 10 
 
-config.window_background_opacity = 0.0
-config.text_background_opacity = 0.0
+config.window_background_opacity = 0.75
+config.text_background_opacity = 0.75
 config.window_decorations = "RESIZE"
 config.window_padding = { left = 7, right = 5, top = 2, bottom = 0 }
 
 config.enable_tab_bar = false
-config.use_fancy_tab_bar = false
-config.tab_bar_at_bottom = false
 config.automatically_reload_config = true
 config.window_close_confirmation = "AlwaysPrompt"
 config.skip_close_confirmation_for_processes_named = {
   "bash", "sh", "zsh", "fish", "tmux", "nu", "cmd.exe", "pwsh", "powershell"
 }
+
 config.check_for_updates = false
 config.enable_wayland = false
 config.adjust_window_size_when_changing_font_size = false
 config.default_cursor_style = "BlinkingUnderline"
-config.cursor_thickness = "1px"
+config.cursor_thickness = "2px"
 
 -- =============================================================
---  KEYS & BINDINGS
+--  KEYS & BINDINGS (Preserving your Zsh Signals Logic)
 -- =============================================================
 config.keys = {
   -- 1. SMART COPY (Hybrid: Try Mouse Select -> Fallback to Zsh Signal)
@@ -45,7 +65,7 @@ config.keys = {
       if selection_text and #selection_text > 0 then
         window:perform_action(act.CopyTo 'ClipboardAndPrimarySelection', pane)
         window:perform_action(act.ClearSelection, pane)
-        window:perform_action(act.SendString '\x1b[1;21~', pane) -- Clear Zsh highlight too
+        window:perform_action(act.SendString '\x1b[1;21~', pane) -- Clear Zsh highlight
       else
         window:perform_action(act.SendString '\x1b[1;20~', pane)
       end
@@ -60,9 +80,9 @@ config.keys = {
       local selection_text = window:get_selection_text_for_pane(pane)
       if selection_text and #selection_text > 0 then
          window:perform_action(act.CopyTo 'ClipboardAndPrimarySelection', pane)
-         window:perform_action(act.SendString '\x1b[1;23~', pane) -- Just delete in Zsh
+         window:perform_action(act.SendString '\x1b[1;23~', pane) 
       else
-         window:perform_action(act.SendString '\x1b[1;24~', pane) -- Trigger Cut Widget
+         window:perform_action(act.SendString '\x1b[1;24~', pane)
       end
     end),
   },
@@ -81,12 +101,11 @@ config.keys = {
   { key = 'Backspace', mods = 'CTRL|SHIFT', action = act.SendString '\x1b[1;23~' },
 
   -- 5. EDITING & UNDO/REDO
-  { key = 'z', mods = 'CTRL|SHIFT', action = act.SendString '\x1a' }, -- Send ^Z (Mapped to Undo in Zsh)
-  { key = '_', mods = 'CTRL|SHIFT', action = act.SendString '\x1f' }, -- Send ^_ (Redo)
-  { key = 'Enter', mods = 'SHIFT', action = act.SendString '\x0a' },  -- Send ^J (Soft Newline)
+  { key = 'z', mods = 'CTRL|SHIFT', action = act.SendString '\x1a' },
+  { key = '_', mods = 'CTRL|SHIFT', action = act.SendString '\x1f' },
+  { key = 'Enter', mods = 'SHIFT', action = act.SendString '\x0a' },
   
   -- 6. NAVIGATION & SELECTION SIGNALS
-  -- WezTerm defaults usually handle these, but we enforce them for Zsh consistency
   { key = 'LeftArrow', mods = 'CTRL', action = act.SendString "\x1b[1;5D" },
   { key = 'RightArrow', mods = 'CTRL', action = act.SendString "\x1b[1;5C" },
   { key = 'LeftArrow', mods = 'CTRL|SHIFT', action = act.SendString "\x1b[1;6D" },
@@ -95,9 +114,9 @@ config.keys = {
   { key = 'RightArrow', mods = 'SHIFT', action = act.SendString "\x1b[1;2C" },
   { key = 'Home', mods = 'SHIFT', action = act.SendString "\x1b[1;2H" },
   { key = 'End', mods = 'SHIFT', action = act.SendString "\x1b[1;2F" },
-  { key = 'a', mods = 'CTRL', action = act.SendString "\x01" }, -- Ctrl+A (Select All)
+  { key = 'a', mods = 'CTRL', action = act.SendString "\x01" },
 
-  -- 7. FONT RESIZING
+  -- 7. FONT RESIZING & UTILS
   { key = 'Backspace', mods = 'CTRL', action = act.SendString '\x17' },
   { key = '+', mods = 'CTRL', action = act.IncreaseFontSize },
   { key = '-', mods = 'CTRL', action = act.DecreaseFontSize },
@@ -112,7 +131,7 @@ config.keys = {
   { key = "Backslash", mods = "CTRL", action = act.SplitHorizontal({ domain = "CurrentPaneDomain" }) },
   { key = "|", mods = "CTRL|SHIFT", action = act.SplitVertical({ domain = "CurrentPaneDomain" }) },
   
-  -- Pane Navigation (Alt + Arrow / Ctrl+Shift+HJKL)
+  -- Pane Navigation
   { key = "LeftArrow", mods = "ALT", action = act.ActivatePaneDirection("Left") },
   { key = "RightArrow", mods = "ALT", action = act.ActivatePaneDirection("Right") },
   { key = "UpArrow", mods = "ALT", action = act.ActivatePaneDirection("Up") },
@@ -131,6 +150,9 @@ config.keys = {
   { key = "f", mods = "SHIFT|SUPER", action = act.SpawnCommandInNewWindow { args = { "fresh" } } },
 }
 
+-- =============================================================
+--  HYPERLINKS
+-- =============================================================
 config.hyperlink_rules = {
   { regex = [=[ \(\w+://\S+\) ]=], format = "$1", highlight = 1 },
   { regex = [=[ \[\[\w+://\S+\]\] ]=], format = "$1", highlight = 1 },

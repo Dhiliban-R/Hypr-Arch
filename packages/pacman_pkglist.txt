@@ -1,3 +1,4 @@
+auto-cpufreq
 base
 base-devel
 bash-language-server
