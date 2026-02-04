@@ -76,9 +76,9 @@ This file is **automatically generated**. It serves as the single source of trut
 | `F3` | Launch Brightness Up |
 | `F7` | Launch Volume Down |
 | `F8` | Launch Volume Up |
-| `SUPER + SHIFT + B` | Bluetooth Menu |
-| `SUPER + SHIFT + D` | Toggle Do Not Disturb |
-| `SUPER + SHIFT + N` | WiFi Menu |
+| `SUPER + ALT + B` | Bluetooth Menu |
+| `SUPER + ALT + D` | Toggle Do Not Disturb |
+| `SUPER + ALT + N` | WiFi Menu |
 | `SUPER + SHIFT + R` | Launch Hyprctl Reload |
 | `SUPER + SHIFT + V` | Clipboard Manager |
 | `SUPER + X` | Power Menu |

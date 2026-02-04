@@ -30,7 +30,7 @@ declare -A dotfiles_to_symlink=(
     ["zshrc"]=".zshrc"
     ["bin"]=".local/bin"
     ["gtk-3.0"]=".config/gtk-3.0"
-    ["gtk-2.0"]=".config/gtk-2.0"
+    ["gtk-2.0/.gtkrc-2.0"]=".gtkrc-2.0"
     ["user-dirs.dirs"]=".config/user-dirs.dirs"
     ["brave-flags.conf"]=".config/brave-flags.conf"
 )
@@ -38,7 +38,6 @@ declare -A dotfiles_to_symlink=(
 # Define dotfiles to copy and process placeholders (for files that don't support ~ or $HOME)
 declare -A dotfiles_to_copy=(
     ["hypr"]=".config/hypr"
-    ["gtkrc-2.0"]=".gtkrc-2.0"
     ["fastfetch"]=".config/fastfetch"
 )
 

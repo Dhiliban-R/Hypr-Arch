@@ -30,6 +30,7 @@ hypridle
 hyprland
 hyprlock
 hyprpaper
+intel-media-driver
 intel-ucode
 libmpeg2
 libpulse
@@ -66,6 +67,7 @@ slurp
 sof-firmware
 starship
 swappy
+sysstat
 telegram-desktop
 tesseract
 tesseract-data-eng
@@ -89,6 +91,7 @@ wlogout
 wofi
 wtype
 xclip
+xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
 xdg-user-dirs
 xfce4-settings
