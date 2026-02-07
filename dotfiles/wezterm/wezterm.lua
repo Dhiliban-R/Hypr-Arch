@@ -146,8 +146,6 @@ config.keys = {
   { key = "LeftArrow", mods = "CTRL|ALT", action = act.ActivateTabRelative(-1) },
   { key = "RightArrow", mods = "CTRL|ALT", action = act.ActivateTabRelative(1) },
 
-  -- Apps
-  { key = "f", mods = "SHIFT|SUPER", action = act.SpawnCommandInNewWindow { args = { "fresh" } } },
 }
 
 -- =============================================================

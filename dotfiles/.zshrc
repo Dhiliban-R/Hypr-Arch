@@ -6,6 +6,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 export PATH="$HOME/.npm-global/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
+export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 ZSH_THEME="robbyrussell"
 plugins=(git zsh-syntax-highlighting zsh-shift-select)
@@ -21,14 +22,16 @@ if [[ -f /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh ]]; 
     source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 fi
 
+
+
 # 2. SYSTEM CONFIGURATION
 export VISUAL=nano
 export EDITOR="$VISUAL"
 
-[[ -o interactive ]] && fastfetch
+# [[ -o interactive ]] && fastfetch
 
 # 3. ALIASES
-alias Hyprland='start-hyprland'
+alias h='start-hyprland'
 alias updt="paru -Syu; rm -rf \$HOME/.npm-global/lib/node_modules/@google/gemini-cli; rm -f \$HOME/.config/configstore/update-notifier-@google/gemini-cli.json; npm install -g @google/gemini-cli@nightly"
 
 clean() {

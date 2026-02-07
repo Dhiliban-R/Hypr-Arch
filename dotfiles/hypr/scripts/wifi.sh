@@ -21,6 +21,7 @@ else
         if [ -n "$connection" ]; then
             # Connected = Green
             /home/dhili/.local/bin/notify-system --type wifi --state connected --text "On ($connection)"
+            pkill -SIGRTMIN+9 waybar # Refresh waybar
             exit 0
         fi
     done
@@ -29,3 +30,5 @@ else
     # Disconnected = Red
     /home/dhili/.local/bin/notify-system --type wifi --state disconnected --text "On (Disconnected)"
 fi
+
+pkill -SIGRTMIN+9 waybar # Refresh waybar

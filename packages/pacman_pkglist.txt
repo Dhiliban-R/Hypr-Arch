@@ -39,7 +39,6 @@ linux
 linux-firmware
 lvm2
 lxappearance
-mako
 marksman
 nano
 neovim
@@ -60,6 +59,7 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 polkit-gnome
+powertop
 python-pip
 python-requests
 shellcheck
@@ -67,6 +67,8 @@ slurp
 sof-firmware
 starship
 swappy
+swaync
+swww
 sysstat
 telegram-desktop
 tesseract

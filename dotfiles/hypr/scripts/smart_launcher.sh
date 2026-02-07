@@ -1,11 +1,14 @@
 #!/bin/bash
 
 # Define Log
-LOG="/tmp/smart_launcher_debug.log"
-exec 1>>"$LOG" 2>&1
+# LOG="/tmp/smart_launcher_debug.log"
+# exec 1>>"$LOG" 2>&1
 
 # Config
 CACHE="$HOME/.cache/gemini_apps_list"
+
+# Apps to exclude (space-separated, checks against 'Exec' command)
+EXCLUDE_APPS="nautilus-clipboard update-notifier software-center system-config-printer"
 
 # 10 Strong, Saturated Colors
 COLORS=(
@@ -23,7 +26,7 @@ COLORS=(
 
 # Build Cache Function
 build_cache() {
-    echo "Building Cyclic Color Cache..."
+    echo "Building Cyclic Color Cache..." >&2
     notify-send "Launcher" "Updating App List..."
     
     TMP="/tmp/raw_apps"
@@ -31,11 +34,25 @@ build_cache() {
     
     # Gather Apps
     find -L /usr/share/applications ~/.local/share/applications -name "*.desktop" 2>/dev/null | while read file; do
-        if grep -q "^NoDisplay=true" "$file"; then continue; fi
+        if grep -q "^NoDisplay=true" "$file" || grep -q "^Hidden=true" "$file"; then continue; fi
         name=$(grep -m 1 "^Name=" "$file" | cut -d= -f2-)
         exec=$(grep -m 1 "^Exec=" "$file" | cut -d= -f2- | cut -d' ' -f1)
+        
+        # Check against EXCLUDE_APPS
+        for exclude_cmd in $EXCLUDE_APPS; do
+            if [[ "$exec" == *"$exclude_cmd"* ]]; then
+                echo "$(date): Skipping excluded app: $name (Exec: $exec)" >&2
+                continue 2 # Skip to next desktop file
+            fi
+        done
+
         if [ -n "$name" ] && [ -n "$exec" ]; then
-            echo "$name|$exec"
+            # Check if the executable exists in PATH
+            if command -v "$(echo "$exec" | cut -d' ' -f1)" >/dev/null 2>&1; then
+                echo "$name|$exec"
+            else
+                echo "$(date): Skipping uninstalled/unavailable app: $name (Exec: $exec)" >&2
+            fi
         fi
     done | sort -u -t'|' -k1,1 > "$TMP"
 
@@ -74,11 +91,14 @@ fi
 
 # Run Wofi
 # Cache Format: MarkupName|RealName|Exec
-input=$(cut -d'|' -f1 "$CACHE" | wofi --dmenu --insensitive --allow-markup --prompt "Apps / s Search / c Calc / f Find" --lines 5 --width 400)
+echo "$(date): Starting wofi..." > /tmp/smart_launcher_debug.log 2>&1
+input=$(cut -d'|' -f1 "$CACHE" | wofi --dmenu --insensitive --prompt "Apps / s Search / c Calc / f Find" --lines 5 --width 400)
+echo "$(date): Wofi finished." >> /tmp/smart_launcher_debug.log 2>&1
 
 if [ -z "$input" ]; then
     exit 0
 fi
+
 
 # Match
 match=$(grep -F -m 1 "$input|" "$CACHE")

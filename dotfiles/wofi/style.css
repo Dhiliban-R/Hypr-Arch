@@ -4,9 +4,9 @@ border: 1px solid #bd93f9;
 border-radius: 5px;
 background-color: rgba(0, 0, 0, 0);
 font-family: "Noto Serif";
-display: flex; /* Make window a flex container */
-justify-content: center; /* Center horizontally */
-align-items: center; /* Center vertically */
+/* display: flex; Make window a flex container */
+/* justify-content: center; Center horizontally */
+/* align-items: center; Center vertically */
 }
 
 #input {

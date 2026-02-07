@@ -21,16 +21,16 @@ mkdir -p "$HOME_DIR/.config"
 declare -A dotfiles_to_symlink=(
     ["waybar"]=".config/waybar"
     ["wofi"]=".config/wofi"
-    ["mako"]=".config/mako"
+
     ["btop"]=".config/btop"
     ["wezterm"]=".config/wezterm"
     ["wlogout"]=".config/wlogout"
     ["yazi"]=".config/yazi"
-    ["starship.toml"]=".config/starship.toml"
-    ["zshrc"]=".zshrc"
+
+    [".zshrc"]=".zshrc"
     ["bin"]=".local/bin"
     ["gtk-3.0"]=".config/gtk-3.0"
-    ["gtk-2.0/.gtkrc-2.0"]=".gtkrc-2.0"
+    ["gtkrc-2.0"]=".gtkrc-2.0"
     ["user-dirs.dirs"]=".config/user-dirs.dirs"
     ["brave-flags.conf"]=".config/brave-flags.conf"
 )

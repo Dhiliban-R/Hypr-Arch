@@ -16,6 +16,7 @@ This file is **automatically generated**. It serves as the single source of trut
 | `SUPER + O` | Launch Libreoffice |
 | `SUPER + Q` | Terminal (WezTerm) |
 | `SUPER + SHIFT + G` | Launch Gemini CLI |
+| `SUPER + SHIFT + N` | Launch Swaync Client   Toggle Panel |
 | `SUPER + SHIFT + S` | Screenshot |
 | `SUPER + SHIFT + T` | Launch OCR Tool |
 | `SUPER + SHIFT + Y` | Launch Yazi File Manager |
@@ -32,8 +33,8 @@ This file is **automatically generated**. It serves as the single source of trut
 | `SUPER + LEFT` | Move Focus L |
 | `SUPER + M` | Toggle Fullscreen |
 | `SUPER + MOUSE + LEFT + DRAG` | Move Window  |
-| `SUPER + P` | Toggle Split Direction |
 | `SUPER + RIGHT` | Move Focus R |
+| `SUPER + S` | Toggle Split Direction |
 | `SUPER + SHIFT + DOWN` | Move Window D |
 | `SUPER + SHIFT + LEFT` | Move Window L |
 | `SUPER + SHIFT + RIGHT` | Move Window R |
