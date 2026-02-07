@@ -21,12 +21,11 @@ mkdir -p "$HOME_DIR/.config"
 declare -A dotfiles_to_symlink=(
     ["waybar"]=".config/waybar"
     ["wofi"]=".config/wofi"
-
     ["btop"]=".config/btop"
-    ["wezterm"]=".config/wezterm"
     ["wlogout"]=".config/wlogout"
+    ["Thunar"]=".config/Thunar"
+    ["wezterm"]=".config/wezterm"
     ["yazi"]=".config/yazi"
-
     [".zshrc"]=".zshrc"
     ["bin"]=".local/bin"
     ["gtk-3.0"]=".config/gtk-3.0"
@@ -39,6 +38,7 @@ declare -A dotfiles_to_symlink=(
 declare -A dotfiles_to_copy=(
     ["hypr"]=".config/hypr"
     ["fastfetch"]=".config/fastfetch"
+    ["swaync"]=".config/swaync"
 )
 
 # Execute Symlinking
