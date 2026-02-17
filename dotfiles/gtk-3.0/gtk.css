@@ -1,0 +1,15 @@
+/* Custom CSS for Thunar background */
+.thunar-window,
+.thunar-window .sidebar,
+.thunar-window .view,
+.thunar-window GtkTreeView,
+.thunar-window GtkPaned,
+.thunar-window GtkScrolledWindow {
+    background-color: black;
+}
+
+/* Ensure text is readable */
+.thunar-window label,
+.thunar-window GtkTreeView text {
+    color: white;
+}

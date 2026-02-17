@@ -1,0 +1,89 @@
+{
+  "positionX": "right",
+  "positionY": "top",
+  "control-center-margin-top": 10,
+  "control-center-margin-bottom": 10,
+  "control-center-margin-right": 10,
+  "control-center-width": 350,
+  "notification-icon-size": 48,
+  "notification-body-image-height": 100,
+  "notification-body-image-width": 200,
+  "timeout": 5,
+  "timeout-low": 2,
+  "timeout-normal": 5,
+  "timeout-critical": 0,
+  "hide-on-clear": true,
+  "layer": "overlay",
+  
+  "widgets": [
+    "title",
+    "dnd",
+    "volume",
+    "backlight",
+    "mpris",
+    "buttons-grid",
+    "notifications"
+  ],
+
+  "widget-config": {
+    "title": {
+      "text": "System",
+      "clear-all-button": true,
+      "button-text": "Clear All"
+    },
+    "dnd": {
+      "text": "Do Not Disturb"
+    },
+    "volume": {
+      "label": "󰕾",
+      "show-per-app": true
+    },
+    "backlight": {
+      "label": "󰃠"
+    },
+    "mpris": {
+      "image-size": 60,
+      "image-radius": 5,
+      "format": "{title}",
+      "button-icons": {
+        "play": "󰐊",
+        "pause": "󰏤",
+        "next": "󰒭",
+        "previous": "󰒮"
+      }
+    },
+    "buttons-grid": {
+      "actions": [
+        {
+          "label": "WiFi",
+          "type": "toggle",
+          "command": "~/.config/hypr/scripts/wifi_toggle.sh",
+          "update-command": "~/.config/hypr/scripts/wifi_get_status.sh"
+        },
+        {
+          "label": "Bluetooth",
+          "type": "toggle",
+          "command": "~/.config/hypr/scripts/bluetooth_toggle.sh",
+          "update-command": "~/.config/hypr/scripts/bluetooth_get_status.sh"
+        },
+        {
+          "label": "Mute",
+          "type": "toggle",
+          "command": "pamixer -t",
+          "update-command": "pamixer --get-mute | grep -q 'true' && echo true || echo false"
+        },
+        {
+          "label": "Night",
+          "type": "toggle",
+          "command": "pgrep hyprshade && hyprshade off || hyprshade on blue-light-filter",
+          "update-command": "pgrep hyprshade && echo true || echo false"
+        }
+      ]
+    },
+    "notifications": {
+      "max-notifications": 8,
+      "clear-all-button": true,
+      "button-text": "Clear All"
+    }
+  }
+}

@@ -1,0 +1,93 @@
+/* Uses your system default fonts */
+* {
+    font-family: inherit;
+}
+
+/* Main Panel - Minimal Glass Look */
+.control-center {
+    background-color: rgba(20, 20, 25, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Titles */
+.widget-title {
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.widget-title > button {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 5px;
+}
+
+/* Sliders */
+.widget-volume, .widget-backlight {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+scale trough {
+    background-color: rgba(255, 255, 255, 0.1);
+    min-height: 10px;
+    border-radius: 10px;
+}
+
+scale highlight {
+    background-color: #7aa2f7; /* Change this to your favorite accent color */
+    border-radius: 10px;
+}
+
+/* The Grid Buttons - THIS FIXES YOUR COLOR ISSUE */
+.widget-buttons-grid > button {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+}
+
+/* Logic for "ON" state (Mute, WiFi, etc) */
+.widget-buttons-grid > button:checked,
+.widget-buttons-grid > button.active {
+    background: #7aa2f7; /* Accent color when active */
+    color: #11111b;
+    font-weight: bold;
+}
+
+/* Media Player */
+.widget-mpris {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Notifications */
+.notification {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 8px;
+    margin: 15px 0;
+    padding: 12px;
+}
+
+.notification-content #notification-title {
+    color: #7aa2f7;
+    font-weight: bold;
+}
+
+/* DND Toggle */
+.widget-dnd {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.widget-dnd > switch:checked {
+    background: #7aa2f7;
+}

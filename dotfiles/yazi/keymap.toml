@@ -1,0 +1,77 @@
+# Custom Yazi Keybindings
+
+# Main file list manager layer
+[[mgr.prepend_keymap]]
+on = "ArrowDown"
+run = "move_down"
+desc = "Move cursor down"
+
+[[mgr.prepend_keymap]]
+on = "ArrowUp"
+run = "move_up"
+desc = "Move cursor up"
+
+[[mgr.prepend_keymap]]
+on = "p"
+run = "go_back"
+desc = "Go to parent directory"
+
+[[mgr.prepend_keymap]]
+on = "Enter"
+run = "open"
+desc = "Open selected file or enter directory"
+
+[[mgr.prepend_keymap]]
+on = "h"
+run = "cd ~"
+desc = "Go to home directory"
+
+[[mgr.prepend_keymap]]
+on = "cc"
+run = "yank"
+desc = "Copy selected file(s)"
+
+[[mgr.prepend_keymap]]
+on = "vv"
+run = "paste"
+desc = "Paste file(s)"
+
+[[mgr.append_keymap]]
+on = "dd"
+run = "delete"
+desc = "Delete selected file(s)"
+
+[[mgr.append_keymap]]
+on = "r"
+run = "rename"
+desc = "Rename selected file"
+
+[[mgr.append_keymap]]
+on = "n"
+run = "create_file"
+desc = "Create new file"
+
+[[mgr.append_keymap]]
+on = "N"
+run = "create_dir"
+desc = "Create new directory"
+
+[[mgr.append_keymap]]
+on = "/"
+run = "search"
+desc = "Start a search"
+
+[[mgr.append_keymap]]
+on = "<C-s>"
+run = "search"
+desc = "Start a search"
+
+[[mgr.append_keymap]]
+on = "q"
+run = "quit"
+desc = "Quit Yazi"
+
+[[mgr.append_keymap]]
+on = "?"
+run = "help"
+desc = "Show help menu"
