@@ -1,4 +1,3 @@
-auto-cpufreq
 base
 base-devel
 bash-language-server
@@ -6,7 +5,6 @@ blueman
 bluez
 bluez-tools
 bluez-utils
-brave-bin
 brightnessctl
 btop
 chafa
@@ -14,12 +12,9 @@ cheese
 cliphist
 cups
 dialog
-dracula-gtk-theme
-dracula-icons-git
 efibootmgr
 expac
 fastfetch
-fresh-editor-bin
 git
 grim
 grub
@@ -52,8 +47,6 @@ obsidian
 os-prober
 pacman-contrib
 pamixer
-paru
-paru-debug
 pipewire
 pipewire-alsa
 pipewire-jack
@@ -81,7 +74,6 @@ tree
 ttf-dejavu
 ttf-jetbrains-mono-nerd
 vim
-visual-studio-code-bin
 vlc
 vlc-plugin-ffmpeg
 waybar

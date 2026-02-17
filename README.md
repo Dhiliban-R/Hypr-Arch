@@ -12,7 +12,7 @@ This repository provides a complete, step-by-step guide to installing Arch Linux
 - **Hyprland:** Cutting-edge Wayland tiling compositor.
 - **Waybar:** Dynamic and highly customizable status bar.
 - **Wofi:** Efficient application launcher.
-- **Mako:** Lightweight notification daemon.
+- **SwayNC:** Lightweight notification daemon.
 - **Wezterm:** Feature-rich, GPU-accelerated terminal emulator (configured with Lua).
 - **Thunar:** Fast and user-friendly file manager.
 - **Yazi:** Blazing fast terminal file manager written in Rust.
@@ -33,7 +33,7 @@ This repository provides a complete, step-by-step guide to installing Arch Linux
     - Configuration: `~/.config/hypr/hyprpaper.conf`
     - Preloaded wallpapers are stored in `~/Hyprland-Arch-Config/wallpapers/`.
     - Ensure `exec-once = hyprpaper` is present in `hyprland.conf`.
-- **Theming:** GTK themes are handled by `nwg-look`. The configuration uses the **Dracula** theme.
+- **Theming:** GTK themes are handled by `lxappearance`. The configuration uses the **Dracula** theme.
 
 ## ⌨️ System-Wide Keybindings
 
@@ -317,7 +317,7 @@ The core configuration for Hyprland is located in `~/.config/hypr/hyprland.conf`
 - **Waybar:** `~/.config/waybar/config`, `style.css`
 - **Wofi:** `~/.config/wofi/config`, `style.css`
 - **WezTerm:** `~/.config/wezterm/wezterm.lua`
-- **Mako:** `~/.config/mako/config`
+- **SwayNC:** `~/.config/swaync/config.json`
 - **GTK Themes:**  
   - Install `lxappearance`: `sudo pacman -S lxappearance`
   - Set "Dracula" theme.
