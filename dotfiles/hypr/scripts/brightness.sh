@@ -13,4 +13,4 @@ fi
 # Get brightness percentage
 BRIGHTNESS=$(brightnessctl -m | cut -d, -f4 | tr -d %)
 
-/home/dhili/.local/bin/notify-system --type brightness --state "${BRIGHTNESS}" --text "${BRIGHTNESS}%"
+$HOME/.local/bin/notify-system --type brightness --state "${BRIGHTNESS}" --text "${BRIGHTNESS}%"

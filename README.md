@@ -62,7 +62,7 @@ To update the repository with your current local configurations and package list
 ### ⬇️ Pulling Changes to Local System
 To apply updates from the repository to your system:
 1.  **Pull Changes:** `git pull origin main`
-2.  **Run Setup Script:** `./install/full_install_automated.sh` (This will create symlinks, backup existing files, and ensure all components are up-to-date).
+2.  **Run Setup Script:** `./install/install.sh` (This will create symlinks, backup existing files, and ensure all components are up-to-date).
 
 ## 📋 Pre-Installation Requirements
 
@@ -293,8 +293,8 @@ curl -L https://raw.githubusercontent.com/Dhiliban-R/Hypr-Arch/main/bootstrap.sh
 This script will automatically:
 1.  Install `git`.
 2.  Clone this repository.
-3.  Run the main installation script which handles:
-    -   Installation of all packages (`pacman` and `AUR`).
+3.  Run the main installation script (`install/install.sh`) which handles:
+    -   Installation of all packages (`pacman` and `AUR`), including Nerd Fonts.
     -   Setup of all dotfiles (backing up existing ones).
     -   Configuration of themes and icons.
 
@@ -336,7 +336,7 @@ wallpaper = DP-1,/path/to/your/wallpaper.jpg
 ## ⚠️ Part 4: Troubleshooting Common Issues
 
 - **Hyprland Fails to Start / Black Screen:** Check `~/.local/share/hyprland/hyprland.log`.
-- **Waybar / Wofi Not Themed Correctly:** Ensure Nerd Fonts are installed.
+- **Waybar / Wofi Not Themed Correctly:** The installation script now automatically installs Nerd Fonts. If you still have issues, make sure your terminal and other applications are configured to use a Nerd Font. You can also run `fc-list | grep -i "nerd font"` to verify that the fonts are installed correctly.
 - **No Notifications:** Make sure `mako` is running.
 
 ---

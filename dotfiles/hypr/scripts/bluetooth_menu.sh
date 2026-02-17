@@ -69,13 +69,13 @@ show_menu() {
     if [ "$selected" == "Turn Bluetooth OFF" ]; then
         bluetoothctl power off
         rm -f "$LOCK_FILE"
-        /home/dhili/.local/bin/notify-system --type bluetooth --state off --text "Powered OFF"
+        $HOME/.local/bin/notify-system --type bluetooth --state off --text "Powered OFF"
         
     elif [ "$selected" == "Turn Bluetooth ON" ]; then
         rfkill unblock bluetooth
         sleep 0.5
         bluetoothctl power on
-        /home/dhili/.local/bin/notify-system --type bluetooth --state on --text "Powered ON"
+        $HOME/.local/bin/notify-system --type bluetooth --state on --text "Powered ON"
         touch "$LOCK_FILE"
         bluetoothctl scan on > /dev/null 2>&1 &
         sleep 1
@@ -103,23 +103,23 @@ show_menu() {
         if [ -n "$mac" ]; then
             info=$(bluetoothctl info "$mac" | grep "Connected: yes")
             if [ -n "$info" ]; then
-                 /home/dhili/.local/bin/notify-system --type bluetooth --state connected --text "Disconnecting $selected..."
+                 $HOME/.local/bin/notify-system --type bluetooth --state connected --text "Disconnecting $selected..."
                  bluetoothctl disconnect "$mac"
-                 /home/dhili/.local/bin/notify-system --type bluetooth --state disconnected --text "Disconnected"
+                 $HOME/.local/bin/notify-system --type bluetooth --state disconnected --text "Disconnected"
                  
                  # Enforce Loop on Disconnect
                  touch "$LOCK_FILE"
                  sleep 1
                  show_menu
             else
-                 /home/dhili/.local/bin/notify-system --type bluetooth --state searching --text "Connecting to $selected..."
+                 $HOME/.local/bin/notify-system --type bluetooth --state searching --text "Connecting to $selected..."
                  if bluetoothctl connect "$mac"; then
-                     /home/dhili/.local/bin/notify-system --type bluetooth --state connected --text "Connected"
+                     $HOME/.local/bin/notify-system --type bluetooth --state connected --text "Connected"
                      # Enforce Break Loop on Connect
                      rm -f "$LOCK_FILE"
                      exit 0
                  else
-                     /home/dhili/.local/bin/notify-system --type bluetooth --state disconnected --text "Failed to connect"
+                     $HOME/.local/bin/notify-system --type bluetooth --state disconnected --text "Failed to connect"
                      show_menu
                  fi
             fi

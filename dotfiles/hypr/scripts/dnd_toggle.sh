@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NOTIFY="/home/dhili/.local/bin/notify-system"
+NOTIFY="$HOME/.local/bin/notify-system"
 
 # Toggle DND using swaync-client
 swaync-client --toggle-dnd

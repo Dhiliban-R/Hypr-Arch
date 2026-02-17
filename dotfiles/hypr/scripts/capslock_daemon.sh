@@ -6,7 +6,7 @@ export DBUS_SESSION_BUS_ADDRESS="unix:path=${XDG_RUNTIME_DIR}/bus"
 
 # Tools
 HYPRCTL="/usr/bin/hyprctl"
-NOTIFY="/home/dhili/.local/bin/notify-system"
+NOTIFY="$HOME/.local/bin/notify-system"
 PYTHON="/usr/bin/python3"
 
 # Helper to get state

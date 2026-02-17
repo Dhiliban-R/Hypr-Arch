@@ -7,10 +7,10 @@ if [[ "$1" == "mute" ]]; then
     # Toggle Mute
     pamixer -t
     if $(pamixer --get-mute); then
-        /home/dhili/.local/bin/notify-system --type volume --state muted --text "Muted"
+        $HOME/.local/bin/notify-system --type volume --state muted --text "Muted"
     else
         VOLUME=$(pamixer --get-volume)
-        /home/dhili/.local/bin/notify-system --type volume --state "${VOLUME}" --text "${VOLUME}%"
+        $HOME/.local/bin/notify-system --type volume --state "${VOLUME}" --text "${VOLUME}%"
     fi
 else
     # Up / Down
@@ -21,5 +21,5 @@ else
     fi
     
     VOLUME=$(pamixer --get-volume)
-    /home/dhili/.local/bin/notify-system --type volume --state "${VOLUME}" --text "${VOLUME}%"
+    $HOME/.local/bin/notify-system --type volume --state "${VOLUME}" --text "${VOLUME}%"
 fi

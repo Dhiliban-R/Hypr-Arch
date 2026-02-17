@@ -45,7 +45,7 @@ else
 fi
 
 # --- Execute the main installation script ---
-MAIN_INSTALL_SCRIPT="$REPO_DIR/install/full_install_automated.sh"
+MAIN_INSTALL_SCRIPT="$REPO_DIR/install/install.sh"
 if [ -f "$MAIN_INSTALL_SCRIPT" ]; then
     echo "--> Executing the main installation script..."
     chmod +x "$MAIN_INSTALL_SCRIPT"

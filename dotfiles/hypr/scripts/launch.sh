@@ -8,7 +8,7 @@ killall -9 swww-daemon
 
 # Autostart applications/services
 swww-daemon &
-/home/dhili/.config/hypr/start-waybar.sh &
+$HOME/.config/hypr/start-waybar.sh &
 hypridle &
 dbus-update-activation-environment --systemd GTK_THEME=Dracula XDG_CURRENT_DESKTOP=Hyprland &
 ~/.config/hypr/scripts/capslock_daemon.sh &

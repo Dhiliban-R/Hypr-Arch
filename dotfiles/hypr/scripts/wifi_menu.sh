@@ -90,11 +90,11 @@ show_menu() {
     if [ "$selected" == "Turn Wi-Fi OFF" ]; then
         nmcli radio wifi off
         rm -f "$LOCK_FILE"
-        /home/dhili/.local/bin/notify-system --type wifi --state off --text "Turned OFF"
+        $HOME/.local/bin/notify-system --type wifi --state off --text "Turned OFF"
         
     elif [ "$selected" == "Turn Wi-Fi ON" ]; then
         nmcli radio wifi on
-        /home/dhili/.local/bin/notify-system --type wifi --state on --text "Turned ON"
+        $HOME/.local/bin/notify-system --type wifi --state on --text "Turned ON"
         # Enable Auto-Scan by default on power up so lists populate
         touch "$LOCK_FILE"
         show_menu
@@ -116,10 +116,10 @@ show_menu() {
         
         # Check if connected
         if echo "$selected" | grep -q "\[Connected\]"; then
-            /home/dhili/.local/bin/notify-system --type wifi --state searching --text "Disconnecting from $ssid..."
+            $HOME/.local/bin/notify-system --type wifi --state searching --text "Disconnecting from $ssid..."
             interface=$(nmcli -t -f DEVICE,TYPE device | grep ":wifi$" | cut -d: -f1 | head -n1)
             nmcli device disconnect "$interface"
-            /home/dhili/.local/bin/notify-system --type wifi --state disconnected --text "Disconnected"
+            $HOME/.local/bin/notify-system --type wifi --state disconnected --text "Disconnected"
             
             # Restart Auto-Scan after disconnect
             touch "$LOCK_FILE"
@@ -127,20 +127,20 @@ show_menu() {
             sleep 2
             show_menu
         else
-            /home/dhili/.local/bin/notify-system --type wifi --state searching --text "Connecting to: $ssid"
+            $HOME/.local/bin/notify-system --type wifi --state searching --text "Connecting to: $ssid"
             
             # Connection Logic with Fallback
             if nmcli device wifi connect "$ssid"; then
-                /home/dhili/.local/bin/notify-system --type wifi --state connected --text "Connected to $ssid"
+                $HOME/.local/bin/notify-system --type wifi --state connected --text "Connected to $ssid"
             else
                 # Password Prompt Fallback
                 password=$(echo "" | wofi --dmenu --password --prompt "Password for $ssid" --lines 1 --width 300 | tr -d '\n')
                 if [ -n "$password" ]; then
                      nmcli connection delete id "$ssid" > /dev/null 2>&1
                      if nmcli device wifi connect "$ssid" password "$password"; then
-                         /home/dhili/.local/bin/notify-system --type wifi --state connected --text "Connected to $ssid"
+                         $HOME/.local/bin/notify-system --type wifi --state connected --text "Connected to $ssid"
                      else
-                         /home/dhili/.local/bin/notify-system --type wifi --state disconnected --text "Connection failed."
+                         $HOME/.local/bin/notify-system --type wifi --state disconnected --text "Connection failed."
                          show_menu
                      fi
                 fi
